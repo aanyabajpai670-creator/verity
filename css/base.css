@@ -1,0 +1,380 @@
+/* ==========================================================================
+   VERITY BASE STYLES
+   Reset · Font imports · Layout · Typography utilities · Accessibility
+   ========================================================================== */
+
+/* -----------------------------------------------------------------------
+   GOOGLE FONTS
+   ----------------------------------------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Inter:wght@400;600&family=JetBrains+Mono&display=swap');
+
+/* -----------------------------------------------------------------------
+   MODERN CSS RESET
+   ----------------------------------------------------------------------- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background-color: var(--color-chalk);
+  color: var(--color-ink);
+  font-family: 'Inter', sans-serif;
+  font-size: var(--body-md-font-size);
+  font-weight: var(--body-md-font-weight);
+  line-height: var(--body-md-line-height);
+  min-height: 100vh;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+  text-wrap: balance;
+}
+
+p {
+  overflow-wrap: break-word;
+  text-wrap: pretty;
+}
+
+a {
+  color: var(--color-verity-blue);
+  text-decoration: none;
+  transition: color var(--transition-fast);
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+/* -----------------------------------------------------------------------
+   FOCUS STYLES
+   ----------------------------------------------------------------------- */
+:focus-visible {
+  outline: 2px solid var(--color-focus);
+  outline-offset: 2px;
+}
+
+:focus:not(:focus-visible) {
+  outline: none;
+}
+
+/* -----------------------------------------------------------------------
+   APP SHELL
+   ----------------------------------------------------------------------- */
+#app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+/* -----------------------------------------------------------------------
+   LAYOUT — Container
+   ----------------------------------------------------------------------- */
+.container {
+  width: 100%;
+  max-width: var(--grid-max-width);
+  margin-inline: auto;
+  padding-inline: var(--grid-margin);
+}
+
+/* -----------------------------------------------------------------------
+   LAYOUT — Section
+   ----------------------------------------------------------------------- */
+.section {
+  padding-block: var(--space-12);
+}
+
+/* -----------------------------------------------------------------------
+   LAYOUT — Grid
+   ----------------------------------------------------------------------- */
+.grid {
+  display: grid;
+  gap: var(--grid-gutter);
+}
+
+.grid-2 {
+  display: grid;
+  gap: var(--grid-gutter);
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-3 {
+  display: grid;
+  gap: var(--grid-gutter);
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-4 {
+  display: grid;
+  gap: var(--grid-gutter);
+  grid-template-columns: repeat(4, 1fr);
+}
+
+/* -----------------------------------------------------------------------
+   TYPOGRAPHY UTILITIES — Display
+   ----------------------------------------------------------------------- */
+.display-xl {
+  font-family: var(--display-xl-font-family);
+  font-size: var(--display-xl-font-size);
+  font-weight: var(--display-xl-font-weight);
+  line-height: var(--display-xl-line-height);
+}
+
+.display-lg {
+  font-family: var(--display-lg-font-family);
+  font-size: var(--display-lg-font-size);
+  font-weight: var(--display-lg-font-weight);
+  line-height: var(--display-lg-line-height);
+}
+
+.display-md {
+  font-family: var(--display-md-font-family);
+  font-size: var(--display-md-font-size);
+  font-weight: var(--display-md-font-weight);
+  line-height: var(--display-md-line-height);
+}
+
+/* -----------------------------------------------------------------------
+   TYPOGRAPHY UTILITIES — Headings
+   ----------------------------------------------------------------------- */
+.heading-lg {
+  font-family: var(--heading-lg-font-family);
+  font-size: var(--heading-lg-font-size);
+  font-weight: var(--heading-lg-font-weight);
+  line-height: var(--heading-lg-line-height);
+}
+
+.heading-md {
+  font-family: var(--heading-md-font-family);
+  font-size: var(--heading-md-font-size);
+  font-weight: var(--heading-md-font-weight);
+  line-height: var(--heading-md-line-height);
+}
+
+.heading-sm {
+  font-family: var(--heading-sm-font-family);
+  font-size: var(--heading-sm-font-size);
+  font-weight: var(--heading-sm-font-weight);
+  line-height: var(--heading-sm-line-height);
+}
+
+/* -----------------------------------------------------------------------
+   TYPOGRAPHY UTILITIES — Body
+   ----------------------------------------------------------------------- */
+.body-lg {
+  font-family: var(--body-lg-font-family);
+  font-size: var(--body-lg-font-size);
+  font-weight: var(--body-lg-font-weight);
+  line-height: var(--body-lg-line-height);
+}
+
+.body-md {
+  font-family: var(--body-md-font-family);
+  font-size: var(--body-md-font-size);
+  font-weight: var(--body-md-font-weight);
+  line-height: var(--body-md-line-height);
+}
+
+.body-sm {
+  font-family: var(--body-sm-font-family);
+  font-size: var(--body-sm-font-size);
+  font-weight: var(--body-sm-font-weight);
+  line-height: var(--body-sm-line-height);
+}
+
+/* -----------------------------------------------------------------------
+   TYPOGRAPHY UTILITIES — Data
+   ----------------------------------------------------------------------- */
+.data-xl {
+  font-family: var(--data-xl-font-family);
+  font-size: var(--data-xl-font-size);
+  font-weight: var(--data-xl-font-weight);
+  line-height: var(--data-xl-line-height);
+}
+
+.data-lg {
+  font-family: var(--data-lg-font-family);
+  font-size: var(--data-lg-font-size);
+  font-weight: var(--data-lg-font-weight);
+  line-height: var(--data-lg-line-height);
+}
+
+.data-md {
+  font-family: var(--data-md-font-family);
+  font-size: var(--data-md-font-size);
+  font-weight: var(--data-md-font-weight);
+  line-height: var(--data-md-line-height);
+}
+
+.data-sm {
+  font-family: var(--data-sm-font-family);
+  font-size: var(--data-sm-font-size);
+  font-weight: var(--data-sm-font-weight);
+  line-height: var(--data-sm-line-height);
+}
+
+/* -----------------------------------------------------------------------
+   TYPOGRAPHY UTILITIES — Label
+   ----------------------------------------------------------------------- */
+.label-text {
+  font-family: var(--label-font-family);
+  font-size: var(--label-font-size);
+  font-weight: var(--label-font-weight);
+  line-height: var(--label-line-height);
+  letter-spacing: var(--label-letter-spacing);
+  text-transform: var(--label-text-transform);
+}
+
+/* -----------------------------------------------------------------------
+   ACCESSIBILITY
+   ----------------------------------------------------------------------- */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+/* -----------------------------------------------------------------------
+   PROSE — max-width for readable body text
+   ----------------------------------------------------------------------- */
+.prose {
+  max-width: 65ch;
+}
+
+/* -----------------------------------------------------------------------
+   REDUCED MOTION
+   ----------------------------------------------------------------------- */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* -----------------------------------------------------------------------
+   RESPONSIVE — Tablet (≤ 1024 px)
+   ----------------------------------------------------------------------- */
+@media (max-width: 1024px) {
+  .container {
+    padding-inline: var(--space-4);
+  }
+
+  .grid-3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .grid-4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* -----------------------------------------------------------------------
+   RESPONSIVE — Mobile (≤ 768 px)
+   ----------------------------------------------------------------------- */
+@media (max-width: 768px) {
+  .container {
+    padding-inline: var(--space-2);
+  }
+
+  .section {
+    padding-block: var(--space-6);
+  }
+
+  .grid-2,
+  .grid-3,
+  .grid-4 {
+    grid-template-columns: 1fr;
+  }
+
+  .display-xl {
+    font-size: 36px;
+    line-height: 42px;
+  }
+
+  .display-lg {
+    font-size: 32px;
+    line-height: 38px;
+  }
+
+  .display-md {
+    font-size: 28px;
+    line-height: 34px;
+  }
+}
+
+@media (max-width: 768px) {
+  .grid-2 {
+    grid-template-columns: 1fr;
+  }
+  
+  /* Prevent horizontal overflow */
+  body {
+    overflow-x: hidden;
+  }
+  
+  /* Fix container on very small screens */
+  .container {
+    padding-inline: var(--space-2);
+    width: 100%;
+  }
+}
+

@@ -1,0 +1,177 @@
+/* ==========================================================================
+   VERITY DESIGN TOKENS
+   All CSS custom properties for the Verity research transparency platform.
+   ========================================================================== */
+
+:root {
+
+  /* -----------------------------------------------------------------------
+     COLORS — Brand & Surface
+     ----------------------------------------------------------------------- */
+  --color-chalk: #F8F7F4;
+  --color-white: #FFFFFF;
+  --color-warm-white: #FDFCFA;
+  --color-stone: #E2DDD8;
+  --color-ink: #1A1814;
+  --color-graphite: #4A4540;
+  --color-ash: #8A8480;
+  --color-dust: #C4C0BC;
+
+  /* -----------------------------------------------------------------------
+     COLORS — Accent
+     ----------------------------------------------------------------------- */
+  --color-verity-blue: #1B4F8A;
+  --color-accent-hover: #163E6E;
+  --color-accent-subtle: #EBF1F9;
+
+  /* -----------------------------------------------------------------------
+     COLORS — Research Gap Types
+     ----------------------------------------------------------------------- */
+  --color-gap-1: #64748B;          /* Slate  — No Female Representation        */
+  --color-gap-2: #92610A;          /* Amber  — Women Included, Not Studied     */
+  --color-gap-3: #0F766E;          /* Teal   — No Significant Differences Found*/
+  --color-gap-4: #7C3D6E;          /* Mauve  — Insufficient Evidence            */
+
+  --color-gap-1-tint: rgba(100, 116, 139, 0.12);
+  --color-gap-2-tint: rgba(146, 97, 10, 0.12);
+  --color-gap-3-tint: rgba(15, 118, 110, 0.12);
+  --color-gap-4-tint: rgba(124, 61, 110, 0.12);
+
+  /* -----------------------------------------------------------------------
+     COLORS — Evidence Quality Scale
+     ----------------------------------------------------------------------- */
+  --color-eq-5: #0F766E;          /* Strong          */
+  --color-eq-4: #4D7C0F;          /* Moderate-Strong */
+  --color-eq-3: #92610A;          /* Moderate        */
+  --color-eq-2: #9A3412;          /* Limited         */
+  --color-eq-1: #64748B;          /* Very Limited    */
+
+  /* -----------------------------------------------------------------------
+     COLORS — Semantic / UI
+     ----------------------------------------------------------------------- */
+  --color-focus: #1B4F8A;
+  --color-error: #C0392B;
+  --color-success: #0F766E;
+  --color-warning: #92610A;
+
+  /* -----------------------------------------------------------------------
+     SPACING — 8 px base unit
+     ----------------------------------------------------------------------- */
+  --space-1: 8px;
+  --space-2: 16px;
+  --space-3: 24px;
+  --space-4: 32px;
+  --space-5: 40px;
+  --space-6: 48px;
+  --space-7: 56px;
+  --space-8: 64px;
+  --space-9: 72px;
+  --space-10: 80px;
+  --space-11: 88px;
+  --space-12: 96px;
+  --space-13: 104px;
+  --space-14: 112px;
+  --space-15: 120px;
+  --space-16: 128px;
+
+  /* -----------------------------------------------------------------------
+     TYPOGRAPHY — Display (Instrument Serif)
+     ----------------------------------------------------------------------- */
+  --display-xl-font-family: 'Instrument Serif', serif;
+  --display-xl-font-size: 64px;
+  --display-xl-font-weight: 400;
+  --display-xl-line-height: 68px;
+
+  --display-lg-font-family: 'Instrument Serif', serif;
+  --display-lg-font-size: 48px;
+  --display-lg-font-weight: 400;
+  --display-lg-line-height: 52px;
+
+  --display-md-font-family: 'Instrument Serif', serif;
+  --display-md-font-size: 36px;
+  --display-md-font-weight: 400;
+  --display-md-line-height: 42px;
+
+  /* -----------------------------------------------------------------------
+     TYPOGRAPHY — Headings (Inter)
+     ----------------------------------------------------------------------- */
+  --heading-lg-font-family: 'Inter', sans-serif;
+  --heading-lg-font-size: 24px;
+  --heading-lg-font-weight: 600;
+  --heading-lg-line-height: 32px;
+
+  --heading-md-font-family: 'Inter', sans-serif;
+  --heading-md-font-size: 18px;
+  --heading-md-font-weight: 600;
+  --heading-md-line-height: 26px;
+
+  --heading-sm-font-family: 'Inter', sans-serif;
+  --heading-sm-font-size: 14px;
+  --heading-sm-font-weight: 600;
+  --heading-sm-line-height: 20px;
+
+  /* -----------------------------------------------------------------------
+     TYPOGRAPHY — Body (Inter)
+     ----------------------------------------------------------------------- */
+  --body-lg-font-family: 'Inter', sans-serif;
+  --body-lg-font-size: 18px;
+  --body-lg-font-weight: 400;
+  --body-lg-line-height: 28px;
+
+  --body-md-font-family: 'Inter', sans-serif;
+  --body-md-font-size: 16px;
+  --body-md-font-weight: 400;
+  --body-md-line-height: 24px;
+
+  --body-sm-font-family: 'Inter', sans-serif;
+  --body-sm-font-size: 14px;
+  --body-sm-font-weight: 400;
+  --body-sm-line-height: 20px;
+
+  /* -----------------------------------------------------------------------
+     TYPOGRAPHY — Data (JetBrains Mono)
+     ----------------------------------------------------------------------- */
+  --data-xl-font-family: 'JetBrains Mono', monospace;
+  --data-xl-font-size: 48px;
+  --data-xl-font-weight: 400;
+  --data-xl-line-height: 52px;
+
+  --data-lg-font-family: 'JetBrains Mono', monospace;
+  --data-lg-font-size: 32px;
+  --data-lg-font-weight: 400;
+  --data-lg-line-height: 36px;
+
+  --data-md-font-family: 'JetBrains Mono', monospace;
+  --data-md-font-size: 20px;
+  --data-md-font-weight: 400;
+  --data-md-line-height: 24px;
+
+  --data-sm-font-family: 'JetBrains Mono', monospace;
+  --data-sm-font-size: 14px;
+  --data-sm-font-weight: 400;
+  --data-sm-line-height: 18px;
+
+  /* -----------------------------------------------------------------------
+     TYPOGRAPHY — Label (Inter, uppercase)
+     ----------------------------------------------------------------------- */
+  --label-font-family: 'Inter', sans-serif;
+  --label-font-size: 11px;
+  --label-font-weight: 600;
+  --label-line-height: 16px;
+  --label-letter-spacing: 0.08em;
+  --label-text-transform: uppercase;
+
+  /* -----------------------------------------------------------------------
+     GRID
+     ----------------------------------------------------------------------- */
+  --grid-max-width: 1280px;
+  --grid-gutter: 24px;
+  --grid-margin: 48px;
+
+  /* -----------------------------------------------------------------------
+     TRANSITIONS
+     ----------------------------------------------------------------------- */
+  --transition-fast: 150ms ease;
+  --transition-normal: 250ms ease;
+  --transition-slow: 400ms ease-out;
+}

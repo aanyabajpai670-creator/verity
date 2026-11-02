@@ -1,0 +1,27 @@
+# Local credentials and environment configuration
+.env
+.env.*
+!.env.example
+.vercel/
+
+# Dependencies and generated output
+node_modules/
+dist/
+build/
+out/
+coverage/
+*.zip
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+
+# Local backups and exported snapshots (kept out of the app source)
+index-old-backup-*.html
+index.backup.html
+maintenance-backup.html
+verity_exported_code.txt
+css/<!DOCTYPE html>.html
+css/verity.html

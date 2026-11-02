@@ -1,52 +1,130 @@
 # Verity
 
-Verity is a research transparency platform for exploring where evidence about women is visible, limited, or missing in scientific and medical research. It helps readers inspect evidence coverage and research gaps; it is informational and is not medical advice.
+**Research transparency for women's representation in science and medicine.** Verity makes it easier to see where women are included in research, where results are analyzed by sex, and where evidence remains limited.
+
+Live project: [verityproject.xyz](https://verityproject.xyz)
+
+Verity is an evidence visibility tool, not a medical advice service. Its scores and summaries describe the dataset maintained in this project; consult the cited research and qualified clinicians for decisions about health.
+
+## Purpose
+
+Many studies include women without reporting whether results differ by sex. Verity brings together condition-level study counts, representation measures, evidence-quality ratings, findings, and citations so readers can explore those gaps in one place.
 
 ## Features
 
-- Browse condition profiles and their evidence summaries.
-- Explore the Gap Index and compare research coverage.
-- Read about the project and its approach to evidence quality.
-- Ask the Verity assistant questions through the serverless API.
-- Responsive single-page interface with hash-based routes.
+- **Condition profiles:** Browse 10 indexed conditions with study counts, women’s inclusion, female-only study counts, sex-disaggregated analysis, evidence quality, findings, sources, and methodology notes.
+- **Research Gap Index:** Compare conditions, filter by gap type or evidence quality, and sort by representation score.
+- **Condition search:** Find a profile by condition name or supported search term.
+- **Evidence indicators:** Review a 0–100 representation score, one of four research-gap categories, and a five-level evidence-quality rating.
+- **Verity assistant:** Ask general questions about the index, its measures, and supported condition data. A local safety check declines requests for personal medical advice.
+- **Responsive interface:** A single-page experience with hash-based routes.
+
+## How the index is organized
+
+The Gap Index describes a composite representation score based on four measures: studies including women, female-only studies, sex-disaggregated analysis, and evidence quality. Profiles group reported findings and link to publication details. The interface labels four gap types:
+
+1. No female representation
+2. Women included, not studied
+3. No significant differences found
+4. Insufficient evidence
+
+The underlying data is curated in the repository. Read each profile's methodology and citations when interpreting a figure; a score is a summary of this dataset, not a clinical guideline or a substitute for reviewing the source studies.
+
+## Tech stack
+
+- HTML5, CSS, and browser-native JavaScript modules; no frontend framework or build step.
+- Node.js ES modules for Vercel serverless functions in `api/`.
+- Shared assistant, condition, FAQ, and safety logic in `lib/`.
+- Groq Chat Completions API for optional natural-language phrasing in the assistant. The application resolves facts locally before asking the model to phrase them.
+- Google Fonts (Instrument Serif, Inter, and JetBrains Mono) and Vercel hosting/analytics.
 
 ## Run locally
 
-The frontend is built with HTML, CSS, and native JavaScript modules. To preview the static interface, serve this directory with any local static web server and open `index.html`.
+### Full app, including API routes
 
-The `/api` endpoints use Vercel serverless functions. To run the full app locally, install the [Vercel CLI](https://vercel.com/docs/cli) and start the project with `vercel dev` from this directory. The assistant endpoint also needs a Groq API key configured in the local environment:
+1. Install Node.js and the Vercel CLI. The project has no npm package dependencies or build step. Vercel documents the CLI installation and local development commands in its [CLI guide](https://vercel.com/docs/cli) and [`vercel dev` reference](https://vercel.com/docs/cli/dev).
+
+   ```sh
+   npm install --global vercel
+   ```
+
+2. Clone the repository and enter its directory:
+
+   ```sh
+   git clone https://github.com/aanyabajpai670-creator/verity.git
+   cd verity
+   ```
+
+3. If prompted, sign in to Vercel and link this local directory to a Vercel project. Create a local environment file and add a Groq key to enable assistant phrasing:
+
+   ```sh
+   cp .env.example .env.local
+   ```
+
+   Set `GROQ_API_KEY` in `.env.local`. Keep that file private; it is ignored by Git.
+
+4. Start Vercel's local development server:
+
+   ```sh
+   vercel dev
+   ```
+
+5. Open the local URL printed by Vercel, usually `http://localhost:3000`.
+
+The frontend and deterministic API responses can run without a Groq key, but assistant responses that require model phrasing will use the application's fallback behavior.
+
+### Frontend preview only
+
+To preview the static interface without the serverless API, run a local web server from the project directory:
 
 ```sh
-GROQ_API_KEY=your_groq_api_key vercel dev
+python3 -m http.server 8000
 ```
 
-Keep local environment files (such as `.env.local`) private. They are excluded from this project archive and should never be committed.
+Then open `http://localhost:8000`. The assistant's `/api` requests require the full Vercel setup above.
 
-## Project structure
+## Use the app
+
+- `#/` — Home and condition search
+- `#/conditions/<slug>` — Condition profile, for example `#/conditions/adhd`
+- `#/gap-index` — Filterable and sortable Research Gap Index
+- `#/about` — Project and methodology information
+
+Use the profile citations and methodology notes to follow a finding back to its source. The assistant is for general questions about Verity's data and does not provide personal diagnosis or treatment advice.
+
+## Project layout
 
 ```text
-api/       Vercel serverless API handlers
-assets/    Images and other static assets
-css/       Stylesheets and design tokens
-js/        Browser app, routes, components, and data
-lib/       Shared server-side API logic
-index.html Main application page
+index.html       Main hosted application
+index_multi.html Alternate modular frontend entry point
+assets/          Logo and static imagery
+css/             Styles and design tokens
+js/              Browser modules, components, pages, and condition data
+api/             Vercel serverless function entry points
+lib/             Shared server-side condition, FAQ, safety, and Groq logic
 ```
 
-## Routes
-
-- `#/` — Home
-- `#/conditions/<slug>` — Condition profile
-- `#/gap-index` — Research Gap Index
-- `#/about` — About Verity
+The browser condition data is in `js/data/conditions.js`; assistant condition data and routing logic are maintained in `lib/`. Keep both representations aligned when updating condition information.
 
 ## Configuration
 
-| Variable | Purpose |
-| --- | --- |
-| `GROQ_API_KEY` | Enables the assistant's Groq API requests. |
-| `GROQ_MODEL` | Optional model override; defaults to `openai/gpt-oss-120b`. |
+| Variable | Required | Description |
+| --- | --- | --- |
+| `GROQ_API_KEY` | For model phrasing | Groq API key used server-side by the assistant. Never place it in browser code or commit it. |
+| `GROQ_MODEL` | No | Optional Groq model override. Defaults to `openai/gpt-oss-120b`. |
 
-## Deployment
+For production, set these in the Vercel project environment settings. The local `.env.local`, `.vercel/` directory, and all credential files are excluded from version control and the submission ZIP.
 
-Deploy the directory as a Vercel project to serve the frontend and `/api` functions together. Add the required environment variables in the Vercel project's settings before enabling the assistant.
+## Deploy
+
+The production site is hosted at [verityproject.xyz](https://verityproject.xyz). To deploy a separate copy, import the repository into Vercel, set the server-side environment variables above, and deploy. Vercel serves `index.html` and maps files in `api/` to serverless routes.
+
+## Data and safety notes
+
+- The condition dataset and its metrics are project-maintained summaries. Review the per-condition citations and methodology before reusing a claim.
+- Verity provides evidence visibility, not medical advice, diagnosis, or treatment recommendations.
+- The assistant uses locally defined condition/FAQ resolution and a local personal-medical-request safety gate; a configured Groq key enables model phrasing for applicable responses.
+
+## License
+
+No license file is currently included. Contact the project owner before redistributing or reusing this project beyond the permissions that apply to the repository.

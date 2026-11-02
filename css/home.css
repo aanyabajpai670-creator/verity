@@ -1,0 +1,259 @@
+/* ==========================================================================
+   VERITY HOME PAGE STYLES — Premium Edition
+   ========================================================================== */
+
+/* -----------------------------------------------------------------------
+   HERO — Animated entrance, floating search
+   ----------------------------------------------------------------------- */
+.hero {
+  text-align: center;
+  padding-top: var(--space-12);
+  padding-bottom: var(--space-8);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Subtle geometric background pattern */
+.hero::before {
+  content: '';
+  position: absolute;
+  top: -20%;
+  right: -10%;
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, rgba(27, 79, 138, 0.03) 0%, transparent 70%);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.hero::after {
+  content: '';
+  position: absolute;
+  bottom: -30%;
+  left: -15%;
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(circle, rgba(124, 61, 110, 0.02) 0%, transparent 70%);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.hero .container {
+  position: relative;
+  z-index: 1;
+}
+
+.hero__headline {
+  animation: heroFadeUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) both;
+  max-width: 14ch;
+  margin-inline: auto;
+  margin-bottom: var(--space-3);
+}
+
+.hero__subheadline {
+  color: var(--color-graphite);
+  max-width: 42ch;
+  margin-inline: auto;
+  margin-bottom: var(--space-5);
+  animation: heroFadeUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.1s both;
+}
+
+.hero .search-bar {
+  animation: heroFadeUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.2s both;
+  margin-bottom: var(--space-4);
+}
+
+@keyframes heroFadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hero__chips {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  animation: heroFadeUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.3s both;
+}
+
+/* -----------------------------------------------------------------------
+   PROBLEM SECTION
+   ----------------------------------------------------------------------- */
+.problem-section {
+  padding-block: var(--space-10);
+}
+
+.problem-section__stats {
+  margin-bottom: var(--space-6);
+}
+
+.problem-section__text {
+  max-width: 65ch;
+  margin-inline: auto;
+  text-align: center;
+  color: var(--color-graphite);
+}
+
+/* -----------------------------------------------------------------------
+   HOW IT WORKS
+   ----------------------------------------------------------------------- */
+.how-it-works {
+  padding-block: var(--space-10);
+  background-color: var(--color-white);
+  border-top: 1px solid var(--color-stone);
+  border-bottom: 1px solid var(--color-stone);
+}
+
+.how-it-works h2 {
+  text-align: center;
+  margin-bottom: var(--space-6);
+}
+
+.how-it-works__steps {
+  margin-top: var(--space-4);
+}
+
+/* -----------------------------------------------------------------------
+   FEATURED SECTION
+   ----------------------------------------------------------------------- */
+.featured-section h2 {
+  margin-bottom: var(--space-4);
+}
+
+.featured-section__grid {
+  margin-top: var(--space-2);
+}
+
+/* -----------------------------------------------------------------------
+   GAP INDEX PREVIEW — two-column ranked list
+   ----------------------------------------------------------------------- */
+.gap-preview h2 {
+  margin-bottom: var(--space-4);
+}
+
+.gap-preview__columns {
+  margin-bottom: var(--space-4);
+}
+
+.gap-preview__column h3 {
+  margin-bottom: var(--space-2);
+  color: var(--color-graphite);
+}
+
+.gap-preview__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--space-2) 0;
+  border-bottom: 1px solid var(--color-stone);
+  text-decoration: none;
+  color: inherit;
+  transition: background-color var(--transition-fast), padding-left var(--transition-fast);
+}
+
+.gap-preview__item:hover {
+  padding-left: var(--space-1);
+  background-color: var(--color-accent-subtle);
+  text-decoration: none;
+}
+
+.gap-preview__cta {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
+  color: var(--color-verity-blue);
+  font-weight: 600;
+  text-decoration: none;
+  padding: var(--space-2) 0;
+  transition: gap var(--transition-fast);
+}
+
+.gap-preview__cta:hover {
+  gap: var(--space-2);
+  text-decoration: none;
+}
+
+/* -----------------------------------------------------------------------
+   MISSION STRIP
+   ----------------------------------------------------------------------- */
+.mission-strip {
+  text-align: center;
+  background-color: var(--color-white);
+  border-top: 1px solid var(--color-stone);
+  border-bottom: 1px solid var(--color-stone);
+  padding-block: var(--space-8);
+}
+
+.mission-strip .body-lg {
+  color: var(--color-graphite);
+  max-width: 50ch;
+  margin-inline: auto;
+  margin-bottom: var(--space-2);
+}
+
+/* -----------------------------------------------------------------------
+   SCORE VISUALIZATION SECTION
+   ----------------------------------------------------------------------- */
+.viz-section {
+  padding-block: var(--space-8);
+}
+
+.score-chart {
+  max-width: 700px;
+}
+
+@media (max-width: 768px) {
+  .score-chart a {
+    grid-template-columns: 100px 1fr 44px !important;
+  }
+}
+
+/* -----------------------------------------------------------------------
+   RESPONSIVE
+   ----------------------------------------------------------------------- */
+@media (max-width: 1024px) {
+  .hero__headline {
+    font-size: var(--display-lg-font-size);
+    line-height: var(--display-lg-line-height);
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding-top: var(--space-8);
+  }
+
+  .hero__headline {
+    font-size: 32px;
+    line-height: 38px;
+  }
+
+  .hero__subheadline {
+    font-size: var(--body-md-font-size);
+  }
+
+  .hero::before,
+  .hero::after {
+    display: none;
+  }
+
+  .problem-section__text {
+    text-align: left;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero__headline,
+  .hero__subheadline,
+  .hero .search-bar,
+  .hero__chips {
+    animation: none;
+  }
+}
+
