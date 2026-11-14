@@ -23,7 +23,7 @@
   <!-- Preconnect to Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Inter:wght@400;600&family=JetBrains+Mono&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Albert+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 
   
 
@@ -2725,6 +2725,7 @@ details[open] .accordion__chevron {
 }
 
   </style>
+  <link rel="stylesheet" href="css/redesign.css">
 </head>
 <body>
   <div id="app">
@@ -3706,6 +3707,11 @@ function getAllCategories() {
 }
 
 
+// Display the user's preferred short name while retaining the original record and URL.
+function conditionDisplayName(condition) {
+  return condition.slug === 'pcos' ? 'PMOS' : condition.name;
+}
+
 // --- js/components/gapTypeBadge.js ---
 // js/components/gapTypeBadge.js
 // Gap Type Badge component — displays a colored badge indicating the research gap classification.
@@ -3763,7 +3769,7 @@ function createGapTypeBadge(gapType, options = {}) {
     badge.classList.add(`gap-badge--${size}`);
   }
 
-  badge.textContent = `Type ${gapType} — ${info.label}`;
+  badge.textContent = `Type ${gapType}: ${info.label}`;
   badge.setAttribute('aria-label', `Gap Type ${gapType}: ${info.label}`);
 
   return badge;
@@ -3947,7 +3953,7 @@ function createConditionCard(condition) {
 
   const name = document.createElement('h3');
   name.className = 'condition-card__name heading-lg';
-  name.textContent = condition.name;
+  name.textContent = conditionDisplayName(condition);
   header.appendChild(name);
 
   const badgeWrapper = document.createElement('div');
@@ -4106,7 +4112,7 @@ function createSearchBar(options = {}) {
       // Condition name
       const nameSpan = document.createElement('span');
       nameSpan.className = 'search-bar__option-name';
-      nameSpan.textContent = condition.name;
+      nameSpan.textContent = conditionDisplayName(condition);
       option.appendChild(nameSpan);
 
       // Gap type badge
@@ -4148,7 +4154,7 @@ function createSearchBar(options = {}) {
 
   /** Handle condition selection. */
   function selectCondition(condition) {
-    input.value = condition.name;
+    input.value = conditionDisplayName(condition);
     closeDropdown();
 
     if (typeof onSelect === 'function') {
@@ -4234,125 +4240,48 @@ function createSearchBar(options = {}) {
 }
 
 // --- js/components/dotsBackground.js ---
-let verityDotsRafId = null;
+let verityDotsCleanup = null;
 
 function initVerityDotsBackground() {
+  if (verityDotsCleanup) verityDotsCleanup();
   const canvas = document.getElementById('verity-dots-bg');
   const spotlight = document.getElementById('verity-dots-spotlight');
-  if (!canvas) return;
-
-  if (verityDotsRafId) {
-    cancelAnimationFrame(verityDotsRafId);
-    verityDotsRafId = null;
-  }
-
+  if (!canvas || !spotlight) return;
+  const hero = canvas.parentElement;
   const ctx = canvas.getContext('2d');
-  const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-
-  const rootStyles = getComputedStyle(document.documentElement);
-  function cssVar(name, fallback) {
-    const val = rootStyles.getPropertyValue(name).trim();
-    return val || fallback;
-  }
-  const COLOR_BASE = cssVar('--color-stone', '#E2DDD8');
-  const COLOR_DUST = cssVar('--color-dust', '#C4C0BC');
-
-  const SPACING = 42;
-  const DOT_RADIUS = 1.4;
-  const DOT_OPACITY = 0.4; // static grid, always faintly visible — no per-frame recompute
-
-  let width, height, dpr, dots = [];
-
-  function hexToRgba(hex, alpha) {
-    let c = hex.replace('#', '');
-    if (c.length === 3) c = c.split('').map((ch) => ch + ch).join('');
-    const num = parseInt(c, 16);
-    const r = (num >> 16) & 255, g = (num >> 8) & 255, b = num & 255;
-    return `rgba(${r}, ${g}, ${b}, ${alpha})`;
-  }
-
+  if (!ctx) return;
+  let frame = 0, x = 0, y = 0, targetX = 0, targetY = 0, active = false;
+  const motionAllowed = !window.matchMedia('(prefers-reduced-motion: reduce)').matches && window.matchMedia('(pointer: fine)').matches;
   function resize() {
-    const rect = canvas.parentElement.getBoundingClientRect();
-    dpr = Math.min(window.devicePixelRatio || 1, 2);
-    width = rect.width;
-    height = rect.height;
-    canvas.width = width * dpr;
-    canvas.height = height * dpr;
-    canvas.style.width = width + 'px';
-    canvas.style.height = height + 'px';
-    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
-    buildGrid();
-    drawStatic();
-  }
-
-  function buildGrid() {
-    dots = [];
-    const cols = Math.ceil(width / SPACING) + 1;
-    const rows = Math.ceil(height / SPACING) + 1;
-    for (let row = 0; row < rows; row++) {
-      for (let col = 0; col < cols; col++) {
-        dots.push({
-          x: col * SPACING,
-          y: row * SPACING,
-          color: (row + col) % 3 === 0 ? COLOR_DUST : COLOR_BASE,
-        });
-      }
+    const rect = hero.getBoundingClientRect();
+    const dpr = Math.min(window.devicePixelRatio || 1, 2);
+    canvas.width = rect.width * dpr; canvas.height = rect.height * dpr;
+    canvas.style.width = rect.width + 'px'; canvas.style.height = rect.height + 'px';
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0); ctx.clearRect(0, 0, rect.width, rect.height);
+    ctx.fillStyle = 'rgba(74,69,64,0.20)';
+    for (let y = 20; y < rect.height; y += 42) for (let x = 20; x < rect.width; x += 42) {
+      ctx.beginPath(); ctx.arc(x, y, 0.85, 0, Math.PI * 2); ctx.fill();
     }
   }
-
-  // Grid is painted exactly once per resize — nothing animates on the canvas itself.
-  function drawStatic() {
-    ctx.clearRect(0, 0, width, height);
-    for (const dot of dots) {
-      ctx.beginPath();
-      ctx.arc(dot.x, dot.y, DOT_RADIUS, 0, Math.PI * 2);
-      ctx.fillStyle = hexToRgba(dot.color, DOT_OPACITY);
-      ctx.fill();
-    }
+  function tick() {
+    x += (targetX - x) * 0.12; y += (targetY - y) * 0.12;
+    spotlight.style.transform = `translate3d(${x}px, ${y}px, 0)`;
+    if (active && (Math.abs(targetX-x) > .2 || Math.abs(targetY-y) > .2)) frame = requestAnimationFrame(tick);
+    else frame = 0;
   }
-
-  resize();
-  window.addEventListener('resize', resize);
-
-  if (prefersReducedMotion || !spotlight) return;
-
-  // --- Spotlight: one element, moved with transform + rAF lerp, faded with CSS transition.
-  // This is where all the "smoothness" comes from — the compositor handles it, not us.
-  let targetX = width / 2;
-  let targetY = height / 2;
-  let curX = targetX;
-  let curY = targetY;
-  let active = false;
-  const LAG = 0.09; // lower = more trailing lag, higher = tighter tracking
-
-  function handleMouseMove(e) {
-    const rect = canvas.getBoundingClientRect();
-    targetX = e.clientX - rect.left;
-    targetY = e.clientY - rect.top;
-    if (!active) {
-      // snap in on first entry so it doesn't sweep in from wherever it last was
-      curX = targetX;
-      curY = targetY;
-    }
-    active = true;
-    spotlight.style.opacity = '1';
+  function move(event) {
+    const rect = hero.getBoundingClientRect(); targetX = event.clientX - rect.left; targetY = event.clientY - rect.top;
+    if (!active) { x = targetX; y = targetY; }
+    active = true; spotlight.style.opacity = '1';
+    if (!frame) frame = requestAnimationFrame(tick);
   }
-
-  function handleMouseLeave() {
-    active = false;
-    spotlight.style.opacity = '0';
-  }
-
-  canvas.parentElement.addEventListener('mousemove', handleMouseMove, { passive: true });
-  canvas.parentElement.addEventListener('mouseleave', handleMouseLeave, { passive: true });
-
-  function loop() {
-    curX += (targetX - curX) * LAG;
-    curY += (targetY - curY) * LAG;
-    spotlight.style.transform = `translate3d(${curX}px, ${curY}px, 0)`;
-    verityDotsRafId = requestAnimationFrame(loop);
-  }
-  loop();
+  function leave() { active = false; spotlight.style.opacity = '0'; }
+  resize(); window.addEventListener('resize', resize);
+  if (motionAllowed) { hero.addEventListener('pointermove', move, { passive: true }); hero.addEventListener('pointerleave', leave); }
+  verityDotsCleanup = () => {
+    window.removeEventListener('resize', resize); hero.removeEventListener('pointermove', move); hero.removeEventListener('pointerleave', leave);
+    if (frame) cancelAnimationFrame(frame); verityDotsCleanup = null;
+  };
 }
 
 
@@ -4443,8 +4372,7 @@ function createFilterChipGroup({ label, options, activeValue, onChange }) {
  * @type {Array<{label: string, href: string, matchPattern: RegExp}>}
  */
 const NAV_LINKS = [
-  { label: 'Conditions', href: '#/gap-index', matchPattern: /^#?\/(gap-index|conditions\/)/ },
-  { label: 'Gap Index', href: '#/gap-index', matchPattern: /^#?\/gap-index/ },
+  { label: 'Gap Index', href: '#/gap-index', matchPattern: /^#?\/(gap-index|conditions\/)/ },
   { label: 'About', href: '#/about', matchPattern: /^#?\/about/ },
 ];
 
@@ -4778,6 +4706,7 @@ function renderHomePage(container) {
 
   const dotsCanvas = document.createElement('canvas');
 dotsCanvas.id = 'verity-dots-bg';
+dotsCanvas.setAttribute('aria-hidden', 'true');
 hero.appendChild(dotsCanvas);
 
   const dotsSpotlight = document.createElement('div');
@@ -4785,18 +4714,33 @@ hero.appendChild(dotsCanvas);
   dotsSpotlight.setAttribute('aria-hidden', 'true');
   hero.appendChild(dotsSpotlight);
 
+  const heroArt = document.createElement('div');
+  heroArt.className = 'hero__art';
+  heroArt.setAttribute('aria-hidden', 'true');
+  ['large', 'medium', 'small'].forEach(size => {
+    const orb = document.createElement('span');
+    orb.className = `hero__orb hero__orb--${size}`;
+    heroArt.appendChild(orb);
+  });
+  hero.appendChild(heroArt);
+
   const heroContainer = document.createElement('div');
   heroContainer.className = 'container';
 
   const headline = document.createElement('h1');
   headline.className = 'hero__headline display-xl';
-  headline.textContent = 'What does the evidence actually look like for women?';
+  headline.appendChild(document.createTextNode('What does the evidence actually look like for '));
+  const focusWord = document.createElement('span');
+  focusWord.className = 'hero__focus';
+  focusWord.textContent = 'women';
+  headline.appendChild(focusWord);
+  headline.appendChild(document.createTextNode('?'));
 
   const subheadline = document.createElement('p');
   subheadline.className = 'hero__subheadline body-lg';
   subheadline.textContent = 'Verity measures female representation in scientific and medical research. Not advice. Evidence visibility.';
 
-  const searchBar = createSearchBar({ size: 'large', autofocus: true, placeholder: 'Search a condition — e.g. ADHD, Heart Disease, PCOS…' });
+  const searchBar = createSearchBar({ size: 'large', autofocus: false, placeholder: 'Search conditions, e.g. ADHD or PMOS' });
 
   const chips = document.createElement('div');
   chips.className = 'hero__chips';
@@ -4808,7 +4752,7 @@ hero.appendChild(dotsCanvas);
       const chip = document.createElement('a');
       chip.href = `#/conditions/${cond.slug}`;
       chip.className = 'condition-chip';
-      chip.textContent = cond.name;
+      chip.textContent = conditionDisplayName(cond);
       chips.appendChild(chip);
     }
   });
@@ -4842,7 +4786,7 @@ hero.appendChild(dotsCanvas);
 
     const num = document.createElement('div');
     num.className = 'stat-block__number data-xl';
-    num.textContent = `${stat.prefix}0${stat.suffix}`;
+    num.textContent = `${stat.prefix}${stat.target}${stat.suffix}`;
     num.dataset.target = stat.target;
     num.dataset.prefix = stat.prefix;
     num.dataset.suffix = stat.suffix;
@@ -4907,7 +4851,7 @@ hero.appendChild(dotsCanvas);
     const nameEl = document.createElement('span');
     nameEl.className = 'body-sm';
     nameEl.style.fontWeight = '600';
-    nameEl.textContent = cond.name;
+    nameEl.textContent = conditionDisplayName(cond);
 
     const barOuter = document.createElement('div');
     barOuter.style.cssText = `
@@ -5102,7 +5046,6 @@ hero.appendChild(dotsCanvas);
 
   // ── Initialize animations after render ──
   requestAnimationFrame(() => {
-    initCounterAnimations();
     initBarAnimations();
     initVerityDotsBackground();
   });
@@ -5206,7 +5149,7 @@ function createRankedItem(condition) {
   const name = document.createElement('span');
   name.className = 'body-md';
   name.style.fontWeight = '600';
-  name.textContent = condition.name;
+  name.textContent = conditionDisplayName(condition);
 
   const dots = createEvidenceQuality(condition.metrics.evidenceQuality, { size: 'small' });
 
@@ -5266,7 +5209,7 @@ function renderConditionPage(container, condition) {
   const current = document.createElement('span');
   current.className = 'breadcrumb__current';
   current.setAttribute('aria-current', 'page');
-  current.textContent = condition.name;
+  current.textContent = conditionDisplayName(condition);
 
   breadcrumb.appendChild(homeLink);
   breadcrumb.appendChild(sep);
@@ -5282,7 +5225,7 @@ function renderConditionPage(container, condition) {
 
   const h1 = document.createElement('h1');
   h1.className = 'display-lg';
-  h1.textContent = condition.name;
+  h1.textContent = conditionDisplayName(condition);
 
   const desc = document.createElement('p');
   desc.className = 'body-lg';
@@ -5608,7 +5551,7 @@ function renderConditionPage(container, condition) {
         const chip = document.createElement('a');
         chip.href = `#/conditions/${relCond.slug}`;
         chip.className = 'condition-chip';
-        chip.textContent = `${relCond.name} →`;
+        chip.textContent = `${conditionDisplayName(relCond)} →`;
         relChips.appendChild(chip);
       }
     });
@@ -5827,8 +5770,12 @@ function renderGapIndexPage(container) {
       th.setAttribute('data-sortable', '');
       th.setAttribute('scope', 'col');
 
-      const labelText = document.createTextNode(col.label + ' ');
-      th.appendChild(labelText);
+      const sortButton = document.createElement('button');
+      sortButton.type = 'button';
+      sortButton.dataset.sortCol = col.key;
+      sortButton.appendChild(document.createTextNode(col.label + ' '));
+      th.setAttribute('aria-sort', sortCol === col.key ? (sortAsc ? 'ascending' : 'descending') : 'none');
+      th.appendChild(sortButton);
 
       const arrow = document.createElement('span');
       arrow.className = 'data-table__sort-icon';
@@ -5838,7 +5785,7 @@ function renderGapIndexPage(container) {
       } else {
         arrow.textContent = '↕';
       }
-      th.appendChild(arrow);
+      sortButton.appendChild(arrow);
 
       th.addEventListener('click', () => {
         if (sortCol === col.key) {
@@ -5848,6 +5795,7 @@ function renderGapIndexPage(container) {
           sortAsc = col.key === 'name';
         }
         renderTable();
+        tableContainer.querySelector(`[data-sort-col="${col.key}"]`).focus();
       });
 
       headerRow.appendChild(th);
@@ -5882,7 +5830,7 @@ function renderGapIndexPage(container) {
         const nameLink = document.createElement('a');
         nameLink.href = `#/conditions/${cond.slug}`;
         nameLink.className = 'data-table__condition-link';
-        nameLink.textContent = cond.name;
+        nameLink.textContent = conditionDisplayName(cond);
         nameLink.addEventListener('click', e => e.stopPropagation());
         nameTd.appendChild(nameLink);
         row.appendChild(nameTd);
@@ -5916,6 +5864,7 @@ function renderGapIndexPage(container) {
         scoreTd.textContent = cond.metrics.representationScore;
         row.appendChild(scoreTd);
 
+        row.querySelectorAll('td').forEach((cell, index) => { cell.dataset.label = columns[index].label; });
         tbody.appendChild(row);
       });
     }
@@ -5937,13 +5886,19 @@ function renderGapIndexPage(container) {
     item.appendChild(createGapTypeBadge(type, { size: 'small' }));
 
     const desc = document.createElement('span');
-    desc.textContent = GAP_TYPE_DESCRIPTIONS[type].substring(0, 80) + '…';
+    desc.textContent = GAP_TYPE_DESCRIPTIONS[type];
     item.appendChild(desc);
 
     legend.appendChild(item);
   });
 
-  wrapper.appendChild(legend);
+  const legendDetails = document.createElement('details');
+  legendDetails.className = 'gap-legend-details';
+  const legendSummary = document.createElement('summary');
+  legendSummary.textContent = 'Understand the gap types';
+  legendDetails.appendChild(legendSummary);
+  legendDetails.appendChild(legend);
+  wrapper.insertBefore(legendDetails, tableContainer);
 
   // ── 6. Index Note ──
   const note = document.createElement('p');
@@ -6117,7 +6072,7 @@ function renderAboutPage(container) {
   const gapPanelsData = [
     { type: 1, example: 'Heart Disease, Autism' },
     { type: 2, example: 'ADHD, Sleep Apnea, Chronic Pain' },
-    { type: 3, example: 'Depression, PCOS' },
+    { type: 3, example: 'Depression, PMOS' },
     { type: 4, example: 'Endometriosis, Autoimmune Disorders' },
   ];
 
@@ -6162,6 +6117,22 @@ function renderAboutPage(container) {
   disclaimer.appendChild(disclaimerText);
   wrapper.appendChild(disclaimer);
 
+  const aboutNav = document.createElement('nav');
+  aboutNav.className = 'about-nav';
+  aboutNav.setAttribute('aria-label', 'On this page');
+  wrapper.querySelectorAll('.about-section').forEach((section) => {
+    const heading = section.querySelector('h2');
+    const button = document.createElement('button');
+    button.type = 'button';
+    button.textContent = heading.textContent;
+    button.addEventListener('click', () => section.scrollIntoView({ behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'start' }));
+    aboutNav.appendChild(button);
+  });
+  wrapper.insertBefore(aboutNav, wrapper.children[1]);
+  const aboutTitle = document.createElement('h1');
+  aboutTitle.className = 'display-lg about-page-title';
+  aboutTitle.textContent = 'About Verity';
+  wrapper.prepend(aboutTitle);
   page.appendChild(wrapper);
   container.appendChild(page);
 }
@@ -6275,7 +6246,7 @@ const routes = [
       const slug = match[1];
       const condition = getConditionBySlug(slug);
       if (condition) {
-        document.title = `${condition.name} — Verity`;
+        document.title = `${conditionDisplayName(condition)} — Verity`;
         renderConditionPage(main, condition);
       } else {
         document.title = 'Not Found — Verity';
@@ -6299,6 +6270,7 @@ const routes = [
  * Resolve the current hash to a route and render it.
  */
 function resolveRoute() {
+  if (verityDotsCleanup) verityDotsCleanup();
   const hash = window.location.hash || '#/';
   const main = document.getElementById('main-content');
 
@@ -6332,6 +6304,10 @@ function resolveRoute() {
 function postRouteSetup() {
   window.scrollTo({ top: 0, behavior: 'instant' });
   setupFadeInSections();
+  const main = document.getElementById('main-content');
+  if (main && !window.matchMedia('(prefers-reduced-motion: reduce)').matches && main.animate) {
+    main.animate([{ opacity: 0.88 }, { opacity: 1 }], { duration: 140, easing: 'ease-out' });
+  }
 }
 
 /**
@@ -6431,7 +6407,16 @@ if (document.readyState === 'loading') {
     <!-- 1. HTML MARKUP FIRST -->
 <div id="verity-chatbot">
   <button id="verity-chatbot-bubble" aria-label="Open chat assistant" aria-expanded="false">
-    <svg id="verity-chatbot-icon-chat" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+    <svg id="verity-chatbot-icon-chat" class="verity-guide" viewBox="0 0 72 72" aria-hidden="true">
+      <path d="M49 59c12 5 20-1 18-9-1-4-4-5-6-3 2 5-3 8-8 5" fill="none" stroke="#1b4f8a" stroke-width="3" stroke-linecap="round"/>
+      <path d="M20 46c0-10 6-16 15-16s16 6 16 16v12c0 5-4 8-9 8H27c-5 0-7-3-7-8z" fill="#eef2f7" stroke="#1b4f8a" stroke-width="2"/>
+      <path d="M15 30 12 9l14 8c3-1 9-1 12 0L52 9l-3 21c0 10-7 16-17 16S15 40 15 30Z" fill="#fdfcfa" stroke="#1b4f8a" stroke-width="2" stroke-linejoin="round"/>
+      <path d="m17 15 7 5-7 1zm29 0-7 5 7 1z" fill="#a8bdd5"/>
+      <ellipse cx="25" cy="29" rx="4" ry="5" fill="#e8eff8"/><ellipse cx="39" cy="29" rx="4" ry="5" fill="#e8eff8"/>
+      <circle class="guide-pupil" cx="25" cy="29" r="2.1" fill="#1b4f8a"/><circle class="guide-pupil" cx="39" cy="29" r="2.1" fill="#1b4f8a"/>
+      <path d="M30 34h4l-2 2z" fill="#1b4f8a"/><path d="M32 36c0 2-2 3-4 2m4-2c0 2 2 3 4 2M18 34l-8-2m8 5-8 1m36-4 8-2m-8 5 8 1" fill="none" stroke="#1b4f8a" stroke-width="1.2" stroke-linecap="round"/>
+      <path d="M26 57c-3 0-5 2-5 5s2 4 6 4h4v-6c0-2-2-3-5-3zm15 0c3 0 5 2 5 5s-2 4-6 4h-4v-6c0-2 2-3 5-3z" fill="#fdfcfa" stroke="#1b4f8a" stroke-width="1.5"/>
+    </svg><span class="verity-guide-label">Ask Verity</span>
     <svg id="verity-chatbot-icon-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:none;"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
   </button>
 
@@ -6483,6 +6468,25 @@ if (document.readyState === 'loading') {
 
   if (!bubble || !chatWindow) return;
 
+  // The guide stays in its dock; only its pupils respond to a precise pointer.
+  if (window.matchMedia('(pointer: fine)').matches && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    const pupils = bubble.querySelectorAll('.guide-pupil');
+    let pointerFrame = 0, pointerX = 0, pointerY = 0;
+    window.addEventListener('pointermove', (event) => {
+      pointerX = event.clientX; pointerY = event.clientY;
+      if (pointerFrame) return;
+      pointerFrame = requestAnimationFrame(() => {
+        pupils.forEach((pupil) => {
+          const box = pupil.getBoundingClientRect();
+          const dx = pointerX - (box.left + box.width / 2), dy = pointerY - (box.top + box.height / 2);
+          const distance = Math.hypot(dx, dy) || 1;
+          pupil.style.transform = `translate(${(dx / distance * 1.4).toFixed(2)}px, ${(dy / distance * 1.4).toFixed(2)}px)`;
+        });
+        pointerFrame = 0;
+      });
+    }, { passive: true });
+  }
+
   let hasOpenedOnce = false;
 
   function toggleChat() {
@@ -6506,7 +6510,12 @@ if (document.readyState === 'loading') {
     bubble.setAttribute('aria-expanded', 'false');
     if (iconChat) iconChat.style.display = 'block';
     if (iconClose) iconClose.style.display = 'none';
+    bubble.focus();
   }
+
+  chatWindow.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape' && chatWindow.classList.contains('is-open')) closeChat();
+  });
 
   bubble.addEventListener('click', toggleChat);
   if (closeBtn) closeBtn.addEventListener('click', closeChat);
