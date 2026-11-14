@@ -36,3 +36,7 @@ The homepage now uses three cropped, differently sized stippled circles informed
 ## About page spacing
 
 The About page overrides an older mobile rule that removed its side padding. The shared content wrapper now uses responsive horizontal padding so the title, navigation, and all sections stay inset from the screen edges.
+
+## Search results spacing
+
+The homepage suggestion list takes up space in the page layout when it opens. This moves the condition links below the results and keeps long suggestion lists inside the hero on small screens.
