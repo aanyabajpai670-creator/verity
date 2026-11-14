@@ -9,7 +9,7 @@ This work lives in the separate `verity-redesign` checkout on the local `codex/v
 - Changed condition metrics from matching cards into an evidence summary led by the representation score. Findings, references, methodology, and related conditions remain available in their original sections.
 - Refined the Gap Index filters and table; the four full gap descriptions are available in a disclosure beside the controls. On narrow screens, each table row reflows into a labeled vertical summary while retaining all six sort controls.
 - Added on-page navigation and a page title to About. Simplified navigation by removing the duplicate Conditions link, which pointed to the same destination as Gap Index.
-- Replaced the floating chat icon with a labeled Ask Verity cat. Its pupils follow a fine pointer, while the control stays anchored and usable by keyboard. The assistant panel retains its existing messages and request flow, including Escape-to-close and focus return.
+- Restored the original circular chat icon with a translucent blurred glass finish, keeping it anchored and usable by keyboard. The assistant panel retains its existing messages and request flow, including Escape-to-close and focus return.
 
 ## How it works
 
@@ -17,7 +17,7 @@ The served app is `index.html`, which includes the original styles, rendering lo
 
 The index keeps its semantic table. Sort headings now contain real buttons, expose sort direction with `aria-sort`, and restore focus after sorting rebuilds the table. At smaller widths CSS presents cells as stacked rows; their labels are populated from the existing column definitions. The gap explanations use native `details` and `summary` controls. About section buttons scroll to existing sections without interfering with the site's hash-based routes.
 
-Motion consists of short entrance and route fades, interaction state changes, and the existing one-time score-bar fill. The statistics are displayed at their real values immediately rather than counting from zero. Reduced-motion preferences suppress animations and smooth scrolling. The hero restores the original canvas dot field and pointer spotlight, with route-change cleanup for its event listeners and animation frame. The cat is an inline SVG with ears, paws, whiskers and a tail; its pupils update on pointer movement. Both pointer effects honor reduced-motion preferences and are disabled for coarse pointers. The three decorative circles reuse a compact stipple SVG, with CSS controlling their size and placement; the gradients are CSS. The headline wraps the word “women” in a span for the blue highlight while preserving the heading text.
+Motion consists of short entrance and route fades, interaction state changes, and the existing one-time score-bar fill. The statistics are displayed at their real values immediately rather than counting from zero. Reduced-motion preferences suppress animations and smooth scrolling. The hero restores the original canvas dot field and pointer spotlight, with route-change cleanup for its event listeners and animation frame. The hero pointer effect honors reduced-motion preferences and is disabled for coarse pointers. The three decorative circles reuse a compact stipple SVG, with CSS controlling their size and placement; the gradients are CSS. The headline wraps the word “women” in a span for the blue highlight while preserving the heading text.
 
 ## Local preview and limitations
 
@@ -40,3 +40,7 @@ The About page overrides an older mobile rule that removed its side padding. The
 ## Search results spacing
 
 The homepage suggestion list takes up space in the page layout when it opens. This moves the condition links below the results and keeps long suggestion lists inside the hero on small screens. At narrow widths, each condition and its gap label stack to prevent crowding.
+
+## Assistant button refinement
+
+The assistant launcher uses the original chat symbol inside a blue translucent circle. CSS backdrop filtering blurs content behind the control, while the tinted background provides a usable fallback in browsers without blur support.

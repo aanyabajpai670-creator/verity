@@ -39,10 +39,11 @@ h1,h2,h3,.display-xl,.display-lg,.display-md{letter-spacing:-.045em} .display-xl
 #verity-dots-bg,#verity-dots-spotlight{display:block!important}.hero .container{z-index:2}.hero__headline{max-width:14ch;font-weight:600;line-height:1.02}.hero__subheadline{max-width:48ch}
 .stat-block__label{margin:12px 0 0;max-width:26ch;text-align:left}.stat-block__number{line-height:1}.problem-section__stats{align-items:start}
 .label-text,.condition-card__label,.navbar__link{font-family:'Albert Sans',sans-serif;letter-spacing:.02em}.condition-card__label{text-transform:none;font-size:13px;font-weight:500}
-#verity-chatbot-bubble{width:auto;height:52px;min-width:150px;padding:5px 16px 5px 6px;gap:9px;border:1px solid var(--color-verity-blue);border-radius:8px;background:var(--color-warm-white);color:var(--color-verity-blue);box-shadow:0 6px 24px rgba(26,24,20,.10);animation:none}
-#verity-chatbot-bubble:hover{background:var(--color-accent-subtle);transform:translateY(-2px);box-shadow:0 8px 25px rgba(26,24,20,.12)}
-#verity-chatbot-bubble #verity-chatbot-icon-chat{width:39px;height:39px;flex:none}#verity-chatbot-bubble #verity-chatbot-icon-close{width:24px;height:24px;margin:0 7px}.verity-guide-label{font-family:'Albert Sans',sans-serif;font-size:14px;font-weight:700;white-space:nowrap}.guide-pupil{transform-box:fill-box;transition:transform 90ms ease-out}
-@media(max-width:800px){.hero__headline{max-width:14ch}.stat-block{padding:18px 0 24px}.stat-block__label{margin-left:0;margin-right:0}#verity-chatbot{right:12px;bottom:12px}#verity-chatbot-bubble{min-width:0;height:48px;padding-right:12px}#verity-chatbot-bubble #verity-chatbot-icon-chat{width:35px;height:35px}}
+/* The original chat symbol in a translucent glass circle. */
+#verity-chatbot-bubble{width:56px;height:56px;min-width:0;padding:0;gap:0;border:1px solid rgba(255,255,255,.55);border-radius:50%;background:rgba(27,79,138,.86);color:#fff;box-shadow:0 8px 24px rgba(26,24,20,.18);-webkit-backdrop-filter:blur(16px) saturate(160%);backdrop-filter:blur(16px) saturate(160%);animation:none}
+#verity-chatbot-bubble:hover{background:rgba(22,62,110,.93);transform:translateY(-2px);box-shadow:0 10px 28px rgba(26,24,20,.22)}
+#verity-chatbot-bubble #verity-chatbot-icon-chat,#verity-chatbot-bubble #verity-chatbot-icon-close{width:24px;height:24px;margin:0;flex:none}
+@media(max-width:800px){.hero__headline{max-width:14ch}.stat-block{padding:18px 0 24px}.stat-block__label{margin-left:0;margin-right:0}#verity-chatbot{right:12px;bottom:12px}}
 
 .search-bar__input::placeholder{color:#716b66;opacity:1}
 
@@ -58,11 +59,6 @@ h1,h2,h3,.display-xl,.display-lg,.display-md{letter-spacing:-.045em} .display-xl
 
 .hero__orb--large{opacity:.62}.hero__orb--medium{opacity:.52}.hero__orb--small{opacity:.50}
 @media(max-width:800px){.hero__orb--large{right:-145px;top:-95px;opacity:.52}.hero__orb--medium{right:-50px;bottom:8%;opacity:.42}.hero__orb--small{left:-95px;bottom:-65px;opacity:.42}}
-
-/* A little cat sits on the assistant dock; its eyes follow a fine pointer. */
-#verity-chatbot-bubble #verity-chatbot-icon-chat{width:64px;height:64px;margin:-22px -5px 0 -8px;overflow:visible}
-#verity-chatbot-bubble{overflow:visible}
-@media(max-width:800px){#verity-chatbot-bubble #verity-chatbot-icon-chat{width:58px;height:58px;margin:-18px -5px 0 -8px}}
 
 /* Maintain breathing room around every About section at all viewport widths. */
 .about-content{padding-inline:clamp(24px,6vw,72px)}
