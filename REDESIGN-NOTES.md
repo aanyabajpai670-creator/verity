@@ -39,4 +39,4 @@ The About page overrides an older mobile rule that removed its side padding. The
 
 ## Search results spacing
 
-The homepage suggestion list takes up space in the page layout when it opens. This moves the condition links below the results and keeps long suggestion lists inside the hero on small screens.
+The homepage suggestion list takes up space in the page layout when it opens. This moves the condition links below the results and keeps long suggestion lists inside the hero on small screens. At narrow widths, each condition and its gap label stack to prevent crowding.

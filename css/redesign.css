@@ -69,3 +69,6 @@ h1,h2,h3,.display-xl,.display-lg,.display-md{letter-spacing:-.045em} .display-xl
 
 /* Suggestions take up space so the condition links move below the results. */
 .hero .search-bar__dropdown{position:relative;top:auto;left:auto;right:auto;margin-top:4px}
+
+.search-bar__option{gap:12px}
+@media(max-width:480px){.search-bar__option{align-items:flex-start;flex-direction:column;gap:4px}}
