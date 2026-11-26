@@ -1,0 +1,9 @@
+{
+  "pmid": "24345721",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "53f26cf981ad765783baccdcb668ae1f9e64fb435dc753ee063712306bd1d85a",
+  "raw_response": "{\"eligibility\":{\"quote\":\"We performed a structural MRI study in 119 adult ADHD patients and 107 controls\",\"answer\":\"include\"},\"n_total\":{\"quote\":null,\"answer\":null},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":\"Reduced caudate volume in male patients may point to distinct neurobiological deficits underlying ADHD in the two genders.\",\"answer\":true},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":\"a significant gender by diagnosis interaction was found for caudate volume. Male patients showed reduced right caudate volume compared to male controls\",\"answer\":2},\"study_design\":{\"quote\":\"these data were obtained in a cross-sectional sample\",\"answer\":\"Cross-sectional\"}}",
+  "finish_reason": "stop"
+}

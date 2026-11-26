@@ -1,0 +1,9 @@
+{
+  "pmid": "15271608",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "91343d06a9a5b8cc8537243942784bdb3a99cf4c125e8b7044817d98c64f51ee",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Participants in the study were 36 children with ADHD and 43 nonreferred comparison children ages 7 to 11.\",\"answer\":\"include\"},\"n_total\":{\"quote\":null,\"answer\":null},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":null},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"The participants listened to 1 of 2 folktales and recalled the story both before and after studying a written version of the story for up to 10 min.\",\"answer\":\"Other\"}}",
+  "finish_reason": "stop"
+}

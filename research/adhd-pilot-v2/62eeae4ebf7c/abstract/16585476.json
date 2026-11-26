@@ -1,0 +1,9 @@
+{
+  "pmid": "16585476",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "20aac682ba1b7d41717173ae9def9d93996a0b71dae4abe7f8ff071a6cc23b6f",
+  "raw_response": "```json\n{\n  \"eligibility\": {\n    \"quote\": \"The first cohort was born in Britain in 1994-1995 and includes 2232 children; the second cohort was born in New Zealand in 1972-1973 and includes 1037 children.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"DESIGN: Longitudinal epidemiologic investigation of 2 independent birth cohorts.\",\n    \"answer\": \"Cohort-Prospective\"\n  }\n}\n```",
+  "finish_reason": "stop"
+}

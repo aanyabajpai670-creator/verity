@@ -1,0 +1,9 @@
+{
+  "pmid": "28979965",
+  "scope": "article",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "5023d8bbace3fae58516aa550432184759c4eb528b9f4931eae041ad83b2e0de",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"The 11 108 twins included in the final sample (5894 girls and 5214 boys) were a mean age of 11.3 years at the first assessment and 16.3 years at the last assessment.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"The 11 108 twins included in the final sample (5894 girls and 5214 boys)\",\n    \"answer\": 11108\n  },\n  \"n_female\": {\n    \"quote\": \"The 11 108 twins included in the final sample (5894 girls and 5214 boys)\",\n    \"answer\": 5894\n  },\n  \"includes_female\": {\n    \"quote\": \"(5894 girls and 5214 boys)\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": \"The 11 108 twins included in the final sample (5894 girls and 5214 boys)\",\n    \"answer\": true\n  },\n  \"sex_reporting\": {\n    \"quote\": \"We found no robust evidence of moderation by sex or nonlinear relationships (eTables 25-27 in the Supplement).\",\n    \"answer\": 2\n  },\n  \"study_design\": {\n    \"quote\": \"Participants were drawn from the Twins Early Development Study, a population-based cohort recruited from population records of births in England and Wales between January 1, 1994, and December 31, 1996.\",\n    \"answer\": \"Cohort-Prospective\"\n  }\n}",
+  "finish_reason": "stop"
+}

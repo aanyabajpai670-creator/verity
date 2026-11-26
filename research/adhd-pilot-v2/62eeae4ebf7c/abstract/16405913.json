@@ -1,0 +1,9 @@
+{
+  "pmid": "16405913",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "3c680c98420ea3652f3610510edea809d8692ad70bffb4e6a323ada2c26bf992",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"65 parents completed questionnaires on ADHD behavior of their child, parenting stress and depressed mood, teachers reported on ADHD behavior.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"65 parents completed questionnaires on ADHD behavior of their child, parenting stress and depressed mood, teachers reported on ADHD behavior.\",\n    \"answer\": 65\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"65 parents completed questionnaires on ADHD behavior of their child, parenting stress and depressed mood, teachers reported on ADHD behavior.\",\n    \"answer\": \"Cross-sectional\"\n  }\n}",
+  "finish_reason": "stop"
+}

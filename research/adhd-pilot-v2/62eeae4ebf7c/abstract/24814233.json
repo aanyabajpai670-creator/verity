@@ -1,0 +1,9 @@
+{
+  "pmid": "24814233",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "5dfb2e3ab1514202a051a3a6175af0397018301d60109ae746748c9229855b3d",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"Fifty patients (41.0%) had comorbid conditions or a history of mental illness at the time of injury, including attention deficit hyperactivity disorder (n=11 [9%])\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"We identified 122 patients (93 [76%] male) with 216 mandibular fractures.\",\n    \"answer\": 122\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"We conducted a retrospective review of pediatric patients (age, \u226418 years) with mandibular fractures treated at our institution from January 1996 through November 2011.\",\n    \"answer\": \"Cohort-Retrospective\"\n  }\n}",
+  "finish_reason": "stop"
+}

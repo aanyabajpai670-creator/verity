@@ -1,0 +1,9 @@
+{
+  "pmid": "16876139",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "48bafcbf4250b8220d43ae8cf618ac77e7ef24d3357e2621e14098f71c36bd7c",
+  "raw_response": "{\"eligibility\":{\"quote\":\"We compared four groups of adults: 1) full ADHD subjects met all DSM-IV criteria for childhood-onset ADHD; 2) late-onset ADHD subjects met all criteria except the age at onset criterion;\",\"answer\":\"uncertain\"},\"n_total\":{\"quote\":null,\"answer\":null},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":null,\"answer\":null}}",
+  "finish_reason": "stop"
+}

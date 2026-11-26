@@ -1,0 +1,9 @@
+{
+  "pmid": "32238607",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "0884a15d4671a08193612ba653e18f773c7b4d1f626efc81b79756f87b6a2fb7",
+  "raw_response": "{\"eligibility\":{\"quote\":\"There was at least psychiatric diagnosis in 36 (30.5%) cases. The most common psychiatric diagnosis was attention deficit and hyperactivity disorder (ADHD) (n = 18, 15.3%).\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"Psychiatric data of 118 patients, who were followed by the DSD multidisciplinary team between 2007 and 2019, were reviewed retrospectively.\",\"answer\":118},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"Psychiatric data of 118 patients, who were followed by the DSD multidisciplinary team between 2007 and 2019, were reviewed retrospectively.\",\"answer\":\"Cohort-Retrospective\"}}",
+  "finish_reason": "stop"
+}

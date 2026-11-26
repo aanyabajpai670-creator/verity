@@ -1,0 +1,2049 @@
+{
+  "condition": "adhd",
+  "retrieved_at": "2026-11-15T13:27:23.919195+00:00",
+  "seed": 20261115,
+  "sampling_algorithm": "Python random.Random, PMID-numeric sorted within strata; largest remainder proportional allocation",
+  "python_version": "3.15.2 (main, Oct 25 2026, 16:57:51) [Clang 21.0.0 (clang-2100.3.34.2)]",
+  "query": "(\"Attention Deficit Disorder with Hyperactivity\"[MeSH] OR \"ADHD\"[tiab] OR \"attention deficit hyperactivity\"[tiab] OR \"attention deficit disorder\"[tiab]) AND (\"Clinical Trial\"[pt] OR \"Randomized Controlled Trial\"[pt] OR \"Observational Study\"[pt] OR \"Cohort Studies\"[MeSH] OR \"Cross-Sectional Studies\"[MeSH] OR \"Case-Control Studies\"[MeSH] OR \"Longitudinal Studies\"[MeSH] OR \"Prospective Studies\"[MeSH] OR \"Retrospective Studies\"[MeSH] OR \"Multicenter Study\"[pt] OR \"Comparative Study\"[pt] OR \"Controlled Clinical Trial\"[pt] OR \"Pragmatic Clinical Trial\"[pt] OR \"Equivalence Trial\"[pt]) AND (\"humans\"[MeSH] AND English[Language]) AND 2000/01/01:2024/12/31[Date - Publication] NOT (\"Review\"[pt] OR \"Systematic Review\"[pt] OR \"Meta-Analysis\"[pt] OR \"Editorial\"[pt] OR \"Comment\"[pt] OR \"Letter\"[pt] OR \"Case Reports\"[pt] OR \"Published Erratum\"[pt])",
+  "query_count": 12351,
+  "count_type": "PubMed candidates after database filters; sample-size and pregnancy-only exclusions require coding",
+  "sample_size": 500,
+  "strata": [
+    {
+      "start": 2000,
+      "corpus_count": 1113,
+      "sample_count": 45
+    },
+    {
+      "start": 2005,
+      "corpus_count": 2133,
+      "sample_count": 86
+    },
+    {
+      "start": 2010,
+      "corpus_count": 2976,
+      "sample_count": 121
+    },
+    {
+      "start": 2015,
+      "corpus_count": 3232,
+      "sample_count": 131
+    },
+    {
+      "start": 2020,
+      "corpus_count": 2897,
+      "sample_count": 117
+    }
+  ],
+  "date_overlap_counts": [
+    0,
+    10,
+    85,
+    293,
+    232
+  ],
+  "date_overlap_rule": "earliest matching 5-year bin; each PMID sampled once",
+  "sample": [
+    {
+      "pmid": "12874489",
+      "stratum_start": 2000
+    },
+    {
+      "pmid": "10840176",
+      "stratum_start": 2000
+    },
+    {
+      "pmid": "15369417",
+      "stratum_start": 2000
+    },
+    {
+      "pmid": "11928878",
+      "stratum_start": 2000
+    },
+    {
+      "pmid": "14642015",
+      "stratum_start": 2000
+    },
+    {
+      "pmid": "12019666",
+      "stratum_start": 2000
+    },
+    {
+      "pmid": "15271608",
+      "stratum_start": 2000
+    },
+    {
+      "pmid": "12108804",
+      "stratum_start": 2000
+    },
+    {
+      "pmid": "11386988",
+      "stratum_start": 2000
+    },
+    {
+      "pmid": "10999232",
+      "stratum_start": 2000
+    },
+    {
+      "pmid": "12501563",
+      "stratum_start": 2000
+    },
+    {
+      "pmid": "15571787",
+      "stratum_start": 2000
+    },
+    {
+      "pmid": "12086544",
+      "stratum_start": 2000
+    },
+    {
+      "pmid": "11828226",
+      "stratum_start": 2000
+    },
+    {
+      "pmid": "11282697",
+      "stratum_start": 2000
+    },
+    {
+      "pmid": "15493434",
+      "stratum_start": 2000
+    },
+    {
+      "pmid": "11906516",
+      "stratum_start": 2000
+    },
+    {
+      "pmid": "15555715",
+      "stratum_start": 2000
+    },
+    {
+      "pmid": "14582636",
+      "stratum_start": 2000
+    },
+    {
+      "pmid": "14593669",
+      "stratum_start": 2000
+    },
+    {
+      "pmid": "11765293",
+      "stratum_start": 2000
+    },
+    {
+      "pmid": "14700466",
+      "stratum_start": 2000
+    },
+    {
+      "pmid": "15319018",
+      "stratum_start": 2000
+    },
+    {
+      "pmid": "14706487",
+      "stratum_start": 2000
+    },
+    {
+      "pmid": "12013059",
+      "stratum_start": 2000
+    },
+    {
+      "pmid": "10980665",
+      "stratum_start": 2000
+    },
+    {
+      "pmid": "15164862",
+      "stratum_start": 2000
+    },
+    {
+      "pmid": "10750544",
+      "stratum_start": 2000
+    },
+    {
+      "pmid": "14678455",
+      "stratum_start": 2000
+    },
+    {
+      "pmid": "12849773",
+      "stratum_start": 2000
+    },
+    {
+      "pmid": "14515941",
+      "stratum_start": 2000
+    },
+    {
+      "pmid": "14652157",
+      "stratum_start": 2000
+    },
+    {
+      "pmid": "14980372",
+      "stratum_start": 2000
+    },
+    {
+      "pmid": "14523179",
+      "stratum_start": 2000
+    },
+    {
+      "pmid": "11329997",
+      "stratum_start": 2000
+    },
+    {
+      "pmid": "12225443",
+      "stratum_start": 2000
+    },
+    {
+      "pmid": "11392347",
+      "stratum_start": 2000
+    },
+    {
+      "pmid": "10895570",
+      "stratum_start": 2000
+    },
+    {
+      "pmid": "15082347",
+      "stratum_start": 2000
+    },
+    {
+      "pmid": "11386476",
+      "stratum_start": 2000
+    },
+    {
+      "pmid": "15229062",
+      "stratum_start": 2000
+    },
+    {
+      "pmid": "15257148",
+      "stratum_start": 2000
+    },
+    {
+      "pmid": "14625396",
+      "stratum_start": 2000
+    },
+    {
+      "pmid": "15769563",
+      "stratum_start": 2000
+    },
+    {
+      "pmid": "11668095",
+      "stratum_start": 2000
+    },
+    {
+      "pmid": "17564852",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "16530991",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "16523251",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "18178597",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "17685750",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "18516718",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "15520832",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "15827573",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "17768282",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "16699814",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "18188752",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "17984398",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "16840239",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "16866759",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "18200435",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "16865040",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "16930383",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "18328867",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "18720661",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "16635627",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "19900717",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "19486273",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "18693137",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "17999272",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "16510242",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "18838635",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "16594981",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "16078088",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "19142107",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "19372494",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "17109783",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "16815520",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "17391466",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "17149542",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "17714375",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "19150055",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "15889584",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "19242291",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "16585476",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "17935640",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "17177117",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "19018449",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "15843763",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "16452517",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "16232017",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "17414236",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "17665282",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "15782082",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "17679691",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "16741206",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "19320532",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "18606317",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "19324532",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "16389216",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "16876139",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "19048655",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "19794135",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "15832546",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "18387612",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "17568050",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "16597216",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "15896225",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "16611492",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "19838594",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "18609029",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "17484685",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "18486823",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "19874428",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "17560950",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "19103798",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "15725968",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "19815048",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "18361436",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "16405913",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "19389329",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "17762317",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "17192503",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "16030440",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "17574796",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "17602754",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "17892623",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "16344839",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "17934380",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "18552703",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "18041610",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "16917924",
+      "stratum_start": 2005
+    },
+    {
+      "pmid": "21669891",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "20736471",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "22923780",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "21508864",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "22473864",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "20631198",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "23893535",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "21940437",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "23793277",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "25295451",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "20565435",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "24246603",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "23622849",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "23376867",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "23801529",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "24604922",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "21437723",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "24274762",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "21481227",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "24666128",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "22891185",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "23564274",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "24485405",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "22889924",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "20525316",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "20574056",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "24629733",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "24867158",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "25433424",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "22791738",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "24828276",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "21961776",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "21432604",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "23091322",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "23681164",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "22596014",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "22613230",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "20966487",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "20486311",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "22149470",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "24210363",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "23979222",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "24345721",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "24864167",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "23676413",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "20604616",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "23522863",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "22844023",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "25416463",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "20623519",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "25366258",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "24141100",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "22415149",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "22141405",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "23942041",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "21555501",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "20806988",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "23273487",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "22911441",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "20439487",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "20861588",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "22169884",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "21500882",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "22974590",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "20484709",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "21947617",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "21854282",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "24814233",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "22713359",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "20495989",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "21214878",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "21824454",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "21392946",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "23615868",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "24362766",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "20973707",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "21890596",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "24787306",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "22504457",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "21923448",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "21036536",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "20948445",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "24141677",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "22325095",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "23184398",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "23271759",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "21432592",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "22983377",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "23889608",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "21823914",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "24320613",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "25319752",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "22752960",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "21039485",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "21244154",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "22115144",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "23581554",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "24405904",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "24946201",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "25428590",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "24532801",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "21432618",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "24620816",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "23378043",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "25113303",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "21075808",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "20845231",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "22617866",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "21138759",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "23582873",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "23929006",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "23790516",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "23070786",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "22171196",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "21842168",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "22901345",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "20219037",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "20106937",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "20973708",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "23410138",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "24862742",
+      "stratum_start": 2010
+    },
+    {
+      "pmid": "29111114",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "31590105",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "25808665",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "30260686",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "28095819",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "30679794",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "29540864",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "26689935",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "28295312",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "29560540",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "31407970",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "28108742",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "26578326",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "26550924",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "28166690",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "29693267",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "25751000",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "29177721",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "31410697",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "30927232",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "27371487",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "31645314",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "31110164",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "25964505",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "30898336",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "25678032",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "29535404",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "26387393",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "30796648",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "26088967",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "29299870",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "31768057",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "29625537",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "25798338",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "27344348",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "26656562",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "28685401",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "26663807",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "26278467",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "28614761",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "26501496",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "27734305",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "31180232",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "26683601",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "28832320",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "26299295",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "25646809",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "30857751",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "27756854",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "26850439",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "29383572",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "26095249",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "31813273",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "26847973",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "27535944",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "29795244",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "28950988",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "30274922",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "30168001",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "31020392",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "28262151",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "28012420",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "30985385",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "28710948",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "29205977",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "28604499",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "26890095",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "31464107",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "26403485",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "29602900",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "30801959",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "25413021",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "26320120",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "30338900",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "31493719",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "30124577",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "29332109",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "28821006",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "26194603",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "27151072",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "30877863",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "28574288",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "31321549",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "27189687",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "29953662",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "31120201",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "26597416",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "27027204",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "30950637",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "27414399",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "31725476",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "28834373",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "26398435",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "26155764",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "29094658",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "30485932",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "28073033",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "30064718",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "27655143",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "25526678",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "29852825",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "27126849",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "25999292",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "31439404",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "27267670",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "26854503",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "29602777",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "26143938",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "29188907",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "26660709",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "25741950",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "29886042",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "25723055",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "31039324",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "29528109",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "29762636",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "27469458",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "27851842",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "26024216",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "29846123",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "28979965",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "29451082",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "27973969",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "30417251",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "25777072",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "28693369",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "27522263",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "29790103",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "31166249",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "31497848",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "30828744",
+      "stratum_start": 2015
+    },
+    {
+      "pmid": "36780727",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "33048569",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "37248735",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "32172295",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "36066073",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "37353490",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "39520766",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "38622866",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "34021043",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "38627266",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "37459827",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "32116035",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "33334305",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "33963626",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "34779080",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "35652746",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "38281274",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "34159382",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "35353791",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "32251404",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "37379859",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "39592970",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "33113597",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "38658035",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "34440367",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "38813763",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "31900097",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "34623581",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "35430145",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "32886223",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "35534804",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "35862087",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "32320061",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "37071423",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "32208045",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "39270477",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "36715611",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "37924567",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "32034912",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "33826632",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "32271026",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "33332378",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "36201815",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "35484998",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "39388790",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "39407332",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "38704447",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "35523899",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "38997333",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "32575031",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "36931184",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "33855742",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "33338245",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "33159002",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "38205522",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "33948753",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "36803587",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "36722651",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "35838931",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "36980871",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "38276053",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "34352291",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "37312091",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "32320922",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "32190980",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "33568537",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "33486336",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "36753897",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "33161816",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "36669291",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "34826393",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "33856853",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "37225632",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "33059383",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "35440767",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "31800526",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "36573771",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "39200638",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "35712903",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "34942585",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "36200375",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "39453504",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "33498539",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "32936392",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "32504851",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "32996464",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "35914510",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "38991524",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "37430151",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "39625105",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "35977994",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "32470230",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "38072183",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "39390799",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "35780447",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "33644868",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "33158697",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "33378354",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "38657995",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "32996347",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "38170185",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "33944622",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "31960778",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "32238607",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "38084062",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "32539526",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "38150148",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "33274371",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "39152569",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "34949605",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "33507774",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "37015108",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "38806855",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "34705697",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "38896562",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "32615575",
+      "stratum_start": 2020
+    },
+    {
+      "pmid": "38033150",
+      "stratum_start": 2020
+    }
+  ],
+  "status": "sample drawn; study coding pending"
+}

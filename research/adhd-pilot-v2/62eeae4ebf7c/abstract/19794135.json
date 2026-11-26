@@ -1,0 +1,9 @@
+{
+  "pmid": "19794135",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "e0f204d0688bb31c88bee83642d2533f668c92ebedad36eed75c924e88ac0fc0",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Psychometric properties of the AISRS total and AISRS subscales are analyzed and compared to the Conners' Adult Attention-Deficit/Hyperactivity Disorder Rating Scale-Investigator Rated: Screening Version (CAARS-Inv:SV)\",\"answer\":\"uncertain\"},\"n_total\":{\"quote\":null,\"answer\":null},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"using data from a placebo-controlled 6-month clinical trial of once-daily atomoxetine.\",\"answer\":\"RCT\"}}",
+  "finish_reason": "stop"
+}

@@ -1,0 +1,9 @@
+{
+  "pmid": "32320061",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "7c13b842b0cd7b9794ef2b47cb06d9f8e51ad3249d7a6d5551f732b7be86b621",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"Subjective cognitive function was assessed using the Brown Attention-Deficit Disorder Scales.\",\n    \"answer\": \"uncertain\"\n  },\n  \"n_total\": {\n    \"quote\": \"Analysis was limited to 99 patients who reported baseline cognitive difficulties.\",\n    \"answer\": 99\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"Using data from a randomized clinical trial (160 survivors) that compared acupuncture versus CBT-I for insomnia occurring in cancer survivors\",\n    \"answer\": \"RCT\"\n  }\n}",
+  "finish_reason": "stop"
+}

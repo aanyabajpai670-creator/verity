@@ -1,0 +1,9 @@
+{
+  "pmid": "24274762",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "70974048555a965109c820cf32d4c0b4d1fada51e7e2516ebb0bffffda1044f7",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"Secondary analysis of a UK birth cohort (the Millennium Cohort Study, N = 19,519) was used to model the association of ADHD with socioeconomic disadvantage\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"the Millennium Cohort Study, N = 19,519\",\n    \"answer\": 19519\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"Secondary analysis of a UK birth cohort (the Millennium Cohort Study, N = 19,519) was used to model the association of ADHD with socioeconomic disadvantage\",\n    \"answer\": \"Cohort-Prospective\"\n  }\n}",
+  "finish_reason": "stop"
+}

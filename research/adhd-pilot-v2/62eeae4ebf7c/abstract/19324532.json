@@ -1,0 +1,9 @@
+{
+  "pmid": "19324532",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "caf95ed79cef5433a07363e19b8c768dca710f0e7d9b5cca7e3ee0147f41b3a3",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Feasibility was tested by applying the protocol to brain MR data from 15 boys with attention-deficit/hyperactivity disorder (ADHD) and 15 typically developing controls, 8-12 years old.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"Feasibility was tested by applying the protocol to brain MR data from 15 boys with attention-deficit/hyperactivity disorder (ADHD) and 15 typically developing controls, 8-12 years old.\",\"answer\":30},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"Feasibility was tested by applying the protocol to brain MR data from 15 boys with attention-deficit/hyperactivity disorder (ADHD) and 15 typically developing controls, 8-12 years old.\",\"answer\":\"Cross-sectional\"}}",
+  "finish_reason": "stop"
+}

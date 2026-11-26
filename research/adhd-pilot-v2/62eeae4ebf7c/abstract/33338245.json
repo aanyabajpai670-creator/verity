@@ -1,0 +1,9 @@
+{
+  "pmid": "33338245",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "00c42943e7375f2df78174741bd5e1052f7e8755dd7c7efd5938fa6a172f51b6",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Naturalistic case-control study. 112 patients (51 children with and 61 children without ADHD) between 7 and 17 years old were compared regarding IAD, IGD, and MPA.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"112 patients (51 children with and 61 children without ADHD) between 7 and 17 years old were compared regarding IAD, IGD, and MPA.\",\"answer\":112},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":\"Female children scored higher on MPA (Mean \u00b1 Standard Deviation, M \u00b1 SD) (25.93 \u00b1 17.64 vs. 14.77 \u00b1 19.43, p=0.03), while male children scored higher on IGD\",\"answer\":true},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":\"Female children scored higher on MPA (Mean \u00b1 Standard Deviation, M \u00b1 SD) (25.93 \u00b1 17.64 vs. 14.77 \u00b1 19.43, p=0.03), while male children scored higher on IGD (30.09 \u00b1 21.65 vs. 12.51 \u00b1 16.61, p < 10^-3).\",\"answer\":2},\"study_design\":{\"quote\":\"Naturalistic case-control study.\",\"answer\":\"Case-control\"}}",
+  "finish_reason": "stop"
+}

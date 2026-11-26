@@ -1,0 +1,9 @@
+{
+  "pmid": "15319018",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "98262000096cc4ed6ee39c4cb49b7e860b22dd645587c55a685537d7fc963a64",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"Participants included 13 subjects (12 males, with a mean age of 7.9 years)\",\n    \"answer\": \"exclude\"\n  },\n  \"n_total\": {\n    \"quote\": \"Participants included 13 subjects (12 males, with a mean age of 7.9 years)\",\n    \"answer\": 13\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"an open-pilot study\",\n    \"answer\": \"Other\"\n  }\n}",
+  "finish_reason": "stop"
+}

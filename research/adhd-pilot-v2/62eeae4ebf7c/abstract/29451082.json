@@ -1,0 +1,9 @@
+{
+  "pmid": "29451082",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "c38e76835416e276fa00bf0f352303395853e9cc5b5d937a106091994a6b90f2",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"To assess short-term placebo response in 6- to 13-year-old children with ADHD, children who were administered a double-blind placebo-methylphenidate trial, 1 week each, were included in the analysis.\",\n    \"answer\": \"uncertain\"\n  },\n  \"n_total\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"children who were administered a double-blind placebo-methylphenidate trial, 1 week each, were included in the analysis.\",\n    \"answer\": \"RCT\"\n  }\n}",
+  "finish_reason": "stop"
+}

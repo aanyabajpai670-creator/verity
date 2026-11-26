@@ -1,0 +1,9 @@
+{
+  "pmid": "19150055",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "60f990de20481475567d26149ad8600e9770b194311ad0ad4df927c817bbddf7",
+  "raw_response": "{\"eligibility\":{\"quote\":\"This study enrolled 114 ADHD children (mean age = 9.08 +/- 1.94 years) from a child psychiatric clinic in South Korea.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"This study enrolled 114 ADHD children (mean age = 9.08 +/- 1.94 years) from a child psychiatric clinic in South Korea.\",\"answer\":114},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":null,\"answer\":null}}",
+  "finish_reason": "stop"
+}

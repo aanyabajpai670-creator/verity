@@ -25,3 +25,15 @@ maintenance-backup.html
 verity_exported_code.txt
 css/<!DOCTYPE html>.html
 css/verity.html
+
+# Copyrighted full-text caches. The audit publishes excerpts and public URLs only.
+research/fulltext/
+research/adhd-pilot-v2/sources/
+
+# Local agent/tooling configuration
+.opencode/
+opencode.json
+
+# Legacy hosted-pilot table exports
+verity.db
+verity_pilot.csv

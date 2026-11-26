@@ -1,0 +1,9 @@
+{
+  "pmid": "29205977",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "767c21ec3512111727b7d6956b83103912b26ae5570e7a1e4c42596543f2c666",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"All the cases met the standard of Chinese classification of mental disorders criterion and were divided into two groups, the control group and the observation group, with 15 cases in each group.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"were divided into two groups, the control group and the observation group, with 15 cases in each group.\",\n    \"answer\": \"Other\"\n  }\n}",
+  "finish_reason": "stop"
+}

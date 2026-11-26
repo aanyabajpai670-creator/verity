@@ -1,0 +1,9 @@
+{
+  "pmid": "25798338",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "1c3b92765d5d01ba91157548fb652cf712f07ce6b6e7141814ac26b011a218b7",
+  "raw_response": "{\"eligibility\":{\"quote\":\"To evaluate the assessment aid, investigators conducted a prospective, triple-blinded, 13-site, clinical cohort study. Comprehensive clinical evaluation data were obtained from 275 children and adolescents presenting with attentional and behavioral concerns.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"Comprehensive clinical evaluation data were obtained from 275 children and adolescents presenting with attentional and behavioral concerns.\",\"answer\":275},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"investigators conducted a prospective, triple-blinded, 13-site, clinical cohort study\",\"answer\":\"Cohort-Prospective\"}}",
+  "finish_reason": "stop"
+}

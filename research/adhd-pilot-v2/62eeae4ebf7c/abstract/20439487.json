@@ -1,0 +1,9 @@
+{
+  "pmid": "20439487",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "395b81065b69258c29735be124a6e735925e132cb7d62a38ce08f9e8a55bf152",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"A total of nine boys ages 6 to 9 years, medicated with MPH for ADHD, complete a within-subject, double-blind study.\",\n    \"answer\": \"exclude\"\n  },\n  \"n_total\": {\n    \"quote\": \"A total of nine boys ages 6 to 9 years, medicated with MPH for ADHD, complete a within-subject, double-blind study.\",\n    \"answer\": 9\n  },\n  \"n_female\": {\n    \"quote\": \"A total of nine boys ages 6 to 9 years, medicated with MPH for ADHD, complete a within-subject, double-blind study.\",\n    \"answer\": 0\n  },\n  \"includes_female\": {\n    \"quote\": \"A total of nine boys ages 6 to 9 years, medicated with MPH for ADHD, complete a within-subject, double-blind study.\",\n    \"answer\": false\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"A total of nine boys ages 6 to 9 years, medicated with MPH for ADHD, complete a within-subject, double-blind study.\",\n    \"answer\": \"Other\"\n  }\n}",
+  "finish_reason": "stop"
+}

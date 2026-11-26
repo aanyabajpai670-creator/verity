@@ -1,0 +1,9 @@
+{
+  "pmid": "36200375",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "a3fc0eb187e78126782623a3a2d2af4a873684886d2ee2cf79b113298b9f004c",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Participants from the prospective longitudinal extremely low gestational age newborns study were evaluated at ages 10 and 15 years for anthropometrics, neurocognition, attention-deficit/hyperactivity disorder, epilepsy, and gross motor function.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"At age 10 years, 889 children were followed-up (medical NEC = 138, surgical NEC = 33, SIP = 29, no NEC/SIP = 689)\",\"answer\":889},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"Participants from the prospective longitudinal extremely low gestational age newborns study were evaluated at ages 10 and 15 years for anthropometrics, neurocognition, attention-deficit/hyperactivity disorder, epilepsy, and gross motor function.\",\"answer\":\"Cohort-Prospective\"}}",
+  "finish_reason": "stop"
+}

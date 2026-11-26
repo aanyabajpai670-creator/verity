@@ -1,0 +1,9 @@
+{
+  "pmid": "21890596",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "19c3aaa334a1b93852c7e563275f040c324e837cc454d08a96db9d2cb40b9b61",
+  "raw_response": "{\"eligibility\": {\"quote\": \"Abundant evidence from follow-up studies accumulated since the 1970s supports the concept of ADHD in adulthood.\", \"answer\": \"exclude\"}, \"n_total\": {\"quote\": null, \"answer\": null}, \"n_female\": {\"quote\": null, \"answer\": null}, \"includes_female\": {\"quote\": null, \"answer\": null}, \"female_percent\": {\"quote\": null, \"answer\": null}, \"paired_counts\": {\"quote\": null, \"answer\": null}, \"sex_reporting\": {\"quote\": null, \"answer\": null}, \"study_design\": {\"quote\": null, \"answer\": null}}",
+  "finish_reason": "stop"
+}

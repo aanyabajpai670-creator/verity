@@ -1,0 +1,9 @@
+{
+  "pmid": "26847973",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "1d765f932fd08aefec87660ed74f4181f63fe8366acf3a6b429a7036b116d823",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"Children with ADHD, aged 5-13 years, were recruited from 21 pediatric practices across Victoria, Australia (N = 270).\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"Children with ADHD, aged 5-13 years, were recruited from 21 pediatric practices across Victoria, Australia (N = 270).\",\n    \"answer\": 270\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"Across a 12-month period, at three time points, parents reported on their child's sleep problems (Children's Sleep Habits Questionnaire) and emotional and behavioral functioning (Strengths and Difficulties Questionnaire).\",\n    \"answer\": \"Cohort-Prospective\"\n  }\n}",
+  "finish_reason": "stop"
+}

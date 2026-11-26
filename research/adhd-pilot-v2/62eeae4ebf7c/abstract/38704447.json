@@ -1,0 +1,9 @@
+{
+  "pmid": "38704447",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "d58e5512c7a6bbd7f758290ae8cf956e9c1edd3bb8628c9e13a092dd5aa56c8f",
+  "raw_response": "```json\n{\n  \"eligibility\": {\n    \"quote\": \"We learned the causal network model using a dynamic Bayesian network\",\n    \"answer\": \"exclude\"\n  },\n  \"n_total\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"learning an overarching causal network model over twelve health conditions from the Google Search Trends Symptoms public data set\",\n    \"answer\": \"Other\"\n  }\n}\n```",
+  "finish_reason": "stop"
+}

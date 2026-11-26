@@ -1,0 +1,9 @@
+{
+  "pmid": "17935640",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "f64d6562f3605a0419a64c14322c8477bc87b20aaa50077193e3e11c11de0d95",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"Morphometric MRI findings were compared between 31 adults with ADHD and BPD and with those of 18 with BPD, 26 with ADHD, and 23 healthy controls.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"Morphometric MRI findings were compared between 31 adults with ADHD and BPD and with those of 18 with BPD, 26 with ADHD, and 23 healthy controls.\",\n    \"answer\": 98\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"Morphometric MRI findings were compared between 31 adults with ADHD and BPD and with those of 18 with BPD, 26 with ADHD, and 23 healthy controls.\",\n    \"answer\": \"Cross-sectional\"\n  }\n}",
+  "finish_reason": "stop"
+}

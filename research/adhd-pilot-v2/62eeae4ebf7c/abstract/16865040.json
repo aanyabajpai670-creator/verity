@@ -1,0 +1,9 @@
+{
+  "pmid": "16865040",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "2e4c2c9ee6853cb0f870dc3305aff19c6496c788dda44554f1007755d1d11645",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"The sample included all 1,480 twin pairs born in Sweden between May 1985 and December 1986.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"The sample included all 1,480 twin pairs born in Sweden between May 1985 and December 1986.\",\n    \"answer\": 1480\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"Parents responded to mailed questionnaires on three occasions, when the twins were 8 to 9, 13 to 14, and 16 to 17 years old.\",\n    \"answer\": \"Cohort-Prospective\"\n  }\n}",
+  "finish_reason": "stop"
+}

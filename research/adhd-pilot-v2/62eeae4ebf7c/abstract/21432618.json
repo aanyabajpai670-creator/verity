@@ -1,0 +1,9 @@
+{
+  "pmid": "21432618",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "0a6184a2a0b19565f9ca92b4df796f0890915f2bae90dfab3e484113603dd645",
+  "raw_response": "```json\n{\n  \"eligibility\": {\n    \"quote\": \"we assessed odor sensitivity by Sniffin' Sticks, taste sensitivity by taste strips, and bitter sensitivity by the one-solution test in women with ADHD (n = 12), Bulimia Nervosa (n = 12), and healthy control women (n = 12).\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"women with ADHD (n = 12), Bulimia Nervosa (n = 12), and healthy control women (n = 12)\",\n    \"answer\": 36\n  },\n  \"n_female\": {\n    \"quote\": \"women with ADHD (n = 12), Bulimia Nervosa (n = 12), and healthy control women (n = 12)\",\n    \"answer\": 36\n  },\n  \"includes_female\": {\n    \"quote\": \"in women with ADHD (n = 12), Bulimia Nervosa (n = 12), and healthy control women (n = 12)\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"we assessed odor sensitivity by Sniffin' Sticks, taste sensitivity by taste strips, and bitter sensitivity by the one-solution test in women with ADHD (n = 12), Bulimia Nervosa (n = 12), and healthy control women (n = 12).\",\n    \"answer\": \"Cross-sectional\"\n  }\n}\n```",
+  "finish_reason": "stop"
+}

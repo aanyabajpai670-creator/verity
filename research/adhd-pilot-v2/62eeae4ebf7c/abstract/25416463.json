@@ -1,0 +1,9 @@
+{
+  "pmid": "25416463",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "b658a07185f137bed0e8e9156657f1ddf05b5eb26a119c3b998675aa18021ccf",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"Ninety-six exposed and 400 unexposed participants were derived from two longitudinal studies of boys and girls with and without ADHD.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"Ninety-six exposed and 400 unexposed participants were derived from two longitudinal studies of boys and girls with and without ADHD.\",\n    \"answer\": null\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": \"Ninety-six exposed and 400 unexposed participants were derived from two longitudinal studies of boys and girls with and without ADHD.\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"Ninety-six exposed and 400 unexposed participants were derived from two longitudinal studies of boys and girls with and without ADHD.\",\n    \"answer\": \"Cohort-Prospective\"\n  }\n}",
+  "finish_reason": "stop"
+}

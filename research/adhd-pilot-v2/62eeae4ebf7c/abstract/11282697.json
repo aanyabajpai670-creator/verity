@@ -1,0 +1,9 @@
+{
+  "pmid": "11282697",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "ba00db8d9c0270c77ff2dbfb1a79002561d3b4d48f5e2c9ebe0e68d9cb159f2b",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"They comprehensively evaluated 312 consecutively referred adults with ADHD and 252 comparison subjects without ADHD.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"312 consecutively referred adults with ADHD\",\n    \"answer\": 312\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"They comprehensively evaluated 312 consecutively referred adults with ADHD and 252 comparison subjects without ADHD.\",\n    \"answer\": \"Case-control\"\n  }\n}",
+  "finish_reason": "stop"
+}

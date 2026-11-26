@@ -1,0 +1,521 @@
+{
+  "review": "enrollment-design",
+  "condition": "adhd",
+  "generated": "2026-11-26",
+  "scope": {
+    "definition": "Every non-excluded record in research/adhd-pilot-v2/study-evidence.json whose values.n_total or values.study_design is null.",
+    "target_pmids": 30,
+    "field_entries": 33,
+    "n_total_missing": 24,
+    "study_design_missing": 9,
+    "records_missing_both": [
+      "15164862",
+      "19048655",
+      "26299295"
+    ],
+    "excluded_from_scope": "96 records with values.eligibility == 'exclude' (excluded studies are not enrollment targets), plus sex fields (n_female / female_percent / includes_female) which are outside this review."
+  },
+  "rules_applied": {
+    "enrollment": "Count unique index participants, including controls when they are part of the study cohort. Do not derive a total from overlapping subgroups, family counts, completers/responders, follow-up analysis samples or pooled/analysis denominators. A documented floor stays in n_total_lower_bound and is never promoted to n_total. A range is not an exact total.",
+    "study_design": "One of RCT, Cohort-Prospective, Cohort-Retrospective, Cross-sectional, Case-control, Other, supported by a quote about this study's own methods. PubMed publication type 'Randomized Controlled Trial' can supply RCT, but a model/PubMed disagreement leaves the field unresolved (scripts/adhd_pilot.py build_rows).",
+    "unknowns": "Null is preserved wherever the available text does not state an exact value; null is an unresolved field, never a negative observation."
+  },
+  "source_availability": {
+    "full_text_saved_locally": "None of the 30 targets has a snapshot in research/adhd-pilot-v2/sources/. Only four PMC full texts were retrievable (PMC3830729, PMC9979240, PMC4272653, PMC7418037) plus two publisher PDFs (16815520, 30064718) already quoted in assistant-source-review.json.",
+    "remaining_evidence": "PubMed abstracts from research/adhd/abstracts-0..4.xml, the assistant field/source review ledgers, and the cached full-text passages."
+  },
+  "summary": {
+    "proposed_values": 9,
+    "preserved_unknowns": 23,
+    "needs_adjudication": 1,
+    "n_total_proposed": [
+      "29852825"
+    ],
+    "study_design_proposed": {
+      "12501563": "Other",
+      "15164862": "Other",
+      "19048655": "Cross-sectional",
+      "23581554": "Other",
+      "25366258": "Cross-sectional",
+      "25433424": "Cross-sectional",
+      "26299295": "Other",
+      "27851842": "Cross-sectional",
+      "28574288": "Cross-sectional"
+    }
+  },
+  "records": [
+    {
+      "pmid": "15369417",
+      "field": "n_total",
+      "current_value": null,
+      "proposed_value": null,
+      "quote": "Quasi-experimental-before and after with external controls.",
+      "quote_source": "abstract https://pubmed.ncbi.nlm.nih.gov/15369417/ (local research/adhd/abstracts-0.xml)",
+      "reasoning": "The abstract reports a before/after practice-improvement study in clinician practices and never states a number of clinicians, practices or patients. The unit of analysis is the practice, so there is no participant count to recover; the design quote is the only quantitative-adjacent statement. Exact enrollment cannot be established from the available text.",
+      "status": "preserved-unknown"
+    },
+    {
+      "pmid": "15493434",
+      "field": "n_total",
+      "current_value": null,
+      "proposed_value": null,
+      "quote": "The present study assessed visual selective attention in children with attention difficulties compared to age-matched, typically achieving children.",
+      "quote_source": "abstract https://pubmed.ncbi.nlm.nih.gov/15493434/ (local research/adhd/abstracts-0.xml)",
+      "reasoning": "The abstract describes an attention-difficulty group and an age-matched comparison group but gives no count for either group or for the total. No group_counts were recorded for this record, so no arithmetic reconstruction is possible without the full text.",
+      "status": "preserved-unknown"
+    },
+    {
+      "pmid": "14593669",
+      "field": "n_total",
+      "current_value": null,
+      "proposed_value": null,
+      "quote": "This study examines agreement between parental reports of children's ADHD outpatient services ascertained with the Child and Adolescents Services Assessment (CASA) and provider records among a sample of elementary school students who participated in an epidemiologically based health services study.",
+      "quote_source": "abstract https://pubmed.ncbi.nlm.nih.gov/14593669/ (local research/adhd/abstracts-0.xml)",
+      "reasoning": "The abstract reports agreement statistics (83% agreement, kappa > 0.90, ICC 0.29) but no denominator. The only sample description is 'a sample of elementary school students' nested in a larger health services study, so the index cohort size is unrecoverable here.",
+      "status": "preserved-unknown"
+    },
+    {
+      "pmid": "15164862",
+      "field": "n_total",
+      "current_value": null,
+      "proposed_value": null,
+      "quote": "This study replicated this procedure using identical scripts with both male and female child models.",
+      "quote_source": "abstract https://pubmed.ncbi.nlm.nih.gov/15164862/ (local research/adhd/abstracts-0.xml)",
+      "reasoning": "The study is an analogue vignette experiment in which teachers rated videotaped child models. The abstract names no participant count for the teachers (or raters), and the only 'participants' described are two child actors. Enrollment of raters is therefore unknown; counting the two actors would misrepresent the study.",
+      "status": "preserved-unknown"
+    },
+    {
+      "pmid": "11329997",
+      "field": "n_total",
+      "current_value": null,
+      "proposed_value": null,
+      "quote": "Using claims data, this study explores the treatment of children with a common child psychiatric disorder, attention deficit hyperactivity disorder (ADHD).",
+      "quote_source": "abstract https://pubmed.ncbi.nlm.nih.gov/11329997/ (local research/adhd/abstracts-0.xml)",
+      "reasoning": "Administrative claims analysis with no cohort size reported anywhere in the abstract. Costs and provider-combination results are given without denominators, so an exact ADHD cohort count cannot be derived.",
+      "status": "preserved-unknown"
+    },
+    {
+      "pmid": "10895570",
+      "field": "n_total",
+      "current_value": null,
+      "proposed_value": null,
+      "quote": "Two studies compared comprehension of televised stories by 7- to 12-year-old boys with attention deficit/hyperactivity disorder (ADHD) and nonreferred comparison boys.",
+      "quote_source": "abstract https://pubmed.ncbi.nlm.nih.gov/10895570/ (local research/adhd/abstracts-0.xml)",
+      "reasoning": "Two separate studies are reported together and neither the per-study nor the combined number of boys is stated. Because the two studies may share participants and the abstract gives no counts, no exact total can be assigned.",
+      "status": "preserved-unknown"
+    },
+    {
+      "pmid": "15520832",
+      "field": "n_total",
+      "current_value": null,
+      "proposed_value": null,
+      "quote": "Transmission disequilibrium tests (TDTs) in a sample of 177 nuclear families showed significant association and linkage of the DraI polymorphism with the ADHD combined subtype (P=0.03)",
+      "quote_source": "abstract https://pubmed.ncbi.nlm.nih.gov/15520832/ (local research/adhd/abstracts-0.xml)",
+      "reasoning": "177 is a count of nuclear families, not of unique persons: a TDT family contains at least one affected child plus parents, and siblings may also be genotyped. The audit convention keeps a documented floor in n_total_lower_bound (already set to 177) and does not convert a family count into an exact participant total. Exact enrollment stays null.",
+      "status": "preserved-unknown"
+    },
+    {
+      "pmid": "16840239",
+      "field": "n_total",
+      "current_value": null,
+      "proposed_value": null,
+      "quote": "It was found that males with ADHD responded slower than control males in the slow condition, which was accompanied by smaller parietal P3s, suggesting less effort allocation.",
+      "quote_source": "abstract https://pubmed.ncbi.nlm.nih.gov/16840239/ (local research/adhd/abstracts-0.xml)",
+      "reasoning": "Event-related potential comparison of male adults with ADHD and control males. The abstract reports condition effects and P3 amplitudes but no group sizes, and it explicitly restricts the analysed sample to males, so neither a total nor a female count can be recovered.",
+      "status": "preserved-unknown"
+    },
+    {
+      "pmid": "18200435",
+      "field": "n_total",
+      "current_value": null,
+      "proposed_value": null,
+      "quote": "In the present study groups of adult patients with ADHD - predominantly inattentive type, ADHD - predominantly hyperactive-impulsive type or ADHD - combined type and three healthy control groups were compared regarding multiple components of attention.",
+      "quote_source": "abstract https://pubmed.ncbi.nlm.nih.gov/18200435/ (local research/adhd/abstracts-0.xml)",
+      "reasoning": "Six groups are described (three ADHD subtype groups plus three healthy control groups) with no group sizes. Summing is impossible and any single group size would be a subgroup count, so exact enrollment stays null.",
+      "status": "preserved-unknown"
+    },
+    {
+      "pmid": "18720661",
+      "field": "n_total",
+      "current_value": null,
+      "proposed_value": null,
+      "quote": "Chart reviews were used to identify patients who reported prior significant positive and negative responses to CNS stimulants.",
+      "quote_source": "abstract https://pubmed.ncbi.nlm.nih.gov/18720661/ (local research/adhd/abstracts-0.xml)",
+      "reasoning": "Retrospective chart-review/SPECT study. The abstract gives predictive values (> .75) and sensitivity/specificity but never states how many patients were reviewed or scanned, so no exact cohort size is available.",
+      "status": "preserved-unknown"
+    },
+    {
+      "pmid": "16815520",
+      "field": "n_total",
+      "current_value": null,
+      "proposed_value": null,
+      "quote": "The questionnaire was used until 100 patients had achieved a substantial improvement of their symptoms.",
+      "quote_source": "full text PDF https://static1.squarespace.com/static/520f6c38e4b01b013b22f419/t/52bf21c2e4b0f4346e926c51/1388257730172/TreatmentHyperactiveChildrenHOM.pdf (text extracted locally; same passage recorded in assistant-source-review.json article_evidence)",
+      "reasoning": "100 is a treatment-response stopping rule (patients who achieved substantial improvement), i.e. a responder/completer count, not enrollment. The paper reports several overlapping component counts across its three optimisation steps and no single enrolled denominator. The audit convention forbids deriving a total from completers or overlapping components, so n_total stays null and the documented floor remains n_total_lower_bound = 100.",
+      "status": "preserved-unknown"
+    },
+    {
+      "pmid": "19048655",
+      "field": "n_total",
+      "current_value": null,
+      "proposed_value": null,
+      "quote": "Boys with ADHD and comparison boys rated their own behavioral competence; discrepancies between these self-ratings and the reports of boys' teachers served as an index of behavioral positive illusions.",
+      "quote_source": "abstract https://pubmed.ncbi.nlm.nih.gov/19048655/ (local research/adhd/abstracts-1.xml)",
+      "reasoning": "Summer-program study of boys with ADHD and comparison boys. The abstract reports regression and mediation results only; no number of boys is given for either group, so exact enrollment cannot be established.",
+      "status": "preserved-unknown"
+    },
+    {
+      "pmid": "16917924",
+      "field": "n_total",
+      "current_value": null,
+      "proposed_value": null,
+      "quote": "The purpose of this study was to compare genetic association studies of three polymorphisms of the alpha-2A adrenergic receptor gene (ADRA2A) with radioligand binding studies of the alpha-2A adrenergic receptor protein in platelets from a sample of children without or with ADHD.",
+      "quote_source": "abstract https://pubmed.ncbi.nlm.nih.gov/16917924/ (local research/adhd/abstracts-1.xml)",
+      "reasoning": "Candidate-gene plus platelet-binding study in children aged 6-18 with and without ADHD. The abstract reports linkage, haplotype and binding results but no sample size, so the number of genotyped children stays unknown.",
+      "status": "preserved-unknown"
+    },
+    {
+      "pmid": "22473864",
+      "field": "n_total",
+      "current_value": null,
+      "proposed_value": null,
+      "quote": "A sample of children with ADHD and a normative comparison group (age 8-13 years) were assessed at baseline and one-year follow-up.",
+      "quote_source": "abstract https://pubmed.ncbi.nlm.nih.gov/22473864/ (local research/adhd/abstracts-1.xml)",
+      "reasoning": "Longitudinal two-wave study, but the abstract gives no baseline or follow-up n. Because baseline enrollment and one-year retention could differ, no single count can be assumed; exact enrollment stays null.",
+      "status": "preserved-unknown"
+    },
+    {
+      "pmid": "21923448",
+      "field": "n_total",
+      "current_value": null,
+      "proposed_value": null,
+      "quote": "In the U.K. database, we identified 1.6 million people younger than 65 years who were prescribed at least one prescription drug in at least one of the calendar years during the study period (2004-2006).",
+      "quote_source": "abstract https://pubmed.ncbi.nlm.nih.gov/21923448/ (local research/adhd/abstracts-2.xml)",
+      "reasoning": "The only explicit count (1.6 million) is the entire all-indication prescription population used as the comparison frame, not an ADHD cohort; a matched U.S. group of the same size is drawn from it. The ADHD-relevant denominator appears only as a proportion ('males ... far more likely to be prescribed drugs for ADHD'), never as a count. Using 1.6 million would substitute a general prescribing cohort for the index ADHD cohort, so n_total stays null pending eligibility adjudication.",
+      "status": "preserved-unknown"
+    },
+    {
+      "pmid": "22325095",
+      "field": "n_total",
+      "current_value": null,
+      "proposed_value": null,
+      "quote": "In this preliminary cross-sectional study, we examined cortical thickness with a focus on brain regions involved in sensorimotor processing in adolescents and adults with ADHD compared to neurotypical cohorts.",
+      "quote_source": "abstract https://pubmed.ncbi.nlm.nih.gov/22325095/ (local research/adhd/abstracts-2.xml)",
+      "reasoning": "Imaging comparison across adolescent and adult ADHD groups plus neurotypical cohorts. The abstract describes the four cells and an age-by-group interaction but gives no group sizes, so exact enrollment cannot be derived.",
+      "status": "preserved-unknown"
+    },
+    {
+      "pmid": "26299295",
+      "field": "n_total",
+      "current_value": null,
+      "proposed_value": null,
+      "quote": "We combined phenotype and genotype data from 2 independent, population-based Dutch cohorts, yielding a total number of 1,495 to 3,175 of 3-, 7-, and 9-year-old children.",
+      "quote_source": "abstract https://pubmed.ncbi.nlm.nih.gov/26299295/ (local research/adhd/abstracts-2.xml); full text Pappa et al., JAACAP 2015 (research/adhd-pilot-v2 has no snapshot)",
+      "reasoning": "The paper states a range, not a total: the number of children with usable genotype-phenotype data varies by phenotype and rating source between 1,495 and 3,175. The full text confirms the range reflects different traits rather than one cohort ('behavior problems of a total number of 1,495 to 3,175 ... were rated by mothers and/or teachers'). A range cannot be collapsed to an exact integer; the floor is already carried as n_total_lower_bound = 1495.",
+      "status": "preserved-unknown"
+    },
+    {
+      "pmid": "30124577",
+      "field": "n_total",
+      "current_value": null,
+      "proposed_value": null,
+      "quote": "Data were obtained from Wave 2 of the National Epidemiologic Survey on Alcohol and Related Conditions (2004-2005).",
+      "quote_source": "abstract https://pubmed.ncbi.nlm.nih.gov/30124577/ (local research/adhd/abstracts-3.xml)",
+      "reasoning": "Secondary analysis of a national survey. The abstract reports ADHD prevalence of cannabis use (14.3% vs 4.3%) and odds ratios but never gives the number of respondents with ADHD or the survey total, so the index cohort size is not recoverable from the available text.",
+      "status": "preserved-unknown"
+    },
+    {
+      "pmid": "30064718",
+      "field": "n_total",
+      "current_value": null,
+      "proposed_value": null,
+      "quote": "The FAS comprised 490 participants receiving GXR and 141 receiving placebo.",
+      "quote_source": "full text https://www.academia.edu/123216081/Distinguishing_the_efficacy_and_sedative_effects_of_guanfacine_extended_release_in_children_and_adolescents_with_attention_deficit_hyperactivity_disorder (passage recorded verbatim in research/adhd-pilot-v2/assistant-source-review.json article_evidence; publisher PDF not cached locally)",
+      "reasoning": "This is a post hoc pooled analysis of four phase 3 trials. The full-text full analysis set is 631 (490 GXR + 141 placebo), which is an analysis population defined after randomization, not the number enrolled across the four trials (screen failures, discontinued-before-treatment and safety-set participants are excluded). Because the four trial enrollment totals are not reported in the available text, n_total stays null; n_total_lower_bound = 490 currently reflects only the GXR arm.",
+      "status": "preserved-unknown",
+      "notes": [
+        "Full-text FAS = 490 GXR + 141 placebo = 631. If the audit prefers a documented floor covering both arms, n_total_lower_bound should be raised from 490 to 631; 631 is still an analysis set, not enrollment."
+      ]
+    },
+    {
+      "pmid": "29852825",
+      "field": "n_total",
+      "current_value": null,
+      "proposed_value": 483281,
+      "quote": "This cross-sectional analysis of data from the 2012 Kids' Inpatient Database included 483,281 hospitalizations in general and children's hospitals of persons under age 21 with a primary or secondary behavioral diagnosis.",
+      "quote_source": "abstract https://pubmed.ncbi.nlm.nih.gov/29852825/ (local research/adhd/abstracts-3.xml)",
+      "reasoning": "The abstract gives one explicit integer for the analysed cohort: 483,281 hospitalizations. This is the whole cohort described by the study, not a subgroup or a completer count, and it matches the audit's practice of using the explicit database cohort count for administrative-data studies (cf. 34826393 with n_total = 414637). Proposed 483281 with the caveat that the unit is hospitalizations rather than unique persons, since readmissions cannot be separated in this database.",
+      "status": "proposed",
+      "notes": [
+        "Unit is hospitalizations, not unique children; the audit has accepted record counts for administrative databases (34826393), so this is consistent, but a reviewer preferring persons-only counts may keep null."
+      ]
+    },
+    {
+      "pmid": "26660709",
+      "field": "n_total",
+      "current_value": null,
+      "proposed_value": null,
+      "quote": "Compared individual with group treatment as part of a multicentre randomized controlled trial.",
+      "quote_source": "abstract https://pubmed.ncbi.nlm.nih.gov/26660709/ (local research/adhd/abstracts-3.xml)",
+      "reasoning": "Consumer-satisfaction substudy of a multicentre RCT comparing individual and group parent training. The abstract reports attendance and satisfaction ratings but no number of parents or children randomised or analysed, so exact enrollment is unknown.",
+      "status": "preserved-unknown"
+    },
+    {
+      "pmid": "29451082",
+      "field": "n_total",
+      "current_value": null,
+      "proposed_value": null,
+      "quote": "children who were administered a double-blind placebo-methylphenidate trial, 1 week each, were included in the analysis.",
+      "quote_source": "abstract https://pubmed.ncbi.nlm.nih.gov/29451082/ (local research/adhd/abstracts-3.xml)",
+      "reasoning": "Placebo-response analysis of a crossover trial. The abstract reports response rates (18.8%, 58%, 36.2%) but no denominator; 'were included in the analysis' defines an analysis set without a number, so n_total stays null.",
+      "status": "preserved-unknown"
+    },
+    {
+      "pmid": "33486336",
+      "field": "n_total",
+      "current_value": null,
+      "proposed_value": null,
+      "quote": "From January 2012 to December 2018, we evaluated the trends of prescribing methylphenidate-osmotic-controlled release oral delivery system (OROS), atomoxetine, and guanfacine as monotherapy.",
+      "quote_source": "abstract https://pubmed.ncbi.nlm.nih.gov/33486336/ (local research/adhd/abstracts-4.xml)",
+      "reasoning": "Retrospective administrative survey reporting only proportions of prescriptions by drug and sex (e.g. 46.5% to 37.2%). No patient or prescription count is stated, so exact enrollment cannot be recovered.",
+      "status": "preserved-unknown"
+    },
+    {
+      "pmid": "33944622",
+      "field": "n_total",
+      "current_value": null,
+      "proposed_value": null,
+      "quote": "About 100 children with ADHD and 80 healthy controls (HCs) were included in this study.",
+      "quote_source": "abstract https://pubmed.ncbi.nlm.nih.gov/33944622/ (local research/adhd/abstracts-4.xml)",
+      "reasoning": "The ADHD arm is explicitly approximate ('About 100'), so it cannot be used as an exact integer; 78 refers only to the patients whose treatment response was evaluated at 2 months (a follow-up analysis sample). Only the 80 controls are exact, which is already carried as n_total_lower_bound = 80. Exact total stays null.",
+      "status": "preserved-unknown"
+    },
+    {
+      "pmid": "12501563",
+      "field": "study_design",
+      "current_value": null,
+      "proposed_value": "Other",
+      "quote": "Self-informant rating concordance for attention-deficit/hyperactivity disorder (ADHD) symptoms was assessed in 281 adults at the subscale (Inattention, Hyperactivity-Impulsivity) and individual symptom levels.",
+      "quote_source": "abstract https://pubmed.ncbi.nlm.nih.gov/12501563/ (local research/adhd/abstracts-0.xml)",
+      "reasoning": "Single-timepoint agreement study comparing two raters (self vs informant) on the same instrument; there is no follow-up, no intervention and no outcome-defined sampling. The closest audit analogue is 14593669 (CASA parent report vs provider records, also PubMed 'Validation Study'), coded Other. Single-instrument psychometric validations were coded Cross-sectional (21392946, 28012420), but two-source concordance was coded Other, so Other is the consistent choice. Cross-sectional is the nearest alternative.",
+      "status": "proposed",
+      "first_pass_draft_value": "Cross-sectional",
+      "first_pass_draft_status": "single_coder_draft_not_validated"
+    },
+    {
+      "pmid": "15164862",
+      "field": "study_design",
+      "current_value": null,
+      "proposed_value": "Other",
+      "quote": "This study replicated this procedure using identical scripts with both male and female child models.",
+      "quote_source": "abstract https://pubmed.ncbi.nlm.nih.gov/15164862/ (local research/adhd/abstracts-0.xml)",
+      "reasoning": "The study is an analogue vignette experiment: teachers are shown videotapes of child actors portraying ADHD, ODD or typical behaviour and their ratings are compared across tapes. There is no patient cohort, so Other describes the design of record. Two branches remain open and the abstract cannot separate them. (a) If teachers were randomised to tape conditions, the experiment is literally a randomised trial and the PubMed publication type 'Randomized Controlled Trial' is correct, in which case the model's Other was the error and the value should be RCT. (b) If tape assignment was fixed or counterbalanced, the publication type is wrong and the value should be Other. build_rows (scripts/adhd_pilot.py) removes any non-RCT design whenever the publication type is RCT, which is why the field is null; resolving it requires the methods section or an explicit ruling on the publication-type rule. Flagged rather than silently overwritten.",
+      "status": "needs-adjudication",
+      "first_pass_draft_value": "Other",
+      "first_pass_draft_status": "single_coder_draft_not_validated",
+      "notes": [
+        "Blocking issue: PubMed publication type 'Randomized Controlled Trial' vs a vignette analogue experiment. build_rows (scripts/adhd_pilot.py) removes any non-RCT design when the pubtype is RCT, so this cannot be set to Other without an explicit decision about the pubtype rule."
+      ]
+    },
+    {
+      "pmid": "19048655",
+      "field": "study_design",
+      "current_value": null,
+      "proposed_value": "Cross-sectional",
+      "quote": "Boys with ADHD and comparison boys rated their own behavioral competence; discrepancies between these self-ratings and the reports of boys' teachers served as an index of behavioral positive illusions.",
+      "quote_source": "abstract https://pubmed.ncbi.nlm.nih.gov/19048655/ (local research/adhd/abstracts-1.xml)",
+      "reasoning": "One assessment wave in a summer program comparing boys with ADHD against comparison boys on self-ratings, teacher reports and a point system, with moderation/mediation analysed concurrently. This mirrors the audit's dominant coding for single-timepoint ADHD-vs-comparison group studies (18200435, 18693137, 16741206, 17935640 all Cross-sectional). Case-control was used for a minority of such studies (16840239) but implies outcome-based sampling, which is not described here.",
+      "status": "proposed",
+      "first_pass_draft_value": "Case-control",
+      "first_pass_draft_status": "single_coder_draft_not_validated"
+    },
+    {
+      "pmid": "23581554",
+      "field": "study_design",
+      "current_value": null,
+      "proposed_value": "Other",
+      "quote": "and the (b) Berkeley Girls ADHD Longitudinal Sample, a naturalistic study of 140 girls with ADHD (93 combined-type and 47 inattentive-type) who were first seen when they were 6 to 12 years old, were analyzed separately.",
+      "quote_source": "abstract https://pubmed.ncbi.nlm.nih.gov/23581554/ (local research/adhd/abstracts-2.xml); full text PMC3830729",
+      "reasoning": "The publication is a secondary analysis of two independent samples that are analysed separately: the MTA randomized trial and the naturalistic BGALS cohort. Because the two samples have different parent designs and are never pooled, no single one of the five specific designs describes the publication; Other is the honest assignment. Cohort-Prospective is the nearest alternative if a reviewer prefers to inherit the parent-study design, but the analysed association (retrospective maternal report of perinatal risk vs current comorbidity) is itself concurrent.",
+      "status": "proposed",
+      "first_pass_draft_value": null,
+      "first_pass_draft_status": null,
+      "notes": [
+        "Enrollment: n_total = 719 (579 + 140) double counts. Full text: 'Six MTA girls participated in the BGALS ... they were omitted from the MTA analyses, yielding a total N of 573.' Unique participants are therefore 573 + 140 = 713, not 719."
+      ]
+    },
+    {
+      "pmid": "25366258",
+      "field": "study_design",
+      "current_value": null,
+      "proposed_value": "Cross-sectional",
+      "quote": "Children and adolescents with Noonan syndrome (n=32, 17 males, 15 females, mean age 11y 3mo, SD 3y) and their unaffected siblings (n=16, eight males, eight females, mean age 11y, SD 3y 6mo) were administered standardized tests of intellectual functioning and clinic-based measures of behavioral attention.",
+      "quote_source": "abstract https://pubmed.ncbi.nlm.nih.gov/25366258/ (local research/adhd/abstracts-1.xml); full text PMC9979240",
+      "reasoning": "Single assessment of a genetic-syndrome group against an unaffected sibling comparison group, with no follow-up and no intervention. Sibling-comparison studies in the audit are coded Cross-sectional (23582873, DTI sibling comparison) or Cohort-Prospective when the siblings are followed (17984398); this one is a single timepoint, so Cross-sectional.",
+      "status": "proposed",
+      "first_pass_draft_value": null,
+      "first_pass_draft_status": null,
+      "notes": [
+        "Enrollment: n_total = 48 is the analysed sample. Full text: 'A total of 50 children and adolescents enrolled' (29 + 6 + 5 + 10), with one proband excluded for a BRAF mutation and one sibling excluded for matching, leaving 32 + 16 = 48. Under the enrollment rule the value should be 50."
+      ]
+    },
+    {
+      "pmid": "25433424",
+      "field": "study_design",
+      "current_value": null,
+      "proposed_value": "Cross-sectional",
+      "quote": "We used this framework to examine relationships among symptom dimensions, diagnostic categories, and resting state connectivity in behaviorally and emotionally dysregulated youth selected from the Longitudinal Assessment of Manic Symptoms study (n=42) and healthy control youth (n=18).",
+      "quote_source": "abstract https://pubmed.ncbi.nlm.nih.gov/25433424/ (local research/adhd/abstracts-1.xml); full text PMC4272653",
+      "reasoning": "A single resting-state fMRI scan per participant, with connectivity related concurrently to symptom dimensions and diagnostic categories. Nothing longitudinal from LAMS is used in this analysis, so despite the parent cohort's name the design is Cross-sectional, matching the audit's treatment of other single-scan imaging comparisons.",
+      "status": "proposed",
+      "first_pass_draft_value": null,
+      "first_pass_draft_status": null,
+      "notes": [
+        "Enrollment: n_total = 60 is the analysed sample. Full text: 121 LAMS youth were selected for the LAMS2 neuroimaging component and 32 matched healthy controls were newly recruited (153 enrolled); motion/data-loss exclusions left 42 + 18 = 60. Under the enrollment rule the value should be 153."
+      ]
+    },
+    {
+      "pmid": "26299295",
+      "field": "study_design",
+      "current_value": null,
+      "proposed_value": "Other",
+      "quote": "We combined phenotype and genotype data from 2 independent, population-based Dutch cohorts, yielding a total number of 1,495 to 3,175 of 3-, 7-, and 9-year-old children.",
+      "quote_source": "abstract https://pubmed.ncbi.nlm.nih.gov/26299295/ (local research/adhd/abstracts-2.xml)",
+      "reasoning": "The publication is a pooled cross-cohort SNP-heritability (GCTA/GREML) estimation, not a sampled cohort with a defined exposure-outcome follow-up. The audit codes comparable genetic/heritability analyses as Other (15520832 TDT family study, 27371487 heritable tic subphenotype), so Other is the consistent choice. Cross-sectional is defensible because the phenotypes are analysed at single ages, but the design of record is the genetic-variance decomposition, which none of the five specific values covers.",
+      "status": "proposed",
+      "first_pass_draft_value": null,
+      "first_pass_draft_status": null
+    },
+    {
+      "pmid": "27851842",
+      "field": "study_design",
+      "current_value": null,
+      "proposed_value": "Cross-sectional",
+      "quote": "while the study’s cross-sectional design limits inferences about developmental trends",
+      "quote_source": "full text PMC7418037 (Discussion, limitations); abstract https://pubmed.ncbi.nlm.nih.gov/27851842/ (local research/adhd/abstracts-3.xml)",
+      "reasoning": "The authors describe their own design as cross-sectional: family members were imaged at a single timepoint and heritability/association were estimated from those concurrent measures. The abstract-only model proposal was also Cross-sectional, but its supporting quote did not match the source (recorded issue 'abstract: study_design: quote not matched to source'); the limitation sentence in the full text is the verifiable basis. Other (as used for 27371487) is the alternative if heritability analyses are treated as a separate category.",
+      "status": "proposed",
+      "first_pass_draft_value": null,
+      "first_pass_draft_status": null
+    },
+    {
+      "pmid": "28574288",
+      "field": "study_design",
+      "current_value": null,
+      "proposed_value": "Cross-sectional",
+      "quote": "the eveningness scores of the ADHD group (n = 52) were significantly higher than the control group (n = 52) (p < 0.01)",
+      "quote_source": "abstract https://pubmed.ncbi.nlm.nih.gov/28574288/ (local research/adhd/abstracts-3.xml)",
+      "reasoning": "A single assessment comparing children with ADHD against healthy controls on chronotype and sleep questionnaires, with no follow-up or intervention. This matches the audit's dominant coding for one-timepoint ADHD-vs-healthy-control comparisons (18200435, 18693137, 16741206, 17935640). Case-control is the minority convention for such studies (16840239, 20525316) and implies sampling on outcome status, which is not described.",
+      "status": "proposed",
+      "first_pass_draft_value": null,
+      "first_pass_draft_status": null
+    }
+  ],
+  "design_disagreements_with_first_pass_draft": [
+    {
+      "pmid": "12501563",
+      "draft": "Cross-sectional",
+      "proposed": "Other",
+      "note": "Genuine judgment call. The draft treats two-rater concordance as Cross-sectional; the compiled audit codes the structurally similar two-source agreement study 14593669 (CASA parent report vs provider records) as Other, and single-instrument validations (21392946, 28012420) as Cross-sectional. 12501563 compares self- vs informant report on the same instrument, which sits between the two. Other is proposed for consistency with 14593669; Cross-sectional is a co-equal alternative."
+    },
+    {
+      "pmid": "19048655",
+      "draft": "Case-control",
+      "proposed": "Cross-sectional",
+      "note": "The draft's rationale ('explicit boys-only ADHD/comparison study; no sample size') is the same rationale it used for 18200435, 15493434 and 16917924, all of which the compiled pipeline overrode to Cross-sectional. Following that same resolution keeps this record consistent."
+    },
+    {
+      "pmid": "15164862",
+      "draft": "Other",
+      "proposed": "Other",
+      "note": "Agrees with the draft, but the PubMed publication type 'Randomized Controlled Trial' still blocks the field in build_rows; status is needs-adjudication rather than proposed."
+    }
+  ],
+  "cross_field_findings": [
+    {
+      "pmid": "23581554",
+      "field": "n_total",
+      "current": 719,
+      "evidence_value": 713,
+      "quote": "Six MTA girls participated in the BGALS, described below; they were omitted from the MTA analyses, yielding a total N of 573.",
+      "quote_source": "full text PMC3830729",
+      "reasoning": "719 = 579 + 140 double counts the 6 girls who appear in both samples. The analysed MTA sample is 573 after their removal, so unique participants are 573 + 140 = 713."
+    },
+    {
+      "pmid": "25366258",
+      "field": "n_total",
+      "current": 48,
+      "evidence_value": 50,
+      "quote": "A total of 50 children and adolescents enrolled at Boston Children’s Hospital (n=29), the 2011 meeting of The Noonan Syndrome Support Group (n=6), the 2013 meeting of the Noonan Syndrome Foundation (n=5), or by arrangement to visit testing sites in Wisconsin or Minnesota (n=10).",
+      "quote_source": "full text PMC9979240",
+      "reasoning": "48 is the analysed group after excluding one proband (BRAF mutation) and one sibling (matching); 50 were enrolled."
+    },
+    {
+      "pmid": "25433424",
+      "field": "n_total",
+      "current": 60,
+      "evidence_value": 153,
+      "quote": "121 youth (9.89–17.71 years; Table 1) were selected from the LAMS1 cohort of 707 youth to participate in the neuroimaging component of the second phase of LAMS (LAMS2) ... For comparison, 32 age and sex ratio-matched HC were newly recruited via advertisement",
+      "quote_source": "full text PMC4272653",
+      "reasoning": "60 (42 LAMS + 18 HC) is the post-exclusion analysis sample; 121 + 32 = 153 were enrolled into the neuroimaging component."
+    },
+    {
+      "pmid": "30064718",
+      "field": "n_total_lower_bound",
+      "current": 490,
+      "evidence_value": 631,
+      "quote": "The FAS comprised 490 participants receiving GXR and 141 receiving placebo.",
+      "quote_source": "full text (academia.edu, per assistant-source-review.json)",
+      "reasoning": "The floor covers only the GXR arm; the full analysis set is 631. Still an analysis set rather than enrollment."
+    },
+    {
+      "pmid": "12501563",
+      "field": "sex_reporting",
+      "current": 3,
+      "evidence_value": 2,
+      "quote": "Sex and ADHD diagnosis moderated concordance, although effect sizes were small.",
+      "quote_source": "abstract https://pubmed.ncbi.nlm.nih.gov/12501563/",
+      "reasoning": "Out of scope for this review, but recorded because the stored evidence quote describes a sex interaction test (level 2) while values.sex_reporting is 3."
+    }
+  ],
+  "manifest": {
+    "target_pmids": [
+      "10895570",
+      "11329997",
+      "12501563",
+      "14593669",
+      "15164862",
+      "15369417",
+      "15493434",
+      "15520832",
+      "16815520",
+      "16840239",
+      "16917924",
+      "18200435",
+      "18720661",
+      "19048655",
+      "21923448",
+      "22325095",
+      "22473864",
+      "23581554",
+      "25366258",
+      "25433424",
+      "26299295",
+      "26660709",
+      "27851842",
+      "28574288",
+      "29451082",
+      "29852825",
+      "30064718",
+      "30124577",
+      "33486336",
+      "33944622"
+    ],
+    "record_count": 33,
+    "fields_covered": [
+      "n_total",
+      "study_design"
+    ],
+    "preserved_unknown_count": 23
+  }
+}

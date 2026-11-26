@@ -1,0 +1,9 @@
+{
+  "pmid": "22149470",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "8b44dfc93248b8f344ff704bdfa49c2c5c1d6fbf78b9275e98de610ecdf78fe6",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Thirty-four children and adolescents with VCFS and ADHD participated in a randomized, controlled trial with a 2:1 ratio of MPH versus placebo.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"Thirty-four children and adolescents with VCFS and ADHD participated in a randomized, controlled trial with a 2:1 ratio of MPH versus placebo.\",\"answer\":34},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"Thirty-four children and adolescents with VCFS and ADHD participated in a randomized, controlled trial with a 2:1 ratio of MPH versus placebo.\",\"answer\":\"RCT\"}}",
+  "finish_reason": "stop"
+}

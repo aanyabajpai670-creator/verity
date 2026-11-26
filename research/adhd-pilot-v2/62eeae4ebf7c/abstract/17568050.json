@@ -1,0 +1,9 @@
+{
+  "pmid": "17568050",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "c81a90787527dbfaa16a3e642074865a5c3a8183551e1078ab646a70899e2da4",
+  "raw_response": "{\"eligibility\":{\"quote\":\"DESIGN: Cross-sectional study. SETTING: Study subjects were 278 children aged 12-15 years included in the National Health and Nutrition Examination Survey 1999-2000.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"Study subjects were 278 children aged 12-15 years included in the National Health and Nutrition Examination Survey 1999-2000.\",\"answer\":278},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"DESIGN: Cross-sectional study.\",\"answer\":\"Cross-sectional\"}}",
+  "finish_reason": "stop"
+}

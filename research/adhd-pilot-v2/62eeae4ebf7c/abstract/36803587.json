@@ -1,0 +1,9 @@
+{
+  "pmid": "36803587",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "d01c57478ccec23486d2cee0d6490c35f3e00243e0bfae74e6d187700efb5303",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"We conducted a new-user cohort study using a nationwide claims database in South Korea. We identified a study population as adolescents who were diagnosed both ADHD and depressive disorder.\",\n    \"answer\": \"uncertain\"\n  },\n  \"n_total\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"We conducted a new-user cohort study using a nationwide claims database in South Korea.\",\n    \"answer\": \"Cohort-Retrospective\"\n  }\n}",
+  "finish_reason": "stop"
+}

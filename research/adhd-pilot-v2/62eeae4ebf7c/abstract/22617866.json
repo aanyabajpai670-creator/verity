@@ -1,0 +1,9 @@
+{
+  "pmid": "22617866",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "cdff7c3385411f354e11e2006d7e426075476519ac96b5224937eae55782811b",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Unmedicated 6- to 12-year-olds with Diagnostic and Statistical Manual of Mental Disorders (4th ed.; DSM-IV) ADHD were randomized to active NF versus sham-NF and to 2X versus 3X/week treatment frequency.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"In two school years, 39 participants were recruited and 34 (87%) completed all 40 treatments.\",\"answer\":39},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"Unmedicated 6- to 12-year-olds with Diagnostic and Statistical Manual of Mental Disorders (4th ed.; DSM-IV) ADHD were randomized to active NF versus sham-NF and to 2X versus 3X/week treatment frequency.\",\"answer\":\"RCT\"}}",
+  "finish_reason": "stop"
+}

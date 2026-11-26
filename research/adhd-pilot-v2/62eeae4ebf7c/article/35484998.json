@@ -1,0 +1,9 @@
+{
+  "pmid": "35484998",
+  "scope": "article",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "7ce99cad286f556ddfe78f188a57310b26235a675abcc51b303cebf9b85fe57c",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"large UK population-representative Millennium Cohort Study (n = 9,619, 4,885 males) and fit gender-stratified autoregressive latent trajectory models with structured residuals (ALT-SR) to disaggregate within- and between-person relations between ADHD symptom,\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"In this study, complete case data from wave 2 at 3 years of age, wave 3 at 5 years of age, and wave 4 at 7 years of age were used, giving n = 9619 (n = 4734 females), who participated up until wave 4.\",\n    \"answer\": 9619\n  },\n  \"n_female\": {\n    \"quote\": \"giving n = 9619 (n = 4734 females), who participated up until wave 4.\",\n    \"answer\": 4734\n  },\n  \"includes_female\": {\n    \"quote\": \"giving n = 9619 (n = 4734 females)\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": \"giving n = 9619 (n = 4734 females), who participated up until wave 4.\",\n    \"answer\": true\n  },\n  \"sex_reporting\": {\n    \"quote\": \"Analyses were stratified by gender to allow for gender differences in the relations between ADHD symptoms, emotion dysregulation, and internalizing problems.\",\n    \"answer\": 2\n  },\n  \"study_design\": {\n    \"quote\": \"Millennium Cohort Study is a longitudinal study of a representative sample of children born into 19,244 families in the United Kingdom between 1 September 2000 and 31 August 2001\",\n    \"answer\": \"Cohort-Prospective\"\n  }\n}",
+  "finish_reason": "stop"
+}

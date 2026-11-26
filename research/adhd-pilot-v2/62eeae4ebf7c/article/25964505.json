@@ -1,0 +1,9 @@
+{
+  "pmid": "25964505",
+  "scope": "article",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "a2fc969437e65e3cdd963831cd6e14a6c9e4e132bea55d27ed7f2b1736de060e",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"The present study included 83 ADHD subjects (9.5\u00b12.6 years, 65 boys) recruited from the Seoul National University Hospital in Korea.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"The present study included 83 ADHD subjects (9.5\u00b12.6 years, 65 boys) recruited from the Seoul National University Hospital in Korea.\",\n    \"answer\": 83\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": \"Female, n (%) | 11 (22.9%) | 5 (16.7%) | 0.51\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": \"Female, n (%) | 11 (22.9%) | 5 (16.7%) | 0.51\",\n    \"answer\": 1\n  },\n  \"study_design\": {\n    \"quote\": \"The participants were enrolled in an 8-week, open-label trial of MPH.\",\n    \"answer\": \"Other\"\n  }\n}",
+  "finish_reason": "stop"
+}

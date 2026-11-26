@@ -1,0 +1,9 @@
+{
+  "pmid": "34949605",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "c2b8835909224bb5b10b9508eba510221eef695a78a4a8cbec8b6bd2207c2740",
+  "raw_response": "```json\n{\n  \"eligibility\": {\n    \"quote\": \"This research included child and adolescent psychiatric patients who were aged 10-15 years during their initial consultation. The participants were allocated to one of two groups: children with CPV (CPV group, n=109) and without CPV (non-CPV group, n=713).\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"Of 822 patients who sought consultation in our department, 109 (13.26%) were included in the CPV group during the first consultation.\",\n    \"answer\": 822\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"The participants were allocated to one of two groups: children with CPV (CPV group, n=109) and without CPV (non-CPV group, n=713).\",\n    \"answer\": \"Case-control\"\n  }\n}\n```",
+  "finish_reason": "stop"
+}

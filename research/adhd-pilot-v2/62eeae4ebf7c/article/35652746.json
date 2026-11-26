@@ -1,0 +1,9 @@
+{
+  "pmid": "35652746",
+  "scope": "article",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "7fc65f760b62e27d26d2b8f4d8d853006bbe8fcf09806676e5f5d95ad00a2140",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"Two phase 3 randomized, double-blind, placebo-controlled, parallel-group studies of 200 mg/d or 400 mg/d centanafadine sustained-release tablets versus placebo included adults (18-55 years of age) with a diagnosis of ADHD.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"360 (41.1%) of the 876 subjects who received at least 1 dose of centanafadine or placebo in the double-blind treatment period.\",\n    \"answer\": 876\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": \"In both studies, approximately half of the subjects were male (51.3% for study 1 and 53.0% for study 2)\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": \"The treatment effects in both studies were maintained across all gender and race subgroups.\",\n    \"answer\": 2\n  },\n  \"study_design\": {\n    \"quote\": \"Studies 1 and 2 were randomized, double-blind, multicenter, placebo-controlled trials.\",\n    \"answer\": \"RCT\"\n  }\n}",
+  "finish_reason": "stop"
+}

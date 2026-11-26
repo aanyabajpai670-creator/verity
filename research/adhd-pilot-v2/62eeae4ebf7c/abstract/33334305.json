@@ -1,0 +1,9 @@
+{
+  "pmid": "33334305",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "5d69f82ad0306889e0e62dcd2bd877d603b4991e2eab8fdde927d60d5980d215",
+  "raw_response": "{\"eligibility\":{\"quote\":\"According to their scores on the Autism-Tics, AD/HD, and Comorbidities inventory, screen-positive children were selected and divided into two groups: (1) children with CD Only, (2) children with CD and at least one NDP.\",\"answer\":\"uncertain\"},\"n_total\":{\"quote\":\"Telephone interviews with parents of 20,302 twins in a cross-sectional, nationwide, ongoing study.\",\"answer\":20302},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":\"The presence of CD (without NDP) increased the odds of constipation for girls and the odds of epilepsy for boys.\",\"answer\":true},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":\"The presence of CD (without NDP) increased the odds of constipation for girls and the odds of epilepsy for boys. Girls with CD generally had more coexisting gastrointestinal problems than boys with CD.\",\"answer\":2},\"study_design\":{\"quote\":\"Telephone interviews with parents of 20,302 twins in a cross-sectional, nationwide, ongoing study.\",\"answer\":\"Cross-sectional\"}}",
+  "finish_reason": "stop"
+}

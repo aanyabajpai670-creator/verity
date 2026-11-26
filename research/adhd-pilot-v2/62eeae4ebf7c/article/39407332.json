@@ -1,0 +1,9 @@
+{
+  "pmid": "39407332",
+  "scope": "article",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "2bd613d2f2db7d6e8f9f7e0f7364cec0b944b4b40875b4401b2d0eec12f1a5b6",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"Data from standardised tests was gathered at 5, 10, 14, 24 and 36 months of age (NF1 n = 35, TD n = 29).\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": \"More male than female participants reached instrumental threshold for autism in the NF1 group (X2 (1) = 6.24, p = 0.01).\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": \"More male than female participants reached instrumental threshold for autism in the NF1 group (X2 (1) = 6.24, p = 0.01).\",\n    \"answer\": 2\n  },\n  \"study_design\": {\n    \"quote\": \"The Early Development in NF1 (EDEN) study is a UK-based prospective longitudinal cohort study investigating early development in infants and children with NF1.\",\n    \"answer\": \"Cohort-Prospective\"\n  }\n}",
+  "finish_reason": "stop"
+}

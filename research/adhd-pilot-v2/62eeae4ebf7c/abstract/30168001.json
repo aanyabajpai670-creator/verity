@@ -1,0 +1,9 @@
+{
+  "pmid": "30168001",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "daf6700d27ab70aee028a4aebefb95e07f0a40e53cd6863693b4d0a9000f1cba",
+  "raw_response": "{\"eligibility\":{\"quote\":\"We examined context-based patterns of ADHD symptoms in a longitudinal cohort study of n\u2009=\u20091388 children, as well as context-specific and context-general predictors of symptoms.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"longitudinal cohort study of n\u2009=\u20091388 children\",\"answer\":1388},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"We examined context-based patterns of ADHD symptoms in a longitudinal cohort study of n\u2009=\u20091388 children, as well as context-specific and context-general predictors of symptoms. Participants were community-ascertained and provided ADHD symptom data at ages 7, 9, and 11.\",\"answer\":\"Cohort-Prospective\"}}",
+  "finish_reason": "stop"
+}

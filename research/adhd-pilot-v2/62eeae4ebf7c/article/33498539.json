@@ -1,0 +1,9 @@
+{
+  "pmid": "33498539",
+  "scope": "article",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "615d27a6b51be40488260888b00b95692e441bc488002832adc37af8b6897b5b",
+  "raw_response": "{\"eligibility\":{\"quote\":\"The experimental study involved 45 children aged 9\u201312 years (M = 10.41; SD = 1.42) diagnosed with attention deficit hyperactivity disorder with a combined presentation.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"The experimental study involved 45 children aged 9\u201312 years (M = 10.41; SD = 1.42) diagnosed with attention deficit hyperactivity disorder with a combined presentation.\",\"answer\":45},\"n_female\":{\"quote\":\"Sex (N) | female | 2 | 3 | 2 | male | 13 | 12 | 13\",\"answer\":null},\"includes_female\":{\"quote\":\"Sex (N) | female | 2 | 3 | 2 | male | 13 | 12 | 13\",\"answer\":true},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":\"Sex (N) | female | 2 | 3 | 2 | male | 13 | 12 | 13\",\"answer\":1},\"study_design\":{\"quote\":\"The subjects were randomly assigned to three groups: (1) with Mind Map stimulation, (2) with Sketchnoting, and (3) the Control group.\",\"answer\":\"RCT\"}}",
+  "finish_reason": "stop"
+}

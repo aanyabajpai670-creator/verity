@@ -1,0 +1,9 @@
+{
+  "pmid": "18328867",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "3ac73bfd1c9628c0f009455c7baf4e34b7a7e7cf6b0a01e84ba0d8cd0dcf8764",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"One-Hundred nine mothers of 5- to 12-year-old boys with attention-deficit/hyperactivity disorder (ADHD) participated. Mothers read case descriptions of boys with ADHD and of boys with both ADHD and oppositional defiant disorder (ODD).\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"One-Hundred nine mothers of 5- to 12-year-old boys with attention-deficit/hyperactivity disorder (ADHD) participated.\",\n    \"answer\": 109\n  },\n  \"n_female\": {\n    \"quote\": \"One-Hundred nine mothers of 5- to 12-year-old boys with attention-deficit/hyperactivity disorder (ADHD) participated.\",\n    \"answer\": 109\n  },\n  \"includes_female\": {\n    \"quote\": \"One-Hundred nine mothers of 5- to 12-year-old boys with attention-deficit/hyperactivity disorder (ADHD) participated.\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": \"One-Hundred nine mothers of 5- to 12-year-old boys with attention-deficit/hyperactivity disorder (ADHD) participated.\",\n    \"answer\": true\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"Half of the mothers were randomly assigned to read descriptions of behavioral parent training and half to read descriptions of stimulant medication as treatments for the children in the case descriptions.\",\n    \"answer\": \"Other\"\n  }\n}",
+  "finish_reason": "stop"
+}

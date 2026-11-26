@@ -1,0 +1,9 @@
+{
+  "pmid": "22911441",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "efbbe3f52f92a178b4672e0994d31bc148aaee7deafcfd3d46dab5bc35ed61f4",
+  "raw_response": "{\"eligibility\":{\"quote\":\"The analytic sample comprised 3,081 incident cases of ADHD in 2002 involving children aged 17 years or younger from a retrospective cohort study in Taiwan.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"The analytic sample comprised 3,081 incident cases of ADHD in 2002 involving children aged 17 years or younger from a retrospective cohort study in Taiwan.\",\"answer\":3081},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"The analytic sample comprised 3,081 incident cases of ADHD in 2002 involving children aged 17 years or younger from a retrospective cohort study in Taiwan.\",\"answer\":\"Cohort-Retrospective\"}}",
+  "finish_reason": "stop"
+}

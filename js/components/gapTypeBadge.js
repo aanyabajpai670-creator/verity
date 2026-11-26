@@ -7,19 +7,19 @@
  */
 export const GAP_TYPE_INFO = {
   1: {
-    label: 'No Female Representation',
+    label: 'Female Underrepresentation',
     description:
-      'Studies on this condition have not included female participants in their research cohorts.',
+      'The historical assessment identified low female inclusion in the evidence base.',
   },
   2: {
-    label: 'Women Included, Not Studied',
+    label: 'Limited Sex-Disaggregated Reporting',
     description:
-      'Female participants were included in study populations but sex-disaggregated analysis was not performed.',
+      'The historical assessment found female enrollment and limited reporting of outcomes by sex.',
   },
   3: {
-    label: 'No Significant Differences Found',
+    label: 'Sex-Disaggregated Analysis Reported',
     description:
-      'Sex-disaggregated analysis was performed but no statistically significant differences were identified.',
+      'This label describes reporting coverage. The direction, significance and certainty of any differences require separate assessment.',
   },
   4: {
     label: 'Insufficient Evidence',

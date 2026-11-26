@@ -1,0 +1,9 @@
+{
+  "pmid": "23889608",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "e05ff0defd3eddf782a249a1ff3811217a285f7ea3c2af309f856d3f39527d97",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"A retrospective chart review was conducted in 38 patients followed at the Neurology Department of the Pediatric Hospital Juan P. Garrahan in Buenos Aires, Argentina, between 1990 and 2012.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"In this study we analyze the electroclinical features, treatment, and outcome of 38 patients with MEI.\",\n    \"answer\": 38\n  },\n  \"n_female\": {\n    \"quote\": \"A total of 24 boys and 14 girls were identified.\",\n    \"answer\": 14\n  },\n  \"includes_female\": {\n    \"quote\": \"A total of 24 boys and 14 girls were identified.\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": \"A total of 24 boys and 14 girls were identified.\",\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"A retrospective chart review was conducted in 38 patients followed at the Neurology Department of the Pediatric Hospital Juan P. Garrahan in Buenos Aires, Argentina, between 1990 and 2012.\",\n    \"answer\": \"Cohort-Retrospective\"\n  }\n}",
+  "finish_reason": "stop"
+}

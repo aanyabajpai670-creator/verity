@@ -1,0 +1,9 @@
+{
+  "pmid": "29177721",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "ac2d08ef4852853e248c837781b7c8b671e5bb5894124170b72654aa804a09b5",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"Participants were 233 youth (30% female; 8 to 10 years of age), 51% of whom met criteria for ADHD.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"Participants were 233 youth (30% female; 8 to 10 years of age), 51% of whom met criteria for ADHD.\",\n    \"answer\": 233\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": \"Participants were 233 youth (30% female; 8 to 10 years of age), 51% of whom met criteria for ADHD.\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": \"Participants were 233 youth (30% female; 8 to 10 years of age), 51% of whom met criteria for ADHD.\",\n    \"answer\": 30\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"During an individual evaluation, children and parents completed a battery of questionnaires to assess child competence, depression, anxiety, and aggression.\",\n    \"answer\": \"Cross-sectional\"\n  }\n}",
+  "finish_reason": "stop"
+}

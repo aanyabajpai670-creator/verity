@@ -1,0 +1,9 @@
+{
+  "pmid": "23676413",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "6747027e2342b26f034344529241401fba24d35bd2ad0c9bd83087e0fdb458bc",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"Differences in educational attainment between ADHD and non-ADHD cohorts were linked to education-specific earnings data.\",\n    \"answer\": \"exclude\"\n  },\n  \"n_total\": {\n    \"quote\": \"The fiscal burden of untreated ADHD, based on a cohort of n=31,844 born in 2010, was estimated at EUR 2.5 billion in net tax revenue losses compared with an equally-sized non-ADHD cohort.\",\n    \"answer\": 31844\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"For ADHD and non-ADHD cohorts we derived the age-specific discounted net taxes paid by deducting lifetime transfers from lifetime gross taxes paid.\",\n    \"answer\": \"Other\"\n  }\n}",
+  "finish_reason": "stop"
+}

@@ -1,0 +1,9 @@
+{
+  "pmid": "26656562",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "1c3466e1647601dfa9893bbe85c7214836a00ef14a50a3090053565aef16596b",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"the present preliminary study was conducted to determine the serological profile of T. gondii infection among patients with non-schizophrenic neurodevelopmental disorders in Alexandria, Egypt.\",\n    \"answer\": \"uncertain\"\n  },\n  \"n_total\": {\n    \"quote\": \"Data and blood samples were collected from 188 patients recruited for the study from four mental rehabilitation centers in the period from July 2014 to March 2015.\",\n    \"answer\": 188\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"Data and blood samples were collected from 188 patients recruited for the study from four mental rehabilitation centers in the period from July 2014 to March 2015.\",\n    \"answer\": \"Cross-sectional\"\n  }\n}",
+  "finish_reason": "stop"
+}

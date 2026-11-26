@@ -1,0 +1,9 @@
+{
+  "pmid": "34826393",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "75cbe80e53c6dc5b2d738618e848c7808e9949e931f69e2e698038af9cd2bc54",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"In this nationwide, retrospective, electronic cohort study, we drew a cohort from the Welsh Demographic Service Dataset, which included individuals aged 7-16 years\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"School attendance, school exclusion, and health-care data were available for 414 637 pupils (201 789 [48\u00b77%] girls and 212 848 [51\u00b73%] boys; mean age 10\u00b75 years [SD 3\u00b78] on Sept 1, 2012; ethnicity data were not available).\",\n    \"answer\": 414637\n  },\n  \"n_female\": {\n    \"quote\": \"School attendance, school exclusion, and health-care data were available for 414 637 pupils (201 789 [48\u00b77%] girls and 212 848 [51\u00b73%] boys\",\n    \"answer\": 201789\n  },\n  \"includes_female\": {\n    \"quote\": \"201 789 [48\u00b77%] girls and 212 848 [51\u00b73%] boys\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": \"201 789 [48\u00b77%] girls and 212 848 [51\u00b73%] boys\",\n    \"answer\": 48.7\n  },\n  \"paired_counts\": {\n    \"quote\": \"School attendance, school exclusion, and health-care data were available for 414 637 pupils (201 789 [48\u00b77%] girls and 212 848 [51\u00b73%] boys\",\n    \"answer\": true\n  },\n  \"sex_reporting\": {\n    \"quote\": \"adjusting for sex, age, and deprivation\",\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"In this nationwide, retrospective, electronic cohort study, we drew a cohort from the Welsh Demographic Service Dataset\",\n    \"answer\": \"Cohort-Retrospective\"\n  }\n}",
+  "finish_reason": "stop"
+}

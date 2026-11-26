@@ -1,0 +1,9 @@
+{
+  "pmid": "23942041",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "adb2da2afd7226615f4638051bfbd9b74f6576bbf6a08b3b27c476f55a5ada70",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"Participants were recruited from the Norwegian Mother and Child Cohort Study. The teacher report of expressive language and the cognitive tests from 119 3-year-old children with parent reported ADHD symptoms and LD were compared with those of 258 children with ADHD symptoms only.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"Participants were recruited from the Norwegian Mother and Child Cohort Study.\",\n    \"answer\": \"Cohort-Prospective\"\n  }\n}",
+  "finish_reason": "stop"
+}

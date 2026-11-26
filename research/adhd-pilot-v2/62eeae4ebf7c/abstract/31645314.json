@@ -1,0 +1,9 @@
+{
+  "pmid": "31645314",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "c49393c7a9e63bb5b3de16cb86f952206f73143fcc2be310f7ccfe09cfcba150",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Children with CECTS had a high incidence of ADD/ADHD symptoms (18.3%) or learning difficulties (21.7%) before diagnosis.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"Patients diagnosed with CECTS were enrolled as part of a community-based study and followed from diagnosis through disease resolution (16.0 \u00b1 3.1 years, N = 60).\",\"answer\":60},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"We report the psychiatric, behavioral, and cognitive profiles over the course of disease from a large, prospectively-enrolled, longitudinal cohort of children with CECTS.\",\"answer\":\"Cohort-Prospective\"}}",
+  "finish_reason": "stop"
+}

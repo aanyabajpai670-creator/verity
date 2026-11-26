@@ -1,0 +1,9 @@
+{
+  "pmid": "15520832",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "2aea8395ee9be9e34fa5a7df47ff94c4fc377a2578fa986535a9ae5535135e55",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"Transmission disequilibrium tests (TDTs) in a sample of 177 nuclear families showed significant association and linkage of the DraI polymorphism with the ADHD combined subtype (P=0.03)\",\n    \"answer\": \"uncertain\"\n  },\n  \"n_total\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"Transmission disequilibrium tests (TDTs) in a sample of 177 nuclear families showed significant association and linkage of the DraI polymorphism with the ADHD combined subtype (P=0.03)\",\n    \"answer\": \"Other\"\n  }\n}",
+  "finish_reason": "stop"
+}

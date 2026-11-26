@@ -1,0 +1,9 @@
+{
+  "pmid": "11668095",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "0761a12c4655e301b6eeec4935ee794e359a48b0e0bfb0029133d5b5989e037d",
+  "raw_response": "```json\n{\n  \"eligibility\": {\n    \"quote\": \"A total of 169 children aged between 8 and 13 years from mainstream schools were assessed. They form part of a larger study into the outcome of meningococcal disease in childhood.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"A total of 169 children aged between 8 and 13 years from mainstream schools were assessed.\",\n    \"answer\": 169\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"They form part of a larger study into the outcome of meningococcal disease in childhood. Half had previous meningococcal disease and half were controls.\",\n    \"answer\": \"Case-control\"\n  }\n}\n```",
+  "finish_reason": "stop"
+}

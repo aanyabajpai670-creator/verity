@@ -1,0 +1,9 @@
+{
+  "pmid": "27522263",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "f18c567afce942b36e770d00aafc63b82ce6e9204c91048636bfe0598c19b22b",
+  "raw_response": "{\"eligibility\":{\"quote\":\"ADHD, bipolar disorder, and major depression diagnoses, as well as poor occupational functioning and avolition were factors relating to lesser improvement in psychosis severity.\",\"answer\":\"uncertain\"},\"n_total\":{\"quote\":null,\"answer\":null},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":null},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"participants followed longitudinally over 0-, 4-, 7-, 14- and 20-months\",\"answer\":\"Cohort-Prospective\"}}",
+  "finish_reason": "stop"
+}

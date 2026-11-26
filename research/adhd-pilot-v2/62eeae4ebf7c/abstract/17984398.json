@@ -1,0 +1,9 @@
+{
+  "pmid": "17984398",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "1eda18c809b54950649c083546d18c5139ef09ebca40b949b41d9ae7171d0580",
+  "raw_response": "{\"eligibility\":{\"quote\":\"The sample included 8621 offspring of 4912 mothers. MAIN OUTCOME MEASURES: Maternal report of conduct problems (CPs) and attention/impulsivity problems (AIPs) during childhood (ages 4-11 years) using standardized assessments related to psychiatric diagnoses.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"The sample included 8621 offspring of 4912 mothers.\",\"answer\":8621},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"Women were recruited from the community using a stratified and clustered probability sample and were followed longitudinally.\",\"answer\":\"Cohort-Prospective\"}}",
+  "finish_reason": "stop"
+}

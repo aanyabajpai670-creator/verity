@@ -1,0 +1,9 @@
+{
+  "pmid": "35838931",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "be78a90c39f6b779aac3118a9f9d093bbe06a344308ac46af99b3ae33cd2b87d",
+  "raw_response": "{\"eligibility\":{\"quote\":\"In contrast, inhibitory control was uniquely associated with attention-deficit/hyperactivity symptoms.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"This work was conducted in a longitudinal study of children recruited at well-child visits in Midwestern pediatric clinics at preschool age (N = 223, age range = 3-7 years).\",\"answer\":223},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"This work was conducted in a longitudinal study of children recruited at well-child visits in Midwestern pediatric clinics at preschool age (N = 223, age range = 3-7 years).\",\"answer\":\"Cohort-Prospective\"}}",
+  "finish_reason": "stop"
+}

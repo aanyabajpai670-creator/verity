@@ -1,0 +1,9 @@
+{
+  "pmid": "23271759",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "4e56c6ca5246a03601e580b6fa7dccace6ccea2f57e0934f0fbc6ad0c62366e1",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"The medical records of 190 children diagnosed with frontal lobe epilepsy at Qilu Hospital of Shandong University between 2006 and 2011 were retrospectively collected, and a follow-up analysis of the prevalence of ADHD in these children was conducted.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"The medical records of 190 children diagnosed with frontal lobe epilepsy at Qilu Hospital of Shandong University between 2006 and 2011 were retrospectively collected, and a follow-up analysis of the prevalence of ADHD in these children was conducted.\",\n    \"answer\": 190\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"The medical records of 190 children diagnosed with frontal lobe epilepsy at Qilu Hospital of Shandong University between 2006 and 2011 were retrospectively collected, and a follow-up analysis of the prevalence of ADHD in these children was conducted.\",\n    \"answer\": \"Cohort-Retrospective\"\n  }\n}",
+  "finish_reason": "stop"
+}

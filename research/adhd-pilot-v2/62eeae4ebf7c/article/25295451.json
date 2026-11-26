@@ -1,0 +1,9 @@
+{
+  "pmid": "25295451",
+  "scope": "article",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "3ce8c1f940d9059023cf6efbd3a6876fb57bd1c10f9b075228747425e3d2ca9c",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"OBJECTIVE: To evaluate the use of a therapeutic regimen to treat attention deficit hyperactivity disorder patients. METHODS: A total of 140 patients initially underwent physical, neurological and laboratory evaluation.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"A total of 140 patients initially underwent physical, neurological and laboratory evaluation.\",\n    \"answer\": 140\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"To retrospectively evaluate a series of patients with attention deficit hyperactivity disorder treated with tricyclic antidepressant associated to an anxiolytic.\",\n    \"answer\": \"Other\"\n  }\n}",
+  "finish_reason": "stop"
+}

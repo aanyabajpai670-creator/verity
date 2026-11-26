@@ -1,0 +1,9 @@
+{
+  "pmid": "38991524",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "922893cec91fd0d4d807292979ebc423be8104d8b5ff88fbe60fd6e847108595",
+  "raw_response": "```json\n{\n  \"eligibility\": {\n    \"quote\": \"A cross-sectional study was completed on a clinical cohort recruited from the Danish National Tourette Clinic at Herlev Hospital. The cohort consisted of 167 children who were examined by the Yale Global Tic Severity Scale.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"The cohort consisted of 167 children who were examined by the Yale Global Tic Severity Scale.\",\n    \"answer\": 167\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"A cross-sectional study was completed on a clinical cohort recruited from the Danish National Tourette Clinic at Herlev Hospital.\",\n    \"answer\": \"Cross-sectional\"\n  }\n}\n```",
+  "finish_reason": "stop"
+}

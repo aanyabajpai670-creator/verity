@@ -1,0 +1,9 @@
+{
+  "pmid": "30064718",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "1eeff912321a0b2d684e1f37d8545cf3aafc9dfb46ad921de6ea5505406efd88",
+  "raw_response": "{\"eligibility\": {\"quote\": \"Data from four double-blind, randomized, placebo-controlled, phase 3 trials of GXR monotherapy (1-7 mg/day; morning administration) in children (aged 6-12 years) and adolescents (aged 13-17 years) with ADHD were analyzed post hoc.\", \"answer\": \"uncertain\"}, \"n_total\": {\"quote\": null, \"answer\": null}, \"n_female\": {\"quote\": null, \"answer\": null}, \"includes_female\": {\"quote\": null, \"answer\": null}, \"female_percent\": {\"quote\": null, \"answer\": null}, \"paired_counts\": {\"quote\": null, \"answer\": null}, \"sex_reporting\": {\"quote\": null, \"answer\": null}, \"study_design\": {\"quote\": \"four double-blind, randomized, placebo-controlled, phase 3 trials of GXR monotherapy\", \"answer\": \"RCT\"}}",
+  "finish_reason": "stop"
+}

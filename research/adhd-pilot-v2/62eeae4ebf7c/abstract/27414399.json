@@ -1,0 +1,9 @@
+{
+  "pmid": "27414399",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "6bfc53b16f0863545cad05dba00571b534ea9555e19598eea44fd8afebf85bf6",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Children's enuresis and behavioral problems, including hyperactivity-inattention (as measured by the Strength and Difficulties Questionnaire), were examined using parent-reporting questionnaires.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"Participants were 4,478 children\",\"answer\":4478},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"a population-representative cross-sectional study conducted in Tokyo, Japan conducted from 2012 to 2015\",\"answer\":\"Cross-sectional\"}}",
+  "finish_reason": "stop"
+}

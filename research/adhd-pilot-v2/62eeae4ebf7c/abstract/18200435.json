@@ -1,0 +1,9 @@
+{
+  "pmid": "18200435",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "f48660700365876e7c6c4a88d23e7c140699b6dbb9a9f5ee200c455ba1c0e669",
+  "raw_response": "{\"eligibility\":{\"quote\":\"In the present study groups of adult patients with ADHD - predominantly inattentive type, ADHD - predominantly hyperactive-impulsive type or ADHD - combined type and three healthy control groups were compared regarding multiple components of attention.\",\"answer\":\"uncertain\"},\"n_total\":{\"quote\":null,\"answer\":null},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"In the present study groups of adult patients with ADHD - predominantly inattentive type, ADHD - predominantly hyperactive-impulsive type or ADHD - combined type and three healthy control groups were compared regarding multiple components of attention.\",\"answer\":\"Cross-sectional\"}}",
+  "finish_reason": "stop"
+}

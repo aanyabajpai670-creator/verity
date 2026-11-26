@@ -1,0 +1,9 @@
+{
+  "pmid": "33332378",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "3be2ccbfa4b36ae548be55f8ed203fc6565d22f31ba6765f73a23bba8ecd5902",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"We here test these hypotheses by evaluating whether adults diagnosed with ADHD (n = 17) differed from a control group (n = 30) in implicitly learning and using low-level perceptual priors to guide sensory processing.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"We here test these hypotheses by evaluating whether adults diagnosed with ADHD (n = 17) differed from a control group (n = 30) in implicitly learning and using low-level perceptual priors to guide sensory processing.\",\n    \"answer\": \"Cross-sectional\"\n  }\n}",
+  "finish_reason": "stop"
+}

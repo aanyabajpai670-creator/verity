@@ -1,0 +1,9 @@
+{
+  "pmid": "26854503",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "6dd5153282035e3111b5795660c4357dffe7d14fc4ecbe4064ed7f09f5a76850",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"On average, the 125 children (107 boys) with ADHD at baseline improved over time, but still continued to exhibit more symptoms, functional impairment, and risky behavior through adolescence than demographically matched healthy comparison children.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"On average, the 125 children (107 boys) with ADHD at baseline improved over time, but still continued to exhibit more symptoms, functional impairment, and risky behavior through adolescence than demographically matched healthy comparison children.\",\n    \"answer\": 125\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": \"Among children with ADHD, girls and children from families with lower family incomes had relatively poorer outcomes.\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": \"Among children with ADHD, girls and children from families with lower family incomes had relatively poorer outcomes.\",\n    \"answer\": 2\n  },\n  \"study_design\": {\n    \"quote\": \"Children who met Diagnostic and Statistical Manual of Mental Disorders-Fourth Edition (DSM-IV) criteria for attention-deficit/hyperactivity disorder (ADHD) with functional impairment in at least one setting at 4-6 years of age were followed prospectively through age 18 years.\",\n    \"answer\": \"Cohort-Prospective\"\n  }\n}",
+  "finish_reason": "stop"
+}

@@ -1,0 +1,9 @@
+{
+  "pmid": "25741950",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "f5ab5a0f8649b7d84943d9a14a1d5a35f17dd5834ca99eef5f0cdd85e3090da2",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"Parent ratings of behavior problems and adolescent self-ratings were obtained for 169 ELBW adolescents (mean birth weight 815 g, gestational age 26 wk) and 115 normal birth weight (NBW) controls at 14 years.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"Parent ratings of behavior problems and adolescent self-ratings were obtained for 169 ELBW adolescents (mean birth weight 815 g, gestational age 26 wk)\",\n    \"answer\": 169\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": \"Group differences in parent ratings decreased over time for ADHD, especially among females\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": \"Group differences in parent ratings decreased over time for ADHD, especially among females\",\n    \"answer\": 2\n  },\n  \"study_design\": {\n    \"quote\": \"Parent ratings of behavior problems and adolescent self-ratings were obtained for 169 ELBW adolescents (mean birth weight 815 g, gestational age 26 wk) and 115 normal birth weight (NBW) controls at 14 years.\",\n    \"answer\": \"Cohort-Prospective\"\n  }\n}",
+  "finish_reason": "stop"
+}

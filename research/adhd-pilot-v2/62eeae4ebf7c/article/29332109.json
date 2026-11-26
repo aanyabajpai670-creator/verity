@@ -1,0 +1,9 @@
+{
+  "pmid": "29332109",
+  "scope": "article",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "e78be2d6038f74ee1f7fa5e7888d463be965a94100ee7f54f689bfea1a5c5e52",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Teachers completed the VADTRS on 929 students (42.6% female, 57.4% male) in grades 1-6, age range 6-12 years.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"Teachers completed the VADTRS on 929 students (42.6% female, 57.4% male) in grades 1-6, age range 6-12 years.\",\"answer\":929},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":\"Teachers completed the VADTRS on 929 students (42.6% female, 57.4% male) in grades 1-6, age range 6-12 years.\",\"answer\":true},\"female_percent\":{\"quote\":\"Teachers completed the VADTRS on 929 students (42.6% female, 57.4% male) in grades 1-6, age range 6-12 years.\",\"answer\":42.6},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":\"The overall prevalence of ADHD was 5%, with a similar prevalence in boys (4.7%) and girls (5.3%)\",\"answer\":2},\"study_design\":{\"quote\":\"This is a cross-sectional study.\",\"answer\":\"Cross-sectional\"}}",
+  "finish_reason": "stop"
+}

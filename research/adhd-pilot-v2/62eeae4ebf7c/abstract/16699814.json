@@ -1,0 +1,9 @@
+{
+  "pmid": "16699814",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "b5fa7de227deb5e284e7bc987d01be1d0ae2d1712ba3f00f6c913affef16a474",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Sixty-one children were supplemented with 1 mg/kg/day Pycnogenol or placebo over a period of 4 weeks in a randomised, placebo-controlled, doubleblind study.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"Sixty-one children were supplemented with 1 mg/kg/day Pycnogenol or placebo over a period of 4 weeks in a randomised, placebo-controlled, doubleblind study.\",\"answer\":61},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"Sixty-one children were supplemented with 1 mg/kg/day Pycnogenol or placebo over a period of 4 weeks in a randomised, placebo-controlled, doubleblind study.\",\"answer\":\"RCT\"}}",
+  "finish_reason": "stop"
+}

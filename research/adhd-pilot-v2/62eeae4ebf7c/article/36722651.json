@@ -1,0 +1,9 @@
+{
+  "pmid": "36722651",
+  "scope": "article",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "45bce541f86b42c7854369349857b8516eac4c3eb4844c6dfd773aa23c338050",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"Using data from the Norwegian Mother, Father and Child Cohort Study (n = 2056) and Avon Longitudinal Study of Parents and Children (n = 6216) to study the average causal effect of maternal pregnancy alcohol use on offspring attention deficit hyperactivity disorder symptoms\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"resulting in a total analytic sample of 2056 mother\u2013child pairs (Figure S1; Table 1).\",\n    \"answer\": 2056\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": \"aimed to recruit all pregnant women in former Avon County with a due date between 1 April 1991 and 31 December 1992\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"The Avon Longitudinal Study of Parents and Children (ALSPAC) is a longitudinal birth cohort, which aimed to recruit all pregnant women in former Avon County with a due date between 1 April 1991 and 31 December 1992 and continues to follow the offspring.\",\n    \"answer\": \"Cohort-Prospective\"\n  }\n}",
+  "finish_reason": "stop"
+}

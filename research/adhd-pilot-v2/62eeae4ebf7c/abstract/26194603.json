@@ -1,0 +1,9 @@
+{
+  "pmid": "26194603",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "07573f0df7d7ccb7a20f6ec133ecd01b0b273eabe504ddde890bc7ab2ff215f2",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"More than one-third of children met DSM-IV criteria for one or more mood, anxiety, attention deficit, or disruptive behavior disorders.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"structured clinical interviews with 105 children (57% male)\",\n    \"answer\": 105\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": \"105 children (57% male)\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": \"105 children (57% male)\",\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"As part of a longitudinal birth cohort study of children with and without IUCE\",\n    \"answer\": \"Cohort-Prospective\"\n  }\n}",
+  "finish_reason": "stop"
+}

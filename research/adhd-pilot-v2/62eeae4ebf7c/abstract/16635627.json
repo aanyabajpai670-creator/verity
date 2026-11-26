@@ -1,0 +1,9 @@
+{
+  "pmid": "16635627",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "7bbf6a23a4b6efa6b9806f8cabeeb64d6eb19844731fd6beef2fac957abbbcdc",
+  "raw_response": "{\"eligibility\":{\"quote\":\"OBJECTIVES: To investigate the factor structure of disordered attention in moderate to severe, acute traumatic brain injury (TBI)\",\"answer\":\"exclude\"},\"n_total\":{\"quote\":\"PARTICIPANTS: Patients with TBI (N=372) consecutively admitted to 8 Traumatic Brain Injury Model System centers within 2 weeks prior to observation\",\"answer\":372},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"DESIGN: Multicenter inception cohort.\",\"answer\":\"Cohort-Prospective\"}}",
+  "finish_reason": "stop"
+}

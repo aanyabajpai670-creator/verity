@@ -1,0 +1,9 @@
+{
+  "pmid": "38072183",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "a4d00b629b0703cb226971b74b30c6694aad3a56da6bd86d6aaedd8e331ae51c",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"OBJECTIVE: The objective of this study was to estimate the effect of vitamin D3 supplementation in pregnancy on risk of autism and ADHD. DESIGN: This randomized clinical trial was part of the COpenhagen Prospective Study on Neuro-PSYCHiatric Development (COPYCH) project\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"Hereof, 496 children participated in the vitamin D3 trial (246 received high-dose, 250 standard dose).\",\n    \"answer\": 496\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"623 mothers were randomized 1:1 to either high-dose (2800 IU/d) or standard dose (400 IU/d) vitamin D3 until 1 wk postpartum\",\n    \"answer\": \"RCT\"\n  }\n}",
+  "finish_reason": "stop"
+}

@@ -1,0 +1,9 @@
+{
+  "pmid": "26501496",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "9dafa853232dcdf5b3e7d66b5a6460e39e79a07dae75655e7ecf474d186b4ecb",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Participants were 326 students (sixth through eighth grade) diagnosed with ADHD. Interventions were conducted for 1 academic year.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"Participants were 326 students (sixth through eighth grade) diagnosed with ADHD.\",\"answer\":326},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":null},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"Intent-to-treatment analyses using hierarchical linear modeling to compare outcomes between the 3 conditions\",\"answer\":\"RCT\"}}",
+  "finish_reason": "stop"
+}

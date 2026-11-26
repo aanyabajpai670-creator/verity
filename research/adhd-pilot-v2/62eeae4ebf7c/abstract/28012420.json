@@ -1,0 +1,9 @@
+{
+  "pmid": "28012420",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "f91dbd4aa5fc09f120a888e3c6486e1770f16f72071b00edc52d7185b5278fd9",
+  "raw_response": "{\"eligibility\": {\"quote\": \"The objective of this study is to examine the preliminary reliability and validity of the translated Chinese version of the SSIS-RS, referred to as the SSIS-RS-C.\", \"answer\": \"uncertain\"}, \"n_total\": {\"quote\": null, \"answer\": null}, \"n_female\": {\"quote\": null, \"answer\": null}, \"includes_female\": {\"quote\": null, \"answer\": null}, \"female_percent\": {\"quote\": null, \"answer\": null}, \"paired_counts\": {\"quote\": null, \"answer\": null}, \"sex_reporting\": {\"quote\": null, \"answer\": null}, \"study_design\": {\"quote\": \"In this study, parent-reported social skills and problem behaviors among students with typical development (n=79) were compared with those of age- and gender-matched students with a known developmental disability (n=79) using the SSIS-RS-C.\", \"answer\": \"Cross-sectional\"}}",
+  "finish_reason": "stop"
+}

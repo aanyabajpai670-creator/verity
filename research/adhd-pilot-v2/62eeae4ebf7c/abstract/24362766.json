@@ -1,0 +1,9 @@
+{
+  "pmid": "24362766",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "b6a165bb46c74ebcff592234f12a19dc59c4d41564b705b397f583e8a36e7a2c",
+  "raw_response": "{\"eligibility\": {\"quote\": \"The current study evaluated functional sports outcomes for children with ADHD who attended an intensive behavioral treatment program that included a sports training component, and it compared outcomes to children with ADHD who did not attend the program.\", \"answer\": \"uncertain\"}, \"n_total\": {\"quote\": null, \"answer\": null}, \"n_female\": {\"quote\": null, \"answer\": null}, \"includes_female\": {\"quote\": null, \"answer\": null}, \"female_percent\": {\"quote\": null, \"answer\": null}, \"paired_counts\": {\"quote\": null, \"answer\": null}, \"sex_reporting\": {\"quote\": null, \"answer\": null}, \"study_design\": {\"quote\": null, \"answer\": null}}",
+  "finish_reason": "stop"
+}

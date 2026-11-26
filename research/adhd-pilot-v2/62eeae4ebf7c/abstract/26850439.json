@@ -1,0 +1,9 @@
+{
+  "pmid": "26850439",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "5ed9639aad7af60e986787a5bdecf4770c30fe918a3e188158637260868450b2",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"This study examined identification of emotional information in facial expression, prosody, and their combination in 23 adult patients with combined attention deficit-hyperactivity disorder (ADHD) versus 31 healthy controls (HC) matched for gender, age, and education.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"This study examined identification of emotional information in facial expression, prosody, and their combination in 23 adult patients with combined attention deficit-hyperactivity disorder (ADHD) versus 31 healthy controls (HC) matched for gender, age, and education.\",\n    \"answer\": \"Case-control\"\n  }\n}",
+  "finish_reason": "stop"
+}

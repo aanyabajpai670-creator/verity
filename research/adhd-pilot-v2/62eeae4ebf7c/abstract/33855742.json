@@ -1,0 +1,9 @@
+{
+  "pmid": "33855742",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "f911aa296114eb29e83958114e72a9ad387201236b983e6b25c1c8647ba6934d",
+  "raw_response": "{\"eligibility\":{\"quote\":\"A school-based cross-sectional study was conducted with a representative sample of 448 12-year-old adolescents enrolled at schools in the city of Cajazeiras, Brazil.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"A school-based cross-sectional study was conducted with a representative sample of 448 12-year-old adolescents enrolled at schools in the city of Cajazeiras, Brazil.\",\"answer\":448},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":null},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"A school-based cross-sectional study was conducted with a representative sample of 448 12-year-old adolescents enrolled at schools in the city of Cajazeiras, Brazil.\",\"answer\":\"Cross-sectional\"}}",
+  "finish_reason": "stop"
+}

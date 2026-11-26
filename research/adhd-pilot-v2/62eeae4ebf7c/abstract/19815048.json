@@ -1,0 +1,9 @@
+{
+  "pmid": "19815048",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "83db5f7f887409dcc48a5e347ccfdbe60f9bfdc2bfefc079619e5f9ef8db872c",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"Subjects were recruited from an outpatient child and adolescent clinic for a 6 week double blind, randomized clinical trial.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"Fifty outpatients (39 boys and 11 girls) with a DSM-IV-TR diagnosis of ADHD were study population of this trial.\",\n    \"answer\": 50\n  },\n  \"n_female\": {\n    \"quote\": \"Fifty outpatients (39 boys and 11 girls) with a DSM-IV-TR diagnosis of ADHD were study population of this trial.\",\n    \"answer\": 11\n  },\n  \"includes_female\": {\n    \"quote\": \"Fifty outpatients (39 boys and 11 girls) with a DSM-IV-TR diagnosis of ADHD were study population of this trial.\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": \"Fifty outpatients (39 boys and 11 girls) with a DSM-IV-TR diagnosis of ADHD were study population of this trial.\",\n    \"answer\": true\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"All study subjects were randomly assigned to receive treatment using tablet of Ginko T.D. at a dose of 80-120 mg/day depending on weight\",\n    \"answer\": \"RCT\"\n  }\n}",
+  "finish_reason": "stop"
+}

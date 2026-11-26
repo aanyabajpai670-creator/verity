@@ -1,0 +1,9 @@
+{
+  "pmid": "17414236",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "6bbbdf64c980f5dc6bdc8a0ed8e1d9f2ee96bac0bab38442437197689ef458d3",
+  "raw_response": "{\"eligibility\":{\"quote\":\"We tested the efficacy of bupropion in the treatment of persons with pathological gambling (PG).\",\"answer\":\"uncertain\"},\"n_total\":{\"quote\":\"Thirty-nine subjects (28 men, 11 women) were randomized to bupropion (n = 18) or placebo (n = 21).\",\"answer\":39},\"n_female\":{\"quote\":\"Thirty-nine subjects (28 men, 11 women) were randomized to bupropion (n = 18) or placebo (n = 21).\",\"answer\":11},\"includes_female\":{\"quote\":\"Thirty-nine subjects (28 men, 11 women) were randomized to bupropion (n = 18) or placebo (n = 21).\",\"answer\":true},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":\"Thirty-nine subjects (28 men, 11 women) were randomized to bupropion (n = 18) or placebo (n = 21).\",\"answer\":true},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"Nondepressed, healthy subjects with Diagnostic and Statistical Manual of Mental Disorders, Fourth Edition PG were randomly assigned to placebo or flexibly dosed bupropion in a 12-week double-blind trial.\",\"answer\":\"RCT\"}}",
+  "finish_reason": "stop"
+}

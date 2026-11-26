@@ -1,0 +1,9 @@
+{
+  "pmid": "37430151",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "3adc0af5c97263e9dbc46115025d4650f1c85cbf26da4788625839b022131ba0",
+  "raw_response": "{\"eligibility\":{\"quote\":\"We conducted a blinded, de-identified, retrospective review of charts from these 50 patients in the regular course of outpatient practice.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"50 patients (35 children) received mean doses of atomoxetine 60 mg (25-100 mg once daily) followed by VER 300 mg (100-600 mg once daily) after a 5-day atomoxetine washout.\",\"answer\":50},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"We conducted a blinded, de-identified, retrospective review of charts from these 50 patients in the regular course of outpatient practice.\",\"answer\":\"Cohort-Retrospective\"}}",
+  "finish_reason": "stop"
+}

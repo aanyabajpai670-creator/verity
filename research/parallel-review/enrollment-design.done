@@ -1,0 +1,72 @@
+enrollment-design review complete
+generated: 2026-11-26
+output: research/parallel-review/enrollment-design.json
+
+TARGET SET
+  Derived independently from research/adhd-pilot-v2/study-evidence.json, not from
+  earlier chat counts: every non-excluded record (eligibility include or null) whose
+  values.n_total or values.study_design is null.
+  30 unique PMIDs, 33 field entries.
+  - n_total null: 24
+  - study_design null: 9
+  - both null: 3 (15164862, 19048655, 26299295)
+
+COVERAGE
+  All 30 targeted PMIDs have at least one entry; every targeted field is covered.
+  Fields covered: n_total, study_design.
+
+OUTCOMES
+  proposed              9
+  preserved-unknown    23
+  needs-adjudication    1  (15164862 study_design)
+
+PROPOSED n_total
+  29852825 = 483281  (explicit cohort of 483,281 hospitalizations; unit is
+                      hospitalizations, not unique persons)
+
+PROPOSED study_design
+  12501563  Other            (draft said Cross-sectional; judgment call, see below)
+  15164862  Other            (needs adjudication: PubMed pubtype says RCT)
+  19048655  Cross-sectional  (draft said Case-control)
+  23581554  Other
+  25366258  Cross-sectional
+  25433424  Cross-sectional
+  26299295  Other
+  27851842  Cross-sectional
+  28574288  Cross-sectional
+
+PRESERVED UNKNOWNS (23)
+  15369417, 15493434, 14593669, 15164862, 11329997, 10895570, 15520832,
+  16840239, 18200435, 18720661, 16815520, 19048655, 16917924, 22473864,
+  21923448, 22325095, 26299295, 30124577, 30064718, 26660709, 29451082,
+  33486336, 33944622
+  Reasons are recorded per record: family counts, responder/completer counts,
+  ranges, approximate wording, overlapping components, pooled analysis sets,
+  or simply no count in the available text.
+
+DISAGREEMENT WITH FIRST-PASS DRAFT
+  research/reviewed-coding-current.json is labelled single_coder_draft_not_validated
+  (179/179 records, 0 validated). It has a design value for only 4 of the 9 targets.
+  Recorded per entry as first_pass_draft_value, plus a dedicated disagreement block:
+    12501563  draft Cross-sectional vs proposed Other
+    19048655  draft Case-control   vs proposed Cross-sectional
+    15164862  draft Other          vs proposed Other (agrees; still blocked)
+
+CROSS-FIELD FINDINGS (already-filled values that conflict with source text)
+  23581554 n_total 719 -> 713   (6 girls appear in both MTA and BGALS)
+  25366258 n_total  48 ->  50   (48 is the analysed sample; 50 enrolled)
+  25433424 n_total  60 -> 153   (60 is post-exclusion; 121 + 32 enrolled)
+  30064718 n_total_lower_bound 490 -> 631 (full analysis set, still not enrollment)
+  12501563 sex_reporting 3 vs 2 (out of scope; recorded for the reviewer)
+
+CONSTRAINTS OBSERVED
+  - Only research/parallel-review/enrollment-design.json and this .done file written.
+  - Shared audit files untouched; no other agents launched.
+  - Every quote validated verbatim against its cited source before writing
+    (0 failures across all 33 entries).
+  - No full text was available for 24 of 30 targets; network egress is blocked and
+    research/adhd-pilot-v2/sources/ has no snapshot for any target. Four PMC full
+    texts and two publisher PDFs supplied the remaining evidence.
+  - Local sweeps confirmed no further source exists: no article snapshot for any
+    target (55 exist overall, none ours), no non-error fulltext cache file, and the
+    legacy hosted-pilot ledger holds null for every unknown n_total.

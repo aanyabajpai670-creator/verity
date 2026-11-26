@@ -1,0 +1,9 @@
+{
+  "pmid": "21923448",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "6257b7f1322117a63016b9ed74a374027c0aaada0efb50e11ead0faad50850c4",
+  "raw_response": "{\"eligibility\":{\"quote\":\"males in the United States were far more likely to be prescribed drugs for attention-deficit-hyperactivity disorder than were their counterparts in the United Kingdom.\",\"answer\":\"include\"},\"n_total\":{\"quote\":null,\"answer\":null},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":\"males in the United States were far more likely to be prescribed drugs for attention-deficit-hyperactivity disorder than were their counterparts in the United Kingdom.\",\"answer\":2},\"study_design\":{\"quote\":\"Retrospective prescription record review.\",\"answer\":\"Other\"}}",
+  "finish_reason": "stop"
+}

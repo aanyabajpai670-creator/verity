@@ -1,0 +1,9 @@
+{
+  "pmid": "26663807",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "9e9929485bae5958fee187611b1387ec3efce8a55a676ef7d40284d28681abfb",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"Of the 546 patients who entered the study, 337 patients had complete data and were included in the analyses.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"Of the 546 patients who entered the study, 337 patients had complete data and were included in the analyses.\",\n    \"answer\": 337\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"Data are from a 12-month, observational, multinational study that included outpatients aged 6-17 years who were diagnosed with ADHD and treated with atomoxetine, methylphenidate, or nootropic agents.\",\n    \"answer\": \"Cohort-Prospective\"\n  }\n}",
+  "finish_reason": "stop"
+}

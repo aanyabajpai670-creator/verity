@@ -1,0 +1,9 @@
+{
+  "pmid": "29528109",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "3c715bfc371ee365b6214f4d47472f1cecb9c7a968de199ea7829f0f80e43296",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Stronger attunement was also associated with increases in children's depressive symptoms from Wave 1 to Wave 2, poorer psychosocial functioning at Wave 1, and ADHD symptoms at Wave 2.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"Participants included 142 parent-child dyads (3-5 years-old) who provided morning cortisol samples at Wave 1, and 98 dyads returned for the 3-year follow-up at Wave 2.\",\"answer\":142},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":\"for parents with a history of depression and for female children, stronger attunement predicted increases in parental hostility from Wave 1 to Wave 2\",\"answer\":true},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":\"For females only, stronger attunement was related to children's depressive symptoms at Wave 1 and Wave 2.\",\"answer\":2},\"study_design\":{\"quote\":\"Participants included 142 parent-child dyads (3-5 years-old) who provided morning cortisol samples at Wave 1, and 98 dyads returned for the 3-year follow-up at Wave 2.\",\"answer\":\"Cohort-Prospective\"}}",
+  "finish_reason": "stop"
+}

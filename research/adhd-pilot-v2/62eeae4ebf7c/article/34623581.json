@@ -1,0 +1,9 @@
+{
+  "pmid": "34623581",
+  "scope": "article",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "dd05173c40fb6b0edf8d5038d2c2bd77432a7dfb083a0d39b4c7a090dcc16b6a",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"Data were derived from two claims-based US healthcare databases; Medicaid and Optum to construct a retrospective cohort of 36,000 patients. Attention-Deficit-Hyperactivity-Disorder (ADHD) was the most common co-morbidity (Medicaid: 50.09%; Optum: 44.16%)\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"We identified a total of 36,000 ASD patients in the two data bases (Table 1).\",\n    \"answer\": 36000\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": \"Male | 22,648 | 76.27 | 5125 | 76.28 | Female | 7046 | 23.73 | 1594 | 23.72\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": \"Male | 22,648 | 76.27 | 5125 | 76.28 | Female | 7046 | 23.73 | 1594 | 23.72\",\n    \"answer\": 1\n  },\n  \"study_design\": {\n    \"quote\": \"We used data from two large US healthcare databases. IBM MarketScan\u00ae Multi-State Medicaid Database (MDCD) and Optum\u00ae De-Identified Clinformatics\u00ae Data Mart Database\u2014Date of Death (Optum)) to construct a retrospective cohort study.\",\n    \"answer\": \"Cohort-Retrospective\"\n  }\n}",
+  "finish_reason": "stop"
+}

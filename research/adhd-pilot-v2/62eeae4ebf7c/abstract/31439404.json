@@ -1,0 +1,9 @@
+{
+  "pmid": "31439404",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "5e4f1356119238f715a9e32d5640518275ef1f3384d27fb8f5a1a88c707303ab",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Finally, thirty individuals were diagnosed with ADHD. Meanwhile, the 30 students with the lowest scores on the CAARS and General Health Questionnaire (GHQ) were included as the control group.\",\"answer\":\"include\"},\"n_total\":{\"quote\":null,\"answer\":null},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"thirty individuals were diagnosed with ADHD. Meanwhile, the 30 students with the lowest scores on the CAARS and General Health Questionnaire (GHQ) were included as the control group.\",\"answer\":\"Case-control\"}}",
+  "finish_reason": "stop"
+}

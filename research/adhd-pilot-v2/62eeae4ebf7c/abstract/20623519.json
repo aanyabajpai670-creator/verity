@@ -1,0 +1,9 @@
+{
+  "pmid": "20623519",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "ad6d7c83d58190d53d16e4a63d5168fac4c17292a277aabe18ffedb5f4cb53bb",
+  "raw_response": "{\"eligibility\":{\"quote\":\"RESULTS: Forthcoming.\",\"answer\":\"uncertain\"},\"n_total\":{\"quote\":null,\"answer\":null},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"We are conducting an observational cohort study using data from five large Medicaid programs and the HealthCore Integrated Research Database (HIRD(SM)), which is derived from administrative data from commercial health plans.\",\"answer\":\"Cohort-Retrospective\"}}",
+  "finish_reason": "stop"
+}

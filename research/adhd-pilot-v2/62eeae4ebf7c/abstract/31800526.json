@@ -1,0 +1,9 @@
+{
+  "pmid": "31800526",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "0217209dd83eaefa7924bed2a61f85a6798d1cf110350f9ddd9fe70c765f3383",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Siblings with baseline and at least 1 follow-up assessment (n = 216) were included in the analysis.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"Siblings with baseline and at least 1 follow-up assessment (n = 216) were included in the analysis.\",\"answer\":216},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"Households from 18 geographic clusters in eastern Uganda were randomized to individualized biweekly sessions of either (1) Mediational Intervention for Sensitizing Caregivers (MISC) training emphasizing cognitive stimulation/enrichment\",\"answer\":\"RCT\"}}",
+  "finish_reason": "stop"
+}

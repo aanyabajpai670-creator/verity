@@ -1,0 +1,9 @@
+{
+  "pmid": "20973708",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "2f36ef71815da4263d51435d4afeee04843a0ba0bf44299ecebf205dab705816",
+  "raw_response": "```json\n{\n  \"eligibility\": {\n    \"quote\": \"A total of 147 children with attention-deficit/hyperactivity disorder (ADHD) diagnosed by the Kiddie Schedule for Affective Disorders and Schizophrenia (K-SADS) and aged 6-14 (81% males)\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"A total of 147 children with attention-deficit/hyperactivity disorder (ADHD) diagnosed by the Kiddie Schedule for Affective Disorders and Schizophrenia (K-SADS) and aged 6-14 (81% males)\",\n    \"answer\": 147\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": \"aged 6-14 (81% males) and known to be methylphenidate (MPH) responders were enrolled in this multicenter, double-blind, randomized, placebo/active-controlled, three-period (7 days each) crossover study\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"multicenter, double-blind, randomized, placebo/active-controlled, three-period (7 days each) crossover study\",\n    \"answer\": \"RCT\"\n  }\n}\n```",
+  "finish_reason": "stop"
+}

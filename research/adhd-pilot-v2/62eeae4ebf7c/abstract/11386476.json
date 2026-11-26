@@ -1,0 +1,9 @@
+{
+  "pmid": "11386476",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "e14d837402983e5198a7d81e89bbe3056284356a057f623390d97a1ac872be7a",
+  "raw_response": "{\"eligibility\":{\"quote\":\"A double-blind, placebo-controlled study was used to investigate the effects of methylphenidate (Ritalin) on tests of auditory processing in children diagnosed with both Attention Deficit Hyperactivity Disorder (ADHD) and Central Auditory Processing Disorder (CAPD).\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"Thirty-two subjects received three Central Auditory Processing (CAP) tests and the Auditory Continuous Performance Test (ACPT), a measure of attention/impulsivity, at two separate test sessions\",\"answer\":32},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":null},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"A double-blind, placebo-controlled study was used to investigate the effects of methylphenidate (Ritalin) on tests of auditory processing in children diagnosed with both Attention Deficit Hyperactivity Disorder (ADHD) and Central Auditory Processing Disorder (CAPD).\",\"answer\":\"RCT\"}}",
+  "finish_reason": "stop"
+}

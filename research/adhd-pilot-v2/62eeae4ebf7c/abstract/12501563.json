@@ -1,0 +1,9 @@
+{
+  "pmid": "12501563",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "007640b685b76eb9b579db2f9ec23d6119c52ad3f7f491c7eeb8f436f5c1eb1e",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Self-informant rating concordance for attention-deficit/hyperactivity disorder (ADHD) symptoms was assessed in 281 adults at the subscale (Inattention, Hyperactivity-Impulsivity) and individual symptom levels.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"was assessed in 281 adults at the subscale (Inattention, Hyperactivity-Impulsivity) and individual symptom levels\",\"answer\":281},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":\"Sex and ADHD diagnosis moderated concordance, although effect sizes were small.\",\"answer\":true},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":\"Sex and ADHD diagnosis moderated concordance, although effect sizes were small.\",\"answer\":2},\"study_design\":{\"quote\":null,\"answer\":null}}",
+  "finish_reason": "stop"
+}

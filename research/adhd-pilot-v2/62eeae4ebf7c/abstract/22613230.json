@@ -1,0 +1,9 @@
+{
+  "pmid": "22613230",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "7f543ebd4d53e6a3e66e916559be23f254b09bf88c10b9b8d32e43cfeee47dbf",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Twenty-two right-handed, non-medicated children (12 ADHD, 10 controls) ages 8-12 years completed a fluid reasoning task during which fMRI data were collected.\",\"answer\":\"exclude\"},\"n_total\":{\"quote\":\"Twenty-two right-handed, non-medicated children (12 ADHD, 10 controls) ages 8-12 years completed a fluid reasoning task during which fMRI data were collected.\",\"answer\":22},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"Twenty-two right-handed, non-medicated children (12 ADHD, 10 controls) ages 8-12 years completed a fluid reasoning task during which fMRI data were collected.\",\"answer\":\"Case-control\"}}",
+  "finish_reason": "stop"
+}

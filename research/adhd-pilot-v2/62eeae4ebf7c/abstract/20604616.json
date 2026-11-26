@@ -1,0 +1,9 @@
+{
+  "pmid": "20604616",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "b59568b89e3e8a641661bf02068c74072b7cf7ebfd87d20f8f69b5c646acdd24",
+  "raw_response": "```json\n{\n  \"eligibility\": {\n    \"quote\": \"Fifteen male adults with ADHD and 14 controls participated and performed a task-switching paradigm.\",\n    \"answer\": \"exclude\"\n  },\n  \"n_total\": {\n    \"quote\": \"Fifteen male adults with ADHD and 14 controls participated and performed a task-switching paradigm.\",\n    \"answer\": 29\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"Fifteen male adults with ADHD and 14 controls participated and performed a task-switching paradigm.\",\n    \"answer\": \"Cross-sectional\"\n  }\n}\n```",
+  "finish_reason": "stop"
+}

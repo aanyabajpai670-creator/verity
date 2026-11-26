@@ -1,0 +1,9 @@
+{
+  "pmid": "18720661",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "2ff33422e83e8be272e1a1adf5497bb749893d96eb31f2c8647bc86b2946da18",
+  "raw_response": "```json\n{\n  \"eligibility\": {\n    \"quote\": null,\n    \"answer\": \"uncertain\"\n  },\n  \"n_total\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"Chart reviews were used to identify patients who reported prior significant positive and negative responses to CNS stimulants.\",\n    \"answer\": \"Case-control\"\n  }\n}\n```",
+  "finish_reason": "stop"
+}

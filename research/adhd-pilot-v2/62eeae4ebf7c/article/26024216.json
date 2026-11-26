@@ -1,0 +1,9 @@
+{
+  "pmid": "26024216",
+  "scope": "article",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "23839f86738d1bed74cec1d128e61384e4016f36f0ed337a66e908729b576a2d",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"In the present follow-up study, the participants were 61 children with a clinical diagnosis of combined-subtype ADHD and their families, who formed part of the sample of Spanish families from the International Multicenter ADHD Genetic Project (IMAGE)\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"In the present follow-up study, the participants were 61 children with a clinical diagnosis of combined-subtype ADHD and their families\",\n    \"answer\": 61\n  },\n  \"n_female\": {\n    \"quote\": \"Of the total sample, 58 were boys (95.1%), and 3 were girls (4.9%).\",\n    \"answer\": 3\n  },\n  \"includes_female\": {\n    \"quote\": \"Of the total sample, 58 were boys (95.1%), and 3 were girls (4.9%).\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": \"Of the total sample, 58 were boys (95.1%), and 3 were girls (4.9%).\",\n    \"answer\": 4.9\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": \"Of the total sample, 58 were boys (95.1%), and 3 were girls (4.9%).\",\n    \"answer\": 1\n  },\n  \"study_design\": {\n    \"quote\": \"The participants were evaluated at the beginning of the study, between 2003 and 2005 (baseline), and 30 months later, between 2006 and 2008 (follow-up).\",\n    \"answer\": \"Cohort-Prospective\"\n  }\n}",
+  "finish_reason": "stop"
+}

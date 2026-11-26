@@ -1,0 +1,9 @@
+{
+  "pmid": "35780447",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "032ffb231455fa242e3f9ea72cb4fae984f44c8bced7fec6211f0e24c9ac17d8",
+  "raw_response": "{\"eligibility\":{\"quote\":\"This study used Taiwan's National Health Insurance Research Database to identify patients with ADHD (N = 379,440) between January 1, 2001, and December 31, 2016.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"This study used Taiwan's National Health Insurance Research Database to identify patients with ADHD (N = 379,440) between January 1, 2001, and December 31, 2016.\",\"answer\":379440},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"By conducting a nested case-control study with risk-set sampling from the ADHD cohort, the researchers selected 20 age- and sex-matched controls (n = 3180) for each patient who died by suicide (cases).\",\"answer\":\"Case-control\"}}",
+  "finish_reason": "stop"
+}

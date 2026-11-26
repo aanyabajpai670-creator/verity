@@ -1,0 +1,9 @@
+{
+  "pmid": "34352291",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "ef92eccc62065f4417ac74d26c6d725d573c9808103984b7a6f435c3d615b0ca",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"We conducted a case-control study with 150 ADHD children and 322 controls.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": \"In the stratified analysis, a significant result was obtained from the girl samples (p = 0.048).\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": \"In the stratified analysis, a significant result was obtained from the girl samples (p = 0.048). The OR of the girls with ADHD with CT genotype was 2.29 (95 % CI 1.170-4.469, p = 0.014).\",\n    \"answer\": 2\n  },\n  \"study_design\": {\n    \"quote\": \"We conducted a case-control study with 150 ADHD children and 322 controls.\",\n    \"answer\": \"Case-control\"\n  }\n}",
+  "finish_reason": "stop"
+}

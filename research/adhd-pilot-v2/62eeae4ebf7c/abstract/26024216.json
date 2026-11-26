@@ -1,0 +1,9 @@
+{
+  "pmid": "26024216",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "bc1351b83b35b39a24f725c7134b613e9f7893a657c30cc43386ff3e74e0cb17",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Sixty-one children with ADHD who were between 6 and 12 years old at the baseline assessment were evaluated 30 months later\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"Sixty-one children with ADHD who were between 6 and 12 years old at the baseline assessment were evaluated 30 months later\",\"answer\":61},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"Sixty-one children with ADHD who were between 6 and 12 years old at the baseline assessment were evaluated 30 months later (mean age at baseline: 8.70 \u00b1 1.97; mean age at follow-up: 10.98 \u00b1 2.19).\",\"answer\":\"Cohort-Prospective\"}}",
+  "finish_reason": "stop"
+}

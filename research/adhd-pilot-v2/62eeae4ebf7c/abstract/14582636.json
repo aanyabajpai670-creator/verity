@@ -1,0 +1,9 @@
+{
+  "pmid": "14582636",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "95e1a08b274fd3df6b6a92c7dab55c72f5ef9a48f1c984148c9e5d0ef2d7a574",
+  "raw_response": "```json\n{\n  \"eligibility\": {\n    \"quote\": \"BIC measurements were performed on 17 children at risk for CAPD and in a group of 25 children with normal results in the central audiometric tests used.\",\n    \"answer\": \"uncertain\"\n  },\n  \"n_total\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"BIC measurements were performed on 17 children at risk for CAPD and in a group of 25 children with normal results in the central audiometric tests used.\",\n    \"answer\": \"Case-control\"\n  }\n}\n```",
+  "finish_reason": "stop"
+}

@@ -1,0 +1,9 @@
+{
+  "pmid": "28073033",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "5c384ad19f4d9c7394c1061a4996879a77250bffb291943b811e131cfa5f8d54",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Results supported a separate dimension of violent ideations with a small to moderate correlation with five other dimensions of mental health: internalising, prosociality, ADHD, indirect/proactive aggression, and physical/reactive aggression.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"normative sample of 1306 youth (at age 17)\",\"answer\":1306},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"we factor analysed a measure of violent ideations and an omnibus measure of mental health dimensions in a normative sample of 1306 youth (at age 17).\",\"answer\":\"Cross-sectional\"}}",
+  "finish_reason": "stop"
+}

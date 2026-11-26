@@ -1,0 +1,9 @@
+{
+  "pmid": "11765293",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "6ce79e48461464fb17fd4e6d156734da9cd2a3b8d9410b74efc681808dfcbc62",
+  "raw_response": "```json\n{\n  \"eligibility\": {\n    \"quote\": \"The study included 14 boys with TS without ADHD (TS-only), 11 boys with TS and ADHD (TS+ADHD), and 10 male controls.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"The study included 14 boys with TS without ADHD (TS-only), 11 boys with TS and ADHD (TS+ADHD), and 10 male controls.\",\n    \"answer\": 35\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": \"The study included 14 boys with TS without ADHD (TS-only), 11 boys with TS and ADHD (TS+ADHD), and 10 male controls.\",\n    \"answer\": false\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"Three different saccade tasks (prosaccades, antisaccades, and memory-guided saccades) were used to examine functions necessary for the planning and execution of eye movements, including motor response preparation, response inhibition, and working memory.\",\n    \"answer\": \"Cross-sectional\"\n  }\n}\n```",
+  "finish_reason": "stop"
+}

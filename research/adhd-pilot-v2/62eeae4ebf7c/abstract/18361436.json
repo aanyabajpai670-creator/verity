@@ -1,0 +1,9 @@
+{
+  "pmid": "18361436",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "2313267bd70403d6c1c47359be6d7e3f5000723c5a5d1006048ccc9202afb482",
+  "raw_response": "```json\n{\n  \"eligibility\": {\n    \"quote\": \"We investigated the performance of 128 children with and without ADHD on the Fixed and Random versions of the Sustained Attention to Response Task (SART).\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"We investigated the performance of 128 children with and without ADHD on the Fixed and Random versions of the Sustained Attention to Response Task (SART).\",\n    \"answer\": 128\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"We investigated the performance of 128 children with and without ADHD on the Fixed and Random versions of the Sustained Attention to Response Task (SART).\",\n    \"answer\": \"Cross-sectional\"\n  }\n}\n```",
+  "finish_reason": "stop"
+}

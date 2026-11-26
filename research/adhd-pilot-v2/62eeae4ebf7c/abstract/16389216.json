@@ -1,0 +1,9 @@
+{
+  "pmid": "16389216",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "99c8d220c26a263ddc2e7340654345f582f1e374dd8952211660a82d9a7c902f",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"Adolescents (N = 220) having a confirmed Diagnostic and Statistical Manual of Mental Disorders, Fourth Edition diagnosis of ADHD underwent dose titration to identify dosages of OROS methylphenidate that improved symptoms to predefined criteria.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"Adolescents (N = 220) having a confirmed Diagnostic and Statistical Manual of Mental Disorders, Fourth Edition diagnosis of ADHD underwent dose titration to identify dosages of OROS methylphenidate that improved symptoms to predefined criteria.\",\n    \"answer\": 220\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"Subjects successfully completing the dose titration phase (n = 177) (ie, tolerated and responded to treatment and adhered to the protocol) were randomized to receive 2 weeks' treatment with their individualized dosage of OROS methylphenidate (18, 36, 54, or 72 mg once daily)\",\n    \"answer\": \"RCT\"\n  }\n}",
+  "finish_reason": "stop"
+}

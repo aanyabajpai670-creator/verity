@@ -1,0 +1,9 @@
+{
+  "pmid": "21214878",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "056fb0f8c95eaf417cd98c8b51a64301ac38bf04b1d153a3b6a508345be05580",
+  "raw_response": "{\"eligibility\": {\"quote\": \"children with ADHD (N = 18) and normal controls (N = 18) aged 8 to 12 years\", \"answer\": \"include\"}, \"n_total\": {\"quote\": \"children with ADHD (N = 18) and normal controls (N = 18) aged 8 to 12 years\", \"answer\": 36}, \"n_female\": {\"quote\": null, \"answer\": null}, \"includes_female\": {\"quote\": null, \"answer\": null}, \"female_percent\": {\"quote\": null, \"answer\": null}, \"paired_counts\": {\"quote\": null, \"answer\": null}, \"sex_reporting\": {\"quote\": null, \"answer\": null}, \"study_design\": {\"quote\": \"Children performed a time production task, in which visual performance feedback was given after each response.\", \"answer\": \"Other\"}}",
+  "finish_reason": "stop"
+}

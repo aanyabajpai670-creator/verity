@@ -1,0 +1,9 @@
+{
+  "pmid": "28095819",
+  "scope": "article",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "3e33196bfe50e97de6a9282ed7e5b7de3dcea45e1f1c9216efec3a7e715640b5",
+  "raw_response": "{\"eligibility\":{\"quote\":\"A total of 11 119 children were registered with ADHD, with significantly fewer in MoBa (1.45%) than the general child population (2.11%), p < 0.0001.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"a total of 11 119 children (2.11%) were registered in the NPR with an ADHD diagnosis between January 1, 2008 and December 31, 2013\",\"answer\":11119},\"n_female\":{\"quote\":\"2All: Total number of girls = 2865, and boys = 8254\",\"answer\":2865},\"includes_female\":{\"quote\":\"2All: Total number of girls = 2865, and boys = 8254\",\"answer\":true},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":\"Comparing relative differences for boys and girls in the multiaxial classifications in the two groups of children with ADHD; MoBa and the general child population (All)\",\"answer\":2},\"study_design\":{\"quote\":\"The present study included all Norwegian children born between January 1, 2000 and December 31, 2008 that were registered with a diagnosis of ADHD reported by CAMHS to the National Patient Registry (NPR) between January 1, 2008 and December 31, 2013.\",\"answer\":\"Cohort-Retrospective\"}}",
+  "finish_reason": "stop"
+}

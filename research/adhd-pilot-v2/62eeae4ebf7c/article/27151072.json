@@ -1,0 +1,9 @@
+{
+  "pmid": "27151072",
+  "scope": "article",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "8cd586c421491f8c32e7d3202f5ab113e2c52b097b39651e0e87543a7a7499a5",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"Participants were from four different projects and included individuals affected with adult ADHD, childhood ADHD, MDD, ASD, childhood dual diagnosis ADHD\u2013ASD and healthy controls (Table 1).\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"This left 318 participants and 5638 probes for analysis (Table 1).\",\n    \"answer\": 318\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": \"Even though the MDD sample is female-dominated and the adult ADHD sample male-dominated, gender was included as a covariate and therefore does not fully account for this effect.\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": \"An explanation for our findings would be gender differences in prevalence of MDD and adult ADHD, however, analyses were corrected for gender and stratified analyses yielded the same results (data not shown).\",\n    \"answer\": 2\n  },\n  \"study_design\": {\n    \"quote\": \"However, our results have several limitations including power to detect effects in relatively small samples and the reliance upon cross-sectional study designs.\",\n    \"answer\": \"Cross-sectional\"\n  }\n}",
+  "finish_reason": "stop"
+}

@@ -1,0 +1,9 @@
+{
+  "pmid": "25798338",
+  "scope": "article",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "4bf6a4532549fcaaa2b38bdb0977c517b7b94c5d1b8a40663f3cbb71872abebd",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"investigators conducted a prospective, triple-blinded, 13-site, clinical cohort study. Comprehensive clinical evaluation data were obtained from 275 children and adolescents presenting with attentional and behavioral concerns.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"As such, there were 275 subjects who met protocol criteria, completed the study, and had complete EEG recordings. All 275 subjects were included in analysis of diagnostic accuracy.\",\n    \"answer\": 275\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": \"Sample demographics are as follows (n = 275): (1) adolescents 27%; children 73%; (2) female 36%; male 64%;\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": \"Sample demographics are as follows (n = 275): (1) adolescents 27%; children 73%; (2) female 36%; male 64%;\",\n    \"answer\": 36\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": \"However, in the current approach with a single EEG variable integrated with a clinician's ADHD evaluation, there was no sex difference in accuracy, with boys and girls each at 88% (see Table S1).\",\n    \"answer\": 2\n  },\n  \"study_design\": {\n    \"quote\": \"investigators conducted a prospective, triple-blinded, 13-site, clinical cohort study.\",\n    \"answer\": \"Cohort-Prospective\"\n  }\n}",
+  "finish_reason": "stop"
+}

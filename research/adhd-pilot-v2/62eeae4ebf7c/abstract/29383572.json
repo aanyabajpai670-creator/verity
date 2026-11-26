@@ -1,0 +1,9 @@
+{
+  "pmid": "29383572",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "ee4962855e807f6622ee7fbdc4ccd150b5bbc4c91a3a622d132e2f5dd50029cb",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"SPD489-404 was the first 2-year safety study of lisdexamfetamine dimesylate in the treatment of attention-deficit/hyperactivity disorder in children and adolescents.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"All 314 enrolled participants received lisdexamfetamine dimesylate and were included in the safety population, and 191 (60.8%) completed the study.\",\n    \"answer\": 314\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"Participants aged 6-17 years received dose-optimised open-label lisdexamfetamine dimesylate (30, 50 or 70 mg/day) for 104 weeks.\",\n    \"answer\": \"Other\"\n  }\n}",
+  "finish_reason": "stop"
+}

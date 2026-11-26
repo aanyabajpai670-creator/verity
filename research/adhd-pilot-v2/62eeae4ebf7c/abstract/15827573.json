@@ -1,0 +1,9 @@
+{
+  "pmid": "15827573",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "f0839ef49ce63966d356c78d8cac89fbaec25da2f893e9bd83d9cecb7957fbc8",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"Children with ADHD (n=47), ages 5-16 years (mean=9.02 years), underwent a 4-week, double-blinded, crossover trial with forced weekly dosage changes.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"Children with ADHD (n=47), ages 5-16 years (mean=9.02 years)\",\n    \"answer\": 47\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"underwent a 4-week, double-blinded, crossover trial with forced weekly dosage changes\",\n    \"answer\": \"RCT\"\n  }\n}",
+  "finish_reason": "stop"
+}

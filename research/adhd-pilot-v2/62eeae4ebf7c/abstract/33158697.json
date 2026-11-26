@@ -1,0 +1,9 @@
+{
+  "pmid": "33158697",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "d25484ea591553528cbf3a4a2b06825847745d6ccf417183381c434ab1d5f668",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"We enrolled a total of 54,487 asthmatic children younger than and equal to 12 years old who had at least one claim of inpatient admission or at least three claims of an ambulatory visit.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"We enrolled a total of 54,487 asthmatic children younger than and equal to 12 years old who had at least one claim of inpatient admission or at least three claims of an ambulatory visit.\",\n    \"answer\": 54487\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"This nationwide population-based cohort study reveals that asthma children treated with montelukast were not at an increased risk of developing ADHD. Nevertheless, validation of our retrospective survey requires further prospective study.\",\n    \"answer\": \"Cohort-Retrospective\"\n  }\n}",
+  "finish_reason": "stop"
+}

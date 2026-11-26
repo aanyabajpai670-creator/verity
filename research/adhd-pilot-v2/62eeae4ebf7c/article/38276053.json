@@ -1,0 +1,9 @@
+{
+  "pmid": "38276053",
+  "scope": "article",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "115458648e90dd03efb672cf15ce31128044ee9fd59b7fba0d9b666d23303847",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"In our cross-sectional study performed in 60 Moroccan children and adolescents with T1DM, detailed psychological evaluations were performed to assess symptoms of anxiety, attention-deficit hyperactivity disorder (ADHD), sleep quality and diabetes-specific quality of life\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"A total of 60 children and adolescents diagnosed with type I diabetes mellitus with a mean age of 11.05 \u00b1 0.35 (SEM) (range 6\u201317 years) were included in this study.\",\n    \"answer\": 60\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": \"Most of the participants were girls (75%) and 25% were boys\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": \"Most of the participants were girls (75%) and 25% were boys\",\n    \"answer\": 75\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": \"Significant differences were found between salivary cortisol concentrations between genders, with girls showing a higher concentration of cortisol compared with boys (p = 0.008 Mann\u2013Whitney U test)\",\n    \"answer\": 2\n  },\n  \"study_design\": {\n    \"quote\": \"In our cross-sectional study performed in 60 Moroccan children and adolescents with T1DM\",\n    \"answer\": \"Cross-sectional\"\n  }\n}",
+  "finish_reason": "stop"
+}

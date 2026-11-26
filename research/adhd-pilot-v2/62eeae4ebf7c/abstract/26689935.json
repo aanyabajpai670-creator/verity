@@ -1,0 +1,9 @@
+{
+  "pmid": "26689935",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "309364ef4b10ba363256d448e31460e7909ae5bb5e813febc4faa1c6b2b9b6a7",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Twenty high school students with ADHD symptoms participated in this single-blinded, crossover, sham-controlled study.\",\"answer\":\"exclude\"},\"n_total\":{\"quote\":\"Twenty high school students with ADHD symptoms participated in this single-blinded, crossover, sham-controlled study.\",\"answer\":20},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"single-blinded, crossover, sham-controlled study\",\"answer\":\"Other\"}}",
+  "finish_reason": "stop"
+}

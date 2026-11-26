@@ -1,0 +1,9 @@
+{
+  "pmid": "30796648",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "4344fd56c446023465957f2f2dcf730860d0f1a5c6cf987c3123429456d5ef48",
+  "raw_response": "```json\n{\n  \"eligibility\": {\n    \"quote\": \"The purpose of the study was to estimate the burden to families of raising a child with attention-deficit/hyperactivity disorder (ADHD). Data were drawn from a longitudinal sample recruited in western Pennsylvania.\",\n    \"answer\": \"uncertain\"\n  },\n  \"n_total\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"Data were drawn from a longitudinal sample recruited in western Pennsylvania. When participants were between 14 and 17 years old, parents completed a questionnaire assessing economic burden over the course of raising their children.\",\n    \"answer\": \"Cohort-Prospective\"\n  }\n}\n```",
+  "finish_reason": "stop"
+}

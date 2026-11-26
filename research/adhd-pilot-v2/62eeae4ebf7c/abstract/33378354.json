@@ -1,0 +1,9 @@
+{
+  "pmid": "33378354",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "0296b85f932132c2b41ef4c13b5c5b45c5fde4b622672cb6da3cbc6bc9b7a43c",
+  "raw_response": "{\"eligibility\":{\"quote\":\"To clinically and non-invasively examine this hypothesis, we monitored the kinetics of pupil diameter in response to stimuli and compared them between adults with ADHD (n = 17) and typically developing (TD) adults (n = 23) during an auditory continuous performance task.\",\"answer\":\"include\"},\"n_total\":{\"quote\":null,\"answer\":null},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"we monitored the kinetics of pupil diameter in response to stimuli and compared them between adults with ADHD (n = 17) and typically developing (TD) adults (n = 23) during an auditory continuous performance task.\",\"answer\":\"Cross-sectional\"}}",
+  "finish_reason": "stop"
+}

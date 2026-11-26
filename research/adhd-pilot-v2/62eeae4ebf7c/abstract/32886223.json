@@ -1,0 +1,9 @@
+{
+  "pmid": "32886223",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "eac7ac916efd4c3ad1c9ff5d116fab9c43c1b77a94187c355e99e333e9487ade",
+  "raw_response": "{\"eligibility\":{\"quote\":\"All the singleton children born in Finland between January 1998 and December 1999 and diagnosed with ADHD were included in the study.\",\"answer\":\"include\"},\"n_total\":{\"quote\":null,\"answer\":null},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"This study is based on the Finnish Prenatal Study of ADHD with a nested case-control design.\",\"answer\":\"Case-control\"}}",
+  "finish_reason": "stop"
+}

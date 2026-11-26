@@ -1,0 +1,9 @@
+{
+  "pmid": "14678455",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "eedcf17e6e07c39ad1b5f117a36b63f0cdf28f88c26c994786cac9a57fa43fb0",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"Subjects include 14 male and five female ADHD children.\",\n    \"answer\": \"exclude\"\n  },\n  \"n_total\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"n_female\": {\n    \"quote\": \"Subjects include 14 male and five female ADHD children.\",\n    \"answer\": 5\n  },\n  \"includes_female\": {\n    \"quote\": \"Subjects include 14 male and five female ADHD children.\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"In the present study a 16 week comparison study was conducted of behavioral, cognitive and educational measures in school-age Taiwanese children with attention-deficit hyperactivity disorder (ADHD) receiving open-label methylphenidate (MPH).\",\n    \"answer\": \"Other\"\n  }\n}",
+  "finish_reason": "stop"
+}

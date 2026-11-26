@@ -1,0 +1,9 @@
+{
+  "pmid": "23582873",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "4f8607890a18807dca0171f613f42d6e08a3416d63a0fff38ffc75eda0033793",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"children and adolescents with ADHD (n = 56), unaffected siblings of ADHD probands (n = 31), and healthy controls (n = 17).\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"We used refined DTI tractography methods to examine MD, FA, axial diffusivity (AD), and radial diffusivity (RD) of the anterior thalamic radiation, cingulum, corticospinal tract, inferior fronto-occipital fasciculus, inferior longitudinal fasciculus\",\n    \"answer\": \"Cross-sectional\"\n  }\n}",
+  "finish_reason": "stop"
+}

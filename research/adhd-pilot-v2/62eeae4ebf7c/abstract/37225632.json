@@ -1,0 +1,9 @@
+{
+  "pmid": "37225632",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "e6159282f5fb6bd4cdf2cfdb815a781df32e17ab731d6f6785c48882ec8d29d3",
+  "raw_response": "```json\n{\n  \"eligibility\": {\n    \"quote\": \"This retrospective nationwide population cohort study was based on a nationally representative database of Taiwan, and neonates born from 2004 to 2010 were enrolled.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"In total, 118,222 infants with neonatal jaundice were enrolled, including diagnosed only (7260), simple phototherapy (82,990), intensive phototherapy or BET (27,972 infants).\",\n    \"answer\": 118222\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": \"The associations were significant in infants of both sexes and with birth weights larger than 2500 grams.\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": \"After stratification, the associations were still existed in subgroup with birth weights \u22652500 grams and in male subgroup.\",\n    \"answer\": 2\n  },\n  \"study_design\": {\n    \"quote\": \"This retrospective nationwide population cohort study was based on a nationally representative database of Taiwan, and neonates born from 2004 to 2010 were enrolled.\",\n    \"answer\": \"Cohort-Retrospective\"\n  }\n}\n```",
+  "finish_reason": "stop"
+}

@@ -1,0 +1,9 @@
+{
+  "pmid": "38658035",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "a6fcecfe3df827cb19c28116727e87e86ff16cfbe20357fc00a4762c4fdda643",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"Prenatal opioid exposure modestly increased the risk of severe neuropsychiatric disorders (1.30 (1.15 to 1.46)), mood disorders, attention deficit hyperactivity disorder, and intellectual disability in the child.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"Of the 3 128 571 infants included (from 2 299 664 mothers)\",\n    \"answer\": 3128571\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": \"2 912 559 (51.3% male, 48.7% female) infants with no prenatal opioid exposure and 216 012 (51.2% male, 48.8% female) infants with prenatal opioid exposure.\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"From 1 January 2009 to 31 December 2020, birth cohort data of pregnant women in South Korea linked to their liveborn infants from the National Health Insurance Service of South Korea were collected.\",\n    \"answer\": \"Cohort-Retrospective\"\n  }\n}",
+  "finish_reason": "stop"
+}

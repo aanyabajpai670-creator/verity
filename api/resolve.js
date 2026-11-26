@@ -104,14 +104,14 @@ if (DISCOVERY_REGEX.test(text)) {
 
         factsBlock:
 `Condition: ${random.name}
-Representation Score: ${random.score}/100
+March 2025 historical Representation Score: ${random.score}/100
 Gap Type: ${GAP_TYPE_LABELS[random.gapType]}
 Finding: ${random.summary}
 
 Invite the user to ask more about this condition.`,
 
         template:
-`Here's an interesting one: ${random.name} has a Representation Score of ${random.score}/100. ${random.summary}`,
+`Here's an interesting one: ${random.name} had a March 2025 Representation Score of ${random.score}/100. ${random.summary}`,
 
         link: `#/conditions/${random.slug}`
     };
@@ -174,10 +174,10 @@ function buildConditionResolution(condition) {
     kind: 'condition',
     factsBlock:
       `Condition: ${condition.name}\n` +
-      `Representation Score: ${condition.score}/100\n` +
+      `March 2025 historical Representation Score: ${condition.score}/100\n` +
       `Gap Type: ${gapLabel}\n` +
       `Finding: ${condition.summary}`,
-    template: `${condition.name} has a Representation Score of ${condition.score}/100 (${gapLabel}). ${condition.summary}`,
+    template: `${condition.name} had a March 2025 Representation Score of ${condition.score}/100 (${gapLabel}). ${condition.summary}`,
     link,
   };
 }

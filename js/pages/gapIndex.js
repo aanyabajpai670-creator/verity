@@ -63,7 +63,7 @@ export function renderGapIndexPage(container) {
   methContent.className = 'accordion__content';
   const methP = document.createElement('p');
   methP.className = 'body-md';
-  methP.textContent = 'The Research Gap Index evaluates conditions based on a composite representation score derived from four metrics: the proportion of studies including female participants, the proportion of female-only studies, the proportion of studies conducting sex-disaggregated analysis, and an overall evidence quality assessment. Conditions are classified into one of four gap types based on the nature of the representation gap identified. Data is sourced from PubMed, PubMed Central, and Europe PMC.';
+  methP.textContent = 'The Gap Index uses a composite representation score based on inclusion, female-only studies, sex-disaggregated analysis, and evidence quality.';
   methContent.appendChild(methP);
 
   methDetails.appendChild(methSummary);
@@ -199,7 +199,7 @@ export function renderGapIndexPage(container) {
       { key: 'women', label: '% Women' },
       { key: 'disagg', label: '% Sex-Disagg.' },
       { key: 'eq', label: 'Evidence' },
-      { key: 'score', label: 'Score' },
+      { key: 'score', label: 'Score / 100' },
     ];
 
     columns.forEach(col => {
@@ -328,7 +328,7 @@ export function renderGapIndexPage(container) {
   // ── 6. Index Note ──
   const note = document.createElement('p');
   note.className = 'gap-index__note';
-  note.textContent = 'This index reflects manually curated data. Automated analysis is in development. Last updated: March 2025.';
+  note.textContent = 'Study figures are approximate. Last updated: March 2025.';
   wrapper.appendChild(note);
 
   page.appendChild(wrapper);

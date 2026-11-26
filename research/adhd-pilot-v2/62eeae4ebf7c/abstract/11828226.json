@@ -1,0 +1,9 @@
+{
+  "pmid": "11828226",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "d191db13b2040e4009df3e43f422234adae0d77168e0ce144fd9cccaf91a1b66",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"were evaluated by studying the rate of spontaneous eye blinks, the acoustic startle eye blink response (ASER), and motor impersistence among 8- to 12-yr-old children (10 boys and 8 girls) meeting DSM-III-R criteria for ADHD.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": \"10 boys and 8 girls\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": \"Boys with ADHD had increased spontaneous blink rate, decreased ASER latency, and decreased motor impersistence after maximal exercise. Girls with ADHD had increased ASER amplitude and decreased ASER latency after submaximal exercise.\",\n    \"answer\": 2\n  },\n  \"study_design\": {\n    \"quote\": \"each child was randomly assigned to counterbalanced conditions of treadmill walking at an intensity of 65-75% VO(2peak) or quiet rest.\",\n    \"answer\": \"RCT\"\n  }\n}",
+  "finish_reason": "stop"
+}

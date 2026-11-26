@@ -1,0 +1,9 @@
+{
+  "pmid": "32936392",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "6dd83fa603202993e74da2d2348e5b82cbffa39abf89d32ce6a3097f5caf7039",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Data comes from a Canadian representative population-based cohort including 2028 FT, 100 MLP children, and their parents.\",\"answer\":\"include\"},\"n_total\":{\"quote\":null,\"answer\":null},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"Overprotective parenting was measured when children were 5, 17, and 29 months old. Hyperactivity-impulsivity and inattention symptoms were measured repeatedly from 4 to 8 years of age.\",\"answer\":\"Cohort-Prospective\"}}",
+  "finish_reason": "stop"
+}

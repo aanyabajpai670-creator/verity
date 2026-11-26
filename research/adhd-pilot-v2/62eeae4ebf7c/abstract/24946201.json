@@ -1,0 +1,9 @@
+{
+  "pmid": "24946201",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "2bf63c54d77e371eed5b438129ed222fa03818be511f1b08974ec04e97a35578",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Ten patients with TBI and 10 healthy control subjects participated in this study.\",\"answer\":\"exclude\"},\"n_total\":{\"quote\":\"Ten patients with TBI and 10 healthy control subjects participated in this study.\",\"answer\":20},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"RESEARCH DESIGN: Case control study.\",\"answer\":\"Case-control\"}}",
+  "finish_reason": "stop"
+}

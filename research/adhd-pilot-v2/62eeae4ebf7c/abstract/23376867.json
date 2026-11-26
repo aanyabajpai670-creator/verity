@@ -1,0 +1,9 @@
+{
+  "pmid": "23376867",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "adece26b42e52ab64939e0fe88334e3f155294c1eb69cb207286846f01d172cb",
+  "raw_response": "{\"eligibility\":{\"quote\":\"In this cross-sectional survey, we measured the prevalence and demographic correlates of prescription stimulant use among a sample of US medical students.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"The lifetime prevalence of stimulant use in this sample of 144 medical students was 20%\",\"answer\":144},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"In this cross-sectional survey, we measured the prevalence and demographic correlates of prescription stimulant use among a sample of US medical students.\",\"answer\":\"Cross-sectional\"}}",
+  "finish_reason": "stop"
+}

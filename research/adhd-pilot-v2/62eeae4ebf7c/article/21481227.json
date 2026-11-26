@@ -1,0 +1,9 @@
+{
+  "pmid": "21481227",
+  "scope": "article",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "3235ba616d9ebdce81c9118df6bd314dd5f6511c3c0034953822549202bc2671",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"Former Norwegian child psychiatric in-patients (n = 541) were followed up 19-41 years after hospitalization by record linkage to the National Register of Criminality. On the basis of the hospital records, the patients were re-diagnosed according to ICD-10.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"Thus, a total of 541 participants were included in this study.\\n\\nThe sex distribution was 366 (68%) boys and 175 (32%) girls\",\n    \"answer\": 541\n  },\n  \"n_female\": {\n    \"quote\": \"Thus, a total of 541 participants were included in this study.\\n\\nThe sex distribution was 366 (68%) boys and 175 (32%) girls\",\n    \"answer\": 175\n  },\n  \"includes_female\": {\n    \"quote\": \"The sex distribution was 366 (68%) boys and 175 (32%) girls\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": \"The sex distribution was 366 (68%) boys and 175 (32%) girls\",\n    \"answer\": 32\n  },\n  \"paired_counts\": {\n    \"quote\": \"Thus, a total of 541 participants were included in this study.\\n\\nThe sex distribution was 366 (68%) boys and 175 (32%) girls\",\n    \"answer\": true\n  },\n  \"sex_reporting\": {\n    \"quote\": \"Of these, 114 (31%) of the males and 17 (10%) of the females had been convicted.\",\n    \"answer\": 2\n  },\n  \"study_design\": {\n    \"quote\": \"All consecutively admitted in-patients to the children's unit at the National Centre for Child and Adolescent Psychiatry (NCCAP), in Oslo Norway, from January 1968 to October 1988, were included in the study (n = 635).\",\n    \"answer\": \"Cohort-Retrospective\"\n  }\n}",
+  "finish_reason": "stop"
+}

@@ -1,0 +1,9 @@
+{
+  "pmid": "20574056",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "da776eae1570a6f3ae28dee032be26a106ef6f8ae214dbcadc20c7c702679c26",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"children aged 6 to 12 years (n = 24) with ADHD.\",\n    \"answer\": \"exclude\"\n  },\n  \"n_total\": {\n    \"quote\": \"children aged 6 to 12 years (n = 24) with ADHD.\",\n    \"answer\": 24\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"randomized, double-blind, single-center, parallel-group study\",\n    \"answer\": \"RCT\"\n  }\n}",
+  "finish_reason": "stop"
+}

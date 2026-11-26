@@ -1,0 +1,9 @@
+{
+  "pmid": "29795244",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "191ada6ce8a69af810faa205dc97ae6348da2ff30986df6639f94a3ad3c30c21",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"Using a tract-profile approach, we examined 18 major white matter tracts in 38 offspring of BD parents, 36 offspring of comparison parents with non-BD psychopathology (depression, attention-deficit/hyperactivity disorder), and 41 offspring of healthy parents.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"Using a tract-profile approach, we examined 18 major white matter tracts in 38 offspring of BD parents, 36 offspring of comparison parents with non-BD psychopathology (depression, attention-deficit/hyperactivity disorder), and 41 offspring of healthy parents.\",\n    \"answer\": \"Cross-sectional\"\n  }\n}",
+  "finish_reason": "stop"
+}

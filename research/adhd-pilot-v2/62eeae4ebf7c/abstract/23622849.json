@@ -1,0 +1,9 @@
+{
+  "pmid": "23622849",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "4e384d08d891b32bf9321de9da0ac4f36fb680314b4078fe7db9038774fca828",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Adolescents with selective serotonin reuptake inhibitor (SSRI)-resistant depression (N = 334) were randomly assigned to a medication switch alone (to another SSRI or to venlafaxine) or to a medication switch plus CBT.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"Adolescents with selective serotonin reuptake inhibitor (SSRI)-resistant depression (N = 334) were randomly assigned to a medication switch alone (to another SSRI or to venlafaxine) or to a medication switch plus CBT.\",\"answer\":334},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"were randomly assigned to a medication switch alone (to another SSRI or to venlafaxine) or to a medication switch plus CBT.\",\"answer\":\"RCT\"}}",
+  "finish_reason": "stop"
+}

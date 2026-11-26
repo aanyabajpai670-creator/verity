@@ -1,0 +1,9 @@
+{
+  "pmid": "21824454",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "514aef33a76c01d69e3f332c41fbfa4b7c61d536ec65be8ec69764f4f0e1138f",
+  "raw_response": "{\"eligibility\": {\"quote\": \"These post hoc analyses included sleep data collected with the Pittsburgh Sleep Quality Index (PSQI), a self-rated questionnaire, from 831 adults with DSM-IV-TR-defined ADHD in 2 large, randomized, double-blind, placebo-controlled, forced-dose titration studies\", \"answer\": \"include\"}, \"n_total\": {\"quote\": \"from 831 adults with DSM-IV-TR-defined ADHD\", \"answer\": 831}, \"n_female\": {\"quote\": null, \"answer\": null}, \"includes_female\": {\"quote\": null, \"answer\": null}, \"female_percent\": {\"quote\": null, \"answer\": null}, \"paired_counts\": {\"quote\": null, \"answer\": null}, \"sex_reporting\": {\"quote\": null, \"answer\": null}, \"study_design\": {\"quote\": \"2 large, randomized, double-blind, placebo-controlled, forced-dose titration studies of lisdexamfetamine (N = 420; conducted from May 25, 2006, to November 16, 2006)\", \"answer\": \"RCT\"}}",
+  "finish_reason": "stop"
+}

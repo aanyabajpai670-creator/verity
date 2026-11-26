@@ -1,0 +1,9 @@
+{
+  "pmid": "37312091",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "e4e4e0bf87b54f741bc49567c9894b7c8a247d9b112649b1815103c498de7b0b",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Our manuscript describes our ongoing study's protocol in detail.\",\"answer\":\"exclude\"},\"n_total\":{\"quote\":null,\"answer\":null},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"Our manuscript describes our ongoing study's protocol in detail.\",\"answer\":\"Other\"}}",
+  "finish_reason": "stop"
+}

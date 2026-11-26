@@ -1,0 +1,9 @@
+{
+  "pmid": "38622866",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "4b2dd68e7f1c784e67e7002a021e39b317f5b40eb3e3251e06222ce6377167b2",
+  "raw_response": "{\"eligibility\": {\"quote\": \"The sample was composed of 778 adolescents who provided complete information on their PA patterns through the Physical Activity Questionnaire for Adolescents (PAQ-A). Of these, 97 had ADHD according to DSM-5 criteria.\", \"answer\": \"include\"}, \"n_total\": {\"quote\": \"The sample was composed of 778 adolescents who provided complete information on their PA patterns through the Physical Activity Questionnaire for Adolescents (PAQ-A).\", \"answer\": 778}, \"n_female\": {\"quote\": null, \"answer\": null}, \"includes_female\": {\"quote\": \"The results show that being a girl or being of foreign origin and having ADHD have an impact on the achievement of the recommended amount of daily PA.\", \"answer\": true}, \"female_percent\": {\"quote\": null, \"answer\": null}, \"paired_counts\": {\"quote\": null, \"answer\": false}, \"sex_reporting\": {\"quote\": \"The results show that being a girl or being of foreign origin and having ADHD have an impact on the achievement of the recommended amount of daily PA.\", \"answer\": 2}, \"study_design\": {\"quote\": \"Patterns of Physical Activity of Adolescents With ADHD in the School Context: A Cross-Sectional Study for Clinical Practice.\", \"answer\": \"Cross-sectional\"}}",
+  "finish_reason": "stop"
+}

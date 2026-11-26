@@ -1,0 +1,9 @@
+{
+  "pmid": "31407970",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "ee7ef0627f5211539e8cca0bc515c178b29293c2332f355ffced8ce5c91aa0f9",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"50 stimulant treatment-naive boys and 49 young adult men diagnosed with ADHD (all types) according to Diagnostic and Statistical Manual of Mental Disorders, 4th Edition criteria were randomized to undergo treatment with MPH or placebo for 16 weeks.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"Fifty boys (n = 25 MPH group, n = 25 placebo group; age range, 10-12 years) and 48 men (n = 24 MPH group, n = 24 placebo group; age range, 23-40 years) were included.\",\n    \"answer\": null\n  },\n  \"n_female\": {\n    \"quote\": \"50 stimulant treatment-naive boys and 49 young adult men diagnosed with ADHD (all types)\",\n    \"answer\": 0\n  },\n  \"includes_female\": {\n    \"quote\": \"White Matter by Diffusion MRI Following Methylphenidate Treatment: A Randomized Control Trial in Males with Attention-Deficit/Hyperactivity Disorder.\",\n    \"answer\": false\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"randomized double-blind placebo-controlled trial (Effects of Psychotropic Medication on Brain Development-Methylphenidate, or ePOD-MPH) among ADHD referral centers\",\n    \"answer\": \"RCT\"\n  }\n}",
+  "finish_reason": "stop"
+}

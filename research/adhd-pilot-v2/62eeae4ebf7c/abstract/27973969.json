@@ -1,0 +1,9 @@
+{
+  "pmid": "27973969",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "27399e9ae5fbadeb08e1b9dfd81f3b8e1c4d4052da90ff94925db70e954009e3",
+  "raw_response": "{\"eligibility\":{\"quote\":\"We investigated glutamate levels in the ACC and the DLPFC in 30 adults with ADHD and 30 healthy controls using single-voxel proton magnetic resonance spectroscopy on a 3T scanner.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"30 adults with ADHD and 30 healthy controls\",\"answer\":60},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"We investigated glutamate levels in the ACC and the DLPFC in 30 adults with ADHD and 30 healthy controls using single-voxel proton magnetic resonance spectroscopy on a 3T scanner.\",\"answer\":\"Case-control\"}}",
+  "finish_reason": "stop"
+}

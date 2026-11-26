@@ -1,0 +1,9 @@
+{
+  "pmid": "35862087",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "93c6fd021d9ae6a7b07790ee35f242384d0d501ff933e748cb7c42e84697ea6a",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"236 adolescents (130 males; Mage = 16.74 years in spring 2020; 49.6% diagnosed with attention-deficit hyperactivity disorder\",\n    \"answer\": \"uncertain\"\n  },\n  \"n_total\": {\n    \"quote\": \"Participants included 236 adolescents (130 males; Mage = 16.74 years in spring 2020; 49.6% diagnosed with attention-deficit hyperactivity disorder; 16.1% diagnosed with an anxiety or depressive disorder)\",\n    \"answer\": 236\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": \"Females, adolescents with preexisting internalizing disorders, and participants whose families were most impacted by the pandemic were more susceptible to experiencing psychological trauma symptoms.\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": \"Females, adolescents with preexisting internalizing disorders, and participants whose families were most impacted by the pandemic were more susceptible to experiencing psychological trauma symptoms.\",\n    \"answer\": 2\n  },\n  \"study_design\": {\n    \"quote\": \"Participants included 236 adolescents (130 males; Mage = 16.74 years in spring 2020; 49.6% diagnosed with attention-deficit hyperactivity disorder; 16.1% diagnosed with an anxiety or depressive disorder) in the United States who completed online questionnaires at four timepoints (spring 2020, summer 2020, fall 2020, spring 2021).\",\n    \"answer\": \"Cohort-Prospective\"\n  }\n}",
+  "finish_reason": "stop"
+}

@@ -1,0 +1,9 @@
+{
+  "pmid": "16530991",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "18439e0840cd35a4757e08771cb6490168100ad8b62f52c00a0c7299be63d09b",
+  "raw_response": "{\"eligibility\": {\"quote\": \"Consensus about the assessment used, definitions of disability and health status, age of assessment and who undertakes it are necessary and should allow comparison across populations\", \"answer\": \"exclude\"}, \"n_total\": {\"quote\": null, \"answer\": null}, \"n_female\": {\"quote\": null, \"answer\": null}, \"includes_female\": {\"quote\": null, \"answer\": null}, \"female_percent\": {\"quote\": null, \"answer\": null}, \"paired_counts\": {\"quote\": null, \"answer\": null}, \"sex_reporting\": {\"quote\": null, \"answer\": null}, \"study_design\": {\"quote\": null, \"answer\": null}}",
+  "finish_reason": "stop"
+}

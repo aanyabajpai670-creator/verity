@@ -1,0 +1,9 @@
+{
+  "pmid": "16930383",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "3a52813423c25b7a9107c6e02b0fe8df7041353d1cb993fe2101fb84360cfcf8",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Five hundred and eight elementary schoolchildren were followed from ages 7 to 11. At ages 8 and 9, they were randomly assigned to a control condition, or to a two-year universal classroom-based intervention targeting disruptive behavior.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"Five hundred and eight elementary schoolchildren were followed from ages 7 to 11.\",\"answer\":508},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"At ages 8 and 9, they were randomly assigned to a control condition, or to a two-year universal classroom-based intervention targeting disruptive behavior.\",\"answer\":\"RCT\"}}",
+  "finish_reason": "stop"
+}

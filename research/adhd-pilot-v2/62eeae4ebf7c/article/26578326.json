@@ -1,0 +1,9 @@
+{
+  "pmid": "26578326",
+  "scope": "article",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "3246e8114cb53816d46cc91f5550754fca73c214c5665942a315dfed19e8f433",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"Parents (n = 22) and teaching staff (n = 29) took part in semi-structured group or individual interviews, either by telephone or face-to-face, following the main trial.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"A total of 22 primary caregivers and 29 teaching staff took part in the interviews\",\n    \"answer\": 51\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": \"Gender | Female | 21 (95 %) | 23 (79 %) | Male | 1 (5 %) | 6 (21 %)\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": \"Gender | Female | 21 (95 %) | 23 (79 %) | Male | 1 (5 %) | 6 (21 %)\",\n    \"answer\": 1\n  },\n  \"study_design\": {\n    \"quote\": \"This study is a nested qualitative process evaluation of the PATCHWORK RCT\",\n    \"answer\": \"Other\"\n  }\n}",
+  "finish_reason": "stop"
+}

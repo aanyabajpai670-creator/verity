@@ -1,0 +1,9 @@
+{
+  "pmid": "11906516",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "961aa31cf1876c7aec8d35e785a093ea28c9c48d2f2c6ac9a383fb3c9b8c2705",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"Attention deficits are not characteristic of schoolchildren with newly diagnosed idiopathic or cryptogenic epilepsy.\",\n    \"answer\": \"uncertain\"\n  },\n  \"n_total\": {\n    \"quote\": \"Fifty-one children with epilepsy (age 7-16 years)\",\n    \"answer\": 51\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"Fifty-one children with epilepsy (age 7-16 years) and 48 gender- and age-matched classmates were assessed thrice: within 48 h after diagnosis [before start of antiepileptic drugs (AEDs)], and 3 and 12 months later.\",\n    \"answer\": \"Cohort-Prospective\"\n  }\n}",
+  "finish_reason": "stop"
+}

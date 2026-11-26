@@ -1,0 +1,9 @@
+{
+  "pmid": "33159002",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "93d4e0d0654c77be49302584d17f5f8504b87ae76bc5974c64e5e177e3e48f42",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"We used data from the Memory Maestros trial, a population-based randomized controlled trial of the Cogmed program delivered at school (n = 226) compared to usual teaching (n = 226) in grade 1 children (mean age 6.9 years; SD 0.4) with low working memory.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": \"differential effects were not evident for children with low IQ and elevated emotional and behavioral symptoms, special health care needs, or by sex.\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": \"differential effects were not evident for children with low IQ and elevated emotional and behavioral symptoms, special health care needs, or by sex.\",\n    \"answer\": 2\n  },\n  \"study_design\": {\n    \"quote\": \"We used data from the Memory Maestros trial, a population-based randomized controlled trial of the Cogmed program delivered at school (n = 226) compared to usual teaching (n = 226) in grade 1 children (mean age 6.9 years; SD 0.4) with low working memory.\",\n    \"answer\": \"RCT\"\n  }\n}",
+  "finish_reason": "stop"
+}

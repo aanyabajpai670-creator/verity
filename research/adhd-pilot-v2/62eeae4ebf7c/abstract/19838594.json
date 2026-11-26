@@ -1,0 +1,9 @@
+{
+  "pmid": "19838594",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "a7e7efe8f3723fa405271997a8790cd3de6da54603f4308bdb517f4bd7e752a5",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"The sample comprised 62 children and adolescents (6-15 years old) divided into three groups: Group 1: 19 (30.6%) patients with attention-deficit/hyperactivity disorder using methylphenidate for 3 months\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"The sample comprised 62 children and adolescents (6-15 years old) divided into three groups\",\n    \"answer\": 62\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"Serum iron, ferritin, transferrin, hemoglobin, mean corpuscular volume, red cell distribution width, mean corpuscular hemoglobin concentration, nutritional diagnostic parameters - Body Mass Index Coefficient, food surveys were evaluated among the groups.\",\n    \"answer\": \"Cross-sectional\"\n  }\n}",
+  "finish_reason": "stop"
+}

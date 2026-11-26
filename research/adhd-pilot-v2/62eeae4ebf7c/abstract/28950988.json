@@ -1,0 +1,9 @@
+{
+  "pmid": "28950988",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "8c60079493567ddcc1be68b6592f7cb2d3f70b4185381ea6502b9ba1447891c4",
+  "raw_response": "{\"eligibility\":{\"quote\":\"We identified 1,899,654 individuals born between 1987 and 2006 via national Swedish registers and linked each individual to his or her biological relatives.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"We identified 1,899,654 individuals born between 1987 and 2006 via national Swedish registers and linked each individual to his or her biological relatives.\",\"answer\":1899654},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"We identified 1,899,654 individuals born between 1987 and 2006 via national Swedish registers and linked each individual to his or her biological relatives.\",\"answer\":\"Cohort-Retrospective\"}}",
+  "finish_reason": "stop"
+}

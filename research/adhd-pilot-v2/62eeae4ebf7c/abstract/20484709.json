@@ -1,0 +1,9 @@
+{
+  "pmid": "20484709",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "1c4dd9935bc5ee69a120f600b4f934bc9a0355df90f9ab399a4dc511c601f9e5",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Multinomial regression modeling was used to compare ADHD symptoms among three groups of college students enrolled in a longitudinal study over 4 years\",\"answer\":\"uncertain\"},\"n_total\":{\"quote\":null,\"answer\":null},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"college students enrolled in a longitudinal study over 4 years\",\"answer\":\"Cohort-Prospective\"}}",
+  "finish_reason": "stop"
+}

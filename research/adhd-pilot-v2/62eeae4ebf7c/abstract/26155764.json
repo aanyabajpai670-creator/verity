@@ -1,0 +1,9 @@
+{
+  "pmid": "26155764",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "0f56a9cb0c805adfd57eb28520ba529bbba844e6bc63a1e5c78eaabbc62d8a62",
+  "raw_response": "{\"eligibility\":{\"quote\":\"A parent interview for DSM-IV psychiatric disorders (K-SADS-PL) for 33 OO, 42 high-functioning autism (HFA) and 34 typically developing (TD) youth, ages 8-21, showed that OO and HFA groups had elevated current ADHD and specific phobias\",\"answer\":\"include\"},\"n_total\":{\"quote\":null,\"answer\":null},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":null},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"A parent interview for DSM-IV psychiatric disorders (K-SADS-PL) for 33 OO, 42 high-functioning autism (HFA) and 34 typically developing (TD) youth, ages 8-21\",\"answer\":\"Cross-sectional\"}}",
+  "finish_reason": "stop"
+}

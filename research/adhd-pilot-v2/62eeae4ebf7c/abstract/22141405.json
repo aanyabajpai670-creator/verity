@@ -1,0 +1,9 @@
+{
+  "pmid": "22141405",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "70494666b0af510be40b24861349fd6dbb829fee09438f533a16ba903175b2ad",
+  "raw_response": "{\"eligibility\":{\"quote\":\"An extended children of twins design comprised of data collected on 2,674 adult female and male twins, their spouses, and 2,454 of their children was used to test whether genetic and/or family environmental factors best accounted for\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"2,674 adult female and male twins\",\"answer\":2674},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":\"2,674 adult female and male twins\",\"answer\":true},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":null},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"An extended children of twins design\",\"answer\":\"Other\"}}",
+  "finish_reason": "stop"
+}

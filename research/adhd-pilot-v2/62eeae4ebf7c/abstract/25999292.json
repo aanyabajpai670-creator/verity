@@ -1,0 +1,9 @@
+{
+  "pmid": "25999292",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "a8eea816719e8db76f07aa6c8973d186d317d1626378e8e6547f774365a81c17",
+  "raw_response": "{\"eligibility\": {\"quote\": \"Patients aged 6-17 years with an ADHD Rating Scale IV total score \u2265 28 and an inadequate response to methylphenidate treatment (judged by investigators) were randomized (1:1) to once-daily LDX or ATX for 9 weeks.\", \"answer\": \"include\"}, \"n_total\": {\"quote\": \"Of 267 randomized patients, 200 completed the study (LDX 99, ATX 101).\", \"answer\": 267}, \"n_female\": {\"quote\": null, \"answer\": null}, \"includes_female\": {\"quote\": null, \"answer\": null}, \"female_percent\": {\"quote\": null, \"answer\": null}, \"paired_counts\": {\"quote\": null, \"answer\": false}, \"sex_reporting\": {\"quote\": null, \"answer\": null}, \"study_design\": {\"quote\": \"A secondary objective of this randomized, active-controlled, head-to-head, double-blind, dose-optimized clinical trial was to compare the effects of lisdexamfetamine dimesylate (LDX) and atomoxetine (ATX) on functional impairment\", \"answer\": \"RCT\"}}",
+  "finish_reason": "stop"
+}

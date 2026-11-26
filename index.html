@@ -55,9 +55,9 @@
   /* -----------------------------------------------------------------------
      COLORS — Research Gap Types
      ----------------------------------------------------------------------- */
-  --color-gap-1: #64748B;          /* Slate  — No Female Representation        */
-  --color-gap-2: #92610A;          /* Amber  — Women Included, Not Studied     */
-  --color-gap-3: #0F766E;          /* Teal   — No Significant Differences Found*/
+  --color-gap-1: #64748B;          /* Slate  — Female Underrepresentation        */
+  --color-gap-2: #92610A;          /* Amber  — Limited Sex-Disaggregated Reporting     */
+  --color-gap-3: #0F766E;          /* Teal   — Sex-Disaggregated Analysis Reported*/
   --color-gap-4: #7C3D6E;          /* Mauve  — Insufficient Evidence            */
 
   --color-gap-1-tint: rgba(100, 116, 139, 0.12);
@@ -2726,6 +2726,7 @@ details[open] .accordion__chevron {
 
   </style>
   <link rel="stylesheet" href="css/redesign.css">
+  <link rel="stylesheet" href="css/pilot.css">
 </head>
 <body>
   <div id="app">
@@ -2738,6 +2739,9 @@ details[open] .accordion__chevron {
     <p>Verity requires JavaScript to function. Please enable JavaScript to use this platform.</p>
   </noscript>
 
+  <script src="assets/adhd-pilot.js"></script>
+  <script src="js/pilot.js"></script>
+  <script src="js/adhd-pilot-page.js"></script>
   <script>
     
 // --- js/data/conditions.js ---
@@ -2748,9 +2752,9 @@ details[open] .accordion__chevron {
  * female representation in the scientific evidence base.
  *
  * Gap Types:
- *   1 — No Female Representation
- *   2 — Women Included, Not Studied
- *   3 — No Significant Differences Found
+ *   1 — Female Underrepresentation
+ *   2 — Limited Sex-Disaggregated Reporting
+ *   3 — Sex-Disaggregated Analysis Reported
  *   4 — Insufficient Evidence
  *
  * Evidence Quality (1-5):
@@ -2771,9 +2775,9 @@ details[open] .accordion__chevron {
  * female representation in the scientific evidence base.
  *
  * Gap Types:
- *   1 — No Female Representation
- *   2 — Women Included, Not Studied
- *   3 — No Significant Differences Found
+ *   1 — Female Underrepresentation
+ *   2 — Limited Sex-Disaggregated Reporting
+ *   3 — Sex-Disaggregated Analysis Reported
  *   4 — Insufficient Evidence
  *
  * Evidence Quality (1-5):
@@ -2789,16 +2793,16 @@ details[open] .accordion__chevron {
 // ─────────────────────────────────────────────
 
 const GAP_TYPE_LABELS = {
-  1: 'No Female Representation',
-  2: 'Women Included, Not Studied',
-  3: 'No Significant Differences Found',
+  1: 'Female Underrepresentation',
+  2: 'Limited Sex-Disaggregated Reporting',
+  3: 'Sex-Disaggregated Analysis Reported',
   4: 'Insufficient Evidence',
 };
 
 const GAP_TYPE_DESCRIPTIONS = {
-  1: 'Women were systematically excluded or dramatically underrepresented in available studies. The existing evidence base was built almost entirely on male subjects, limiting the applicability of findings to female patients.',
-  2: 'Women were included as participants in studies, but sex-disaggregated analysis was rarely performed. Researchers collected data from both sexes but did not separate or compare results by sex, obscuring potential differences.',
-  3: 'Sex-disaggregated analysis was performed in a meaningful proportion of studies, but no clinically significant sex-based differences were identified in the current literature. This may reflect genuine biological similarity or insufficient statistical power.',
+  1: 'The historical assessment identified low female inclusion in the evidence base.',
+  2: 'The historical assessment found female enrollment and limited reporting of outcomes by sex.',
+  3: 'This label describes reporting coverage. The direction, significance and certainty of any differences require separate assessment.',
   4: 'The overall evidence base is too limited to draw reliable conclusions about sex-specific differences. More research, larger sample sizes, and dedicated sex-stratified study designs are needed.',
 };
 
@@ -3722,19 +3726,19 @@ function conditionDisplayName(condition) {
  */
 const GAP_TYPE_INFO = {
   1: {
-    label: 'No Female Representation',
+    label: 'Female Underrepresentation',
     description:
-      'Studies on this condition have not included female participants in their research cohorts.',
+      'The historical assessment identified low female inclusion in the evidence base.',
   },
   2: {
-    label: 'Women Included, Not Studied',
+    label: 'Limited Sex-Disaggregated Reporting',
     description:
-      'Female participants were included in study populations but sex-disaggregated analysis was not performed.',
+      'The historical assessment found female enrollment and limited reporting of outcomes by sex.',
   },
   3: {
-    label: 'No Significant Differences Found',
+    label: 'Sex-Disaggregated Analysis Reported',
     description:
-      'Sex-disaggregated analysis was performed but no statistically significant differences were identified.',
+      'This label describes reporting coverage. The direction, significance and certainty of any differences require separate assessment.',
   },
   4: {
     label: 'Insufficient Evidence',
@@ -5253,6 +5257,13 @@ function renderConditionPage(container, condition) {
   const panelTitle = document.createElement('h2');
   panelTitle.className = 'heading-lg representation-panel__title';
   panelTitle.textContent = 'Representation Metrics';
+  if (condition.slug === 'adhd') {
+    const pilotLink = document.createElement('a');
+    pilotLink.href = '#/conditions/adhd/pilot';
+    pilotLink.className = 'research-link';
+    pilotLink.textContent = 'Explore ADHD research representation →';
+    headerText.appendChild(pilotLink);
+  }
 
   const panel = document.createElement('div');
   panel.className = 'representation-panel';
@@ -5626,7 +5637,7 @@ function renderGapIndexPage(container) {
   methContent.className = 'accordion__content';
   const methP = document.createElement('p');
   methP.className = 'body-md';
-  methP.textContent = 'The Research Gap Index evaluates conditions based on a composite representation score derived from four metrics: the proportion of studies including female participants, the proportion of female-only studies, the proportion of studies conducting sex-disaggregated analysis, and an overall evidence quality assessment. Conditions are classified into one of four gap types based on the nature of the representation gap identified. Data is sourced from PubMed, PubMed Central, and Europe PMC.';
+  methP.textContent = 'The Gap Index uses a composite representation score based on inclusion, female-only studies, sex-disaggregated analysis, and evidence quality.';
   methContent.appendChild(methP);
 
   methDetails.appendChild(methSummary);
@@ -5762,7 +5773,7 @@ function renderGapIndexPage(container) {
       { key: 'women', label: '% Women' },
       { key: 'disagg', label: '% Sex-Disagg.' },
       { key: 'eq', label: 'Evidence' },
-      { key: 'score', label: 'Score' },
+      { key: 'score', label: 'Score / 100' },
     ];
 
     columns.forEach(col => {
@@ -5903,7 +5914,7 @@ function renderGapIndexPage(container) {
   // ── 6. Index Note ──
   const note = document.createElement('p');
   note.className = 'gap-index__note';
-  note.textContent = 'This index reflects manually curated data. Automated analysis is in development. Last updated: March 2025.';
+  note.textContent = 'Study figures are approximate. Last updated: March 2025.';
   wrapper.appendChild(note);
 
   page.appendChild(wrapper);
@@ -5948,7 +5959,7 @@ function renderAboutPage(container) {
     'A clinical decision tool — it is not designed for use in clinical settings as a diagnostic or treatment aid.',
     'A research journal — Verity does not publish original research. It indexes and evaluates existing evidence.',
     'A news site — it does not report on breaking medical developments or health trends.',
-    'A consumer health app — the reading level and depth of analysis reflect a research-grade audience.',
+    'A consumer health app — the reading level and depth of analysis reflect a research audience.',
   ];
 
   nots.forEach(text => {
@@ -5962,40 +5973,7 @@ function renderAboutPage(container) {
   wrapper.appendChild(notSection);
 
   // ── 3. Methodology ──
-  const methSection = createAboutSection('Methodology', 'heading-lg');
-
-  const methSubs = [
-    {
-      title: 'Condition Selection',
-      text: 'Conditions are selected based on prevalence, known sex-based differences in presentation or outcomes, and documented gaps in the literature. The initial index includes 10 conditions spanning cardiovascular, neurological, hormonal, immunological, and mental health categories.',
-    },
-    {
-      title: 'Study Identification',
-      text: 'Studies are identified through systematic searches of PubMed, PubMed Central, Europe PMC, and Semantic Scholar. Search strategies use condition-specific MeSH terms combined with filters for study design, population characteristics, and sex-disaggregated reporting.',
-    },
-    {
-      title: 'Scoring Methodology',
-      text: 'The Representation Score is a composite metric (0–100) derived from four weighted components: proportion of studies including female participants (30%), proportion of female-only studies (20%), proportion of studies with sex-disaggregated analysis (30%), and expert-assessed evidence quality (20%). Higher scores indicate more robust female representation in the evidence base.',
-    },
-  ];
-
-  methSubs.forEach(sub => {
-    const h4 = document.createElement('h4');
-    h4.className = 'heading-sm';
-    h4.textContent = sub.title;
-    h4.style.marginTop = 'var(--space-3)';
-    h4.style.marginBottom = 'var(--space-1)';
-
-    const p = document.createElement('p');
-    p.className = 'body-md';
-    p.textContent = sub.text;
-    p.style.maxWidth = '65ch';
-
-    methSection.appendChild(h4);
-    methSection.appendChild(p);
-  });
-
-  wrapper.appendChild(methSection);
+  wrapper.appendChild(window.VerityResearch.methodology());
 
   // ── 4. Data Sources ──
   const dsSection = createAboutSection('Data Sources', 'heading-lg');
@@ -6003,7 +5981,7 @@ function renderAboutPage(container) {
   const sources = [
     {
       name: 'PubMed',
-      desc: 'Comprehensive database of biomedical literature maintained by the National Library of Medicine. Primary source for identifying relevant clinical studies.',
+      desc: 'Comprehensive database of biomedical literature maintained by the National Library of Medicine. Primary source for identifying publications in the revised audit.',
     },
     {
       name: 'PubMed Central (PMC)',
@@ -6011,11 +5989,11 @@ function renderAboutPage(container) {
     },
     {
       name: 'Semantic Scholar',
-      desc: 'AI-augmented academic search engine. Used for citation network analysis and identifying related studies not captured by MeSH-based searches.',
+      desc: 'AI-augmented academic search engine. Used for related literature discovery outside the revised PubMed sampling frame.',
     },
     {
       name: 'Europe PMC',
-      desc: 'European counterpart to PMC providing additional coverage of European clinical trials and research publications.',
+      desc: 'A source of accessible article text for checking fields that abstracts leave unresolved.',
     },
   ];
 
@@ -6045,7 +6023,7 @@ function renderAboutPage(container) {
   const limitations = [
     'The current dataset covers 10 conditions. This is not comprehensive and will expand over time.',
     'Study identification relies on indexed databases and may miss grey literature, conference proceedings, or non-English publications.',
-    'The Representation Score is a composite metric designed for comparison across conditions. It should not be interpreted as an absolute measure of evidence quality.',
+    'Compare scores only across conditions assessed using the same version of the methodology.',
     'Gap Type classification is based on available data and may change as new studies are published.',
     'Manual curation introduces the possibility of subjective judgment in edge cases. The methodology aims to minimize this through standardized criteria.',
   ];
@@ -6065,7 +6043,7 @@ function renderAboutPage(container) {
 
   const gcfIntro = document.createElement('p');
   gcfIntro.className = 'body-md';
-  gcfIntro.textContent = 'Every condition indexed in Verity is assigned one of four gap types based on the nature of its female representation gap. These classifications are not value judgments — they are structural descriptions of the evidence landscape.';
+  gcfIntro.textContent = 'The Gap Index displays four classifications from the March 2025 assessment. The labels describe enrollment, reporting, or limitations of the evidence base.';
   gcfIntro.style.marginBottom = 'var(--space-4)';
   gcfSection.appendChild(gcfIntro);
 
@@ -6235,6 +6213,11 @@ function renderNotFoundPage(container) {
  */
 const routes = [
   {
+    pattern: /^#?\/conditions\/adhd\/pilot\/?$/,
+    title: 'ADHD Research Representation — Verity',
+    handler: main => window.renderVerityAdhdPilotPage(main),
+  },
+  {
     pattern: /^#?\/?$/,
     title: 'Verity — Research Transparency Platform',
     handler: (main) => renderHomePage(main),
@@ -6402,7 +6385,6 @@ if (document.readyState === 'loading') {
   <script>
   window.si = window.si || function () { (window.siq = window.siq || []).push(arguments); };
 </script>
-<script defer src="/<unique-path>/script.js"></script>
 
     <!-- 1. HTML MARKUP FIRST -->
 <div id="verity-chatbot">

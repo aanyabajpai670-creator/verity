@@ -1,0 +1,9 @@
+{
+  "pmid": "16597216",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "7e97b085d8aef08926565a44433665d3627691df1ab3749b2bf6e1ed16d09f8b",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Participants (ages 13 to 17) were identified with (n = 24) or without (n = 24) ADHD according to a standardized protocol\",\"answer\":\"include\"},\"n_total\":{\"quote\":null,\"answer\":null},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":\"with equal number of boys (n = 12) and girls (n = 12) in each group.\",\"answer\":true},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":\"No sex differences were found.\",\"answer\":2},\"study_design\":{\"quote\":\"An immersive virtual reality traffic gap-choice task was used to determine whether ADHD adolescents show more unsafe road-crossing behavior than controls.\",\"answer\":\"Cross-sectional\"}}",
+  "finish_reason": "stop"
+}

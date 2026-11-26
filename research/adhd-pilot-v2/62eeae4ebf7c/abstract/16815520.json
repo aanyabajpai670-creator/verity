@@ -1,0 +1,9 @@
+{
+  "pmid": "16815520",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "e8a4fbc3f445a3dbe09e5365fadd32594db853b3f4f92f265cbd936771960e5d",
+  "raw_response": "```json\n{\n  \"eligibility\": {\n    \"quote\": \"The rigorous test to which homeopathy was subject in our recent double-blind clinical trail of homeopathic treatment of attention deficit hyperactivity disorder (ADHD) necessitated optimized treatment meeting the highest standards.\",\n    \"answer\": \"uncertain\"\n  },\n  \"n_total\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"Optimization was performed in three steps: (1) In successfully treated children, prescriptions leading to an insufficient response were analysed by a general questionnaire to identify unreliable symptoms.\",\n    \"answer\": \"Other\"\n  }\n}\n```",
+  "finish_reason": "stop"
+}

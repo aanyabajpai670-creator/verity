@@ -1,0 +1,9 @@
+{
+  "pmid": "27151072",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "3ebb658c4ee53d0033e185d8654d5a70af7276601746e32d2ab7de219be75814",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Analysis of whole-genome blood gene expression and genetic risk scores of 318 individuals. Participants included individuals affected with adult ADHD (n = 93), childhood ADHD (n = 17), MDD (n = 63), ASD (n = 51)\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"Analysis of whole-genome blood gene expression and genetic risk scores of 318 individuals.\",\"answer\":318},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"Participants included individuals affected with adult ADHD (n = 93), childhood ADHD (n = 17), MDD (n = 63), ASD (n = 51), childhood dual diagnosis of ADHD-ASD (n = 16) and healthy controls (n = 78).\",\"answer\":\"Case-control\"}}",
+  "finish_reason": "stop"
+}

@@ -1,0 +1,9 @@
+{
+  "pmid": "38033150",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "835c4d2e34a72acd7697bb2bd7ee36fbf07b9306a5ac09fbe7370cf97768809b",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"We conducted a remote double blind randomised controlled trial (RCT) using TRP loading to examine the effects of a balanced amino acid load in comparison to low and high TRP loading in individuals with ADHD (medicated, N = 48, and unmedicated, N = 46) and controls (N = 50).\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"We conducted a remote double blind randomised controlled trial (RCT) using TRP loading to examine the effects of a balanced amino acid load in comparison to low and high TRP loading in individuals with ADHD\",\n    \"answer\": \"RCT\"\n  }\n}",
+  "finish_reason": "stop"
+}

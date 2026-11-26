@@ -1,0 +1,9 @@
+{
+  "pmid": "33948753",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "181c639664e39f1c802e0067d908cb658faeb0631f17ec3dbed77fd57db40983",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"The study population consisted of 4,489,044 live-born singletons in Denmark during 1978-2012 and Sweden during 1987-2010.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"The study population consisted of 4,489,044 live-born singletons in Denmark during 1978-2012 and Sweden during 1987-2010.\",\n    \"answer\": 4489044\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": \"The associations between maternal HDP and offspring neurodevelopmental disorders were consistent across the subgroups of sex, preterm status, parity, maternal age and psychiatric disorders.\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": \"The associations between maternal HDP and offspring neurodevelopmental disorders were consistent across the subgroups of sex, preterm status, parity, maternal age and psychiatric disorders.\",\n    \"answer\": 2\n  },\n  \"study_design\": {\n    \"quote\": \"The study population consisted of 4,489,044 live-born singletons in Denmark during 1978-2012 and Sweden during 1987-2010.\",\n    \"answer\": \"Cohort-Retrospective\"\n  }\n}",
+  "finish_reason": "stop"
+}

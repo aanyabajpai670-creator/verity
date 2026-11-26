@@ -1,0 +1,9 @@
+{
+  "pmid": "21500882",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "be7b4117c8db946549825ac62381da1355d961b25ea456aabccbcb338a5e518a",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Two experiments compared spontaneously hypertensive rats (SHRs; a rodent model of attention-deficit/hyperactivity disorder) and Wistar rats (a normoactive control strain), on the acquisition of a set-shifting strategy.\",\"answer\":\"exclude\"},\"n_total\":{\"quote\":null,\"answer\":null},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":null},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"Two experiments compared spontaneously hypertensive rats (SHRs; a rodent model of attention-deficit/hyperactivity disorder) and Wistar rats (a normoactive control strain), on the acquisition of a set-shifting strategy.\",\"answer\":\"Other\"}}",
+  "finish_reason": "stop"
+}

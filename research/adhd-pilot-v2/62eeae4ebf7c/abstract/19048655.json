@@ -1,0 +1,9 @@
+{
+  "pmid": "19048655",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "81a30897c2eeae262948ba207f7bc55f59606caf509896e2b9e9ee8408cbde6a",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"Boys with ADHD and comparison boys rated their own behavioral competence; discrepancies between these self-ratings and the reports of boys' teachers served as an index of behavioral positive illusions.\",\n    \"answer\": \"uncertain\"\n  },\n  \"n_total\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": \"Boys with ADHD and comparison boys rated their own behavioral competence\",\n    \"answer\": false\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": null,\n    \"answer\": null\n  }\n}",
+  "finish_reason": "stop"
+}

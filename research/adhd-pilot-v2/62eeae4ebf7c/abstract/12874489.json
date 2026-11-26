@@ -1,0 +1,9 @@
+{
+  "pmid": "12874489",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "bc1af51da432082f253329f2d02eda10bf6bec860b2afa57ae083e67015cf319",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"Children 6 to 14 years of age recruited through 2000 to 2001 were randomized to receive clonidine syrup 0.10 to 0.20 mg/day (n = 38) or placebo (n = 29) for 6 weeks.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"Children 6 to 14 years of age recruited through 2000 to 2001 were randomized to receive clonidine syrup 0.10 to 0.20 mg/day (n = 38) or placebo (n = 29) for 6 weeks.\",\n    \"answer\": \"RCT\"\n  }\n}",
+  "finish_reason": "stop"
+}

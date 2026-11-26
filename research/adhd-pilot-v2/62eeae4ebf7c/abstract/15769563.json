@@ -1,0 +1,9 @@
+{
+  "pmid": "15769563",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "195e182dfb85804f5ae8175b747188bd8946994ff1fab506cbe759e4c72ad5bf",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"Subjects (421 males, 495 females), aged 7 to 18, were recruited in the GAZEL cohort representative of the general population and surveyed in 1991 and 1999.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"n_female\": {\n    \"quote\": \"Subjects (421 males, 495 females), aged 7 to 18, were recruited in the GAZEL cohort\",\n    \"answer\": 495\n  },\n  \"includes_female\": {\n    \"quote\": \"Subjects (421 males, 495 females), aged 7 to 18, were recruited in the GAZEL cohort\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": \"In females, hyperactivity-inattention symptoms contributed independently to subsequent daily smoking (OR=1.98, p=0.04). In males, hyperactivity-inattention symptoms alone did not increase the risk for smoking.\",\n    \"answer\": 2\n  },\n  \"study_design\": {\n    \"quote\": \"Subjects (421 males, 495 females), aged 7 to 18, were recruited in the GAZEL cohort representative of the general population and surveyed in 1991 and 1999.\",\n    \"answer\": \"Cohort-Prospective\"\n  }\n}",
+  "finish_reason": "stop"
+}

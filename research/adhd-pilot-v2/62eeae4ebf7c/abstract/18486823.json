@@ -1,0 +1,9 @@
+{
+  "pmid": "18486823",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "f4f2445b48b659de64ab8279b3cb569744f4060ed23315b10ac4083371b19f63",
+  "raw_response": "```json\n{\n  \"eligibility\": {\n    \"quote\": \"Here, features of 10 patients with this syndrome are compared to those in the literature.\",\n    \"answer\": \"exclude\"\n  },\n  \"n_total\": {\n    \"quote\": \"Here, features of 10 patients with this syndrome are compared to those in the literature.\",\n    \"answer\": 10\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"Here, features of 10 patients with this syndrome are compared to those in the literature.\",\n    \"answer\": \"Other\"\n  }\n}\n```",
+  "finish_reason": "stop"
+}

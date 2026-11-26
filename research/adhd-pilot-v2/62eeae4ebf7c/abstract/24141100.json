@@ -1,0 +1,9 @@
+{
+  "pmid": "24141100",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "ef4b13ed6610795a2f39fc243ff287cb6be3d97eb422508c2212652ea6dc9354",
+  "raw_response": "{\"eligibility\":{\"quote\":\"The ADHD group (N = 194) was divided into the following groups: without additional emotional or conduct problems, with emotional problems, with conduct problems, and with both problem types.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"The ADHD group (N = 194) was divided into the following groups: without additional emotional or conduct problems, with emotional problems, with conduct problems, and with both problem types.\",\"answer\":194},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"The cross-sectional study included parent and adolescent reports.\",\"answer\":\"Cross-sectional\"}}",
+  "finish_reason": "stop"
+}

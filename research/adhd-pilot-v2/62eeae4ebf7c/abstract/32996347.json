@@ -1,0 +1,9 @@
+{
+  "pmid": "32996347",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "037c2e3afc909e80e2ad20428719dad5810a9677824052f505e0730149854f2f",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"We conducted a school-clustered randomized controlled pilot of CLS-FUERTE (a multicomponent behavioral EBT adapted for children in Mexico) with 58 students.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"We conducted a school-clustered randomized controlled pilot of CLS-FUERTE (a multicomponent behavioral EBT adapted for children in Mexico) with 58 students.\",\n    \"answer\": 58\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"We randomly assigned four schools to receive CLS-FUERTE and four to receive school services as usual.\",\n    \"answer\": \"RCT\"\n  }\n}",
+  "finish_reason": "stop"
+}

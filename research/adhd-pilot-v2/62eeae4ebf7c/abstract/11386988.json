@@ -1,0 +1,9 @@
+{
+  "pmid": "11386988",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "8376bcfdfc7dff91f4b9a9a0df311fdea9f699722150bb84ea71e3b809a96402",
+  "raw_response": "```json\n{\n  \"eligibility\": {\n    \"quote\": \"This study tested the hypothesis that childhood-onset schizophrenia (COS) is a variant of adult-onset schizophrenia (AOS)\",\n    \"answer\": \"uncertain\"\n  },\n  \"n_total\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"Relatives of COS probands (n = 148) were compared with relatives of attention-deficit/hyperactivity disorder (ADHD) (n = 368) and community control (n = 206) probands.\",\n    \"answer\": \"Case-control\"\n  }\n}\n```",
+  "finish_reason": "stop"
+}

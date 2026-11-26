@@ -1,0 +1,9 @@
+{
+  "pmid": "25723055",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "4bde7d9211fe839d12e75f735ada8019205d82cbbe9f03efa447a35653e22ccf",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"We examined whether maltreatment experienced in childhood and/or adolescence prospectively predicts young adult functioning in a diverse and well-characterized sample of females with childhood-diagnosed attention-deficit/hyperactivity disorder (N = 140).\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"a diverse and well-characterized sample of females with childhood-diagnosed attention-deficit/hyperactivity disorder (N = 140)\",\n    \"answer\": 140\n  },\n  \"n_female\": {\n    \"quote\": \"sample of females with childhood-diagnosed attention-deficit/hyperactivity disorder (N = 140)\",\n    \"answer\": 140\n  },\n  \"includes_female\": {\n    \"quote\": \"sample of females with childhood-diagnosed attention-deficit/hyperactivity disorder\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"Participants were part of a longitudinal study and carefully evaluated in childhood, adolescence, and young adulthood (M age = 9.6, 14.3, and 19.7 years, respectively), with high retention rates across time.\",\n    \"answer\": \"Cohort-Prospective\"\n  }\n}",
+  "finish_reason": "stop"
+}

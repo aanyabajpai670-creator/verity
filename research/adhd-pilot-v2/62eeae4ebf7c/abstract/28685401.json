@@ -1,0 +1,9 @@
+{
+  "pmid": "28685401",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "a7f29ed719b0a4f9171245d603a6764a5fd8f224609dd47ba8c56dbc78e91281",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"Behavioral difficulties were assessed by means of Strengths and Difficulties Questionnaire and Attention Deficit Hyperactivity Disorder Test.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"We included 487 mother-child pairs from the prospective pregnancy cohort, \\\"Rhea\\\" in Crete, Greece.\",\n    \"answer\": 487\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": \"The observed associations were stronger in girls than in boys (p for interaction < 0.1).\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": \"The observed associations were stronger in girls than in boys (p for interaction < 0.1).\",\n    \"answer\": 2\n  },\n  \"study_design\": {\n    \"quote\": \"We included 487 mother-child pairs from the prospective pregnancy cohort, \\\"Rhea\\\" in Crete, Greece.\",\n    \"answer\": \"Cohort-Prospective\"\n  }\n}",
+  "finish_reason": "stop"
+}

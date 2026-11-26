@@ -1,0 +1,9 @@
+{
+  "pmid": "22901345",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "35c45c45721bbd324c4216367e0092d56f7983dbf1e5b7dcc774eb2d00638e9d",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"This was a case-controlled, 16-year (15-19 years) prospective follow-up study of ADHD. 140 boys with and 120 without DSM-III-R ADHD were recruited from pediatric and psychiatric settings.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"140 boys with and 120 without DSM-III-R ADHD were recruited from pediatric and psychiatric settings.\",\n    \"answer\": 140\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": \"140 boys with and 120 without DSM-III-R ADHD were recruited from pediatric and psychiatric settings.\",\n    \"answer\": false\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"This was a case-controlled, 16-year (15-19 years) prospective follow-up study of ADHD.\",\n    \"answer\": \"Cohort-Prospective\"\n  }\n}",
+  "finish_reason": "stop"
+}

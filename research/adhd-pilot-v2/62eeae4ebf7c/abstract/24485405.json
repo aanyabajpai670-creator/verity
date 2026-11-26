@@ -1,0 +1,9 @@
+{
+  "pmid": "24485405",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "190bde4ba6f983ce30919c5612c09ddb7d260c0586017a8d864a01f6e7f58b4b",
+  "raw_response": "{\"eligibility\":{\"quote\":\"The MPV and the PLT were measured in 70 children with ADHD (aged 6-16 years), and compared with 41 healthy controls.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"The MPV and the PLT were measured in 70 children with ADHD (aged 6-16 years), and compared with 41 healthy controls.\",\"answer\":111},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"The MPV and the PLT were measured in 70 children with ADHD (aged 6-16 years), and compared with 41 healthy controls.\",\"answer\":\"Case-control\"}}",
+  "finish_reason": "stop"
+}

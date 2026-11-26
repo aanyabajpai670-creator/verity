@@ -1,0 +1,9 @@
+{
+  "pmid": "15843763",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "6bf9afc0100a1458293459bdefec85d2b71a10ea35eae3dc43c281d96b0f7d32",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"Of the 32 medication-naive children openly treated with methylphenidate, 26 (81%) improved as to ADHD.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"Children with improved ADHD who remained anxious were randomly assigned to 8 weeks of double-blind stimulant + fluvoxamine (STIM/FLV) or stimulant + placebo (STIM/PL).\",\n    \"answer\": \"RCT\"\n  }\n}",
+  "finish_reason": "stop"
+}

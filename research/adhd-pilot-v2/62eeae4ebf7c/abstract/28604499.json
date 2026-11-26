@@ -1,0 +1,9 @@
+{
+  "pmid": "28604499",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "df857eeab0e6f6465e6faffe041c5c93c0b5a57fc52793e3a97d342369bc34ae",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Data were collected through surveys (adolescent, parent, and teacher) and direct assessment of Australian adolescents (12-15 yr; n = 130) with ADHD in early high school (i.e., US middle and high school grades).\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"Australian adolescents (12-15 yr; n = 130) with ADHD in early high school\",\"answer\":130},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":\"Adolescent inattention, bullying, poor family management, male sex, and attending a low socioeconomic status school were associated with lower achievement on specific domains.\",\"answer\":2},\"study_design\":{\"quote\":\"Data were collected through surveys (adolescent, parent, and teacher) and direct assessment of Australian adolescents (12-15 yr; n = 130) with ADHD in early high school\",\"answer\":\"Cross-sectional\"}}",
+  "finish_reason": "stop"
+}

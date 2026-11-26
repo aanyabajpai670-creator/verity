@@ -1,0 +1,9 @@
+{
+  "pmid": "21823914",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "92a17ac1bb05f3a9d6d9a89cae4c6498b1f3a4908a82422158956d9394f929ff",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Ninety-seven adolescents, evaluated during childhood, were seen for follow-up on average 9.30 (SD = 1.65) years later along with a well-matched never-ADHD control group.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"Ninety-seven adolescents, evaluated during childhood, were seen for follow-up on average 9.30 (SD = 1.65) years later along with a well-matched never-ADHD control group.\",\"answer\":97},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"Ninety-seven adolescents, evaluated during childhood, were seen for follow-up on average 9.30 (SD = 1.65) years later along with a well-matched never-ADHD control group.\",\"answer\":\"Cohort-Prospective\"}}",
+  "finish_reason": "stop"
+}

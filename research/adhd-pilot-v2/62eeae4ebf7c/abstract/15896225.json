@@ -1,0 +1,9 @@
+{
+  "pmid": "15896225",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "5436eba4eb1290cbf79092590d54d2fd2f8eefa6d911b327261b31b7c9f65926",
+  "raw_response": "{\"eligibility\":{\"quote\":\"The Japanese version of the Wender Utah Rating Scale (WURS), which is a self-reporting instrument to retrospectively identify childhood tendencies of AD/HD tendencies, was carried given to 413 prisoners without a drug addiction and 282 prisoners with a drug addiction\",\"answer\":\"include\"},\"n_total\":{\"quote\":null,\"answer\":null},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"WURS scores were compared between prisoners with and without a drug addiction, and between MAP, toluene, and cannabis abusers.\",\"answer\":\"Cross-sectional\"}}",
+  "finish_reason": "stop"
+}

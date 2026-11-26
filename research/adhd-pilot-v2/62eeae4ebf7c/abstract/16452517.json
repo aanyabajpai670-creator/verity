@@ -1,0 +1,9 @@
+{
+  "pmid": "16452517",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "ea23254d5a9e02604835ceabe60e335d0d76b0563dc42bccc00b7c784b5a54a4",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Of the 5939 patients who met the inclusion criteria, 4785 were initiated on ER methylphenidate and 1154 were initiated on IR methylphenidate.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"Of the 5939 patients who met the inclusion criteria, 4785 were initiated on ER methylphenidate and 1154 were initiated on IR methylphenidate.\",\"answer\":5939},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"Using a large claims database, patients who were newly initiated on either ER methylphenidate or IR methylphenidate were retrospectively identified.\",\"answer\":\"Cohort-Retrospective\"}}",
+  "finish_reason": "stop"
+}

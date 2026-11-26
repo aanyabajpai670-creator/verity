@@ -1,0 +1,9 @@
+{
+  "pmid": "25646809",
+  "scope": "article",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "9cafb440ca5fbb08551c2deb2392866a122a81e50500f45ebffc98a9d64aeb77",
+  "raw_response": "{\"eligibility\":{\"quote\":\"DESIGN: Randomised controlled trial. SETTING: 21 general paediatric practices in Victoria, Australia. PARTICIPANTS: 244 children aged 5-12 years with ADHD attending the practices between 2010 and 2012.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"PARTICIPANTS: 244 children aged 5-12 years with ADHD attending the practices between 2010 and 2012.\",\"answer\":244},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":\"Characteristics | Intervention group (n=122)* | Control group (n=122)* | Children | Boys | 103 (84) | 105 (86)\",\"answer\":true},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":\"The confounders were the child\u2019s age, sex, medication use (yes or no), and total number of mental health comorbidities identified on the anxiety disorders interview schedule for children IV\",\"answer\":0},\"study_design\":{\"quote\":\"Briefly, the Sleeping Sound with ADHD study is a randomised controlled trial of a behavioural sleep intervention compared with usual clinical care for children with ADHD and sleep problems.\",\"answer\":\"RCT\"}}",
+  "finish_reason": "stop"
+}

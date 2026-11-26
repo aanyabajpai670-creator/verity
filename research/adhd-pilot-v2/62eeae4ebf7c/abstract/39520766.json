@@ -1,0 +1,9 @@
+{
+  "pmid": "39520766",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "8f5b1463fbf7ed971ae30ad111151ffe416349884ddf31a934878c9febef7c9d",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"significant correlations between an SLE diagnosis and four psychiatric indices 10 years prior: dispensing of antipsychotics, anxiolytics, hypnotics, and sedatives; dispensing of antidepressants, psychostimulants, ADHD agents, and nootropics\",\n    \"answer\": \"uncertain\"\n  },\n  \"n_total\": {\n    \"quote\": \"2786 individuals diagnosed with SLE\",\n    \"answer\": 2786\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"This matched cohort study conducted a retrospective analysis using the electronic database of Clalit Health Services (CHS), Israel's largest HMO\",\n    \"answer\": \"Cohort-Retrospective\"\n  }\n}",
+  "finish_reason": "stop"
+}

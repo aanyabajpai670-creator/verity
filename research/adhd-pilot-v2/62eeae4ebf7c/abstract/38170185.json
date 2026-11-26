@@ -1,0 +1,9 @@
+{
+  "pmid": "38170185",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "4af703f4a4ab370d8b970aa5ae0c54979274197435a5e1ac176bf11e5bd2968c",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"Findings should be viewed as preliminary and exploratory given the small sample size and multiple secondary analyses.\",\n    \"answer\": \"uncertain\"\n  },\n  \"n_total\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"We conducted a secondary data analysis of adolescents who participated in a randomized, single-dose, midazolam-controlled crossover trial of ketamine for adolescents with treatment-resistant depression.\",\n    \"answer\": \"RCT\"\n  }\n}",
+  "finish_reason": "stop"
+}

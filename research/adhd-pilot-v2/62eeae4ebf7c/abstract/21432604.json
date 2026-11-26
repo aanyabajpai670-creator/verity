@@ -1,0 +1,9 @@
+{
+  "pmid": "21432604",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "13c183bee06c27fd7dcc724d5249b1e8b1f5de3292c91e1c72c09a321966b942",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Twenty-seven children with ADHD and 27 matched normal control children completed the Self-rating Scale of Self-regulatory Function (SelfReg), a new rating scale that has been specifically designed for this age group.\",\"answer\":\"include\"},\"n_total\":{\"quote\":null,\"answer\":null},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"Twenty-seven children with ADHD and 27 matched normal control children completed the Self-rating Scale of Self-regulatory Function (SelfReg), a new rating scale that has been specifically designed for this age group.\",\"answer\":\"Cross-sectional\"}}",
+  "finish_reason": "stop"
+}

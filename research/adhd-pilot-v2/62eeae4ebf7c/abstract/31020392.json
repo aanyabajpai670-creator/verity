@@ -1,0 +1,9 @@
+{
+  "pmid": "31020392",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "be14f247a1e87dd14852fa44278831c9381845cec57e2aff3fa91bb9c307a0cb",
+  "raw_response": "```json\n{\n  \"eligibility\": {\n    \"quote\": \"A cohort of children with ADHD was recruited and outcomes collected from carers and teachers.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"144 participants were recruited to the cohort, 83 offered treatment, 72 accepted, and 50 attended 1+ appointments.\",\n    \"answer\": 144\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"A random selection was offered treatment by homoeopaths (hom) or nutritional therapists (NT).\",\n    \"answer\": \"RCT\"\n  }\n}\n```",
+  "finish_reason": "stop"
+}

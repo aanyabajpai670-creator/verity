@@ -1,0 +1,9 @@
+{
+  "pmid": "30485932",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "955be44b4f01dab72f7578346525b3c228ed59a3615275acffd3664f88fa9d77",
+  "raw_response": "```json\n{\n  \"eligibility\": {\n    \"quote\": \"We recruited 42 patients with ADHD (mean age: 8.1 years) and 36 healthy children as the control group (mean age: 9.8 years).\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"We recruited 42 patients with ADHD (mean age: 8.1 years) and 36 healthy children as the control group (mean age: 9.8 years).\",\n    \"answer\": 78\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"We recruited 42 patients with ADHD (mean age: 8.1 years) and 36 healthy children as the control group (mean age: 9.8 years).\",\n    \"answer\": \"Case-control\"\n  }\n}\n```",
+  "finish_reason": "stop"
+}

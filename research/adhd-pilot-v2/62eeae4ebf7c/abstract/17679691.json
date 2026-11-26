@@ -1,0 +1,9 @@
+{
+  "pmid": "17679691",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "180c086ab8ccd2857b03d16a948ec821250c55f11cfc2926c3c300b97a610320",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"Delay/disruption in the developmental processes of segregation and integration may play a role in disorders of control, such as autism, attention deficit hyperactivity disorder, and Tourette's syndrome.\",\n    \"answer\": \"uncertain\"\n  },\n  \"n_total\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"Here we use resting state functional connectivity MRI, which measures correlations in spontaneous blood oxygenation level-dependent signal fluctuations between brain regions to compare previously identified control networks between children and adults.\",\n    \"answer\": \"Cross-sectional\"\n  }\n}",
+  "finish_reason": "stop"
+}

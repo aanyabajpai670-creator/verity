@@ -1,0 +1,9 @@
+{
+  "pmid": "22752960",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "33cc2b7b6c8d57e1d0255b98bbebef38d827a6f1b25ff6c0af47b28fde59534d",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"in 26 children (18 males; age, 7 to 14 years old) diagnosed with ADHD.\",\n    \"answer\": \"exclude\"\n  },\n  \"n_total\": {\n    \"quote\": \"in 26 children (18 males; age, 7 to 14 years old) diagnosed with ADHD.\",\n    \"answer\": 26\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": \"in 26 children (18 males; age, 7 to 14 years old) diagnosed with ADHD.\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"randomized, double-blind, placebo-controlled design\",\n    \"answer\": \"RCT\"\n  }\n}",
+  "finish_reason": "stop"
+}

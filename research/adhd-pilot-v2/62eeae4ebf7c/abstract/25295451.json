@@ -1,0 +1,9 @@
+{
+  "pmid": "25295451",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "930f1c9aeb8c69a80450d33f0e6b5980fc8d67742260b5e831c35fd238a04cd8",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"OBJECTIVE: To evaluate the use of a therapeutic regimen to treat attention deficit hyperactivity disorder patients. METHODS: A total of 140 patients initially underwent physical, neurological and laboratory evaluation.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"A total of 140 patients initially underwent physical, neurological and laboratory evaluation.\",\n    \"answer\": 140\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"A total of 140 patients initially underwent physical, neurological and laboratory evaluation. Thereafter, treatment was initiated with a compounding product consisting of a tricyclic antidepressant and an anxiolytic.\",\n    \"answer\": \"Other\"\n  }\n}",
+  "finish_reason": "stop"
+}

@@ -1,0 +1,9 @@
+{
+  "pmid": "18516718",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "ca9d7ea1d4b3c21bb2b3813733942553cac2e7651d15848f80507c441458b0bd",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Twenty patients with genetically proven, mild HD participated in a double-blind, randomised, placebo-controlled cross-over study using a single 200 mg dose of modafinil.\",\"answer\":\"exclude\"},\"n_total\":{\"quote\":\"Twenty patients with genetically proven, mild HD participated in a double-blind, randomised, placebo-controlled cross-over study using a single 200 mg dose of modafinil.\",\"answer\":20},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"Twenty patients with genetically proven, mild HD participated in a double-blind, randomised, placebo-controlled cross-over study using a single 200 mg dose of modafinil.\",\"answer\":\"RCT\"}}",
+  "finish_reason": "stop"
+}

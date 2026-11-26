@@ -1,0 +1,9 @@
+{
+  "pmid": "32996464",
+  "scope": "article",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "7be3037280d20eec4dbc5d28a6f2b56754fcfcfbe81fdc1a3d96ef855822c122",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"Patients who applied consecutively to the psychiatry outpatient clinics of the 2 university hospitals and received an ADHD diagnosis according to DSM-5 criteria (n = 68) were assigned to the ADHD group.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": \"Sex, n (%) | Female | 37 (54.4) | 37 (54.4)\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": \"The sociodemographic properties, such as sex, age, socioeconomic status, and education level, were similar between the groups (Table 1).\",\n    \"answer\": 1\n  },\n  \"study_design\": {\n    \"quote\": \"STUDY DESIGN: Methodological and cross-sectional study.\",\n    \"answer\": \"Cross-sectional\"\n  }\n}",
+  "finish_reason": "stop"
+}

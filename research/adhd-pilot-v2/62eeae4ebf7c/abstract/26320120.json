@@ -1,0 +1,9 @@
+{
+  "pmid": "26320120",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "3598b8af76b8261e23100f56cd559a37319f1cf67464b30c9cb437c6c196750c",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"METHOD: Data on patients evaluated by the 18 regional ADHD reference centers in the 2012 to 2013 period were analyzed. RESULTS: Seven hundred fifty-three of 1,150 (65%) suspected patients received a diagnosis of ADHD.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"Seven hundred fifty-three of 1,150 (65%) suspected patients received a diagnosis of ADHD.\",\n    \"answer\": 753\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"Data on patients evaluated by the 18 regional ADHD reference centers in the 2012 to 2013 period were analyzed.\",\n    \"answer\": \"Cross-sectional\"\n  }\n}",
+  "finish_reason": "stop"
+}

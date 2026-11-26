@@ -1,0 +1,9 @@
+{
+  "pmid": "18387612",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "2e5a9051250c609f5279291e0e48cf85f3255fa6d1e48ef74b1ce97dbde80558",
+  "raw_response": "{\"eligibility\":{\"quote\":null,\"answer\":\"uncertain\"},\"n_total\":{\"quote\":null,\"answer\":null},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"A case-control study was conducted with 60 neurologically impaired and 60 healthy children, all born prematurely.\",\"answer\":\"Case-control\"}}",
+  "finish_reason": "stop"
+}

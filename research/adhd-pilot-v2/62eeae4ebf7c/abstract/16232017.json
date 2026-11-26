@@ -1,0 +1,9 @@
+{
+  "pmid": "16232017",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "c6eec0111dec4c1ba29f3399a040d1855333c858c1a72c6b038066684e585377",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"Retrospective cohort analysis. ... A total of 45,144 patients aged 18 years or younger who filled a prescription for an ADHD-specific drug.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"A total of 45,144 patients aged 18 years or younger who filled a prescription for an ADHD-specific drug.\",\n    \"answer\": 45144\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"DESIGN: Retrospective cohort analysis.\",\n    \"answer\": \"Cohort-Retrospective\"\n  }\n}",
+  "finish_reason": "stop"
+}

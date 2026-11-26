@@ -1,0 +1,9 @@
+{
+  "pmid": "20106937",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "815305322cbf227b253af69a31f36587eb19ea474263dd353857435f24e41563",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"The authors investigated the association between prenatal polychlorinated biphenyl (PCB) and p,p'-dichlorodiphenyl dichloroethylene (p,p'-DDE) levels and behaviors associated with attention deficit hyperactivity disorder (ADHD)\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"in a cohort of 607 children aged 7-11 years (median age, 8.2 years) born in 1993-1998 to mothers residing near a PCB-contaminated harbor in New Bedford, Massachusetts.\",\n    \"answer\": 607\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"in a cohort of 607 children aged 7-11 years (median age, 8.2 years) born in 1993-1998 to mothers residing near a PCB-contaminated harbor in New Bedford, Massachusetts.\",\n    \"answer\": \"Cohort-Prospective\"\n  }\n}",
+  "finish_reason": "stop"
+}

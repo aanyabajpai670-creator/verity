@@ -1,0 +1,9 @@
+{
+  "pmid": "23929006",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "d8fd2de42e7ebdbfcf6ef8bf59f90c3291f0b8c523fc006c1ce98c0cac57751e",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"This study investigated the influence of a child's DRD4 risk, parental levels of ADHD symptoms, and the interactive influence of these factors on the development of preschool aggression.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"The sample consisted of 84 4.5-year-old children and their parents.\",\n    \"answer\": 84\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"ADHD symptoms were self-reported by parents when the child was 2 to 6 months old. Parental reports of home chaos and the child's aggression were collected 4 years later.\",\n    \"answer\": \"Cohort-Prospective\"\n  }\n}",
+  "finish_reason": "stop"
+}

@@ -1,0 +1,9 @@
+{
+  "pmid": "26683601",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "81b98e0a4cc128f837d0c30796574808c859e3905e5cf21be4cdab305bde3a65",
+  "raw_response": "{\"eligibility\":{\"quote\":null,\"answer\":\"uncertain\"},\"n_total\":{\"quote\":null,\"answer\":null},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":null},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":null,\"answer\":null}}",
+  "finish_reason": "stop"
+}

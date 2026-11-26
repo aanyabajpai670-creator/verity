@@ -1,0 +1,9 @@
+{
+  "pmid": "26403485",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "a4aa35548b27415b1acc6989ec481cd997561fbbc2ed2140b9159d299b238795",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"The Conners Parent Symptom Questionnaire (PSQ) and Parenting Stress Index (PSI) were used to assess the symptoms and parenting stress of 132 non-medicated children with ADHD as compared with 88 healthy controls.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"132 non-medicated children with ADHD\",\n    \"answer\": 132\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"The Conners Parent Symptom Questionnaire (PSQ) and Parenting Stress Index (PSI) were used to assess the symptoms and parenting stress of 132 non-medicated children with ADHD as compared with 88 healthy controls.\",\n    \"answer\": \"Cross-sectional\"\n  }\n}",
+  "finish_reason": "stop"
+}

@@ -1,0 +1,9 @@
+{
+  "pmid": "39625105",
+  "scope": "article",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "b71c18a375ce8447563ab3c5858f56e1a10f7fe407927f96c60bb2a0ebee4f13",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"We investigated the extent to which functional impairments were associated with ADHD symptoms, along with behavioral and anxiety symptoms, from age 3.5 to 8 years.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"This study includes responders for children with available parent scores at ages 3.5 and 8 years (n = 783).\",\n    \"answer\": 783\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": \"Teachers reported significantly higher levels of global impairment for boys than for girls both in preschool and at 8 years.\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": \"Teachers reported significantly higher levels of global impairment for boys than for girls both in preschool and at 8 years.\",\n    \"answer\": 2\n  },\n  \"study_design\": {\n    \"quote\": \"Fifteen mothers later withdrew from MoBa, leaving 1,180 enrolled children who were followed up at 8 years of age.\",\n    \"answer\": \"Cohort-Prospective\"\n  }\n}",
+  "finish_reason": "stop"
+}

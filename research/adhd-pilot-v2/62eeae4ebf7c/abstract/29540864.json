@@ -1,0 +1,9 @@
+{
+  "pmid": "29540864",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "79418c08e033732e330a8d39b7e7085e566ab67e4640ced412eadd9e1f1e85ae",
+  "raw_response": "{\"eligibility\": {\"quote\": \"Sixty-two subjects with ASD (53 boys, 9 girls; ages 5-14 years) were randomly assigned to GEXR (n = 30) or placebo (n = 32) for 8 weeks.\", \"answer\": \"include\"}, \"n_total\": {\"quote\": \"Sixty-two subjects with ASD (53 boys, 9 girls; ages 5-14 years) were randomly assigned to GEXR (n = 30) or placebo (n = 32) for 8 weeks.\", \"answer\": 62}, \"n_female\": {\"quote\": \"Sixty-two subjects with ASD (53 boys, 9 girls; ages 5-14 years) were randomly assigned to GEXR (n = 30) or placebo (n = 32) for 8 weeks.\", \"answer\": 9}, \"includes_female\": {\"quote\": \"Sixty-two subjects with ASD (53 boys, 9 girls; ages 5-14 years) were randomly assigned to GEXR (n = 30) or placebo (n = 32) for 8 weeks.\", \"answer\": true}, \"female_percent\": {\"quote\": null, \"answer\": null}, \"paired_counts\": {\"quote\": \"Sixty-two subjects with ASD (53 boys, 9 girls; ages 5-14 years) were randomly assigned to GEXR (n = 30) or placebo (n = 32) for 8 weeks.\", \"answer\": true}, \"sex_reporting\": {\"quote\": null, \"answer\": null}, \"study_design\": {\"quote\": \"Sixty-two subjects with ASD (53 boys, 9 girls; ages 5-14 years) were randomly assigned to GEXR (n = 30) or placebo (n = 32) for 8 weeks.\", \"answer\": \"RCT\"}}",
+  "finish_reason": "stop"
+}

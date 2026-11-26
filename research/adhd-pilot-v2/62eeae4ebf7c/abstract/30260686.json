@@ -1,0 +1,9 @@
+{
+  "pmid": "30260686",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "b675a49963446d68b3cd59293d0e55266e452301f3bc899a21947330a901373c",
+  "raw_response": "```json\n{\n  \"eligibility\": {\n    \"quote\": \"Participants were 373 preschoolers (1.5 to 5 years old) and 300 school age youth (6 to 10 years old) presenting to a pediatric behavioral sleep medicine clinic with a primary insomnia diagnosis.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"This retrospective, cross-sectional study examined the prevalence of psychopathology symptoms and their associations with sleep disruption in youth presenting to a behavioral sleep medicine clinic.\",\n    \"answer\": \"Cross-sectional\"\n  }\n}\n```",
+  "finish_reason": "stop"
+}

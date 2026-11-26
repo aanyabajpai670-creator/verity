@@ -1,0 +1,9 @@
+{
+  "pmid": "38084062",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "c318619cf6099c07e8716b84e8828b1e394517b22c236439442dea6de339b019",
+  "raw_response": "{\"eligibility\":{\"quote\":\"A cross-sectional study including 30 adolescents with complex ADHD and 33 adolescents without ADHD aged 15 to 18 years.\",\"answer\":\"include\"},\"n_total\":{\"quote\":null,\"answer\":null},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"A cross-sectional study including 30 adolescents with complex ADHD and 33 adolescents without ADHD aged 15 to 18 years.\",\"answer\":\"Cross-sectional\"}}",
+  "finish_reason": "stop"
+}

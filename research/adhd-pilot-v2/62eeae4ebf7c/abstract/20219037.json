@@ -1,0 +1,9 @@
+{
+  "pmid": "20219037",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "ea83bf199d315442e748becdd7fb4c295a226fa03b044b5383103d25d3a8927b",
+  "raw_response": "{\"eligibility\":{\"quote\":\"This study used prospectively collected data from the large population-based study, The Norwegian Mother and Child Cohort Study (MoBa). Participants were 25 343 mothers and their 18-month-old children.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"Participants were 25 343 mothers and their 18-month-old children.\",\"answer\":25343},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"This study used prospectively collected data from the large population-based study, The Norwegian Mother and Child Cohort Study (MoBa).\",\"answer\":\"Cohort-Prospective\"}}",
+  "finish_reason": "stop"
+}

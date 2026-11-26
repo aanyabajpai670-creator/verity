@@ -1,0 +1,9 @@
+{
+  "pmid": "29188907",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "448a2aff81b0d450838896e53254a1ba5a599c69e6bf198259b1a474589d26cd",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"Psychiatrically referred youth with ASD (n = 54) suffered from multiple psychopathologies (mean = 2.3) and had a marked level of morbidity\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"Psychiatrically referred youth with ASD (n = 54) suffered from multiple psychopathologies (mean = 2.3)\",\n    \"answer\": 54\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"METHODS: This retrospective chart review aimed at collecting demographic and clinical information, including data on DSM-IV-TR criteria-based psychiatric disorders and related current medication treatment and response.\",\n    \"answer\": \"Cohort-Retrospective\"\n  }\n}",
+  "finish_reason": "stop"
+}

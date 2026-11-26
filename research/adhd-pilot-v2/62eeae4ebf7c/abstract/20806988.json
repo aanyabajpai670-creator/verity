@@ -1,0 +1,9 @@
+{
+  "pmid": "20806988",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "aaea79093f39ca33f68a0c710c4621ee81a730aa7ddf56958af1dd5ba681c02e",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"In this randomized, double-blind, placebo-controlled, multicentre, flexible-dose, dose-optimization study, children aged 6-12 years were randomized to receive guanfacine XR (1-4 mg/day) or placebo for 9 weeks.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"A total of 217 children were enrolled: 138 were randomized to receive guanfacine XR and 79 to receive placebo.\",\n    \"answer\": 217\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"In this randomized, double-blind, placebo-controlled, multicentre, flexible-dose, dose-optimization study, children aged 6-12 years were randomized to receive guanfacine XR (1-4 mg/day) or placebo for 9 weeks.\",\n    \"answer\": \"RCT\"\n  }\n}",
+  "finish_reason": "stop"
+}

@@ -1,0 +1,9 @@
+{
+  "pmid": "30801959",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "aac752d2130f9953a84d5ffea45d5d53c8e1a4e63a3f067a214181bd867215a5",
+  "raw_response": "{\"eligibility\":{\"quote\":\"The present clinical trial investigated the impact of selected SNPs in CES1 on the metabolic activity of the enzyme.\",\"answer\":\"uncertain\"},\"n_total\":{\"quote\":\"CES1 SNPs from 120 volunteers were identified\",\"answer\":120},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"The present clinical trial investigated the impact of selected SNPs in CES1 on the metabolic activity of the enzyme.\",\"answer\":\"Other\"}}",
+  "finish_reason": "stop"
+}

@@ -1,0 +1,9 @@
+{
+  "pmid": "30338900",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "1c31a9f15d464ea3db3eb61a6b90691f6b202ce3eac893e8da094b5f58356c26",
+  "raw_response": "```json\n{\n  \"eligibility\": {\n    \"quote\": \"In a sample of 25 non-affected parents of adolescents with ADHD history obtained from a longitudinal study of a nonclinical population, and 25 non-affected parents of adolescents with no ADHD history\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": null,\n    \"answer\": null\n  }\n}\n```",
+  "finish_reason": "stop"
+}

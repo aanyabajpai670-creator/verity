@@ -1,0 +1,9 @@
+{
+  "pmid": "17192503",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "716c7ee2a82d63d7cd1e7ece812c4ed6ed99bb654a27ea20d91a154119978906",
+  "raw_response": "{\"eligibility\": {\"quote\": \"Twenty-five healthy adult volunteers received 5, 10, 20, 30, and 40 mg d-MPH in a crossover study with 7 days between doses.\", \"answer\": \"exclude\"}, \"n_total\": {\"quote\": \"Twenty-five healthy adult volunteers received 5, 10, 20, 30, and 40 mg d-MPH in a crossover study with 7 days between doses.\", \"answer\": 25}, \"n_female\": {\"quote\": null, \"answer\": null}, \"includes_female\": {\"quote\": null, \"answer\": null}, \"female_percent\": {\"quote\": null, \"answer\": null}, \"paired_counts\": {\"quote\": null, \"answer\": false}, \"sex_reporting\": {\"quote\": null, \"answer\": null}, \"study_design\": {\"quote\": \"Twenty-five healthy adult volunteers received 5, 10, 20, 30, and 40 mg d-MPH in a crossover study with 7 days between doses.\", \"answer\": \"Other\"}}",
+  "finish_reason": "stop"
+}

@@ -1,0 +1,9 @@
+{
+  "pmid": "30927232",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "c650334eadc044bf9f83f6a0b16b04278135d2b0ae3580d7152c33b9fb7eca07",
+  "raw_response": "{\"eligibility\":{\"quote\":\"A retrospective cohort analysis was done, using only the placebo-arm participants from two different randomized, multicenter, double-blind clinical trials on the efficacy of a non-stimulant (metadoxine-XR).\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"Ninety-one participants from two studies were pooled (2014 n = 24, 2016 n = 67).\",\"answer\":91},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"A retrospective cohort analysis was done, using only the placebo-arm participants from two different randomized, multicenter, double-blind clinical trials\",\"answer\":\"Cohort-Retrospective\"}}",
+  "finish_reason": "stop"
+}

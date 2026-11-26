@@ -1,0 +1,9 @@
+{
+  "pmid": "33059383",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "e1c78876748d5ee9d2080e904a2c911bc99576653541f4c03551ebae4b04b679",
+  "raw_response": "{\"eligibility\":{\"quote\":\"We report findings from a 6-year prospective, longitudinal study of the Dutch part of the International Multicenter ADHD Genetics (IMAGE) study\",\"answer\":\"include\"},\"n_total\":{\"quote\":null,\"answer\":null},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"We report findings from a 6-year prospective, longitudinal study of the Dutch part of the International Multicenter ADHD Genetics (IMAGE) study\",\"answer\":\"Cohort-Prospective\"}}",
+  "finish_reason": "stop"
+}

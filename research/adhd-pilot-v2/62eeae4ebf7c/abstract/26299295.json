@@ -1,0 +1,9 @@
+{
+  "pmid": "26299295",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "6af666ce6d4bc1dc25b8c06b46ef71ee95bad47f4816cea2264bd306a75b182b",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"children's behavioral problems (attention-deficit/hyperactivity symptoms, internalizing, externalizing, and pervasive developmental problems) and cognitive function. We combined phenotype and genotype data from 2 independent, population-based Dutch cohorts\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"We combined phenotype and genotype data from 2 independent, population-based Dutch cohorts, yielding a total number of 1,495 to 3,175 of 3-, 7-, and 9-year-old children.\",\n    \"answer\": null\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": null,\n    \"answer\": null\n  }\n}",
+  "finish_reason": "stop"
+}

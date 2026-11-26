@@ -1,0 +1,9 @@
+{
+  "pmid": "32116035",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "592bc54bdc24b3ced38fb863538de720f9e498e533f063b29ca8456ebe6c20f8",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"The known-groups method was carried out by independent Welch t-tests between untreated ADHD children and their peers.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"a sample composed of 3,284 typical children and adolescents\",\n    \"answer\": 3284\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"we conducted a population-based cross-sectional study\",\n    \"answer\": \"Cross-sectional\"\n  }\n}",
+  "finish_reason": "stop"
+}

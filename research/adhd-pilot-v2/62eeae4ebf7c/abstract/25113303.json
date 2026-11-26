@@ -1,0 +1,9 @@
+{
+  "pmid": "25113303",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "a539099d2f9f51e7b66abf01dd4c60aef6e111ac53a46309d2a1dcd5e42ce790",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"HSA-level rates of attention-deficit/hyperactivity disorder drug use (5th-95th percentile) varied twofold in Medicaid and more than twofold in commercially insured children\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"Northern New England, all-payer administrative data (2007-2010) permitted study of prescriptions for 949 821 children ages 0 to 17 years\",\n    \"answer\": 949821\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"Northern New England, all-payer administrative data (2007-2010) permitted study of prescriptions for 949 821 children ages 0 to 17 years\",\n    \"answer\": \"Cohort-Retrospective\"\n  }\n}",
+  "finish_reason": "stop"
+}

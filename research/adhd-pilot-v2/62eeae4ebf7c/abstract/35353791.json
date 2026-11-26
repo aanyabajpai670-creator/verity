@@ -1,0 +1,9 @@
+{
+  "pmid": "35353791",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "47f3107bb0be955d19175b7c5655e76087fa0e5e78e6edfc8bbe02ecf6840319",
+  "raw_response": "{\"eligibility\":{\"quote\":\"This study aims to investigate the relationship between binge-watching addiction and family, emotional, conduct, cognitive and anger control problems, hyperactivity, Diagnostic and Statistical Manual of Mental Disorders, 4th Edition (DSM-IV)-ADHD Index\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"An online survey of 189 adolescents was conducted.\",\"answer\":189},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"The association between binge-watching behavior addiction and mood disorders in healthy adolescents was examined in this cross-sectional study conducted in Turkey.\",\"answer\":\"Cross-sectional\"}}",
+  "finish_reason": "stop"
+}

@@ -1,0 +1,9 @@
+{
+  "pmid": "14700466",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "50b69e8514beff777ec6a113adcb0a2469baaf663188f659a8e26859f5f43782",
+  "raw_response": "```json\n{\n  \"eligibility\": {\n    \"quote\": \"Romanian children reared from infancy in very depriving institutions for periods up to 42 months were compared with 52 nondeprived UK-born children placed into adoptive families before the age of 6 months.\",\n    \"answer\": \"uncertain\"\n  },\n  \"n_total\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"Romanian children reared from infancy in very depriving institutions for periods up to 42 months were compared with 52 nondeprived UK-born children placed into adoptive families before the age of 6 months.\",\n    \"answer\": \"Other\"\n  }\n}\n```",
+  "finish_reason": "stop"
+}

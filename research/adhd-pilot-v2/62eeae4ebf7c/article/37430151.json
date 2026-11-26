@@ -1,0 +1,9 @@
+{
+  "pmid": "37430151",
+  "scope": "article",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "4d738bd585cf7a658cfcb52e3ff18207d930540e4f419ab83d53d240520c25a6",
+  "raw_response": "{\"eligibility\":{\"quote\":\"A total of 50 patients (35 children; Table 1) who presented to our centers with a chief complaint and primary diagnosis of ADHD combined type according to DSM-5-TR criteria\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"A total of 50 patients (35 children; Table 1)\",\"answer\":50},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":\"Male | 33 (94.3%) | 11 (73.3%) | Female | 2 (5.7%) | 4 (26.7%)\",\"answer\":true},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":\"Male | 33 (94.3%) | 11 (73.3%) | Female | 2 (5.7%) | 4 (26.7%)\",\"answer\":1},\"study_design\":{\"quote\":\"We conducted a blinded, de-identified, retrospective review of charts from these 50 patients in the regular course of outpatient practice.\",\"answer\":\"Other\"}}",
+  "finish_reason": "stop"
+}

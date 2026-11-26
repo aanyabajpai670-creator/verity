@@ -1,0 +1,9 @@
+{
+  "pmid": "32251404",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "9c8e136a562ee9e40e6a3e58c391e800a7d3f551b2e639896477ddd2adcfa23d",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"dysfunction was most severe in schizophrenia, milder in bipolar disorder, and indistinguishable from healthy individuals in depression, obsessive-compulsive disorder and attention-deficit hyperactivity disorder\",\n    \"answer\": \"uncertain\"\n  },\n  \"n_total\": {\n    \"quote\": \"Using inter-site cross-validation on functional magnetic resonance images acquired from seven independent scanners (n = 1,100)\",\n    \"answer\": 1100\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"Using inter-site cross-validation on functional magnetic resonance images acquired from seven independent scanners (n = 1,100), FSA distinguished individuals with schizophrenia from healthy controls\",\n    \"answer\": \"Cross-sectional\"\n  }\n}",
+  "finish_reason": "stop"
+}

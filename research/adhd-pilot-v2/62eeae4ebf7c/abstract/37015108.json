@@ -1,0 +1,9 @@
+{
+  "pmid": "37015108",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "b0a53a3fefd32ce61584f2213b905d56f22e7e690086ce0d73316da7e6bb0ef1",
+  "raw_response": "```json\n{\n  \"eligibility\": {\n    \"quote\": \"In this cross-sectional study, 168 Iranian medical students (107 female, 61 male) studying at Tehran University of Medical Sciences in 2021 were enrolled.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"168 Iranian medical students (107 female, 61 male)\",\n    \"answer\": 168\n  },\n  \"n_female\": {\n    \"quote\": \"107 female, 61 male\",\n    \"answer\": 107\n  },\n  \"includes_female\": {\n    \"quote\": \"168 Iranian medical students (107 female, 61 male)\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": \"168 Iranian medical students (107 female, 61 male) studying at Tehran University of Medical Sciences in 2021 were enrolled.\",\n    \"answer\": true\n  },\n  \"sex_reporting\": {\n    \"quote\": \"male respondents had a significantly higher prevalence of ASD symptoms (57.3% in males vs . 28.03% in females, p < 0.001)\",\n    \"answer\": 2\n  },\n  \"study_design\": {\n    \"quote\": \"In this cross-sectional study, 168 Iranian medical students\",\n    \"answer\": \"Cross-sectional\"\n  }\n}\n```",
+  "finish_reason": "stop"
+}

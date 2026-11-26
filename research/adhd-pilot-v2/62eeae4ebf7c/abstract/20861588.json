@@ -1,0 +1,9 @@
+{
+  "pmid": "20861588",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "5fb8fa2dbba27bdd4702edc4f2d18cc9097dcc60ca487e9897397d800449b2be",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Eligible study participants aged 6 to 14 years with a Diagnostic and Statistical Manual of Mental Disorders, Fourth Edition ADHD diagnosis based on clinician interviews were randomized to 1 of 2 treatment sequence groups\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"Of 30 subjects with placebo and baseline scores, 80%, 47%, and 27% met the 3 response thresholds\",\"answer\":30},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"randomized to 1 of 2 treatment sequence groups (placebo, low dose, and medium dose; or low dose, medium dose, and placebo)\",\"answer\":\"RCT\"}}",
+  "finish_reason": "stop"
+}

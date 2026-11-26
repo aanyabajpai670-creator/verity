@@ -1,0 +1,9 @@
+{
+  "pmid": "26387393",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "bd92528d3f87ccef29b23e2a0a75f0d175364ab78a0ddfc3531e09ba0dafcb4e",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"After adjustment for confounding factors (sufficiency of household income, school location, level of education, GPAX learning deficits and attention deficit hyperactivity disorder)\",\n    \"answer\": \"uncertain\"\n  },\n  \"n_total\": {\n    \"quote\": \"This cross-sectional analytic study was performed among 972 high school students from four provinces associated with high economic prosperity in Thailand\",\n    \"answer\": 972\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"This cross-sectional analytic study was performed among 972 high school students from four provinces associated with high economic prosperity in Thailand: Bangkok, ChiangMai, Ubon Ratchathani and Songkhla, utilizing a multistage cluster sampling technique.\",\n    \"answer\": \"Cross-sectional\"\n  }\n}",
+  "finish_reason": "stop"
+}

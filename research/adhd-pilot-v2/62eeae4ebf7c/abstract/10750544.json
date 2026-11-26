@@ -1,0 +1,9 @@
+{
+  "pmid": "10750544",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "cdd421710b1aecf0a8ef1753b4912054590f33f00f9777dc0ac4ae908c7dd728",
+  "raw_response": "{\"eligibility\":{\"quote\":\"In a prospective, longitudinal study with community samples of disruptive and nondisruptive children, the predictive relations between peer-assessed dimensions of behavioral reputation in elementary school and teacher-rated behavioral adjustment\",\"answer\":\"uncertain\"},\"n_total\":{\"quote\":null,\"answer\":null},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":null},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"In a prospective, longitudinal study with community samples of disruptive and nondisruptive children, the predictive relations between peer-assessed dimensions of behavioral reputation in elementary school and teacher-rated behavioral adjustment and test scores of academic achievement were examined over a 4-year period.\",\"answer\":\"Cohort-Prospective\"}}",
+  "finish_reason": "stop"
+}

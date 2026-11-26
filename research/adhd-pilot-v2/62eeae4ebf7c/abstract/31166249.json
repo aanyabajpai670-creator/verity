@@ -1,0 +1,9 @@
+{
+  "pmid": "31166249",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "9bb3f36341807c5a32f4e9b5249a26b484dec9d773c5f4c9d6dd23a82b1a2fbe",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"Our study is based on the Child-Sleep birth cohort initially comprising 1673 families, of which 713 were retained at the age of 5 years.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"Our study is based on the Child-Sleep birth cohort initially comprising 1673 families, of which 713 were retained at the age of 5 years.\",\n    \"answer\": 1673\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"Our study is based on the Child-Sleep birth cohort initially comprising 1673 families, of which 713 were retained at the age of 5 years.\",\n    \"answer\": \"Cohort-Prospective\"\n  }\n}",
+  "finish_reason": "stop"
+}

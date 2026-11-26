@@ -1,0 +1,9 @@
+{
+  "pmid": "36980871",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "162b7f406a93fcab15eefcd224dd5dea75730256bab93abbcda732b82f4ae72e",
+  "raw_response": "{\"eligibility\": {\"quote\": \"In this retrospective study, nine cases (five with microdeletion and four with microduplication) are reported with 6q26 deletion disrupting the PARK2 gene.\", \"answer\": \"exclude\"}, \"n_total\": {\"quote\": \"In this retrospective study, nine cases (five with microdeletion and four with microduplication) are reported with 6q26 deletion disrupting the PARK2 gene.\", \"answer\": 9}, \"n_female\": {\"quote\": null, \"answer\": null}, \"includes_female\": {\"quote\": null, \"answer\": null}, \"female_percent\": {\"quote\": null, \"answer\": null}, \"paired_counts\": {\"quote\": null, \"answer\": false}, \"sex_reporting\": {\"quote\": null, \"answer\": null}, \"study_design\": {\"quote\": \"In this retrospective study, nine cases (five with microdeletion and four with microduplication) are reported with 6q26 deletion disrupting the PARK2 gene.\", \"answer\": \"Other\"}}",
+  "finish_reason": "stop"
+}

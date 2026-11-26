@@ -1,0 +1,9 @@
+{
+  "pmid": "18041610",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "6b4ac4e48087c3836fcf5a503bf479a18285fab216cf9ab049785ad6f29ff73f",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Sixteen ADHD children and a control group were asked to reproduce the varying time duration of successively presented visual stimuli.\",\"answer\":\"uncertain\"},\"n_total\":{\"quote\":null,\"answer\":null},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"Sixteen ADHD children and a control group were asked to reproduce the varying time duration of successively presented visual stimuli.\",\"answer\":\"Case-control\"}}",
+  "finish_reason": "stop"
+}

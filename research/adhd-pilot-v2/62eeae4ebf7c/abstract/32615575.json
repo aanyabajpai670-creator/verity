@@ -1,0 +1,9 @@
+{
+  "pmid": "32615575",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "7ed57665dbe9a53d72c07a6bcd6424ad9e04e8029242cdcc47a90d795662da69",
+  "raw_response": "```json\n{\n  \"eligibility\": {\n    \"quote\": \"Cross-sectional study of 500 randomly selected Latino male prisoners in the Puerto Rico Correctional System using validated diagnostic measures to assess Diagnostic and Statistical Manual of Mental Disorders, fifth edition (DSM-5) ADHD and SUD diagnosis\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"Cross-sectional study of 500 randomly selected Latino male prisoners in the Puerto Rico Correctional System\",\n    \"answer\": 500\n  },\n  \"n_female\": {\n    \"quote\": \"500 randomly selected Latino male prisoners in the Puerto Rico Correctional System\",\n    \"answer\": 0\n  },\n  \"includes_female\": {\n    \"quote\": \"500 randomly selected Latino male prisoners in the Puerto Rico Correctional System\",\n    \"answer\": false\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": \"500 randomly selected Latino male prisoners in the Puerto Rico Correctional System\",\n    \"answer\": true\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"Cross-sectional study of 500 randomly selected Latino male prisoners in the Puerto Rico Correctional System using validated diagnostic measures\",\n    \"answer\": \"Cross-sectional\"\n  }\n}\n```",
+  "finish_reason": "stop"
+}

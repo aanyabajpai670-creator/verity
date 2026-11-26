@@ -1,0 +1,9 @@
+{
+  "pmid": "29625537",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "dc08b7378346ab8a35b71a1169e52ab05515d123644a0d47505a3f998f00762d",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"Atomoxetine is a non-stimulant drug indicated for the treatment of attention-deficit/hyperactivity disorder in children aged \u22656 years, adolescents, and adults.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"Of the 70,657 atomoxetine users, 70,655 users were propensity score-matched to a stimulant user.\",\n    \"answer\": 70657\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"In this retrospective cohort study, the incidence and risk of dystonia in children and adolescents treated with atomoxetine was compared to a propensity score-matched cohort of stimulant users.\",\n    \"answer\": \"Cohort-Retrospective\"\n  }\n}",
+  "finish_reason": "stop"
+}

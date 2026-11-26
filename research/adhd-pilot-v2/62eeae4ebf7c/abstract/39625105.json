@@ -1,0 +1,9 @@
+{
+  "pmid": "39625105",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "9e1ac74ce64079a897e0cf829ccf23e6ee1144a8e50f673f96f5752c6942b52f",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"Utilizing parent- and teacher-reported data, we analyzed associations between global impairment, and dimension scores (e.g., family; child quality of life (QoL); learning; play/leisure activities; and friends) and symptoms at ages 3.5 and 8 years (n = 783).\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"symptoms at ages 3.5 and 8 years (n = 783).\",\n    \"answer\": 783\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": \"with substantially higher impairment scores reported for boys compared to girls.\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": \"Notably, for teachers, a robust correlation between inattention symptoms and learning impairment was observed, with substantially higher impairment scores reported for boys compared to girls.\",\n    \"answer\": 2\n  },\n  \"study_design\": {\n    \"quote\": \"We investigated the extent to which functional impairments were associated with ADHD symptoms, along with behavioral and anxiety symptoms, from age 3.5 to 8 years.\",\n    \"answer\": \"Cohort-Prospective\"\n  }\n}",
+  "finish_reason": "stop"
+}

@@ -1,0 +1,9 @@
+{
+  "pmid": "20966487",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "b92dd497d06244970b1e5d25e6969809701dfcba108574dca7a5eb2383017649",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Analyses were conducted on a sample 271 pairs of 10-year-old monozygotic and dizygotic twins drawn from the Western Reserve Reading and Mathematics Project.\",\"answer\":\"include\"},\"n_total\":{\"quote\":null,\"answer\":null},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"Analyses were conducted on a sample 271 pairs of 10-year-old monozygotic and dizygotic twins drawn from the Western Reserve Reading and Mathematics Project.\",\"answer\":\"Other\"}}",
+  "finish_reason": "stop"
+}

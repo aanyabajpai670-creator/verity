@@ -1,0 +1,9 @@
+{
+  "pmid": "27027204",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "0bfdb372a6eb05172ef6238d72d441f52253159e5e6b4760268d4b7eac541afc",
+  "raw_response": "{\"eligibility\": {\"quote\": \"Thirty-one children and adolescents 8-17 years of age with TS were randomly assigned to receive NAC or matching placebo for 12 weeks.\", \"answer\": \"include\"}, \"n_total\": {\"quote\": \"Thirty-one children and adolescents 8-17 years of age with TS were randomly assigned to receive NAC or matching placebo for 12 weeks.\", \"answer\": 31}, \"n_female\": {\"quote\": \"Of 31 randomized subjects, 14 were assigned to placebo (two females; 11.5 + 2.8 years) and 17 to active NAC (five females; 12.4 + 1.4 years) treatment.\", \"answer\": 7}, \"includes_female\": {\"quote\": \"14 were assigned to placebo (two females; 11.5 + 2.8 years) and 17 to active NAC (five females; 12.4 + 1.4 years)\", \"answer\": true}, \"female_percent\": {\"quote\": null, \"answer\": null}, \"paired_counts\": {\"quote\": \"Of 31 randomized subjects, 14 were assigned to placebo (two females; 11.5 + 2.8 years) and 17 to active NAC (five females; 12.4 + 1.4 years) treatment.\", \"answer\": true}, \"sex_reporting\": {\"quote\": null, \"answer\": null}, \"study_design\": {\"quote\": \"Thirty-one children and adolescents 8-17 years of age with TS were randomly assigned to receive NAC or matching placebo for 12 weeks.\", \"answer\": \"RCT\"}}",
+  "finish_reason": "stop"
+}

@@ -1,0 +1,9 @@
+{
+  "pmid": "31900097",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "251b46459a440b4c40c7dddd9bb1f890b0300739fe2bd8bd0d8bc232c96fcdc8",
+  "raw_response": "{\"eligibility\":{\"quote\":\"107 boys aged 7-12 years were recruited; 55 with ADHD and 52 non-ADHD Controls.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"107 boys aged 7-12 years were recruited; 55 with ADHD and 52 non-ADHD Controls.\",\"answer\":107},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":\"107 boys aged 7-12 years were recruited\",\"answer\":false},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"We sought to explore 33 hair element concentrations and their 528 calculated ratios among two groups of boys, one with ADHD and one without.\",\"answer\":\"Case-control\"}}",
+  "finish_reason": "stop"
+}

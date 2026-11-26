@@ -1,0 +1,9 @@
+{
+  "pmid": "16866759",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "a479f8e7ac9c84a2e5dba2fa2c8a203958bd8e0c1e87d6a7342e7eeae533b0c2",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"samples of 1774 children (aged 6-12 years) and 1222 adolescents (aged 13-17 years) drawn from an Australian epidemiological study\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"Two taxometric procedures (MAXEIG and MAMBAC) examined ADHD symptom measures assessed by diagnostic interview and parental ratings.\",\n    \"answer\": \"Other\"\n  }\n}",
+  "finish_reason": "stop"
+}

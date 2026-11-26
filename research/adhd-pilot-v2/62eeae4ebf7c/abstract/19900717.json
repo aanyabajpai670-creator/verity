@@ -1,0 +1,9 @@
+{
+  "pmid": "19900717",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "6921b4e43772c8b45bfa0c64ef779a1f6176c4cb8becf23fd017c167ccb9e11b",
+  "raw_response": "{\"eligibility\":{\"quote\":\"from a clinical sample of 500 ADHD subjects, ages 6-18, participating in an ADHD genetic study.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"from a clinical sample of 500 ADHD subjects, ages 6-18, participating in an ADHD genetic study.\",\"answer\":500},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":null,\"answer\":null}}",
+  "finish_reason": "stop"
+}

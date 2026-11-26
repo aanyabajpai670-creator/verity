@@ -1,0 +1,9 @@
+{
+  "pmid": "29762636",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "866c2ab790dc8e5587bbb02e49566fb59bdb5905f354a8ad08ee6bf11d835262",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"We examined the association of maternal experience of childhood abuse with ADHD in offspring, assessed by maternal report of diagnosis and validated with the ADHD Rating Scale-IV in a subsample, in the Nurses' Health Study II\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": \"female offspring, RR = 2.3, 95% confidence interval (CI): 1.7, 3.0\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": \"male offspring, risk ratio (RR) = 1.6, 95% confidence interval (CI): 1.3, 1.9; female offspring, RR = 2.3, 95% CI: 1.7, 3.0\",\n    \"answer\": 2\n  },\n  \"study_design\": {\n    \"quote\": \"We examined the association of maternal experience of childhood abuse with ADHD in offspring, assessed by maternal report of diagnosis and validated with the ADHD Rating Scale-IV in a subsample, in the Nurses' Health Study II\",\n    \"answer\": \"Cohort-Prospective\"\n  }\n}",
+  "finish_reason": "stop"
+}

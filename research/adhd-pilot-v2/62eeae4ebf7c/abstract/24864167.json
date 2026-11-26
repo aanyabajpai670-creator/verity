@@ -1,0 +1,9 @@
+{
+  "pmid": "24864167",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "23eacccb5aa40430f5509ae78b2abdfc65751b73d7040c058672ad77215bc1af",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"The Children with Epilepsy in Sussex Schools study is a prospective, community-based study involving school-aged children (5\u201315 years) with active epilepsy in a defined geographical area in the United Kingdom.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"A total of 85 children (74% of eligible population) were enrolled\",\n    \"answer\": 85\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"The Children with Epilepsy in Sussex Schools study is a prospective, community-based study involving school-aged children (5\u201315 years) with active epilepsy in a defined geographical area in the United Kingdom.\",\n    \"answer\": \"Cohort-Prospective\"\n  }\n}",
+  "finish_reason": "stop"
+}

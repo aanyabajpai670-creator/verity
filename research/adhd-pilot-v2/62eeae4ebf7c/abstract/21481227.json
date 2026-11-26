@@ -1,0 +1,9 @@
+{
+  "pmid": "21481227",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "c3716eb09b94a8a03c44c9efbb3b03746c23371ec10fbcfe3148a5cfba929636",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"Former Norwegian child psychiatric in-patients (n = 541) were followed up 19-41 years after hospitalization by record linkage to the National Register of Criminality.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"Former Norwegian child psychiatric in-patients (n = 541) were followed up 19-41 years after hospitalization by record linkage to the National Register of Criminality.\",\n    \"answer\": 541\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": \"Male gender (RR = 3.6, 95%CI = 2.1-6.1) and chronic family difficulties (RR = 1.3, 95% CI = 1.1-1.5) both predicted future criminality.\",\n    \"answer\": 2\n  },\n  \"study_design\": {\n    \"quote\": \"Former Norwegian child psychiatric in-patients (n = 541) were followed up 19-41 years after hospitalization by record linkage to the National Register of Criminality. On the basis of the hospital records, the patients were re-diagnosed according to ICD-10.\",\n    \"answer\": \"Cohort-Retrospective\"\n  }\n}",
+  "finish_reason": "stop"
+}

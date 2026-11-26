@@ -1,0 +1,9 @@
+{
+  "pmid": "36066073",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "dfb312a0b4d8fcc0ded5a614b1e272d2bbf566c27b7f2fe6eb733ed925cb95a1",
+  "raw_response": "{\"eligibility\":{\"quote\":\"We compared 4658 6-18 year-old ADHD patients with 18 632 sex-, age-, and index day-matched non-ADHD controls between 2005 and 2012.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"4658 6-18 year-old ADHD patients\",\"answer\":4658},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":\"a higher risk was especially observed in the male and adolescent subgroups.\",\"answer\":2},\"study_design\":{\"quote\":\"This is a retrospective population-based cohort study by using data from the Taiwan National Health Insurance Research Database.\",\"answer\":\"Cohort-Retrospective\"}}",
+  "finish_reason": "stop"
+}

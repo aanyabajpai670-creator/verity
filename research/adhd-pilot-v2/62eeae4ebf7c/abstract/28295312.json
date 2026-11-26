@@ -1,0 +1,9 @@
+{
+  "pmid": "28295312",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "6fc00cce96decd48ec06b7aaa422c641123a2db310330c748f48b2b974ede9b7",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"The Multimodal Treatment Study (MTA) began as a 14-month randomized clinical trial of behavioral and pharmacological treatments of 579 children (7-10 years of age) diagnosed with attention-deficit/hyperactivity disorder (ADHD)-combined type.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"579 children (7-10 years of age) diagnosed with attention-deficit/hyperactivity disorder (ADHD)-combined type.\",\n    \"answer\": 579\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"It transitioned into an observational long-term follow-up of 515 cases consented for continuation and 289 classmates (258 without ADHD) added as a local normative comparison group (LNCG), with assessments 2-16 years after baseline.\",\n    \"answer\": \"Cohort-Prospective\"\n  }\n}",
+  "finish_reason": "stop"
+}

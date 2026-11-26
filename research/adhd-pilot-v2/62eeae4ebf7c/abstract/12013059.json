@@ -1,0 +1,9 @@
+{
+  "pmid": "12013059",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "b9eeea22fb874b8697b1d91fb2e7cfc396601f85ff849f56881b5a7d42cfcab1",
+  "raw_response": "{\"eligibility\":{\"quote\":\"The sample was drawn from 99 community-based adolescents indicated as physically abused by Child Protective Services and 99 randomly selected controls.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"The sample was drawn from 99 community-based adolescents indicated as physically abused by Child Protective Services and 99 randomly selected controls.\",\"answer\":198},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"The sample was drawn from 99 community-based adolescents indicated as physically abused by Child Protective Services and 99 randomly selected controls.\",\"answer\":\"Case-control\"}}",
+  "finish_reason": "stop"
+}

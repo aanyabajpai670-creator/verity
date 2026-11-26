@@ -1,0 +1,9 @@
+{
+  "pmid": "22473864",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "c64fda4351cd456c665b97d407ea854142b33ec38739deac13da87612a8ed06e",
+  "raw_response": "{\"eligibility\":{\"quote\":\"A sample of children with ADHD and a normative comparison group (age 8-13 years) were assessed at baseline and one-year follow-up.\",\"answer\":\"uncertain\"},\"n_total\":{\"quote\":null,\"answer\":null},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":null},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"A sample of children with ADHD and a normative comparison group (age 8-13 years) were assessed at baseline and one-year follow-up.\",\"answer\":\"Cohort-Prospective\"}}",
+  "finish_reason": "stop"
+}

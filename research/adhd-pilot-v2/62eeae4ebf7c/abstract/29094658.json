@@ -1,0 +1,9 @@
+{
+  "pmid": "29094658",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "61a194a4d2b4353eedb1bd3a9622236539809a20c3d08b1afd4339fd4f752c28",
+  "raw_response": "{\"eligibility\":{\"quote\":\"We directly compared preterm-born adolescents (n = 186) to term-born adolescents with ADHD (n = 69), and term-born controls (n = 135), aged 11-23, on cognitive-performance, event-related potential and skin conductance level (SCL) measures associated with attention and arousal.\",\"answer\":\"include\"},\"n_total\":{\"quote\":null,\"answer\":null},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"We directly compared preterm-born adolescents (n = 186) to term-born adolescents with ADHD (n = 69), and term-born controls (n = 135), aged 11-23, on cognitive-performance, event-related potential and skin conductance level (SCL) measures associated with attention and arousal.\",\"answer\":\"Cross-sectional\"}}",
+  "finish_reason": "stop"
+}

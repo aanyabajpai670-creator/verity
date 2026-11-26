@@ -1,0 +1,9 @@
+{
+  "pmid": "14642015",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "ef8e576343d397dcf7c9a482ef572204d783fd80f81734352a75a38ef0163d8e",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Children, ages 7-12 years, with developmental reading disorders but no other psychiatric diagnoses were randomly assigned to methylphenidate treatment (n = 43) or matching placebo (n = 66) for 12-18 weeks.\",\"answer\":\"uncertain\"},\"n_total\":{\"quote\":null,\"answer\":null},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"were randomly assigned to methylphenidate treatment (n = 43) or matching placebo (n = 66) for 12-18 weeks\",\"answer\":\"RCT\"}}",
+  "finish_reason": "stop"
+}

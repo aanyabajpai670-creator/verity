@@ -1,0 +1,9 @@
+{
+  "pmid": "31768057",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "2097adf0cecb253b34544b7798e500d9a21d830c1969b4bdfe22dff49253f58c",
+  "raw_response": "{\"eligibility\":{\"quote\":\"The exome sequences of approximately 8,000 children with autism spectrum disorder (ASD) and/or attention deficit hyperactivity disorder (ADHD) and 5,000 controls were analyzed\",\"answer\":\"include\"},\"n_total\":{\"quote\":null,\"answer\":null},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"The exome sequences of approximately 8,000 children with autism spectrum disorder (ASD) and/or attention deficit hyperactivity disorder (ADHD) and 5,000 controls were analyzed\",\"answer\":\"Case-control\"}}",
+  "finish_reason": "stop"
+}

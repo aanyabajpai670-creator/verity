@@ -1,0 +1,9 @@
+{
+  "pmid": "26550924",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "90ea4a5c256626bfde9fa07a9e8f551ef7d72a19be46d1bba5ccd74391d98106",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"We directly compared cognitive performance and event-related potential measures from a cued continuous performance test in 20 women with ADHD, 20 women with BD (currently euthymic) and 20 control women.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"We directly compared cognitive performance and event-related potential measures from a cued continuous performance test in 20 women with ADHD, 20 women with BD (currently euthymic) and 20 control women.\",\n    \"answer\": 60\n  },\n  \"n_female\": {\n    \"quote\": \"We directly compared cognitive performance and event-related potential measures from a cued continuous performance test in 20 women with ADHD, 20 women with BD (currently euthymic) and 20 control women.\",\n    \"answer\": 60\n  },\n  \"includes_female\": {\n    \"quote\": \"We directly compared cognitive performance and event-related potential measures from a cued continuous performance test in 20 women with ADHD, 20 women with BD (currently euthymic) and 20 control women.\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"We directly compared cognitive performance and event-related potential measures from a cued continuous performance test in 20 women with ADHD, 20 women with BD (currently euthymic) and 20 control women.\",\n    \"answer\": \"Cross-sectional\"\n  }\n}",
+  "finish_reason": "stop"
+}

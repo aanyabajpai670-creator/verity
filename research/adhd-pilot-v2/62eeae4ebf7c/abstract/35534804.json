@@ -1,0 +1,9 @@
+{
+  "pmid": "35534804",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "3ac9fa5a31c346f1b0182ebd3a50c0069aed567f37a42d0ded6a2146dd97a753",
+  "raw_response": "{\"eligibility\":{\"quote\":\"The total n in the study was 839 (cADHD n = 115; cAP n = 216; Non-CAP n = 508).\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"The total n in the study was 839 (cADHD n = 115; cAP n = 216; Non-CAP n = 508).\",\"answer\":839},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"Childhood ADHD was associated with a twofold risk of premature death by the age of 46 in this prospective longitudinal cohort study.\",\"answer\":\"Cohort-Prospective\"}}",
+  "finish_reason": "stop"
+}

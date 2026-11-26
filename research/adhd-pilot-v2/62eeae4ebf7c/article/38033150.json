@@ -1,0 +1,9 @@
+{
+  "pmid": "38033150",
+  "scope": "article",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "4004dff0131d498a5571e731748a2a530b18b06cbe5e234c95bfd888e4fc3dd1",
+  "raw_response": "{\"eligibility\":{\"quote\":\"This study was a double blind randomised controlled trial with pre and post tryptophan loading measures in participants with a diagnosis of ADHD and those without.\",\"answer\":\"include\"},\"n_total\":{\"quote\":null,\"answer\":null},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":\"Female gender N (%) | 28 (56.0) | 31 (64.6) | 35 (76.1)\",\"answer\":true},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":\"Female gender N (%) | 28 (56.0) | 31 (64.6) | 35 (76.1)\",\"answer\":1},\"study_design\":{\"quote\":\"This study was a double blind randomised controlled trial with pre and post tryptophan loading measures in participants with a diagnosis of ADHD and those without.\",\"answer\":\"RCT\"}}",
+  "finish_reason": "stop"
+}

@@ -1,0 +1,9 @@
+{
+  "pmid": "35977994",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "93e28f0fc6e3af1ea9bde730aca6677f7f9f8da3fa91519beef3b98facc4dcb1",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Fifty-three primary school students with learning difficulty (including autism spectrum disorder, attention-deficit/hyperactivity disorder, specific learning disorder, specific language impairment and borderline intellectual functioning) were recruited\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"Fifty-three primary school students with learning difficulty (including autism spectrum disorder, attention-deficit/hyperactivity disorder, specific learning disorder, specific language impairment and borderline intellectual functioning) were recruited\",\"answer\":53},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"were recruited and randomly assigned to either the Eye-tracking Training group or the after-school remediation class.\",\"answer\":\"RCT\"}}",
+  "finish_reason": "stop"
+}

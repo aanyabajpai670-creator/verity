@@ -1,0 +1,9 @@
+{
+  "pmid": "25808665",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "0b42955fe26f14b753ffb91ce052684c1006f784343912819229359dc1239c89",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"The corresponding ORs for attention-deficit and hyperactivity disorder (ADHD) were 2.18 (95% CI 1.30 to 3.64) for <1 h/day exposure and 3.14 (95% CI 1.63 to 6.04) for \u22651 h/day exposure (p for linear trend<0.001).\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"Cross-sectional study of 2357 children representative of the Spanish population aged 4-12 years in 2011-2012.\",\n    \"answer\": 2357\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"Cross-sectional study of 2357 children representative of the Spanish population aged 4-12 years in 2011-2012.\",\n    \"answer\": \"Cross-sectional\"\n  }\n}",
+  "finish_reason": "stop"
+}
