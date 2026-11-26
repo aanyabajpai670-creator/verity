@@ -2950,22 +2950,6 @@
     ]
   },
   {
-    "pmid": "32116035",
-    "issues": [],
-    "source_url": "https://pubmed.ncbi.nlm.nih.gov/32116035/",
-    "eligibility": "include",
-    "enrolled_sample_size": 3284,
-    "sample_size_status": "at_least_30",
-    "eligibility_review_reason": null,
-    "quote_issues": [],
-    "whitespace_recovered_fields": [],
-    "missing": [
-      "includes_female",
-      "female_percent",
-      "sex_reporting"
-    ]
-  },
-  {
     "pmid": "33963626",
     "issues": [],
     "source_url": "https://pubmed.ncbi.nlm.nih.gov/33963626/",
@@ -3087,22 +3071,6 @@
     ]
   },
   {
-    "pmid": "36201815",
-    "issues": [],
-    "source_url": "https://pubmed.ncbi.nlm.nih.gov/36201815/",
-    "eligibility": "include",
-    "enrolled_sample_size": 850,
-    "sample_size_status": "at_least_30",
-    "eligibility_review_reason": null,
-    "quote_issues": [],
-    "whitespace_recovered_fields": [],
-    "missing": [
-      "includes_female",
-      "female_percent",
-      "sex_reporting"
-    ]
-  },
-  {
     "pmid": "35523899",
     "issues": [],
     "source_url": "https://pubmed.ncbi.nlm.nih.gov/35523899/",
@@ -3175,22 +3143,6 @@
     "source_url": "https://pubmed.ncbi.nlm.nih.gov/33856853/",
     "eligibility": "include",
     "enrolled_sample_size": 407,
-    "sample_size_status": "at_least_30",
-    "eligibility_review_reason": null,
-    "quote_issues": [],
-    "whitespace_recovered_fields": [],
-    "missing": [
-      "includes_female",
-      "female_percent",
-      "sex_reporting"
-    ]
-  },
-  {
-    "pmid": "36573771",
-    "issues": [],
-    "source_url": "https://pubmed.ncbi.nlm.nih.gov/36573771/",
-    "eligibility": "include",
-    "enrolled_sample_size": 380,
     "sample_size_status": "at_least_30",
     "eligibility_review_reason": null,
     "quote_issues": [],
@@ -3372,22 +3324,6 @@
       "eligibility",
       "study_design"
     ],
-    "missing": [
-      "includes_female",
-      "female_percent",
-      "sex_reporting"
-    ]
-  },
-  {
-    "pmid": "32539526",
-    "issues": [],
-    "source_url": "https://pubmed.ncbi.nlm.nih.gov/32539526/",
-    "eligibility": "include",
-    "enrolled_sample_size": 776,
-    "sample_size_status": "at_least_30",
-    "eligibility_review_reason": null,
-    "quote_issues": [],
-    "whitespace_recovered_fields": [],
     "missing": [
       "includes_female",
       "female_percent",
@@ -4694,6 +4630,21 @@
     ]
   },
   {
+    "pmid": "32116035",
+    "issues": [],
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/32116035/",
+    "eligibility": "include",
+    "enrolled_sample_size": 3284,
+    "sample_size_status": "at_least_30",
+    "eligibility_review_reason": null,
+    "quote_issues": [],
+    "whitespace_recovered_fields": [],
+    "missing": [
+      "includes_female",
+      "female_percent"
+    ]
+  },
+  {
     "pmid": "38281274",
     "issues": [],
     "source_url": "https://pubmed.ncbi.nlm.nih.gov/38281274/",
@@ -4759,6 +4710,21 @@
     "source_url": "https://pubmed.ncbi.nlm.nih.gov/33332378/",
     "eligibility": "include",
     "enrolled_sample_size": 47,
+    "sample_size_status": "at_least_30",
+    "eligibility_review_reason": null,
+    "quote_issues": [],
+    "whitespace_recovered_fields": [],
+    "missing": [
+      "includes_female",
+      "female_percent"
+    ]
+  },
+  {
+    "pmid": "36201815",
+    "issues": [],
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/36201815/",
+    "eligibility": "include",
+    "enrolled_sample_size": 850,
     "sample_size_status": "at_least_30",
     "eligibility_review_reason": null,
     "quote_issues": [],
@@ -4896,6 +4862,21 @@
     ]
   },
   {
+    "pmid": "36573771",
+    "issues": [],
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/36573771/",
+    "eligibility": "include",
+    "enrolled_sample_size": 380,
+    "sample_size_status": "at_least_30",
+    "eligibility_review_reason": null,
+    "quote_issues": [],
+    "whitespace_recovered_fields": [],
+    "missing": [
+      "includes_female",
+      "female_percent"
+    ]
+  },
+  {
     "pmid": "36200375",
     "issues": [],
     "source_url": "https://pubmed.ncbi.nlm.nih.gov/36200375/",
@@ -4933,6 +4914,21 @@
     "source_url": "https://pubmed.ncbi.nlm.nih.gov/32996347/",
     "eligibility": "include",
     "enrolled_sample_size": 58,
+    "sample_size_status": "at_least_30",
+    "eligibility_review_reason": null,
+    "quote_issues": [],
+    "whitespace_recovered_fields": [],
+    "missing": [
+      "includes_female",
+      "female_percent"
+    ]
+  },
+  {
+    "pmid": "32539526",
+    "issues": [],
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/32539526/",
+    "eligibility": "include",
+    "enrolled_sample_size": 776,
     "sample_size_status": "at_least_30",
     "eligibility_review_reason": null,
     "quote_issues": [],
@@ -5122,20 +5118,6 @@
     "whitespace_recovered_fields": [],
     "missing": [
       "female_percent"
-    ]
-  },
-  {
-    "pmid": "23793277",
-    "issues": [],
-    "source_url": "https://pubmed.ncbi.nlm.nih.gov/23793277/",
-    "eligibility": "include",
-    "enrolled_sample_size": 53,
-    "sample_size_status": "at_least_30",
-    "eligibility_review_reason": null,
-    "quote_issues": [],
-    "whitespace_recovered_fields": [],
-    "missing": [
-      "sex_reporting"
     ]
   },
   {

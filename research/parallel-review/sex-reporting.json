@@ -1933,5 +1933,13 @@
     "prompt_string": "scripts/adhd_pilot.py: \"2 for any explicit sex-stratified outcome or sex interaction test, including a null interaction\".",
     "observed_practice": "assistant-field-review.json codes formal interaction/moderation tests as level 3 (7 records: 22844023, 12501563, 31120201, 18188752, 16930383, 17484685, 33048569).",
     "resolution_used": "Coded 32116035 as level 3 to match practice; flagged for adjudication."
+  },
+  "disposition": {
+    "date": "2026-11-26",
+    "resolved_and_merged": 5,
+    "already_merged_earlier": 1,
+    "remaining_unresolved": 129,
+    "wording": "129 records remain unresolved after documented retrieval attempts: no full text is available in the repository, Europe PMC returns no PMCID and no open-access copy for any of the 135 targets, and publisher or repository copies returned 403/anti-bot pages or landing pages without a PDF. These are unresolved on current access, not shown to be unresolvable.",
+    "reopen_condition": "Re-attempt when institutional access, interlibrary loan or a publisher-permitted copy becomes available."
   }
 }
