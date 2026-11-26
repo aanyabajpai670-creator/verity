@@ -1,0 +1,9 @@
+{
+  "pmid": "28108742",
+  "scope": "article",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "abd3a84c0cb56c8e16dbcda06ff6885e196699e1e89bf2df38b850377465476a",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"Eighty children (40 ADHD and 40 typically-developing controls) participated in the experiment (ADHD-200: Peking University;\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"Eighty children (40 ADHD and 40 typically-developing controls) participated in the experiment (ADHD-200: Peking University;\",\n    \"answer\": 80\n  },\n  \"n_female\": {\n    \"quote\": \"Gender (M/F) | 40/0 | 40/0\",\n    \"answer\": 0\n  },\n  \"includes_female\": {\n    \"quote\": \"Gender (M/F) | 40/0 | 40/0\",\n    \"answer\": false\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": \"ADHD (n = 40) | Control (n = 40) | P Value | Age (years) | 12.47 \u00b1 2.01 | 11.76 \u00b1 1.75 | 0.02 | Gender (M/F) | 40/0 | 40/0\",\n    \"answer\": true\n  },\n  \"sex_reporting\": {\n    \"quote\": \"The age, gender balance, and IQ of the two groups are shown in Table 1.\",\n    \"answer\": 1\n  },\n  \"study_design\": {\n    \"quote\": \"The ADHD patients were recruited from the Institute of Mental Health, Peking University. Normal controls were recruited from a local school.\",\n    \"answer\": \"Case-control\"\n  }\n}",
+  "finish_reason": "stop"
+}

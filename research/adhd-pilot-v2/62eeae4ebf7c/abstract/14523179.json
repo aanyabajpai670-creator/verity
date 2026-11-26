@@ -1,0 +1,9 @@
+{
+  "pmid": "14523179",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "47a88aa86125aa971e87bce7a4528265d1c280cbf713fa8c5c002095b6a05822",
+  "raw_response": "{\"eligibility\":{\"quote\":\"A population-based, cross-sectional survey was conducted of a birth cohort of children who were born in eastern Massachusetts. Subjects were 3019 5-year-old children (1551 boys, 1468 girls)\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"Subjects were 3019 5-year-old children (1551 boys, 1468 girls)\",\"answer\":3019},\"n_female\":{\"quote\":\"Subjects were 3019 5-year-old children (1551 boys, 1468 girls)\",\"answer\":1468},\"includes_female\":{\"quote\":\"Subjects were 3019 5-year-old children (1551 boys, 1468 girls)\",\"answer\":true},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":\"Subjects were 3019 5-year-old children (1551 boys, 1468 girls)\",\"answer\":true},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"A population-based, cross-sectional survey was conducted of a birth cohort of children who were born in eastern Massachusetts.\",\"answer\":\"Cross-sectional\"}}",
+  "finish_reason": "stop"
+}

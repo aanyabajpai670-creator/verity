@@ -1,0 +1,9 @@
+{
+  "pmid": "22974590",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "e5e77a55cd5a1667dad3b5ff4378b65862f36426bf5bc6bfba20496f60548030",
+  "raw_response": "{\"eligibility\":{\"quote\":\"In this study we collected four saliva samples during a regular weekday in children, 6-17 years old, with ADHD (n = 201) and non-affected comparisons (n = 221).\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"with ADHD (n = 201)\",\"answer\":201},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"In this study we collected four saliva samples during a regular weekday in children, 6-17 years old, with ADHD (n = 201) and non-affected comparisons (n = 221).\",\"answer\":\"Cross-sectional\"}}",
+  "finish_reason": "stop"
+}

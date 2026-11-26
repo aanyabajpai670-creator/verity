@@ -1,0 +1,9 @@
+{
+  "pmid": "11329997",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "17d58390ef110fa8413e455975bcc53186209f616d118f1e943f2ac01597a399",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"Using claims data, this study explores the treatment of children with a common child psychiatric disorder, attention deficit hyperactivity disorder (ADHD).\",\n    \"answer\": \"uncertain\"\n  },\n  \"n_total\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"Using claims data, this study explores the treatment of children with a common child psychiatric disorder, attention deficit hyperactivity disorder (ADHD).\",\n    \"answer\": \"Other\"\n  }\n}",
+  "finish_reason": "stop"
+}

@@ -1,0 +1,9 @@
+{
+  "pmid": "29332109",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "a16e9e534b8a5f17641f13707e952cd7b77478f0259ddb0bf41ec61f5733fe84",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"A total of 929 students were screened. The overall prevalence of ADHD was 5% (5.3% in girls, 4.7% in boys).\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"A total of 929 students were screened.\",\n    \"answer\": 929\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": \"The overall prevalence of ADHD was 5% (5.3% in girls, 4.7% in boys).\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": \"The overall prevalence of ADHD was 5% (5.3% in girls, 4.7% in boys).\",\n    \"answer\": 2\n  },\n  \"study_design\": {\n    \"quote\": \"This is a cross-sectional study.\",\n    \"answer\": \"Cross-sectional\"\n  }\n}",
+  "finish_reason": "stop"
+}

@@ -1,0 +1,9 @@
+{
+  "pmid": "24828276",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "c9493e83fc2be87ee6b3d5164d9fbbea6a9d7a61f5653cae6b184363a2700a9a",
+  "raw_response": "{\"eligibility\":{\"quote\":\"A total of 178 young adults (73 males) without current psychopathology from a community sample followed since birth (Mannheim, Germany) participated in the study.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"A total of 178 young adults (73 males) without current psychopathology from a community sample followed since birth (Mannheim, Germany) participated in the study.\",\"answer\":178},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"A total of 178 young adults (73 males) without current psychopathology from a community sample followed since birth (Mannheim, Germany) participated in the study.\",\"answer\":\"Cohort-Prospective\"}}",
+  "finish_reason": "stop"
+}

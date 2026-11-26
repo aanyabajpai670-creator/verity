@@ -1,0 +1,9 @@
+{
+  "pmid": "36715611",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "4dfb68e5d782cb468e90a4ba9288659e32047859221da57993cdb3252a1e18a6",
+  "raw_response": "```json\n{\n  \"eligibility\": {\n    \"quote\": \"In a randomized, two-period crossover design, 122 school-aged children (61 ADHD and 61 TD subjects), aged 10-12 years old, were measured using comparable visual search tasks with structured and unstructured layouts.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"122 school-aged children (61 ADHD and 61 TD subjects), aged 10-12 years old\",\n    \"answer\": 122\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"In a randomized, two-period crossover design, 122 school-aged children (61 ADHD and 61 TD subjects), aged 10-12 years old, were measured using comparable visual search tasks with structured and unstructured layouts.\",\n    \"answer\": \"RCT\"\n  }\n}\n```",
+  "finish_reason": "stop"
+}

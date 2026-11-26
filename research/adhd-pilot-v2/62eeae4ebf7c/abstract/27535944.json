@@ -1,0 +1,9 @@
+{
+  "pmid": "27535944",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "540b587ef7e01b88b18ed20a9f1c56696104eef515e85df09d1d50118de1f380",
+  "raw_response": "```json\n{\n  \"eligibility\": {\n    \"quote\": \"We compared 90 eyes of 45 children with ADHD and 90 eyes of 45 controls.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"We compared 90 eyes of 45 children with ADHD and 90 eyes of 45 controls.\",\n    \"answer\": 90\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"The study group included children with ADHD and the control group consisted of age- and gender-matched participants without any psychiatric disorder.\",\n    \"answer\": \"Case-control\"\n  }\n}\n```",
+  "finish_reason": "stop"
+}

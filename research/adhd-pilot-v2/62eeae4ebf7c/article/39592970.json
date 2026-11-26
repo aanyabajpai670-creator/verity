@@ -1,0 +1,9 @@
+{
+  "pmid": "39592970",
+  "scope": "article",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "0846b57508335154acfd0c44521858eb94b0c88467e245d165953d012358fa2f",
+  "raw_response": "{\"eligibility\":{\"quote\":\"The study included a cohort of 33 children diagnosed with ADHD and 29 control subjects, all aged between 5 and 12 years.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"The study included a cohort of 33 children diagnosed with ADHD and 29 control subjects, all aged between 5 and 12 years.\",\"answer\":62},\"n_female\":{\"quote\":\"The study involved 33 children with ADHD (23 boys, 6 girls) and 29 control children (21 boys, 8 girls), with no significant difference between age and sex between ADHD children and the control group (Table 1).\",\"answer\":14},\"includes_female\":{\"quote\":\"The study involved 33 children with ADHD (23 boys, 6 girls) and 29 control children (21 boys, 8 girls)\",\"answer\":true},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":\"The study involved 33 children with ADHD (23 boys, 6 girls) and 29 control children (21 boys, 8 girls), with no significant difference between age and sex between ADHD children and the control group (Table 1).\",\"answer\":1},\"study_design\":{\"quote\":\"Is there a link between peripheral inflammation and blood brain barrier integrity in children with attention-deficit/hyperactivity disorder? A case-control study.\",\"answer\":\"Case-control\"}}",
+  "finish_reason": "stop"
+}

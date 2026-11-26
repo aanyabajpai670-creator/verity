@@ -1,0 +1,9 @@
+{
+  "pmid": "31590105",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "96b5adaf5bcafdf5aaf9058a57eb8617ea7ac0e3fda3433d37ce0af394093c83",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"We investigated ADHD symptoms and life outcomes in adulthood and their association with childhood ADHD and subthreshold symptoms in a prospectively followed cohort with perinatal risks.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"a prospectively followed cohort with perinatal risks\",\n    \"answer\": \"Cohort-Prospective\"\n  }\n}",
+  "finish_reason": "stop"
+}

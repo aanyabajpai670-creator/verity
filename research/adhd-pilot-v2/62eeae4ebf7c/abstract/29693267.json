@@ -1,0 +1,9 @@
+{
+  "pmid": "29693267",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "51d3a7aac96559dd38877a08d2347e0fcc6149a82e7f1815b1080ee6e6df2d59",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"Growth trajectories of the cerebellar vermis, hemispheres and white matter were estimated using piecewise linear regression from 1,656 youth; of whom 63% had longitudinal data, totaling 2,914 scans.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"from 1,656 youth\",\n    \"answer\": 1656\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"Here, we conduct a multicohort study using longitudinal data, to characterize cerebellar development.\",\n    \"answer\": \"Cohort-Prospective\"\n  }\n}",
+  "finish_reason": "stop"
+}

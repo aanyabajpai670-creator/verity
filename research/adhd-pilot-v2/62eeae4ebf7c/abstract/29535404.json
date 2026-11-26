@@ -1,0 +1,9 @@
+{
+  "pmid": "29535404",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "9dc770879e4609ffd566c8d293808205bd9e9a34916b2119876bdf0bc928af34",
+  "raw_response": "{\"eligibility\":{\"quote\":\"relation of major dietary patterns to attention-deficit/hyperactivity disorder (ADHD). SUBJECTS/METHODS: A cross-sectional survey was conducted comprising a large sample of 14,912 children aged 3-6 years old\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"A cross-sectional survey was conducted comprising a large sample of 14,912 children aged 3-6 years old in Ma'anshan city of Anhui Province in China.\",\"answer\":14912},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"A cross-sectional survey was conducted comprising a large sample of 14,912 children aged 3-6 years old in Ma'anshan city of Anhui Province in China.\",\"answer\":\"Cross-sectional\"}}",
+  "finish_reason": "stop"
+}

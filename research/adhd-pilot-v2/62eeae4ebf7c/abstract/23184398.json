@@ -1,0 +1,9 @@
+{
+  "pmid": "23184398",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "5fb06f0f8149a8ea35a296b35de09da1b3e580f93c945e74d9819f61fa78d5f7",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"We acquired anatomical brain MRI scans from 23 never-medicated adult patients with ADHD, 31 adult patients with a history of stimulant treatment and 32 control subjects\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"We acquired anatomical brain MRI scans from 23 never-medicated adult patients with ADHD, 31 adult patients with a history of stimulant treatment and 32 control subjects\",\n    \"answer\": \"Cross-sectional\"\n  }\n}",
+  "finish_reason": "stop"
+}

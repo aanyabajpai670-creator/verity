@@ -1,0 +1,9 @@
+{
+  "pmid": "27469458",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "e39105c7d909a6113fe0593a06edfd7b0ab32ffbe9e32193de5f1f5710f91d74",
+  "raw_response": "{\"eligibility\":{\"quote\":\"The current study was conducted as part of a larger clinical trial to evaluate the efficacy of a collaborative care intervention for behavior problems, ADHD, and anxiety in pediatric primary care practices (Doctor Office Collaborative Care; DOCC).\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"Participants were 321 parent-child dyads\",\"answer\":321},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":\"Participants were 321 parent-child dyads (M child age = 8.00, 65 % male children)\",\"answer\":true},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"from eight pediatric practices that were cluster randomized to DOCC or enhanced usual care (EUC)\",\"answer\":\"RCT\"}}",
+  "finish_reason": "stop"
+}

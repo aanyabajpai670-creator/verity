@@ -1,0 +1,9 @@
+{
+  "pmid": "36780727",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "1429a397523b1a519eab957aebe2de77b0fe796f9143ae949acc7bd1158d515c",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"The sample included 45 adults (35 females; mean age = 28.4 \u00b1 6.3 years).\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"The sample included 45 adults (35 females; mean age = 28.4 \u00b1 6.3 years).\",\n    \"answer\": 45\n  },\n  \"n_female\": {\n    \"quote\": \"The sample included 45 adults (35 females; mean age = 28.4 \u00b1 6.3 years).\",\n    \"answer\": 35\n  },\n  \"includes_female\": {\n    \"quote\": \"The sample included 45 adults (35 females; mean age = 28.4 \u00b1 6.3 years).\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": \"The sample included 45 adults (35 females; mean age = 28.4 \u00b1 6.3 years).\",\n    \"answer\": true\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"Participants completed two sessions (off-medication and on-medication) in a within-subjects repeated-measure study design.\",\n    \"answer\": \"Other\"\n  }\n}",
+  "finish_reason": "stop"
+}

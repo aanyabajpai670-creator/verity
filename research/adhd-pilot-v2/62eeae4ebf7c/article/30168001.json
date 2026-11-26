@@ -1,0 +1,9 @@
+{
+  "pmid": "30168001",
+  "scope": "article",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "f2e9eda606427a7c16c2435d140ff3fb3fc0d83daaeef29c6bbcb739f2e8e070",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"We examined context-based patterns of ADHD symptoms in a longitudinal cohort study of n = 1388 children, as well as context-specific and context-general predictors of symptoms.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"Data were available for n = 1388 (709 male) children in the current study (88% of the total recruited sample or 83% of the initial target sample).\",\n    \"answer\": 1388\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": \"Data were available for n = 1388 (709 male) children in the current study (88% of the total recruited sample or 83% of the initial target sample).\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": \"Both unadjusted results, and results adjusted for gender and all other predictors are provided.\",\n    \"answer\": 0\n  },\n  \"study_design\": {\n    \"quote\": \"Z-proso is an ongoing longitudinal study of development currently spanning ages 7\u201317.\",\n    \"answer\": \"Cohort-Prospective\"\n  }\n}",
+  "finish_reason": "stop"
+}

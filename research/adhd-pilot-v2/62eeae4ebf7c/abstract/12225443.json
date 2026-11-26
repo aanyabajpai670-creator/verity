@@ -1,0 +1,9 @@
+{
+  "pmid": "12225443",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "27687f44449cdfadb80c6792fad34361cd4db4f015710ccb8c0d056653e80859",
+  "raw_response": "{\"eligibility\":{\"quote\":\"In a randomized, controlled trial, a representative sample of adults with ADHD (some medicated, some not) were assigned to either a CRP (n = 22) or a waiting list control (n = 21).\",\"answer\":\"include\"},\"n_total\":{\"quote\":null,\"answer\":null},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"In a randomized, controlled trial, a representative sample of adults with ADHD (some medicated, some not) were assigned to either a CRP (n = 22) or a waiting list control (n = 21).\",\"answer\":\"RCT\"}}",
+  "finish_reason": "stop"
+}

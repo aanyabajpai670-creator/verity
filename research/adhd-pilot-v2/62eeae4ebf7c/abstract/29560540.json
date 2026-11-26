@@ -1,0 +1,9 @@
+{
+  "pmid": "29560540",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "517a7cf48a02af33f39d47f25f831b868bc1a099eb7d3e8ee4792cc677171c38",
+  "raw_response": "{\"eligibility\":{\"quote\":\"a cross-sectional sample of youth with ADHD. Gender and anxiety symptoms were explored as potential moderators. The sample consisted of 281 youth (aged 8-15 years) diagnosed with ADHD.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"The sample consisted of 281 youth (aged 8-15 years) diagnosed with ADHD.\",\"answer\":281},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":\"slower processing speed predicted poorer math computation for boys compared to girls.\",\"answer\":true},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":\"A three-way interaction revealed that at low levels of anxious perfectionism, slower processing speed predicted poorer math computation for boys compared to girls.\",\"answer\":2},\"study_design\":{\"quote\":\"we examined individual differences in neurocognitive functioning domains on math computation in a cross-sectional sample of youth with ADHD.\",\"answer\":\"Cross-sectional\"}}",
+  "finish_reason": "stop"
+}

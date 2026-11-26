@@ -1,0 +1,9 @@
+{
+  "pmid": "22171196",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "e0cb93cf511fbbb1576afb60c91cdd9066e2cdc5fa0d06bd7dd5b406fd87f7f9",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"We found 374/922 patients who met diagnostic criteria for childhood onset RLS.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"We found 374/922 patients who met diagnostic criteria for childhood onset RLS.\",\n    \"answer\": 374\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": \"The mean age of the subjects was 10.6 years (range 0 to 18) and the male to female ratio was approximately 1:1.\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": \"Attention deficit hyperactivity disorder and disruptive behavior disorders were more common in males (OR = 1.94 for both), whereas mood disturbances and anxiety disorders were more common in females (OR = 1.6 and 1.26, respectively).\",\n    \"answer\": 2\n  },\n  \"study_design\": {\n    \"quote\": \"The electronic medical records of children younger than 18 years of age who had been diagnosed with RLS between January 1, 2003, and December 31, 2009, were reviewed.\",\n    \"answer\": \"Cohort-Retrospective\"\n  }\n}",
+  "finish_reason": "stop"
+}

@@ -1,0 +1,9 @@
+{
+  "pmid": "32320922",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "5d56deb79304d9ddd16ef55ddf0c00be23b265372e57e0c2fb58f549c810c146",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"Sixty-three children with focal epilepsy aged 5-18 years with intellectual quotient (IQ) ranging from 67 to 135 were enrolled in this study.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"Sixty-three children with focal epilepsy aged 5-18 years with intellectual quotient (IQ) ranging from 67 to 135 were enrolled in this study.\",\n    \"answer\": 63\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"Adaptive behavior was evaluated using the Vineland Adaptive Behavior Scale, 2nd edition (VABS-II).\",\n    \"answer\": \"Cross-sectional\"\n  }\n}",
+  "finish_reason": "stop"
+}

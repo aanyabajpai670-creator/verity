@@ -1,0 +1,9 @@
+{
+  "pmid": "20631198",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "b1698b2cde8aff7befdb5b6347c8b2a70dda6f40e928004bd93097eb46825050",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"Naturalistic observational study. A database was compiled on the basis of a review of the medical charts of patients attending a specialized ADHD clinic.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"To evaluate 410 real-life patients treated with stimulants and assessed systematically over several years.\",\n    \"answer\": 410\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"Naturalistic observational study. A database was compiled on the basis of a review of the medical charts of patients attending a specialized ADHD clinic.\",\n    \"answer\": \"Cohort-Retrospective\"\n  }\n}",
+  "finish_reason": "stop"
+}

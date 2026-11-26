@@ -1,0 +1,9 @@
+{
+  "pmid": "23979222",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "a269eff7e3af116f7f54184857d6aa1844bd16e658a8224bf3de2181b42359ee",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Participants were 216 preschool children (M Age = 44.19 months), including an externalizing sample (n = 161) and a comparison group (n = 55).\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"Participants were 216 preschool children (M Age = 44.19 months), including an externalizing sample (n = 161) and a comparison group (n = 55).\",\"answer\":216},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":\"this relation was stronger for boys than for girls.\",\"answer\":true},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":\"this relation was stronger for boys than for girls.\",\"answer\":2},\"study_design\":{\"quote\":\"Parents were administered a diagnostic interview when children were 3 years old and again 3 years later.\",\"answer\":\"Cohort-Prospective\"}}",
+  "finish_reason": "stop"
+}

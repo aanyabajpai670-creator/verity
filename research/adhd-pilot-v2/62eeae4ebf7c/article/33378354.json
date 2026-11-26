@@ -1,0 +1,9 @@
+{
+  "pmid": "33378354",
+  "scope": "article",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "e628646fc4599ec6441def94458e511013db26b5e33f1add3e8ccc94e1f6ae7f",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"we monitored the kinetics of pupil diameter in response to stimuli and compared them between adults with ADHD (n = 17) and typically developing (TD) adults (n = 23) during an auditory continuous performance task.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"The participants consisted of 23 TD adults (10 men, age: 35.5 \u00b1 1.7 years old) and 17 adults with ADHD (8 men, age: 31.7 \u00b1 2.0 years old).\",\n    \"answer\": 40\n  },\n  \"n_female\": {\n    \"quote\": \"N | 23 (10M:13F) | 17 (8M:9F) | -\",\n    \"answer\": 22\n  },\n  \"includes_female\": {\n    \"quote\": \"N | 23 (10M:13F) | 17 (8M:9F) | -\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": \"N | 23 (10M:13F) | 17 (8M:9F) | -\",\n    \"answer\": 1\n  },\n  \"study_design\": {\n    \"quote\": \"we monitored the kinetics of pupil diameter in response to stimuli and compared them between adults with ADHD (n = 17) and typically developing (TD) adults (n = 23) during an auditory continuous performance task.\",\n    \"answer\": \"Cross-sectional\"\n  }\n}",
+  "finish_reason": "stop"
+}

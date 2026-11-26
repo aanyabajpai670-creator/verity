@@ -1,0 +1,9 @@
+{
+  "pmid": "20973707",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "30deb06a6849d5f6b129672e6fdd702bc0ae4eff9e615750b9ba2846ceb7b243",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"This was an industry-sponsored, 30-center, open-label study of subjects aged 13-17 years with ADHD.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"A total of 162 subjects received MTS treatment.\",\n    \"answer\": 162\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"This was an industry-sponsored, 30-center, open-label study of subjects aged 13-17 years with ADHD. Subjects were dose-optimized with MTS (10-30 mg/9 hours) over 5 weeks\",\n    \"answer\": \"Other\"\n  }\n}",
+  "finish_reason": "stop"
+}

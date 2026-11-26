@@ -1,0 +1,9 @@
+{
+  "pmid": "34440367",
+  "scope": "article",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "6621961d413ad31940519223803ddf4df099f33e657470abdd65062dd8e91685",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"The sample included 58 unrelated patients (42 males and 16 females, aged 8.78 \u00b1 2.43 years) who took part in the three waves of the Genesis Project.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"The sample included 58 unrelated patients (42 males and 16 females, aged 8.78 \u00b1 2.43 years) who took part in the three waves of the Genesis Project.\",\n    \"answer\": 58\n  },\n  \"n_female\": {\n    \"quote\": \"The sample included 58 unrelated patients (42 males and 16 females, aged 8.78 \u00b1 2.43 years) who took part in the three waves of the Genesis Project.\",\n    \"answer\": 16\n  },\n  \"includes_female\": {\n    \"quote\": \"The sample included 58 unrelated patients (42 males and 16 females, aged 8.78 \u00b1 2.43 years) who took part in the three waves of the Genesis Project.\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": \"The sample included 58 unrelated patients (42 males and 16 females, aged 8.78 \u00b1 2.43 years) who took part in the three waves of the Genesis Project.\",\n    \"answer\": true\n  },\n  \"sex_reporting\": {\n    \"quote\": \"In all GLM designs, age and gender were added as covariates to remove their possible contribution to the results.\",\n    \"answer\": 0\n  },\n  \"study_design\": {\n    \"quote\": \"The present study is part of the Genesis Project, an imaging genetics longitudinal study conducted to identify and understand developmental trajectories of mental disorders in children and adolescents.\",\n    \"answer\": \"Cohort-Prospective\"\n  }\n}",
+  "finish_reason": "stop"
+}

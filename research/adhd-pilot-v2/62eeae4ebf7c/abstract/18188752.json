@@ -1,0 +1,9 @@
+{
+  "pmid": "18188752",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "f93d3301ecc0fb8c181c4d524edd77ec60ba326a0a73e26983e539261de50446",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"The sample analyzed included a subset from Add Health of 1,900 unrelated individuals with genotype data. Multiple logistic regression was used to examine relationships between self-reported ADHD symptoms, genotype, and lifetime history of regular smoking.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"The sample analyzed included a subset from Add Health of 1,900 unrelated individuals with genotype data.\",\n    \"answer\": 1900\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": \"Polymorphisms in the DRD2 gene and, among females, the MAOA gene interacted with retrospective reports of ADHD symptoms in contributing to risk for smoking.\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": \"Polymorphisms in the DRD2 gene and, among females, the MAOA gene interacted with retrospective reports of ADHD symptoms in contributing to risk for smoking.\",\n    \"answer\": 2\n  },\n  \"study_design\": {\n    \"quote\": \"Participants were a subsample of individuals from the National Longitudinal Study of Adolescent Health (Add Health), a nationally representative sample of adolescents followed from 1995 to 2002.\",\n    \"answer\": \"Cohort-Prospective\"\n  }\n}",
+  "finish_reason": "stop"
+}

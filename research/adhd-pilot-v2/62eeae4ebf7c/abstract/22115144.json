@@ -1,0 +1,9 @@
+{
+  "pmid": "22115144",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "cf4b4040872029d87e177455a8d576e0a09ea8ccfbdd2367b457bbf10a16006d",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Participants were 62 children with ADHD (42 boys and 20 girls, 6 through 10 years old) and their parents.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"Participants were 62 children with ADHD (42 boys and 20 girls, 6 through 10 years old) and their parents.\",\"answer\":62},\"n_female\":{\"quote\":\"Participants were 62 children with ADHD (42 boys and 20 girls, 6 through 10 years old) and their parents.\",\"answer\":20},\"includes_female\":{\"quote\":\"Participants were 62 children with ADHD (42 boys and 20 girls, 6 through 10 years old) and their parents.\",\"answer\":true},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":\"Participants were 62 children with ADHD (42 boys and 20 girls, 6 through 10 years old) and their parents.\",\"answer\":true},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"families completing a randomized controlled trial of parental friendship coaching (PFC) relative to control families\",\"answer\":\"RCT\"}}",
+  "finish_reason": "stop"
+}

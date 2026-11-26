@@ -1,0 +1,9 @@
+{
+  "pmid": "32470230",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "a7f7e3043e29e7b7d864e32941a551ff81d8a5aec56c09bd780c19fe1ae344e0",
+  "raw_response": "{\"eligibility\":{\"quote\":\"These post hoc analyses used data from a 10-week double-blind, placebo-controlled study of adults with ADHD and EF deficits treated with lisdexamfetamine dimesylate (30-70 mg) or placebo\",\"answer\":\"uncertain\"},\"n_total\":{\"quote\":null,\"answer\":null},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"These post hoc analyses used data from a 10-week double-blind, placebo-controlled study of adults with ADHD and EF deficits treated with lisdexamfetamine dimesylate (30-70 mg) or placebo conducted from May 2010 to November 2010.\",\"answer\":\"RCT\"}}",
+  "finish_reason": "stop"
+}

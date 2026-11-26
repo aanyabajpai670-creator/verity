@@ -1,0 +1,9 @@
+{
+  "pmid": "16840239",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "a8224af7c6bc242cdb11c14379a848d83ee98619bb33a7ce7fe72cba01cc9aff",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Event-related potentials (ERPs) were recorded during administration of a Go/No-Go task that incorporated the stressor presentation rate of stimuli.\",\"answer\":\"uncertain\"},\"n_total\":{\"quote\":null,\"answer\":null},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":\"It was found that males with ADHD responded slower than control males in the slow condition, which was accompanied by smaller parietal P3s, suggesting less effort allocation.\",\"answer\":false},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"It was found that males with ADHD responded slower than control males in the slow condition, which was accompanied by smaller parietal P3s, suggesting less effort allocation.\",\"answer\":\"Case-control\"}}",
+  "finish_reason": "stop"
+}

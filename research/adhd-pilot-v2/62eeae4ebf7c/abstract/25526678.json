@@ -1,0 +1,9 @@
+{
+  "pmid": "25526678",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "3636f42eaae90332d2d315d2bb6ded24073b8bb0bd9fedd9f54e32dfa083b54d",
+  "raw_response": "{\"eligibility\": {\"quote\": \"These adjustments were applied to data from a randomized double-blind concurrent trial (SPD489-325) that established the efficacy and safety of lisdexamfetamine dimesylate (LDX) in children and adolescents with attention-deficit/hyperactivity disorder (ADHD).\", \"answer\": \"uncertain\"}, \"n_total\": {\"quote\": null, \"answer\": null}, \"n_female\": {\"quote\": null, \"answer\": null}, \"includes_female\": {\"quote\": null, \"answer\": null}, \"female_percent\": {\"quote\": null, \"answer\": null}, \"paired_counts\": {\"quote\": null, \"answer\": null}, \"sex_reporting\": {\"quote\": null, \"answer\": null}, \"study_design\": {\"quote\": \"a randomized double-blind concurrent trial (SPD489-325)\", \"answer\": \"RCT\"}}",
+  "finish_reason": "stop"
+}

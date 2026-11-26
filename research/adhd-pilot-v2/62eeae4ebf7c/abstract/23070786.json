@@ -1,0 +1,9 @@
+{
+  "pmid": "23070786",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "bb32be3810bd91cab2bee19c998dd9555a460867b03ba88a725c898ee6a63b57",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"One hundred and forty-four mother-child pairs were randomized to two treatments for maternal ADHD: cognitive behavioural group psychotherapy plus open methylphenidate treatment or control treatment (supportive counselling).\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"One hundred and forty-four mother-child pairs were randomized to two treatments for maternal ADHD: cognitive behavioural group psychotherapy plus open methylphenidate treatment or control treatment (supportive counselling).\",\n    \"answer\": 144\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": \"One hundred and forty-four mother-child pairs were randomized to two treatments for maternal ADHD: cognitive behavioural group psychotherapy plus open methylphenidate treatment or control treatment (supportive counselling).\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"The objective of our randomized controlled trial was to evaluate whether the treatment for maternal ADHD improves the efficacy of a behavioural parent training for children's ADHD.\",\n    \"answer\": \"RCT\"\n  }\n}",
+  "finish_reason": "stop"
+}

@@ -1,0 +1,9 @@
+{
+  "pmid": "32504851",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "1a87ed332c053e65a614a3abd967940cc66b249be7b15205267f98259634ef72",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"We used data from 385 children at 4 years of age participating in the Environment and Development of Children (EDC) study. We evaluated pyrethroid exposure through questionnaires and urinary 3-phenoxybenzoic acid (3-PBA) concentrations.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"We used data from 385 children at 4 years of age participating in the Environment and Development of Children (EDC) study.\",\n    \"answer\": 385\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": \"Residential insecticide adhesive use was associated with a 51.6% increase in K-ARS scores (95% confidence interval [CI]: 6.3, 116.1) among boys, when compared with non-users.\",\n    \"answer\": 2\n  },\n  \"study_design\": {\n    \"quote\": \"Since the present study explored cross-sectional associations in preschool-age children, the possibility of reverse causality cannot be dismissed.\",\n    \"answer\": \"Cross-sectional\"\n  }\n}",
+  "finish_reason": "stop"
+}

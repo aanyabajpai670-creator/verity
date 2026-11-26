@@ -1,0 +1,9 @@
+{
+  "pmid": "36722651",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "7bc846468313da5a538b52177837386110e541401e2520113bc680eac4238e2f",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Using data from the Norwegian Mother, Father and Child Cohort Study (n = 2056) and Avon Longitudinal Study of Parents and Children (n = 6216) to study the average causal effect of maternal pregnancy alcohol use on offspring attention deficit hyperactivity disorder symptoms\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"Using data from the Norwegian Mother, Father and Child Cohort Study (n = 2056) and Avon Longitudinal Study of Parents and Children (n = 6216) to study the average causal effect of maternal pregnancy alcohol use on offspring attention deficit hyperactivity disorder symptoms\",\"answer\":null},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"We aimed to demonstrate computing nonparametric bounds for the causal risk difference derived from multiple proposed instruments in an MR study where effect heterogeneity is expected.\",\"answer\":\"Other\"}}",
+  "finish_reason": "stop"
+}

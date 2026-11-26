@@ -1,0 +1,9 @@
+{
+  "pmid": "26890095",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "a170b2720f5f0b7a06d6d73fb63ea51d1d6a19c10914db6bac881b0f57bd8670",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"16 MS patients were included in a randomized, sham-controlled, cross-over study.\",\n    \"answer\": \"exclude\"\n  },\n  \"n_total\": {\n    \"quote\": \"16 MS patients were included in a randomized, sham-controlled, cross-over study.\",\n    \"answer\": 16\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"16 MS patients were included in a randomized, sham-controlled, cross-over study.\",\n    \"answer\": \"RCT\"\n  }\n}",
+  "finish_reason": "stop"
+}

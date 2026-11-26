@@ -1,0 +1,2459 @@
+{
+  "field": "includes_female",
+  "target_set_source": "research/adhd-pilot-v2/deepseek-followup/reconciliation.json (included records with unresolved includes_female)",
+  "target_count": 241,
+  "coding_rule": "true only for explicit female enrollment in the index cohort; false only for explicit all-male enrollment; otherwise unknown. Mothers/proxies are not counted as female participants when the ADHD outcome cohort is children.",
+  "records": [
+    {
+      "pmid": "10840176",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/adhd-pilot-v2/assistant-field-review.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/10840176/",
+      "reasoning": "Women/mothers appear in the saved source only as exposure, recruitment or reporting sources for a child cohort; the project rule does not count a mother or proxy as a female index participant when the ADHD outcome is measured in children. The available evidence does not explicitly state that girls were enrolled in the child cohort."
+    },
+    {
+      "pmid": "10980665",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/adhd-pilot-v2/assistant-field-review.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/10980665/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "11386476",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/11386476/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "11386988",
+      "proposed_value": true,
+      "evidence_quote": "Sex of subjects directly interviewed, % female | 31.4 | 23.2 | 52.5 | 51.3 | 51.0 | 53.6 | 60.8 | 56.6 | 62.0",
+      "source_path": "research/adhd-pilot-v2/assistant-field-review.json",
+      "source_url": "https://jamanetwork.com/journals/jamapsychiatry/fullarticle/481782",
+      "reasoning": "Saved full-text table reports the percentage female among directly interviewed subjects in the index family cohorts; this is explicit female enrollment."
+    },
+    {
+      "pmid": "11392347",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/11392347/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "11668095",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/adhd-pilot-v2/assistant-field-review.json",
+        "research/fulltext/PMC1718960.md",
+        "research/fulltext/PMC1718960-pdf.md"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/11668095/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "11928878",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/11928878/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "12013059",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/adhd-pilot-v2/assistant-field-review.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/12013059/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "12108804",
+      "proposed_value": true,
+      "evidence_quote": "The final analysis sample included 13 852 adolescents (49.5% male, 50.5% female; 62.9% white, 37.1% nonwhite) with complete data on items assessing ADHD and tobacco use.",
+      "source_path": "research/adhd-pilot-v2/assistant-field-review.json",
+      "source_url": "https://jamanetwork.com/journals/jamapsychiatry/fullarticle/208961",
+      "reasoning": "The analyzed cohort is explicitly described as including females."
+    },
+    {
+      "pmid": "12225443",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/12225443/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "12501563",
+      "proposed_value": true,
+      "evidence_quote": "concordance between self- and informant childhood ratings was stronger for females than for males for both types of symptoms.",
+      "source_path": "research/adhd-pilot-v2/assistant-field-review.json",
+      "source_url": "https://www.academia.edu/52897313/Concordance_of_self_and_informant_ratings_of_adults_current_and_childhood_attention_deficit_hyperactivity_disorder_symptoms",
+      "reasoning": "A sex-specific result is reported for female participants in the study cohort, establishing female inclusion."
+    },
+    {
+      "pmid": "12874489",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/12874489/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "14652157",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/adhd-pilot-v2/assistant-field-review.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/14652157/",
+      "reasoning": "Women/mothers appear in the saved source only as exposure, recruitment or reporting sources for a child cohort; the project rule does not count a mother or proxy as a female index participant when the ADHD outcome is measured in children. The available evidence does not explicitly state that girls were enrolled in the child cohort."
+    },
+    {
+      "pmid": "14980372",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/14980372/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "15082347",
+      "proposed_value": true,
+      "evidence_quote": "The patients included 30 males and nine females",
+      "source_path": "research/adhd-pilot-v2/assistant-field-review.json",
+      "source_url": "https://www.sciencedirect.com/science/article/abs/pii/S0305417903003140",
+      "reasoning": "The enrolled patients are explicitly counted as including nine females."
+    },
+    {
+      "pmid": "15271608",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/15271608/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "15520832",
+      "proposed_value": true,
+      "evidence_quote": "The children were aged 7–13 (mean = 9.6), and included both boys and girls (64.5% boys).",
+      "source_path": "research/adhd-pilot-v2/assistant-field-review.json",
+      "source_url": "https://www.academia.edu/126547961/Association_and_linkage_of_%CE%B1_2A_adrenergic_receptor_gene_polymorphisms_with_childhood_ADHD",
+      "reasoning": "The study cohort explicitly included girls."
+    },
+    {
+      "pmid": "15725968",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/15725968/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "15827573",
+      "proposed_value": true,
+      "evidence_quote": "The nature of these sex and age differences was that total side effects were higher for boys than girls, and for younger than older children, at all dosage levels.",
+      "source_path": "research/adhd-pilot-v2/assistant-field-review.json",
+      "source_url": "https://www.academia.edu/16489100/Dopamine_Transporter_Genotype_and_Methylphenidate_Dose_Response_in_Children_with_ADHD",
+      "reasoning": "Results compare outcomes for girls and boys in the treated cohort, explicitly establishing female participants."
+    },
+    {
+      "pmid": "15832546",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/15832546/",
+      "reasoning": "The available excerpt reports male counts, male percentages or male subgroup findings but no explicit female enrollment. A male-majority sample or male-only subgroup result is not an inclusion decision under the project rules."
+    },
+    {
+      "pmid": "15843763",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/adhd-pilot-v2/assistant-field-review.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/15843763/",
+      "reasoning": "The available excerpt reports male counts, male percentages or male subgroup findings but no explicit female enrollment. A male-majority sample or male-only subgroup result is not an inclusion decision under the project rules."
+    },
+    {
+      "pmid": "16232017",
+      "proposed_value": true,
+      "evidence_quote": "Female vs male 0.96 (0.91–1.01)",
+      "source_path": "research/adhd-pilot-v2/assistant-field-review.json",
+      "source_url": "https://www.academia.edu/57234186/Predictors_of_Selecting_Atomoxetine_Therapy_for_Children_with_Attention_Deficit_Hyperactivity_Disorder",
+      "reasoning": "The full article reports a female-versus-male estimate for treatment selection among the study participants, establishing female inclusion."
+    },
+    {
+      "pmid": "16344839",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/adhd-pilot-v2/assistant-field-review.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/16344839/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "16452517",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/16452517/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "16523251",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/16523251/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "16585476",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/adhd-pilot-v2/assistant-field-review.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/16585476/",
+      "reasoning": "The available excerpt reports male counts, male percentages or male subgroup findings but no explicit female enrollment. A male-majority sample or male-only subgroup result is not an inclusion decision under the project rules."
+    },
+    {
+      "pmid": "16699814",
+      "proposed_value": true,
+      "evidence_quote": "During our experiments we noted that treatment was not significantly effective for girls, in contrast to boys.",
+      "source_path": "research/adhd-pilot-v2/assistant-field-review.json",
+      "source_url": "https://jeffreydachmd.com/wp-content/uploads/2017/05/Treatment-of-ADHD-with-Pycnogenol-Trebaticka-Jana-European-child-adolescent-psychiatry-2006.pdf",
+      "reasoning": "The trial Results explicitly describe treatment outcomes for girls, establishing female participants."
+    },
+    {
+      "pmid": "16815520",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/adhd-pilot-v2/assistant-field-review.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/16815520/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "16865040",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/16865040/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "16866759",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/16866759/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "16876139",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/adhd-pilot-v2/assistant-field-review.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/16876139/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "16930383",
+      "proposed_value": true,
+      "evidence_quote": "Non-exposed boys had higher levels of ADHD symptoms than non-exposed girls.",
+      "source_path": "research/adhd-pilot-v2/assistant-field-review.json",
+      "source_url": "https://repub.eur.nl/pub/8119/061122_Vuijk%2C%20Patricia.pdf",
+      "reasoning": "The Results compare symptom outcomes for girls and boys in the index cohort."
+    },
+    {
+      "pmid": "17568050",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/adhd-pilot-v2/assistant-field-review.json",
+        "research/fulltext/PMC2465758.md"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/17568050/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "17665282",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/17665282/",
+      "reasoning": "Sex/gender appears only as a covariate, matching variable, interaction or background statement in the available excerpt. No explicit evidence states that a woman or girl was enrolled in the index cohort."
+    },
+    {
+      "pmid": "17685750",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/adhd-pilot-v2/assistant-field-review.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/17685750/",
+      "reasoning": "Sex/gender appears only as a covariate, matching variable, interaction or background statement in the available excerpt. No explicit evidence states that a woman or girl was enrolled in the index cohort."
+    },
+    {
+      "pmid": "17768282",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/adhd-pilot-v2/assistant-field-review.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/17768282/",
+      "reasoning": "The available excerpt reports male counts, male percentages or male subgroup findings but no explicit female enrollment. A male-majority sample or male-only subgroup result is not an inclusion decision under the project rules."
+    },
+    {
+      "pmid": "17935640",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/adhd-pilot-v2/assistant-field-review.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/17935640/",
+      "reasoning": "The available excerpt reports male counts, male percentages or male subgroup findings but no explicit female enrollment. A male-majority sample or male-only subgroup result is not an inclusion decision under the project rules."
+    },
+    {
+      "pmid": "17984398",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/adhd-pilot-v2/assistant-field-review.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/17984398/",
+      "reasoning": "Women/mothers appear in the saved source only as exposure, recruitment or reporting sources for a child cohort; the project rule does not count a mother or proxy as a female index participant when the ADHD outcome is measured in children. The available evidence does not explicitly state that girls were enrolled in the child cohort."
+    },
+    {
+      "pmid": "17999272",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/17999272/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "18041610",
+      "proposed_value": false,
+      "evidence_quote": "Sixteen male children aged from 7.5 to 10.5 years",
+      "source_path": "research/adhd-pilot-v2/assistant-field-review.json",
+      "source_url": "https://www.researchgate.net/publication/5805484_TIME_REPRODUCTION_DISTURBANCES_IN_ADHD_CHILDREN_AN_ERP_STUDY",
+      "reasoning": "The Methods describe the ADHD participants as male children and the controls as gender-matched; the saved full-text entry identifies a single-sex male cohort rather than a male-majority sample."
+    },
+    {
+      "pmid": "18178597",
+      "proposed_value": true,
+      "evidence_quote": "Both groups were 4:1 boys to girls",
+      "source_path": "research/adhd-pilot-v2/assistant-field-review.json",
+      "source_url": "https://gwern.net/doc/psychiatry/bipolar/autism/2008-bryson.pdf",
+      "reasoning": "Both diagnostic groups explicitly included girls."
+    },
+    {
+      "pmid": "18361436",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/adhd-pilot-v2/assistant-field-review.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/18361436/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "18693137",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/18693137/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "19142107",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/19142107/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "19150055",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/adhd-pilot-v2/assistant-field-review.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/19150055/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "19372494",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/adhd-pilot-v2/assistant-field-review.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/19372494/",
+      "reasoning": "The available excerpt reports male counts, male percentages or male subgroup findings but no explicit female enrollment. A male-majority sample or male-only subgroup result is not an inclusion decision under the project rules."
+    },
+    {
+      "pmid": "19389329",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/19389329/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "19486273",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/adhd-pilot-v2/assistant-field-review.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/19486273/",
+      "reasoning": "The available excerpt reports male counts, male percentages or male subgroup findings but no explicit female enrollment. A male-majority sample or male-only subgroup result is not an inclusion decision under the project rules."
+    },
+    {
+      "pmid": "19794135",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/adhd-pilot-v2/assistant-field-review.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/19794135/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "19838594",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/adhd-pilot-v2/assistant-field-review.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/19838594/",
+      "reasoning": "The available excerpt reports male counts, male percentages or male subgroup findings but no explicit female enrollment. A male-majority sample or male-only subgroup result is not an inclusion decision under the project rules."
+    },
+    {
+      "pmid": "20106937",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/adhd-pilot-v2/assistant-field-review.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/20106937/",
+      "reasoning": "Women/mothers appear in the saved source only as exposure, recruitment or reporting sources for a child cohort; the project rule does not count a mother or proxy as a female index participant when the ADHD outcome is measured in children. The available evidence does not explicitly state that girls were enrolled in the child cohort."
+    },
+    {
+      "pmid": "20219037",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/20219037/",
+      "reasoning": "Women/mothers appear in the saved source only as exposure, recruitment or reporting sources for a child cohort; the project rule does not count a mother or proxy as a female index participant when the ADHD outcome is measured in children. The available evidence does not explicitly state that girls were enrolled in the child cohort."
+    },
+    {
+      "pmid": "20495989",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/20495989/",
+      "reasoning": "Women/mothers appear in the saved source only as exposure, recruitment or reporting sources for a child cohort; the project rule does not count a mother or proxy as a female index participant when the ADHD outcome is measured in children. The available evidence does not explicitly state that girls were enrolled in the child cohort."
+    },
+    {
+      "pmid": "20631198",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/20631198/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "20736471",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/adhd-pilot-v2/assistant-field-review.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/20736471/",
+      "reasoning": "Sex/gender appears only as a covariate, matching variable, interaction or background statement in the available excerpt. No explicit evidence states that a woman or girl was enrolled in the index cohort."
+    },
+    {
+      "pmid": "20806988",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/20806988/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "20845231",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/adhd-pilot-v2/assistant-field-review.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/20845231/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "20861588",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/20861588/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "20966487",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/adhd-pilot-v2/assistant-field-review.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/20966487/",
+      "reasoning": "Sex/gender appears only as a covariate, matching variable, interaction or background statement in the available excerpt. No explicit evidence states that a woman or girl was enrolled in the index cohort."
+    },
+    {
+      "pmid": "20973707",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/20973707/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "20973708",
+      "proposed_value": true,
+      "evidence_quote": "Male and female patients 6-14 years of age with a confirmed DSM-IV diagnosis of ADHD who were adequately controlled by immediate release methylphenidate were enrolled.",
+      "source_path": "research/adhd-pilot-v2/assistant-field-review.json",
+      "source_url": "https://www.geneesmiddeleninformatiebank.nl/pars/h116379.pdf",
+      "reasoning": "Enrollment explicitly included female patients with ADHD."
+    },
+    {
+      "pmid": "21039485",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/21039485/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "21075808",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/21075808/",
+      "reasoning": "Women/mothers appear in the saved source only as exposure, recruitment or reporting sources for a child cohort; the project rule does not count a mother or proxy as a female index participant when the ADHD outcome is measured in children. The available evidence does not explicitly state that girls were enrolled in the child cohort."
+    },
+    {
+      "pmid": "21214878",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/21214878/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "21244154",
+      "proposed_value": true,
+      "evidence_quote": "Sex Male 23 (18%) 103 (82%) Female 12 (14%) 76 (86%)",
+      "source_path": "research/adhd-pilot-v2/assistant-field-review.json",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3750965/",
+      "reasoning": "The cohort table explicitly reports female participants in the index groups."
+    },
+    {
+      "pmid": "21392946",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/21392946/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "21432604",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/21432604/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "21437723",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/21437723/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "21508864",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/21508864/",
+      "reasoning": "Women/mothers appear in the saved source only as exposure, recruitment or reporting sources for a child cohort; the project rule does not count a mother or proxy as a female index participant when the ADHD outcome is measured in children. The available evidence does not explicitly state that girls were enrolled in the child cohort."
+    },
+    {
+      "pmid": "21555501",
+      "proposed_value": true,
+      "evidence_quote": "Gender, n (%) Male: Placebo Plus Stimulant (n = 95): 66 (70), CLON-XR Plus Stimulant (n = 102): 79 (78) Female: Placebo Plus Stimulant (n = 95): 29 (30), CLON-XR Plus Stimulant (n = 102): 23 (22)",
+      "source_path": "research/adhd-pilot-v2/assistant-field-review.json",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3387872/",
+      "reasoning": "Baseline table explicitly reports female participants in both randomized arms."
+    },
+    {
+      "pmid": "21823914",
+      "proposed_value": true,
+      "evidence_quote": "A second limitation is that the proportion of females in this study did not permit analysis of the possible gender differences in outcome measures.",
+      "source_path": "research/adhd-pilot-v2/assistant-field-review.json",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3157746/",
+      "reasoning": "The article explicitly states the study contained females, even though the proportion was too small for outcome analysis."
+    },
+    {
+      "pmid": "21824454",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/21824454/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "21854282",
+      "proposed_value": true,
+      "evidence_quote": "Male (vs. female) | 76.4 | 49.4 | 48.1 | 15.30 | p<.001",
+      "source_path": "research/adhd-pilot-v2/assistant-field-review.json",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3510007/",
+      "reasoning": "The source table explicitly contrasts male and female participants in the analyzed trial cohort."
+    },
+    {
+      "pmid": "21947617",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/21947617/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "21961776",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/adhd-pilot-v2/assistant-field-review.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/21961776/",
+      "reasoning": "Sex/gender appears only as a covariate, matching variable, interaction or background statement in the available excerpt. No explicit evidence states that a woman or girl was enrolled in the index cohort."
+    },
+    {
+      "pmid": "22149470",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/22149470/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "22415149",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/22415149/",
+      "reasoning": "The available excerpt reports male counts, male percentages or male subgroup findings but no explicit female enrollment. A male-majority sample or male-only subgroup result is not an inclusion decision under the project rules."
+    },
+    {
+      "pmid": "22504457",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/22504457/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "22596014",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/22596014/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "22617866",
+      "proposed_value": true,
+      "evidence_quote": "The only notable baseline difference between randomized groups was that there were proportionately twice as many girls in the placebo group (31%) as in the active group (15%) (Table 1).",
+      "source_path": "research/adhd-pilot-v2/assistant-field-review.json",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3939717/",
+      "reasoning": "Randomized groups explicitly contained girls."
+    },
+    {
+      "pmid": "22713359",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/22713359/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "22923780",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/22923780/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "22974590",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/22974590/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "22983377",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/adhd-pilot-v2/assistant-field-review.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/22983377/",
+      "reasoning": "Sex/gender appears only as a covariate, matching variable, interaction or background statement in the available excerpt. No explicit evidence states that a woman or girl was enrolled in the index cohort."
+    },
+    {
+      "pmid": "23070786",
+      "proposed_value": true,
+      "evidence_quote": "One hundred and forty-four mother-child pairs were randomized to two treatments for maternal ADHD: cognitive behavioural group psychotherapy plus open methylphenidate treatment or control treatment (supportive counselling).",
+      "source_path": "research/adhd/study-records.json",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/23070786/",
+      "reasoning": "The mothers themselves were randomized for treatment of their own ADHD; caregivers are index participants here, not proxies, so female inclusion is explicit."
+    },
+    {
+      "pmid": "23184398",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/23184398/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "23271759",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/23271759/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "23376867",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/23376867/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "23410138",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/adhd-pilot-v2/assistant-field-review.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/23410138/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "23582873",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/adhd-pilot-v2/assistant-field-review.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/23582873/",
+      "reasoning": "Sex/gender appears only as a covariate, matching variable, interaction or background statement in the available excerpt. No explicit evidence states that a woman or girl was enrolled in the index cohort."
+    },
+    {
+      "pmid": "23622849",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/adhd-pilot-v2/assistant-field-review.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/23622849/",
+      "reasoning": "The available excerpt reports male counts, male percentages or male subgroup findings but no explicit female enrollment. A male-majority sample or male-only subgroup result is not an inclusion decision under the project rules."
+    },
+    {
+      "pmid": "23790516",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/23790516/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "23801529",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/adhd-pilot-v2/assistant-field-review.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/23801529/",
+      "reasoning": "The available excerpt reports male counts, male percentages or male subgroup findings but no explicit female enrollment. A male-majority sample or male-only subgroup result is not an inclusion decision under the project rules."
+    },
+    {
+      "pmid": "23929006",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/23929006/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "23942041",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/23942041/",
+      "reasoning": "Women/mothers appear in the saved source only as exposure, recruitment or reporting sources for a child cohort; the project rule does not count a mother or proxy as a female index participant when the ADHD outcome is measured in children. The available evidence does not explicitly state that girls were enrolled in the child cohort."
+    },
+    {
+      "pmid": "24141100",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/24141100/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "24210363",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/24210363/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "24274762",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/fulltext/PMC4263245.xml",
+        "research/fulltext/PMC4263245.txt",
+        "research/adhd-pilot-v2/sources/24274762.txt"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/24274762/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "24362766",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/adhd-pilot-v2/assistant-field-review.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/24362766/",
+      "reasoning": "The available excerpt reports male counts, male percentages or male subgroup findings but no explicit female enrollment. A male-majority sample or male-only subgroup result is not an inclusion decision under the project rules."
+    },
+    {
+      "pmid": "24532801",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/24532801/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "24604922",
+      "proposed_value": true,
+      "evidence_quote": "Sex (male/female) | 28/6 | 38/34 | 29/16",
+      "source_path": "research/adhd-pilot-v2/assistant-field-review.json",
+      "source_url": "https://pure.uva.nl/ws/files/2371358/161677_442062.pdf",
+      "reasoning": "Baseline table explicitly reports female participants in the study groups."
+    },
+    {
+      "pmid": "24620816",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/24620816/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "24787306",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/24787306/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "24814233",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/24814233/",
+      "reasoning": "The available excerpt reports male counts, male percentages or male subgroup findings but no explicit female enrollment. A male-majority sample or male-only subgroup result is not an inclusion decision under the project rules."
+    },
+    {
+      "pmid": "24828276",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/adhd-pilot-v2/assistant-field-review.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/24828276/",
+      "reasoning": "Women/mothers appear in the saved source only as exposure, recruitment or reporting sources for a child cohort; the project rule does not count a mother or proxy as a female index participant when the ADHD outcome is measured in children. The available evidence does not explicitly state that girls were enrolled in the child cohort."
+    },
+    {
+      "pmid": "24864167",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/24864167/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "24867158",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/adhd-pilot-v2/assistant-field-review.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/24867158/",
+      "reasoning": "Women/mothers appear in the saved source only as exposure, recruitment or reporting sources for a child cohort; the project rule does not count a mother or proxy as a female index participant when the ADHD outcome is measured in children. The available evidence does not explicitly state that girls were enrolled in the child cohort."
+    },
+    {
+      "pmid": "25113303",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/25113303/",
+      "reasoning": "Sex/gender appears only as a covariate, matching variable, interaction or background statement in the available excerpt. No explicit evidence states that a woman or girl was enrolled in the index cohort."
+    },
+    {
+      "pmid": "25295451",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/adhd-pilot-v2/assistant-field-review.json",
+        "research/fulltext/PMC4872941.xml",
+        "research/fulltext/PMC4872941.txt",
+        "research/adhd-pilot-v2/sources/25295451.txt"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/25295451/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "25366258",
+      "proposed_value": true,
+      "evidence_quote": "Children and adolescents with Noonan syndrome (n=32, 17 males, 15 females, mean age 11y 3mo, SD 3y) and their unaffected siblings (n=16, eight males, eight females, mean age 11y, SD 3y 6mo) were administered standardized tests of intellectual functioning and clinic-based measures of behavioral attention.",
+      "source_path": "research/adhd/study-records.json",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/25366258/",
+      "reasoning": "The index and sibling cohorts explicitly include females."
+    },
+    {
+      "pmid": "25428590",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/25428590/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "25433424",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/adhd-pilot-v2/assistant-field-review.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/25433424/",
+      "reasoning": "The available excerpt reports male counts, male percentages or male subgroup findings but no explicit female enrollment. A male-majority sample or male-only subgroup result is not an inclusion decision under the project rules."
+    },
+    {
+      "pmid": "25526678",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/adhd-pilot-v2/assistant-field-review.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/25526678/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "25751000",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/adhd-pilot-v2/assistant-field-review.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/25751000/",
+      "reasoning": "The available excerpt reports male counts, male percentages or male subgroup findings but no explicit female enrollment. A male-majority sample or male-only subgroup result is not an inclusion decision under the project rules."
+    },
+    {
+      "pmid": "25777072",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/25777072/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "25808665",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/adhd-pilot-v2/assistant-field-review.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/25808665/",
+      "reasoning": "Sex/gender appears only as a covariate, matching variable, interaction or background statement in the available excerpt. No explicit evidence states that a woman or girl was enrolled in the index cohort."
+    },
+    {
+      "pmid": "25999292",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/adhd-pilot-v2/assistant-field-review.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/25999292/",
+      "reasoning": "The available excerpt reports male counts, male percentages or male subgroup findings but no explicit female enrollment. A male-majority sample or male-only subgroup result is not an inclusion decision under the project rules."
+    },
+    {
+      "pmid": "26095249",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/26095249/",
+      "reasoning": "Women/mothers appear in the saved source only as exposure, recruitment or reporting sources for a child cohort; the project rule does not count a mother or proxy as a female index participant when the ADHD outcome is measured in children. The available evidence does not explicitly state that girls were enrolled in the child cohort."
+    },
+    {
+      "pmid": "26143938",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/adhd-pilot-v2/assistant-field-review.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/26143938/",
+      "reasoning": "Sex/gender appears only as a covariate, matching variable, interaction or background statement in the available excerpt. No explicit evidence states that a woman or girl was enrolled in the index cohort."
+    },
+    {
+      "pmid": "26155764",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/adhd-pilot-v2/assistant-field-review.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/26155764/",
+      "reasoning": "Sex/gender appears only as a covariate, matching variable, interaction or background statement in the available excerpt. No explicit evidence states that a woman or girl was enrolled in the index cohort."
+    },
+    {
+      "pmid": "26194603",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/adhd-pilot-v2/assistant-field-review.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/26194603/",
+      "reasoning": "Women/mothers appear in the saved source only as exposure, recruitment or reporting sources for a child cohort; the project rule does not count a mother or proxy as a female index participant when the ADHD outcome is measured in children. The available evidence does not explicitly state that girls were enrolled in the child cohort."
+    },
+    {
+      "pmid": "26278467",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/26278467/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "26299295",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/adhd-pilot-v2/assistant-field-review.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/26299295/",
+      "reasoning": "Women/mothers appear in the saved source only as exposure, recruitment or reporting sources for a child cohort; the project rule does not count a mother or proxy as a female index participant when the ADHD outcome is measured in children. The available evidence does not explicitly state that girls were enrolled in the child cohort."
+    },
+    {
+      "pmid": "26320120",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/26320120/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "26398435",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/26398435/",
+      "reasoning": "Sex/gender appears only as a covariate, matching variable, interaction or background statement in the available excerpt. No explicit evidence states that a woman or girl was enrolled in the index cohort."
+    },
+    {
+      "pmid": "26403485",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/26403485/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "26501496",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/26501496/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "26663807",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/26663807/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "26847973",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/adhd-pilot-v2/assistant-field-review.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/26847973/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "26850439",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/26850439/",
+      "reasoning": "Sex/gender appears only as a covariate, matching variable, interaction or background statement in the available excerpt. No explicit evidence states that a woman or girl was enrolled in the index cohort."
+    },
+    {
+      "pmid": "27126849",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/adhd-pilot-v2/assistant-field-review.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/27126849/",
+      "reasoning": "Women/mothers appear in the saved source only as exposure, recruitment or reporting sources for a child cohort; the project rule does not count a mother or proxy as a female index participant when the ADHD outcome is measured in children. The available evidence does not explicitly state that girls were enrolled in the child cohort."
+    },
+    {
+      "pmid": "27189687",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/adhd-pilot-v2/assistant-field-review.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/27189687/",
+      "reasoning": "Sex/gender appears only as a covariate, matching variable, interaction or background statement in the available excerpt. No explicit evidence states that a woman or girl was enrolled in the index cohort."
+    },
+    {
+      "pmid": "27344348",
+      "proposed_value": false,
+      "evidence_quote": "This study was an RCT investigating the effects of a 12-week racket-sport intervention on the motor skills, social behaviors, and executive functions of two groups of boys with ADHD.",
+      "source_path": "research/adhd-pilot-v2/assistant-field-review.json",
+      "source_url": "https://www.sciencedirect.com/science/article/pii/S089142221630124X",
+      "reasoning": "Both randomized groups are explicitly described as boys with ADHD; the saved article evidence establishes an all-male cohort."
+    },
+    {
+      "pmid": "27371487",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/adhd-pilot-v2/assistant-field-review.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/27371487/",
+      "reasoning": "Sex/gender appears only as a covariate, matching variable, interaction or background statement in the available excerpt. No explicit evidence states that a woman or girl was enrolled in the index cohort."
+    },
+    {
+      "pmid": "27469458",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/adhd-pilot-v2/assistant-field-review.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/27469458/",
+      "reasoning": "The available excerpt reports male counts, male percentages or male subgroup findings but no explicit female enrollment. A male-majority sample or male-only subgroup result is not an inclusion decision under the project rules."
+    },
+    {
+      "pmid": "27522263",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/27522263/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "27535944",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/27535944/",
+      "reasoning": "Sex/gender appears only as a covariate, matching variable, interaction or background statement in the available excerpt. No explicit evidence states that a woman or girl was enrolled in the index cohort."
+    },
+    {
+      "pmid": "27734305",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/27734305/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "27851842",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/adhd-pilot-v2/assistant-field-review.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/27851842/",
+      "reasoning": "The available excerpt reports male counts, male percentages or male subgroup findings but no explicit female enrollment. A male-majority sample or male-only subgroup result is not an inclusion decision under the project rules."
+    },
+    {
+      "pmid": "27973969",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/27973969/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "28012420",
+      "proposed_value": true,
+      "evidence_quote": "On the whole, there were no differences in the social skills and problem behavior profile between boys and girls (Wilk’s Λ = 0.79, p = 0.46).",
+      "source_path": "research/adhd-pilot-v2/assistant-field-review.json",
+      "source_url": "https://ira.lib.polyu.edu.hk/bitstream/10397/65838/1/Cheung_Measuring_social_skills.pdf",
+      "reasoning": "Outcome profiles are explicitly compared between boys and girls in the study sample."
+    },
+    {
+      "pmid": "28073033",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/28073033/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "28166690",
+      "proposed_value": true,
+      "evidence_quote": "Sex (%) Male 52 (74%) 18 (82%) Female 18 (26%) 4 (18%)",
+      "source_path": "research/adhd-pilot-v2/assistant-field-review.json",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5538943/",
+      "reasoning": "The participant table explicitly reports female participants in both groups."
+    },
+    {
+      "pmid": "28574288",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/adhd-pilot-v2/assistant-field-review.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/28574288/",
+      "reasoning": "The available excerpt reports male counts, male percentages or male subgroup findings but no explicit female enrollment. A male-majority sample or male-only subgroup result is not an inclusion decision under the project rules."
+    },
+    {
+      "pmid": "28604499",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/28604499/",
+      "reasoning": "The available excerpt reports male counts, male percentages or male subgroup findings but no explicit female enrollment. A male-majority sample or male-only subgroup result is not an inclusion decision under the project rules."
+    },
+    {
+      "pmid": "28614761",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/28614761/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "28710948",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/28710948/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "28832320",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/adhd-pilot-v2/assistant-field-review.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/28832320/",
+      "reasoning": "The available excerpt reports male counts, male percentages or male subgroup findings but no explicit female enrollment. A male-majority sample or male-only subgroup result is not an inclusion decision under the project rules."
+    },
+    {
+      "pmid": "28834373",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/adhd-pilot-v2/assistant-field-review.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/28834373/",
+      "reasoning": "Sex/gender appears only as a covariate, matching variable, interaction or background statement in the available excerpt. No explicit evidence states that a woman or girl was enrolled in the index cohort."
+    },
+    {
+      "pmid": "28950988",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/adhd-pilot-v2/assistant-field-review.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/28950988/",
+      "reasoning": "Women/mothers appear in the saved source only as exposure, recruitment or reporting sources for a child cohort; the project rule does not count a mother or proxy as a female index participant when the ADHD outcome is measured in children. The available evidence does not explicitly state that girls were enrolled in the child cohort."
+    },
+    {
+      "pmid": "29094658",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/adhd-pilot-v2/assistant-field-review.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/29094658/",
+      "reasoning": "The saved source contains a male-only wording but it does not establish that the whole index cohort was male; it is not evidence of female enrollment. No explicit female-participant wording is available."
+    },
+    {
+      "pmid": "29111114",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/29111114/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "29188907",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/29188907/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "29205977",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/29205977/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "29299870",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/29299870/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "29383572",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/fulltext/PMC5843702.txt",
+        "research/fulltext/PMC5843702.xml",
+        "research/adhd-pilot-v2/sources/29383572.txt"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/29383572/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "29535404",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/29535404/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "29602777",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/29602777/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "29602900",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/adhd-pilot-v2/assistant-field-review.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/29602900/",
+      "reasoning": "The available excerpt reports male counts, male percentages or male subgroup findings but no explicit female enrollment. A male-majority sample or male-only subgroup result is not an inclusion decision under the project rules."
+    },
+    {
+      "pmid": "29625537",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/29625537/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "29693267",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/adhd-pilot-v2/assistant-field-review.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/29693267/",
+      "reasoning": "Sex/gender appears only as a covariate, matching variable, interaction or background statement in the available excerpt. No explicit evidence states that a woman or girl was enrolled in the index cohort."
+    },
+    {
+      "pmid": "29762636",
+      "proposed_value": true,
+      "evidence_quote": "male offspring, risk ratio (RR) = 1.6, 95% confidence interval (CI): 1.3, 1.9; female offspring, RR = 2.3, 95% CI: 1.7, 3.0",
+      "source_path": "research/adhd/study-records.json",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/29762636/",
+      "reasoning": "The analyzed offspring cohort explicitly includes female offspring, with sex-specific estimates reported."
+    },
+    {
+      "pmid": "29886042",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/adhd-pilot-v2/assistant-field-review.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/29886042/",
+      "reasoning": "Women/mothers appear in the saved source only as exposure, recruitment or reporting sources for a child cohort; the project rule does not count a mother or proxy as a female index participant when the ADHD outcome is measured in children. The available evidence does not explicitly state that girls were enrolled in the child cohort."
+    },
+    {
+      "pmid": "30064718",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/adhd-pilot-v2/assistant-field-review.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/30064718/",
+      "reasoning": "The available excerpt reports male counts, male percentages or male subgroup findings but no explicit female enrollment. A male-majority sample or male-only subgroup result is not an inclusion decision under the project rules."
+    },
+    {
+      "pmid": "30168001",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/fulltext/PMC6428792.xml",
+        "research/fulltext/PMC6428792.txt",
+        "research/adhd-pilot-v2/sources/30168001.txt"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/30168001/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "30260686",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/adhd-pilot-v2/assistant-field-review.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/30260686/",
+      "reasoning": "Sex/gender appears only as a covariate, matching variable, interaction or background statement in the available excerpt. No explicit evidence states that a woman or girl was enrolled in the index cohort."
+    },
+    {
+      "pmid": "30274922",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/adhd-pilot-v2/assistant-field-review.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/30274922/",
+      "reasoning": "Sex/gender appears only as a covariate, matching variable, interaction or background statement in the available excerpt. No explicit evidence states that a woman or girl was enrolled in the index cohort."
+    },
+    {
+      "pmid": "30338900",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/adhd-pilot-v2/assistant-field-review.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/30338900/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "30485932",
+      "proposed_value": true,
+      "evidence_quote": "Male 33 (78.6) 19 (52.8); Female 9 (21.4) 17 (47.2)",
+      "source_path": "research/adhd-pilot-v2/assistant-field-review.json",
+      "source_url": "https://apjcn.nhri.org.tw/server/APJCN/27/6/1325.pdf",
+      "reasoning": "The case-control sample explicitly includes female participants."
+    },
+    {
+      "pmid": "30679794",
+      "proposed_value": true,
+      "evidence_quote": "Boys with sleep deprivation in K3 had significantly increased ADHD symptoms in P3, and the effect sizes were much larger than in girls.",
+      "source_path": "research/adhd-pilot-v2/assistant-field-review.json",
+      "source_url": "https://www.nature.com/articles/s41390-019-0280-4.pdf",
+      "reasoning": "Results explicitly compare girls and boys in the analyzed cohort."
+    },
+    {
+      "pmid": "30796648",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/adhd-pilot-v2/assistant-field-review.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/30796648/",
+      "reasoning": "The available excerpt reports male counts, male percentages or male subgroup findings but no explicit female enrollment. A male-majority sample or male-only subgroup result is not an inclusion decision under the project rules."
+    },
+    {
+      "pmid": "30828744",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/30828744/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "30857751",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/adhd-pilot-v2/assistant-field-review.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/30857751/",
+      "reasoning": "Sex/gender appears only as a covariate, matching variable, interaction or background statement in the available excerpt. No explicit evidence states that a woman or girl was enrolled in the index cohort."
+    },
+    {
+      "pmid": "30898336",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/adhd-pilot-v2/assistant-field-review.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/30898336/",
+      "reasoning": "The available excerpt reports male counts, male percentages or male subgroup findings but no explicit female enrollment. A male-majority sample or male-only subgroup result is not an inclusion decision under the project rules."
+    },
+    {
+      "pmid": "30927232",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/30927232/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "30950637",
+      "proposed_value": true,
+      "evidence_quote": "Female gender, n (%) 35 (100) 16 (46)",
+      "source_path": "research/adhd-pilot-v2/assistant-field-review.json",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6534090/",
+      "reasoning": "The randomized cohort is explicitly all female; the enrolled mothers with ADHD are the treated index participants."
+    },
+    {
+      "pmid": "30985385",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/30985385/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "31039324",
+      "proposed_value": true,
+      "evidence_quote": "Gender Female 124 (38.2) Male 201 (61.8)",
+      "source_path": "research/adhd-pilot-v2/assistant-field-review.json",
+      "source_url": "https://depts.washington.edu/fasdpn/pdfs/McLaughlinListening2019.pdf",
+      "reasoning": "The cohort table explicitly reports female children."
+    },
+    {
+      "pmid": "31110164",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/adhd-pilot-v2/assistant-field-review.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/31110164/",
+      "reasoning": "Sex/gender appears only as a covariate, matching variable, interaction or background statement in the available excerpt. No explicit evidence states that a woman or girl was enrolled in the index cohort."
+    },
+    {
+      "pmid": "31166249",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/fulltext/PMC6738636.xml",
+        "research/fulltext/PMC6738636.txt",
+        "research/adhd-pilot-v2/sources/31166249.txt"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/31166249/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "31180232",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/adhd-pilot-v2/assistant-field-review.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/31180232/",
+      "reasoning": "Sex/gender appears only as a covariate, matching variable, interaction or background statement in the available excerpt. No explicit evidence states that a woman or girl was enrolled in the index cohort."
+    },
+    {
+      "pmid": "31321549",
+      "proposed_value": true,
+      "evidence_quote": "Gender (male/female) | 41/39 | 27/26 | 19/12",
+      "source_path": "research/adhd-pilot-v2/assistant-field-review.json",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6764934/",
+      "reasoning": "Baseline composition explicitly reports females in all groups."
+    },
+    {
+      "pmid": "31410697",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/31410697/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "31439404",
+      "proposed_value": true,
+      "evidence_quote": "Gender Male | 18 (60%) | 11(37%) | 0.06 | Female | 12 (40%) | 19 (63%)",
+      "source_path": "research/adhd-pilot-v2/assistant-field-review.json",
+      "source_url": "https://findresearcher.sdu.dk/ws/files/153660119/Comparison_of_Cognitive_Flexibility_Appropriate_Risk_Taking_and_Reaction_Time_in_Individuals.pdf",
+      "reasoning": "The participant table explicitly reports female participants in both groups."
+    },
+    {
+      "pmid": "31497848",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/31497848/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "31590105",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/31590105/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "31645314",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/adhd-pilot-v2/assistant-field-review.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/31645314/",
+      "reasoning": "The available excerpt reports male counts, male percentages or male subgroup findings but no explicit female enrollment. A male-majority sample or male-only subgroup result is not an inclusion decision under the project rules."
+    },
+    {
+      "pmid": "31800526",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/adhd-pilot-v2/assistant-field-review.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/31800526/",
+      "reasoning": "Women/mothers appear in the saved source only as exposure, recruitment or reporting sources for a child cohort; the project rule does not count a mother or proxy as a female index participant when the ADHD outcome is measured in children. The available evidence does not explicitly state that girls were enrolled in the child cohort."
+    },
+    {
+      "pmid": "32116035",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/32116035/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "32172295",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/32172295/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "32190980",
+      "proposed_value": true,
+      "evidence_quote": "802 males and 122 females",
+      "source_path": "research/adhd-pilot-v2/assistant-field-review.json",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7210069/",
+      "reasoning": "The family sample explicitly includes females."
+    },
+    {
+      "pmid": "32208045",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/adhd-pilot-v2/assistant-field-review.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/32208045/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "32238607",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/32238607/",
+      "reasoning": "Sex/gender appears only as a covariate, matching variable, interaction or background statement in the available excerpt. No explicit evidence states that a woman or girl was enrolled in the index cohort."
+    },
+    {
+      "pmid": "32271026",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/adhd-pilot-v2/assistant-field-review.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/32271026/",
+      "reasoning": "Sex/gender appears only as a covariate, matching variable, interaction or background statement in the available excerpt. No explicit evidence states that a woman or girl was enrolled in the index cohort."
+    },
+    {
+      "pmid": "32320922",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/32320922/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "32470230",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/32470230/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "32539526",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/32539526/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "32575031",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/adhd-pilot-v2/assistant-field-review.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/32575031/",
+      "reasoning": "Women/mothers appear in the saved source only as exposure, recruitment or reporting sources for a child cohort; the project rule does not count a mother or proxy as a female index participant when the ADHD outcome is measured in children. The available evidence does not explicitly state that girls were enrolled in the child cohort."
+    },
+    {
+      "pmid": "32886223",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/adhd-pilot-v2/assistant-field-review.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/32886223/",
+      "reasoning": "Women/mothers appear in the saved source only as exposure, recruitment or reporting sources for a child cohort; the project rule does not count a mother or proxy as a female index participant when the ADHD outcome is measured in children. The available evidence does not explicitly state that girls were enrolled in the child cohort."
+    },
+    {
+      "pmid": "32936392",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/32936392/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "32996347",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/adhd-pilot-v2/assistant-field-review.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/32996347/",
+      "reasoning": "The available excerpt reports male counts, male percentages or male subgroup findings but no explicit female enrollment. A male-majority sample or male-only subgroup result is not an inclusion decision under the project rules."
+    },
+    {
+      "pmid": "33059383",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/adhd-pilot-v2/assistant-field-review.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/33059383/",
+      "reasoning": "The available excerpt reports male counts, male percentages or male subgroup findings but no explicit female enrollment. A male-majority sample or male-only subgroup result is not an inclusion decision under the project rules."
+    },
+    {
+      "pmid": "33158697",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/33158697/",
+      "reasoning": "Sex/gender appears only as a covariate, matching variable, interaction or background statement in the available excerpt. No explicit evidence states that a woman or girl was enrolled in the index cohort."
+    },
+    {
+      "pmid": "33159002",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/33159002/",
+      "reasoning": "Sex/gender appears only as a covariate, matching variable, interaction or background statement in the available excerpt. No explicit evidence states that a woman or girl was enrolled in the index cohort."
+    },
+    {
+      "pmid": "33161816",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/adhd-pilot-v2/assistant-field-review.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/33161816/",
+      "reasoning": "Sex/gender appears only as a covariate, matching variable, interaction or background statement in the available excerpt. No explicit evidence states that a woman or girl was enrolled in the index cohort."
+    },
+    {
+      "pmid": "33332378",
+      "proposed_value": true,
+      "evidence_quote": "Gender (M:F) 8:9, 19:11",
+      "source_path": "research/adhd-pilot-v2/assistant-field-review.json",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7746270/",
+      "reasoning": "The participant table explicitly reports females in the study groups."
+    },
+    {
+      "pmid": "33568537",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/adhd-pilot-v2/assistant-field-review.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/33568537/",
+      "reasoning": "The available excerpt reports male counts, male percentages or male subgroup findings but no explicit female enrollment. A male-majority sample or male-only subgroup result is not an inclusion decision under the project rules."
+    },
+    {
+      "pmid": "33855742",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/33855742/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "33856853",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/33856853/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "33944622",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/33944622/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "33963626",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/33963626/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "34159382",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/34159382/",
+      "reasoning": "The available excerpt reports male counts, male percentages or male subgroup findings but no explicit female enrollment. A male-majority sample or male-only subgroup result is not an inclusion decision under the project rules."
+    },
+    {
+      "pmid": "34705697",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/adhd-pilot-v2/assistant-field-review.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/34705697/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "34942585",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/34942585/",
+      "reasoning": "The available excerpt reports male counts, male percentages or male subgroup findings but no explicit female enrollment. A male-majority sample or male-only subgroup result is not an inclusion decision under the project rules."
+    },
+    {
+      "pmid": "34949605",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/fulltext/PMC8710868.txt",
+        "research/fulltext/PMC8710868.xml",
+        "research/adhd-pilot-v2/sources/34949605.txt"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/34949605/",
+      "reasoning": "Sex/gender appears only as a covariate, matching variable, interaction or background statement in the available excerpt. No explicit evidence states that a woman or girl was enrolled in the index cohort."
+    },
+    {
+      "pmid": "35353791",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/35353791/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "35523899",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/35523899/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "35780447",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/35780447/",
+      "reasoning": "Sex/gender appears only as a covariate, matching variable, interaction or background statement in the available excerpt. No explicit evidence states that a woman or girl was enrolled in the index cohort."
+    },
+    {
+      "pmid": "35838931",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/adhd-pilot-v2/assistant-field-review.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/35838931/",
+      "reasoning": "Sex/gender appears only as a covariate, matching variable, interaction or background statement in the available excerpt. No explicit evidence states that a woman or girl was enrolled in the index cohort."
+    },
+    {
+      "pmid": "35914510",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/35914510/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "36066073",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/adhd-pilot-v2/assistant-field-review.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/36066073/",
+      "reasoning": "The available excerpt reports male counts, male percentages or male subgroup findings but no explicit female enrollment. A male-majority sample or male-only subgroup result is not an inclusion decision under the project rules."
+    },
+    {
+      "pmid": "36200375",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/adhd-pilot-v2/assistant-field-review.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/36200375/",
+      "reasoning": "Sex/gender appears only as a covariate, matching variable, interaction or background statement in the available excerpt. No explicit evidence states that a woman or girl was enrolled in the index cohort."
+    },
+    {
+      "pmid": "36201815",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/36201815/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "36573771",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/36573771/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "36669291",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/36669291/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "36715611",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/36715611/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "36803587",
+      "proposed_value": true,
+      "evidence_quote": "For the female subgroup, there were significant differences in ADHD-related hospitalization (HR 6.14 [1.13–114.03]) and nausea and vomiting (HR 4.4 [1.45–19.01]) between the SSRI and MPH-only groups.",
+      "source_path": "research/adhd-pilot-v2/assistant-field-review.json",
+      "source_url": "https://ora.ox.ac.uk/objects/uuid%3A3ce18590-80df-4109-91dc-9f576fc16063/files/s7w62f964w",
+      "reasoning": "The analysis explicitly reports a female subgroup within the study population."
+    },
+    {
+      "pmid": "37248735",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/37248735/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "37379859",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/37379859/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "37459827",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/37459827/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "37924567",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/37924567/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "38072183",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/adhd-pilot-v2/assistant-field-review.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/38072183/",
+      "reasoning": "Women/mothers appear in the saved source only as exposure, recruitment or reporting sources for a child cohort; the project rule does not count a mother or proxy as a female index participant when the ADHD outcome is measured in children. The available evidence does not explicitly state that girls were enrolled in the child cohort."
+    },
+    {
+      "pmid": "38084062",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/38084062/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "38281274",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/adhd-pilot-v2/assistant-field-review.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/38281274/",
+      "reasoning": "Women/mothers appear in the saved source only as exposure, recruitment or reporting sources for a child cohort; the project rule does not count a mother or proxy as a female index participant when the ADHD outcome is measured in children. The available evidence does not explicitly state that girls were enrolled in the child cohort."
+    },
+    {
+      "pmid": "38627266",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/adhd-pilot-v2/assistant-field-review.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/38627266/",
+      "reasoning": "Sex/gender appears only as a covariate, matching variable, interaction or background statement in the available excerpt. No explicit evidence states that a woman or girl was enrolled in the index cohort."
+    },
+    {
+      "pmid": "38806855",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/38806855/",
+      "reasoning": "Sex/gender appears only as a covariate, matching variable, interaction or background statement in the available excerpt. No explicit evidence states that a woman or girl was enrolled in the index cohort."
+    },
+    {
+      "pmid": "38813763",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/38813763/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "38991524",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/38991524/",
+      "reasoning": "The cached abstract and any saved article excerpt describe the participants without explicit sex composition or sex-specific participant wording. No qualifying full-text evidence is saved for this PMID, so female inclusion remains unknown."
+    },
+    {
+      "pmid": "39152569",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/39152569/",
+      "reasoning": "Women/mothers appear in the saved source only as exposure, recruitment or reporting sources for a child cohort; the project rule does not count a mother or proxy as a female index participant when the ADHD outcome is measured in children. The available evidence does not explicitly state that girls were enrolled in the child cohort."
+    },
+    {
+      "pmid": "39388790",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json",
+        "research/adhd-pilot-v2/assistant-field-review.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/39388790/",
+      "reasoning": "Sex/gender appears only as a covariate, matching variable, interaction or background statement in the available excerpt. No explicit evidence states that a woman or girl was enrolled in the index cohort."
+    },
+    {
+      "pmid": "39453504",
+      "proposed_value": null,
+      "evidence_quote": null,
+      "source_path": [
+        "research/adhd/study-records.json"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/39453504/",
+      "reasoning": "The available excerpt reports male counts, male percentages or male subgroup findings but no explicit female enrollment. A male-majority sample or male-only subgroup result is not an inclusion decision under the project rules."
+    }
+  ],
+  "written_through": 241
+}

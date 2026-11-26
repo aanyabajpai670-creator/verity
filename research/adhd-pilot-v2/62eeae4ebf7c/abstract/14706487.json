@@ -1,0 +1,9 @@
+{
+  "pmid": "14706487",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "fc0ac81f9c7b3428a4624e0f8087b3ab2dd4f6be2d9809f8a926b4707f07e288",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"Nine of 20 subjects responded robustly.\",\n    \"answer\": \"exclude\"\n  },\n  \"n_total\": {\n    \"quote\": \"Nine of 20 subjects responded robustly.\",\n    \"answer\": 20\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"They then underwent single-blind treatment with an extended-release version of methylphenidate.\",\n    \"answer\": \"Other\"\n  }\n}",
+  "finish_reason": "stop"
+}

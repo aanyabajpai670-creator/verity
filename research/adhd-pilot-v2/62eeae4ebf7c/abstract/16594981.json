@@ -1,0 +1,9 @@
+{
+  "pmid": "16594981",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "cb1f70aedac5ae6304963c3509fca8a1c365bbc2b2c5aa0c82e2929a177b3388",
+  "raw_response": "```json\n{\n  \"eligibility\": {\n    \"quote\": \"Transgenic mice expressing a human mutant beta1 thyroid receptor are hyperactive, impulsive, and inattentive.\",\n    \"answer\": \"exclude\"\n  },\n  \"n_total\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": null,\n    \"answer\": null\n  }\n}\n```",
+  "finish_reason": "stop"
+}

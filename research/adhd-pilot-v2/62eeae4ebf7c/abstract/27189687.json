@@ -1,0 +1,9 @@
+{
+  "pmid": "27189687",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "dad16d845c8c6ea16331f89551565b0abbe219a6fcf5ce3bf16dbf60dd7cae3b",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"A single center, parallel group design randomized controlled trial (stratified on ADHD diagnosis) was conducted. Parents were randomized to intervention (n = 31) or waitlist control (n = 30)\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"A single center, parallel group design randomized controlled trial (stratified on ADHD diagnosis) was conducted.\",\n    \"answer\": \"RCT\"\n  }\n}",
+  "finish_reason": "stop"
+}

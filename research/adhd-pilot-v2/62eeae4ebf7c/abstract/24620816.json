@@ -1,0 +1,9 @@
+{
+  "pmid": "24620816",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "45a706208c493a80aa685efbd21323f46a7c59c07646763899ad32dd7ab3e27e",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"ADHD and CD problems/diagnoses were retrospectively recorded in one forensic (n = 149) and two non-forensic samples (n = 98 and n = 231) of patients with a psychotic illness\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"ADHD and CD problems/diagnoses were retrospectively recorded in one forensic (n = 149) and two non-forensic samples (n = 98 and n = 231) of patients with a psychotic illness\",\n    \"answer\": \"Cohort-Retrospective\"\n  }\n}",
+  "finish_reason": "stop"
+}

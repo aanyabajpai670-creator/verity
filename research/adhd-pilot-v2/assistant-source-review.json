@@ -1,0 +1,3189 @@
+{
+  "review_type": "assistant_source_review",
+  "source": "Saved PubMed records, with linked article or other published corroboration where indicated",
+  "records": [
+    {
+      "pmid": "15271608",
+      "source_sha256": "91343d06a9a5b8cc8537243942784bdb3a99cf4c125e8b7044817d98c64f51ee",
+      "decision": "include",
+      "quotes": [
+        "Participants in the study were 36 children with ADHD and 43 nonreferred comparison children ages 7 to 11."
+      ],
+      "rationale": "ADHD story recall study with separate ADHD and comparison cohorts.",
+      "group_counts": [
+        36,
+        43
+      ]
+    },
+    {
+      "pmid": "11828226",
+      "source_sha256": "d191db13b2040e4009df3e43f422234adae0d77168e0ce144fd9cccaf91a1b66",
+      "decision": "include",
+      "quotes": [
+        "8- to 12-yr-old children (10 boys and 8 girls) meeting DSM-III-R criteria for ADHD",
+        "a group of control participants (11 boys and 14 girls) equated with the ADHD group"
+      ],
+      "rationale": "ADHD exercise experiment with a separate matched control cohort.",
+      "group_counts": [
+        10,
+        8,
+        11,
+        14
+      ],
+      "female_group_counts": [
+        8,
+        14
+      ]
+    },
+    {
+      "pmid": "11765293",
+      "source_sha256": "6ce79e48461464fb17fd4e6d156734da9cd2a3b8d9410b74efc681808dfcbc62",
+      "decision": "include",
+      "quotes": [
+        "The study included 14 boys with TS without ADHD (TS-only), 11 boys with TS and ADHD (TS+ADHD), and 10 male controls."
+      ],
+      "rationale": "Three distinct all-male groups. The study compares outcomes with and without ADHD.",
+      "group_counts": [
+        14,
+        11,
+        10
+      ],
+      "female_group_counts": [
+        0
+      ]
+    },
+    {
+      "pmid": "12225443",
+      "source_sha256": "27687f44449cdfadb80c6792fad34361cd4db4f015710ccb8c0d056653e80859",
+      "decision": "include",
+      "quotes": [
+        "adults with ADHD (some medicated, some not) were assigned to either a CRP (n = 22) or a waiting list control (n = 21)."
+      ],
+      "rationale": "Two disjoint randomized arms of an adult ADHD intervention.",
+      "group_counts": [
+        22,
+        21
+      ]
+    },
+    {
+      "pmid": "16866759",
+      "source_sha256": "a479f8e7ac9c84a2e5dba2fa2c8a203958bd8e0c1e87d6a7342e7eeae533b0c2",
+      "decision": "include",
+      "quotes": [
+        "samples of 1774 children (aged 6-12 years) and 1222 adolescents (aged 13-17 years) drawn from an Australian epidemiological study."
+      ],
+      "rationale": "Non-overlapping age bands in a study of ADHD symptom structure.",
+      "group_counts": [
+        1774,
+        1222
+      ]
+    },
+    {
+      "pmid": "18693137",
+      "source_sha256": "25a61f325407b22350635f3172853f66570b2370b02f375e7a4a1c7e34286418",
+      "decision": "include",
+      "quotes": [
+        "Included were 107 unmedicated children with ADHD and 46 healthy control subjects, all aged 6-14."
+      ],
+      "rationale": "Enrollment counts for both cohorts. The smaller actigraphy subset is separate.",
+      "group_counts": [
+        107,
+        46
+      ]
+    },
+    {
+      "pmid": "19142107",
+      "source_sha256": "5e10df148a073bb09abebecd5689853f122081958bffcce50f59aff986fe88c1",
+      "decision": "include",
+      "quotes": [
+        "Patients received once-daily atomoxetine (n = 250) or placebo (n = 251) in the morning for approximately 6 months."
+      ],
+      "rationale": "Two randomized arms in an adult ADHD trial. The totals are for allocation, not completion.",
+      "group_counts": [
+        250,
+        251
+      ]
+    },
+    {
+      "pmid": "17665282",
+      "source_sha256": "98118b635bde6b76824eabfd7c9292e74d055fe3274eeaf5b05d7f913a2940e9",
+      "decision": "include",
+      "quotes": [
+        "sleep pattern was investigated in 19 children with TD + ADHD unmedicated before and during study and 19 healthy controls, matched for age, gender, and intelligence."
+      ],
+      "rationale": "Two disjoint groups in an ADHD-comorbidity study. Repeated recordings do not add participants.",
+      "group_counts": [
+        19,
+        19
+      ]
+    },
+    {
+      "pmid": "16741206",
+      "source_sha256": "d6f42d8942b42c74d4c9113e667b01ad76567d2f192875c06655f079804ee97c",
+      "decision": "include",
+      "quotes": [
+        "Fifteen healthy comparison subjects and 17 children with ADHD, combined type, completed fMRI studies while performing the Stop Signal Task."
+      ],
+      "rationale": "Two distinct cohorts completed the same task.",
+      "group_counts": [
+        15,
+        17
+      ]
+    },
+    {
+      "pmid": "16597216",
+      "source_sha256": "7e97b085d8aef08926565a44433665d3627691df1ab3749b2bf6e1ed16d09f8b",
+      "decision": "include",
+      "quotes": [
+        "Participants (ages 13 to 17) were identified with (n = 24) or without (n = 24) ADHD according to a standardized protocol (Schedule for Affective Disorders and Schizophrenia for School-Age Children-Present and Lifetime Version and Conners' Scales), with equal number of boys (n = 12) and girls (n = 12) in each group."
+      ],
+      "rationale": "Two ADHD-defined cohorts, each with 12 girls and 12 boys.",
+      "group_counts": [
+        24,
+        24
+      ],
+      "female_group_counts": [
+        12,
+        12
+      ]
+    },
+    {
+      "pmid": "17484685",
+      "source_sha256": "68d80e242553fa090e18ad73a971e7ae44cb0ab8c2594596b8c11047182d55f3",
+      "decision": "include",
+      "quotes": [
+        "20 girls and 98 boys who met the Diagnostic and Statistical Manual for Mental Disorders (4th ed., American Psychiatric Association, 1994) criteria for ADHD at 4 to 6 years of age",
+        "24 female and 102 male comparison children."
+      ],
+      "rationale": "Distinct ADHD and comparison cohorts with sex counts stated for each.",
+      "group_counts": [
+        20,
+        98,
+        24,
+        102
+      ],
+      "female_group_counts": [
+        20,
+        24
+      ]
+    },
+    {
+      "pmid": "24604922",
+      "source_sha256": "fa515c26eae5800244ea62ca360b8efcb09ae717c44eeb99424c88044f87bdee",
+      "decision": "include",
+      "quotes": [
+        "A total of 34 children with high-functioning autism, 72 children with attention-deficit/hyperactivity disorder and 45 typically developing children (age 9-16 years) were included at baseline"
+      ],
+      "rationale": "Three distinct baseline cohorts. ADHD is an explicit study comparison.",
+      "group_counts": [
+        34,
+        72,
+        45
+      ]
+    },
+    {
+      "pmid": "23889608",
+      "source_sha256": "e05ff0defd3eddf782a249a1ff3811217a285f7ea3c2af309f856d3f39527d97",
+      "decision": "exclude",
+      "quotes": [
+        "In this study we analyze the electroclinical features, treatment, and outcome of 38 patients with MEI.",
+        "Four patients (10.4%) had significant learning impairment, two of whom also had attention deficit hyperactivity disorder."
+      ],
+      "rationale": "The study analyzes infantile epilepsy. ADHD is mentioned only as an incidental comorbidity in two participants."
+    },
+    {
+      "pmid": "25723055",
+      "source_sha256": "4bde7d9211fe839d12e75f735ada8019205d82cbbe9f03efa447a35653e22ccf",
+      "decision": "include",
+      "quotes": [
+        "a diverse and well-characterized sample of females with childhood-diagnosed attention-deficit/hyperactivity disorder (N = 140)"
+      ],
+      "rationale": "The full analyzed ADHD cohort is explicitly described as female. The same excerpt gives its total size.",
+      "group_counts": [
+        140
+      ],
+      "female_group_counts": [
+        140
+      ]
+    },
+    {
+      "pmid": "12013059",
+      "source_sha256": "b9eeea22fb874b8697b1d91fb2e7cfc396601f85ff849f56881b5a7d42cfcab1",
+      "decision": "include",
+      "quotes": [
+        "METHOD: The sample was drawn from 99 community-based adolescents indicated as physically abused by Child Protective Services and 99 randomly selected controls.",
+        "RESULTS: Interactional effects of marital disruption and abuse were found for risk for lifetime Attention Deficit Hyperactivity Disorder (ADHD), with parental marital disruption and having been physically abused combining to increase the risk 15 times for diagnosis of lifetime ADHD."
+      ],
+      "rationale": "ADHD diagnosis was an explicitly analyzed outcome in the distinct abused and control adolescent groups.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/12013059",
+      "group_counts": [
+        99,
+        99
+      ]
+    },
+    {
+      "pmid": "10750544",
+      "source_sha256": "cdd421710b1aecf0a8ef1753b4912054590f33f00f9777dc0ac4ae908c7dd728",
+      "decision": "exclude",
+      "quotes": [
+        "In a prospective, longitudinal study with community samples of disruptive and nondisruptive children, the predictive relations between peer-assessed dimensions of behavioral reputation in elementary school and teacher-rated behavioral adjustment and test scores of academic achievement were examined over a 4-year period.",
+        "Regression analyses showed that the RCP dimensions of aggressive-disruptive, sensitive-isolated, and social etiquette were the best predictors of later teacher-rated externalizing problems, internalizing problems, and subsequent adaptive skills respectively."
+      ],
+      "rationale": "Study measured behavior and adjustment broadly. The abstract has no ADHD-defined cohort or ADHD-specific endpoint.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/10750544"
+    },
+    {
+      "pmid": "16611492",
+      "source_sha256": "d2d9fde4abb0fb6aa2fc7d0a3ef4d675bc405243a5c07dc9884af83cb1cd37a8",
+      "decision": "include",
+      "quotes": [
+        "In this article we examine whether, by using a sample of middle-aged male twin veterans, the phenotypic characterization, prevalence, heritability and the longitudinal course of the illness is comparable to results observed in samples of children and adolescents.",
+        "We evaluated the utility of adult reports of lifetime ADHD symptoms by examining the heritability of retrospectively reported childhood symptoms, using both symptom-based and discrete classification-based approaches, as well as examining the persistence of ADHD symptoms into adulthood for that subsample of individuals who were judged to possibly have ADHD as children."
+      ],
+      "rationale": "Twin-registry sample of 692 interviewed veterans in this ADHD recall study.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/16611492",
+      "article_evidence": {
+        "url": "https://www.academia.edu/11871796/Efficacy_of_retrospective_recall_of_attention_deficit_hyperactivity_disorder_symptoms_a_twin_study",
+        "quotes": [
+          "692 subject interviews"
+        ]
+      },
+      "group_counts": [
+        692
+      ]
+    },
+    {
+      "pmid": "17574796",
+      "source_sha256": "e36167255e65d65027ea40268217410d8fae37d13402de9672a9ca50f78e77ef",
+      "decision": "include",
+      "quotes": [
+        "We compared baseline characteristics and treatment outcome between cocaine-dependent patients with major depressive disorder (MDD; n = 66), those with attention-deficit/hyperactivity disorder (ADHD; n = 53), and those with CD without comorbid disorders (CD alone; n = 48) who had been randomized to the placebo arms of clinical trials with venlafaxine, methylphenidate, and gabapentin, respectively."
+      ],
+      "rationale": "Cocaine-dependence placebo groups explicitly contrast ADHD, depression and no comorbidity.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/17574796",
+      "group_counts": [
+        66,
+        53,
+        48
+      ]
+    },
+    {
+      "pmid": "24629733",
+      "source_sha256": "afe20bf3fa3cd5b9568aa83803e4b65940a6129c32162aca2900e38ecf37ed01",
+      "decision": "exclude",
+      "quotes": [
+        "In the present study, we examined the profile of psychiatric symptoms in boys with fragile X syndrome (FXS) using a parent report instrument.",
+        "Across all matching strategies, symptoms of manic/hyperactive behaviors and general anxiety were more frequently reported for boys with FXS than for boys with nonsyndromic ASD."
+      ],
+      "rationale": "The full paper analyzes a combined manic/hyperactive behavior subscale in fragile X and autism cohorts. The measure is broader than an ADHD-specific outcome.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/24629733",
+      "article_evidence": {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4009990/",
+        "quotes": [
+          "Manic/Hyperactive Behavior subscale"
+        ]
+      }
+    },
+    {
+      "pmid": "25433424",
+      "source_sha256": "1f356c31a98d877788cf573162f03846b718d3e7f283b8aa66a36c642c74733e",
+      "decision": "include",
+      "quotes": [
+        "We used this framework to examine relationships among symptom dimensions, diagnostic categories, and resting state connectivity in behaviorally and emotionally dysregulated youth selected from the Longitudinal Assessment of Manic Symptoms study (n=42) and healthy control youth (n=18).",
+        "Region of interest analyses examined relationships among resting state connectivity, symptom dimensions (behavioral and emotional dysregulation measured with the Parent General Behavior Inventory-10 Item Mania Scale [PGBI-10M]; dimensional severity measures of mania, depression, anxiety), and diagnostic categories (Bipolar Spectrum Disorders, Attention Deficit Hyperactivity Disorder, Anxiety Disorders, and Disruptive Behavior Disorders)."
+      ],
+      "rationale": "ADHD is explicitly one of the tested diagnostic categories in the recruited group and control study.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/25433424",
+      "group_counts": [
+        42,
+        18
+      ]
+    },
+    {
+      "pmid": "22844023",
+      "source_sha256": "3b32177e613a2f4c981e74c633e166c01bf45afd4b6401f2f46b2d7b7add6219",
+      "decision": "include",
+      "quotes": [
+        "We studied 165 individuals with ADHD and 374 controls followed up longitudinally and masked for 10 years."
+      ],
+      "rationale": "Ten-year ADHD versus control longitudinal study with distinct cohorts.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/22844023",
+      "group_counts": [
+        165,
+        374
+      ]
+    },
+    {
+      "pmid": "25366258",
+      "source_sha256": "a08fa37612a6f6dd4a2a88eb94c5af89ba6f60328ca00a5c63d2cc972ff57788",
+      "decision": "include",
+      "quotes": [
+        "The present study examined whether children with Noonan syndrome are at heightened risk for symptoms of attention-deficit-hyperactivity disorder (ADHD) and executive dysfunction relative to an unaffected sibling comparison group, and investigated three key aspects of behavioral attention: auditory attention, sustained attention, and response inhibition.",
+        "METHOD: Children and adolescents with Noonan syndrome (n=32, 17 males, 15 females, mean age 11y 3mo, SD 3y) and their unaffected siblings (n=16, eight males, eight females, mean age 11y, SD 3y 6mo) were administered standardized tests of intellectual functioning and clinic-based measures of behavioral attention.",
+        "Parent ratings of ADHD symptoms, executive functioning, and behavior were also obtained."
+      ],
+      "rationale": "ADHD symptoms and diagnoses are specific outcomes in the Noonan and sibling groups.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/25366258",
+      "group_counts": [
+        32,
+        16
+      ]
+    },
+    {
+      "pmid": "20948445",
+      "source_sha256": "df25c0f5cd68e54241b512b38548bcd005898aaa7f4f9b2eb8757b3a040233db",
+      "decision": "exclude",
+      "quotes": [
+        "PATIENTS AND METHODS: A cross-sectional study was performed using the Child Health Questionnaire Parent Form 50 (CHQ-PF50) to measure HRQOL in patients with AGS.",
+        "AGS HRQOL was compared with that of a normative population and those previously studied by the CHQ, including juvenile rheumatoid arthritis, attention-deficit/hyperactivity disorder, and liver transplantation."
+      ],
+      "rationale": "ADHD comparison used previously studied reference results; current enrollment and outcomes are specific to Alagille syndrome.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/20948445"
+    },
+    {
+      "pmid": "27344348",
+      "source_sha256": "745516de9abb4ee9d646d41ff4ba2e57271fee8fd2e8d621262e21cb17d72464",
+      "decision": "include",
+      "quotes": [
+        "In the first 12-week phase, 16 children (group I) received the intervention, whereas 16 children (group II) did not."
+      ],
+      "rationale": "Two distinct ADHD intervention and comparison groups in phase one.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/27344348",
+      "group_counts": [
+        16,
+        16
+      ]
+    },
+    {
+      "pmid": "26299295",
+      "source_sha256": "6af666ce6d4bc1dc25b8c06b46ef71ee95bad47f4816cea2264bd306a75b182b",
+      "decision": "include",
+      "quotes": [
+        "METHOD: Genomic-relationship-matrix restricted maximum likelihood (GREML) as implemented in the software Genome-Wide Complex Trait Analysis (GCTA) was used to estimate SNP heritability (SNP h(2)) for multiple phenotypes within 4 broad domains of children's behavioral problems (attention-deficit/hyperactivity symptoms, internalizing, externalizing, and pervasive developmental problems) and cognitive function.",
+        "We combined phenotype and genotype data from 2 independent, population-based Dutch cohorts, yielding a total number of 1,495 to 3,175 of 3-, 7-, and 9-year-old children.",
+        "RESULTS: Significant SNP heritability estimates were found for attention-deficit/hyperactivity symptoms (SNP h(2) = 0.37-0.71), externalizing problems (SNP h(2) = 0.44), and total problems (SNP h(2) = 0.18), rated by mother or teacher."
+      ],
+      "rationale": "ADHD symptoms were analyzed; phenotype-specific sample varied from 1,495 to 3,175.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/26299295",
+      "minimum_sample": 1495
+    },
+    {
+      "pmid": "30338900",
+      "source_sha256": "1c31a9f15d464ea3db3eb61a6b90691f6b202ce3eac893e8da094b5f58356c26",
+      "decision": "include",
+      "quotes": [
+        "In a sample of 25 non-affected parents of adolescents with ADHD history obtained from a longitudinal study of a nonclinical population, and 25 non-affected parents of adolescents with no ADHD history, four groups were evaluated with respect to the presence or absence of the long allele polymorphism of the DRD4 gene (i.e., over seven repeats)."
+      ],
+      "rationale": "Parents are the study participants in an empirical ADHD endophenotype comparison.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/30338900",
+      "group_counts": [
+        25,
+        25
+      ]
+    },
+    {
+      "pmid": "28574288",
+      "source_sha256": "e70df526510b6c70a82fedab826a24c1a2c30ac904ad1a18689083784599301b",
+      "decision": "include",
+      "quotes": [
+        "The ADHD group was 73% combined-type, and the eveningness scores of the ADHD group (n = 52) were significantly higher than the control group (n = 52) (p < 0.01)."
+      ],
+      "rationale": "ADHD and control groups with distinct sample counts.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/28574288",
+      "group_counts": [
+        52,
+        52
+      ]
+    },
+    {
+      "pmid": "27851842",
+      "source_sha256": "76bcb6476e7db9dce0dc7466ce39a444a8459237e0309591f6332d0e656fa176",
+      "decision": "include",
+      "quotes": [
+        "Heritability and association with ADHD symptoms were estimated in 24 extended multigenerational families enriched for ADHD (305 members with clinical phenotyping, 213 with DTI, and 193 with rsfMRI data).",
+        "Findings were confirmed in 52 nuclear families (132 members with clinical phenotypes, 119 with DTI, and 84 with rsfMRI)."
+      ],
+      "rationale": "Separate discovery and replication family samples; imaging modality subsets overlap within each.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/27851842",
+      "group_counts": [
+        305,
+        132
+      ]
+    },
+    {
+      "pmid": "34021043",
+      "source_sha256": "c80c602313f3347ccad8e26c2e788593e93fac119b31b07a697a00c2c8b9b20b",
+      "decision": "exclude",
+      "quotes": [
+        "Then, in a double-blind, randomized controlled study in healthy adults, we implement closed-loop neurofeedback (NF) of the anticipatory α FSS signal over 10 d of training."
+      ],
+      "rationale": "Healthy adults with attention-task neurofeedback and no ADHD group or outcome.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/34021043"
+    },
+    {
+      "pmid": "38896562",
+      "source_sha256": "c3f6dccf1f1e3737f2b9566c040449e2701dd8b5b5558d03ac388c811c387884",
+      "decision": "include",
+      "quotes": [
+        "METHODS: Using the cross-sectional National Survey of the Diagnosis and Treatment of ADHD and Tourette Syndrome on 2947 children aged 5 to 17 years ever diagnosed with ADHD, parents reported on preschool expulsion, ADHD symptoms, diagnosis, treatment, and functioning."
+      ],
+      "rationale": "Survey of children diagnosed with ADHD; parents are informants.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/38896562",
+      "group_counts": [
+        2947
+      ]
+    },
+    {
+      "pmid": "12874489",
+      "source_sha256": "bc1af51da432082f253329f2d02eda10bf6bec860b2afa57ae083e67015cf319",
+      "decision": "include",
+      "quotes": [
+        "METHOD: Children 6 to 14 years of age recruited through 2000 to 2001 were randomized to receive clonidine syrup 0.10 to 0.20 mg/day (n = 38) or placebo (n = 29) for 6 weeks."
+      ],
+      "rationale": "Two disjoint randomized arms treating ADHD with comorbidity.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/12874489",
+      "group_counts": [
+        38,
+        29
+      ]
+    },
+    {
+      "pmid": "11928878",
+      "source_sha256": "b9d504ffbdd17d11f2c792cc5a094c6b44a18fbd1960bfb4bf21fc76cff6775c",
+      "decision": "include",
+      "quotes": [
+        "Intelligence tests (KEDI-WISC, K-WAIS), the Test of Variables of Attention (TOVA), the Teacher Report Form (TRF), the Youth Self-Report (YSR), and the Rosenberg Self-Esteem Scale were administered to 98 incarcerated Korean adolescents (the delinquent group) and 84 adolescent nondelinquents (the control group)."
+      ],
+      "rationale": "Distinct groups underwent testing to compare ADHD in incarcerated and control adolescents.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/11928878",
+      "group_counts": [
+        98,
+        84
+      ]
+    },
+    {
+      "pmid": "10980665",
+      "source_sha256": "967ca7de739356d02983d69e1268cc3f4ae90f11ade57c01803d839522525f4b",
+      "decision": "include",
+      "quotes": [
+        "The Diagnostic Rating Scale (DRS) was completed by the parents and teachers of 82 children referred for clinical evaluations, 73 referred children seen twice, and 218 non-referred children from the community.",
+        "The DRS, which uses a categorical rather than a dimensional rating approach, was 70% to 90% sensitive to diagnoses of Attention Deficit/Hyperactivity Disorder (ADHD) made by blind clinical teams."
+      ],
+      "rationale": "ADHD screener tested in at least 218 community children; repeat visits make the complete unique count unclear.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/10980665",
+      "minimum_sample": 218
+    },
+    {
+      "pmid": "17685750",
+      "source_sha256": "e50b08092a940256d522204c74c3c35767a8c5d674298db2c7a94bddf976109b",
+      "decision": "include",
+      "quotes": [
+        "METHOD: We evaluated 180 children and adolescents (4-17 years old) and 111 adults from our ADHD unit."
+      ],
+      "rationale": "Non-overlapping child and adult ADHD groups assessed in the study.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/17685750",
+      "group_counts": [
+        180,
+        111
+      ]
+    },
+    {
+      "pmid": "18328867",
+      "source_sha256": "3ac73bfd1c9628c0f009455c7baf4e34b7a7e7cf6b0a01e84ba0d8cd0dcf8764",
+      "decision": "include",
+      "quotes": [
+        "One-hundred nine mothers of 5- to 12-year-old boys with attention-deficit/hyperactivity disorder (ADHD) participated.",
+        "Mothers read case descriptions of boys with ADHD and of boys with both ADHD and oppositional defiant disorder (ODD)."
+      ],
+      "rationale": "Mothers themselves participated in a study of ADHD treatment acceptability; the child vignettes are not additional participants.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/18328867",
+      "group_counts": [
+        109
+      ]
+    },
+    {
+      "pmid": "19372494",
+      "source_sha256": "c1eab637132a7f3d6fee0d034735a532ed91e55cbb0878baeff0395cb9885bb7",
+      "decision": "include",
+      "quotes": [
+        "METHOD: Two-hundred-two children referred for attention problems and 49 comparison children (all 7-12 years) were rated by parents and teachers on the identical DSM-IV items presented in two different formats, the SNAP-IV and Conners' Revised Questionnaires, at two closely spaced points in time."
+      ],
+      "rationale": "Distinct referred and comparison children; parents and teachers supplied ADHD ratings.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/19372494",
+      "group_counts": [
+        202,
+        49
+      ]
+    },
+    {
+      "pmid": "16585476",
+      "source_sha256": "20aac682ba1b7d41717173ae9def9d93996a0b71dae4abe7f8ff071a6cc23b6f",
+      "decision": "include",
+      "quotes": [
+        "PARTICIPANTS: The first cohort was born in Britain in 1994-1995 and includes 2232 children; the second cohort was born in New Zealand in 1972-1973 and includes 1037 children."
+      ],
+      "rationale": "Two non-overlapping national birth cohorts used to test ADHD genetic associations.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/16585476",
+      "group_counts": [
+        2232,
+        1037
+      ]
+    },
+    {
+      "pmid": "17935640",
+      "source_sha256": "f64d6562f3605a0419a64c14322c8477bc87b20aaa50077193e3e11c11de0d95",
+      "decision": "include",
+      "quotes": [
+        "METHOD: Morphometric MRI findings were compared between 31 adults with ADHD and BPD and with those of 18 with BPD, 26 with ADHD, and 23 healthy controls."
+      ],
+      "rationale": "Four separate MRI groups include explicit ADHD arms.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/17935640",
+      "group_counts": [
+        31,
+        18,
+        26,
+        23
+      ]
+    },
+    {
+      "pmid": "15843763",
+      "source_sha256": "6bf9afc0100a1458293459bdefec85d2b71a10ea35eae3dc43c281d96b0f7d32",
+      "decision": "include",
+      "quotes": [
+        "Primary efficacy measures were the Swanson, Nolan, Atkins, and Pelham IV Parent and Teacher Rating Scale ADHD score and the Pediatric Anxiety Rating Scale total score.",
+        "RESULTS: Of the 32 medication-naive children openly treated with methylphenidate, 26 (81%) improved as to ADHD."
+      ],
+      "rationale": "At least 32 children had ADHD outcomes measured in the initial phase. The 25 randomized later are not an additional overlapping group.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/15843763",
+      "minimum_sample": 32
+    },
+    {
+      "pmid": "18606317",
+      "source_sha256": "fa9021ab9c625cfaf4f81f36c88e4cefaf5dea88246f5e3f233b7e0949c059f5",
+      "decision": "include",
+      "quotes": [
+        "METHODS: Retrospectively, 44 patients with ADHD and 41 controls sedated with fentanyl and midazolam for forearm-fracture reduction in the emergency department (ED) at a children's hospital were identified."
+      ],
+      "rationale": "ADHD status defines the analyzed clinical comparison.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/18606317",
+      "group_counts": [
+        44,
+        41
+      ]
+    },
+    {
+      "pmid": "19324532",
+      "source_sha256": "caf95ed79cef5433a07363e19b8c768dca710f0e7d9b5cca7e3ee0147f41b3a3",
+      "decision": "include",
+      "quotes": [
+        "Feasibility was tested by applying the protocol to brain MR data from 15 boys with attention-deficit/hyperactivity disorder (ADHD) and 15 typically developing controls, 8-12 years old."
+      ],
+      "rationale": "Two participant groups in MRI protocol study include an ADHD group.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/19324532",
+      "group_counts": [
+        15,
+        15
+      ]
+    },
+    {
+      "pmid": "15896225",
+      "source_sha256": "5436eba4eb1290cbf79092590d54d2fd2f8eefa6d911b327261b31b7c9f65926",
+      "decision": "include",
+      "quotes": [
+        "The purpose of this study is to clarify the relationship between childhood tendencies of attention deficit/hyperactivity disorder (AD/HD) and illicit drug abuse in Japanese prisoners, and to clarify whether drug abusers with AD/HD prefer methamphetamine (MAP) more than other illicit drugs.",
+        "The Japanese version of the Wender Utah Rating Scale (WURS), which is a self-reporting instrument to retrospectively identify childhood tendencies of AD/HD tendencies, was carried given to 413 prisoners without a drug addiction and 282 prisoners with a drug addiction (192, MAP; 53, toluene; and 37, cannabis)."
+      ],
+      "rationale": "Explicit retrospective ADHD-symptom assessment across two distinct prisoner groups.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/15896225",
+      "group_counts": [
+        413,
+        282
+      ]
+    },
+    {
+      "pmid": "19389329",
+      "source_sha256": "9daedd17b511ab5d838dab2371ca6ff870f696c613b4c7074cd0ef90b8e6da57",
+      "decision": "include",
+      "quotes": [
+        "Those with this comorbidity who were acutely manic or in mixed states were randomly assigned in a 6-week double-blind, placebo-controlled trial to aripiprazole (n = 18) or placebo (n = 25)."
+      ],
+      "rationale": "Two randomized ADHD-comorbidity groups; 710 is the assessment pool.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/19389329",
+      "group_counts": [
+        18,
+        25
+      ]
+    },
+    {
+      "pmid": "16030440",
+      "source_sha256": "df6d5f713b92d38b2c364118143c61440d9d18f12e060f6b9fce9aba75292afd",
+      "decision": "exclude",
+      "quotes": [
+        "OBJECTIVE: To investigate the relationship between executive function and awareness of real-world behavioral and attentional dysfunction in persons with moderate and severe traumatic brain injury (TBI) and uninjured controls."
+      ],
+      "rationale": "Traumatic brain injury and attentional dysfunction are the study scope; no explicit ADHD comparison or endpoint in the abstract.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/16030440"
+    },
+    {
+      "pmid": "22923780",
+      "source_sha256": "399cc84e418513ca2b978d1b45a7c3c1d33d7b0e3f2cf5b5395f847acfbf4364",
+      "decision": "include",
+      "quotes": [
+        "OBJECTIVE: The purpose of this study was to investigate the effect of sensory modulation and sleeping among 30 adolescents diagnosed with ADHD, compared with 28 adolescents without ADHD."
+      ],
+      "rationale": "Separate adolescents with and without ADHD in sleep and sensory comparison.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/22923780",
+      "group_counts": [
+        30,
+        28
+      ]
+    },
+    {
+      "pmid": "24485405",
+      "source_sha256": "190bde4ba6f983ce30919c5612c09ddb7d260c0586017a8d864a01f6e7f58b4b",
+      "decision": "include",
+      "quotes": [
+        "The MPV and the PLT were measured in 70 children with ADHD (aged 6-16 years), and compared with 41 healthy controls."
+      ],
+      "rationale": "Explicit ADHD case group and healthy comparator.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/24485405",
+      "group_counts": [
+        70,
+        41
+      ]
+    },
+    {
+      "pmid": "24867158",
+      "source_sha256": "8a85b77913956c86e9514f9f4d26be962c9fb17ffd5fbfc97958b41d2755fd18",
+      "decision": "include",
+      "quotes": [
+        "METHODS: Developmental assessments with the Griffiths Mental Developmental Scales (GMDS) were completed on a pilot cohort of 15 toddlers aged 2-4 years with a known history of maternal MA use during pregnancy.",
+        "These were compared to a matched cohort of 21 toddlers without a history of maternal MA use.",
+        "There were also significant concerns regarding aggressive behavior and attention deficit/hyperactivity on the CBCL for the exposed group, although this did not reach statistical significance."
+      ],
+      "rationale": "ADHD symptoms were a measured child outcome at ages two to four.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/24867158",
+      "group_counts": [
+        15,
+        21
+      ]
+    },
+    {
+      "pmid": "21432604",
+      "source_sha256": "13c183bee06c27fd7dcc724d5249b1e8b1f5de3292c91e1c72c09a321966b942",
+      "decision": "include",
+      "quotes": [
+        "Twenty-seven children with ADHD and 27 matched normal control children completed the Self-rating Scale of Self-regulatory Function (SelfReg), a new rating scale that has been specifically designed for this age group."
+      ],
+      "rationale": "Distinct ADHD and control groups in self-rating study.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/21432604",
+      "group_counts": [
+        27,
+        27
+      ]
+    },
+    {
+      "pmid": "20966487",
+      "source_sha256": "b92dd497d06244970b1e5d25e6969809701dfcba108574dca7a5eb2383017649",
+      "decision": "include",
+      "quotes": [
+        "Analyses were conducted on a sample 271 pairs of 10-year-old monozygotic and dizygotic twins drawn from the Western Reserve Reading and Mathematics Project."
+      ],
+      "rationale": "Study evaluates ADHD traits in 271 distinct twin pairs, two participating children per pair.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/20966487",
+      "group_counts": [
+        271,
+        271
+      ]
+    },
+    {
+      "pmid": "23942041",
+      "source_sha256": "adb2da2afd7226615f4638051bfbd9b74f6576bbf6a08b3b27c476f55a5ada70",
+      "decision": "include",
+      "quotes": [
+        "The teacher report of expressive language and the cognitive tests from 119 3-year-old children with parent reported ADHD symptoms and LD were compared with those of 258 children with ADHD symptoms only."
+      ],
+      "rationale": "Two mutually exclusive groups with ADHD symptoms, with and without language delay.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/23942041",
+      "group_counts": [
+        119,
+        258
+      ]
+    },
+    {
+      "pmid": "21214878",
+      "source_sha256": "056fb0f8c95eaf417cd98c8b51a64301ac38bf04b1d153a3b6a508345be05580",
+      "decision": "include",
+      "quotes": [
+        "Using event-related potentials (ERPs), the present study investigated the monitoring and subsequent evaluation of performance feedback resulting in either reward or punishment in children with ADHD (N = 18) and normal controls (N = 18) aged 8 to 12 years."
+      ],
+      "rationale": "Distinct ADHD and control groups in ERP study.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/21214878",
+      "group_counts": [
+        18,
+        18
+      ]
+    },
+    {
+      "pmid": "21392946",
+      "source_sha256": "f295ef130f00b27f8c6d1a17453bf6358089f99f87b7f3db89df563df61b7587",
+      "decision": "include",
+      "quotes": [
+        "METHODS: CAARS-S/O and questions on sociodemographic variables were filled out by 466 patients with ADHD, 847 healthy control subjects that already participated in two prior studies, and a total of 896 observer data sets were available."
+      ],
+      "rationale": "ADHD rating scale validation; observer forms are not additional index participants.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/21392946",
+      "group_counts": [
+        466,
+        847
+      ]
+    },
+    {
+      "pmid": "22504457",
+      "source_sha256": "c614e4a502b439e95b5bb9a480e75817dfc922c57554f344679977ba7e83bea0",
+      "decision": "include",
+      "quotes": [
+        "METHODS: We carried out a case-control association study in 643 adult ADHD patients and 619 controls from Germany and in 361 adult ADHD patients and 442 controls from Spain with 12 tagging single nucleotide polymorphisms covering the FOXP2 gene."
+      ],
+      "rationale": "Case and control groups in two distinct countries.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/22504457",
+      "group_counts": [
+        643,
+        619,
+        361,
+        442
+      ]
+    },
+    {
+      "pmid": "23184398",
+      "source_sha256": "5fb06f0f8149a8ea35a296b35de09da1b3e580f93c945e74d9819f61fa78d5f7",
+      "decision": "include",
+      "quotes": [
+        "We acquired anatomical brain MRI scans from 23 never-medicated adult patients with ADHD, 31 adult patients with a history of stimulant treatment and 32 control subjects, and VStr volumes were determined using individual rater-blinded region of interest delineation on high-resolution neuroanatomical scans.",
+        "Furthermore, we also extracted VStr volumes before and after methylphenidate treatment in a subsample of the medication-naïve adult patients as well as in 20 never-medicated children with ADHD."
+      ],
+      "rationale": "Three distinct adult groups and 20 children; follow-up adults are a subset.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/23184398",
+      "group_counts": [
+        23,
+        31,
+        32,
+        20
+      ]
+    },
+    {
+      "pmid": "21244154",
+      "source_sha256": "330841b2cdcf320115afddfc66a9c3461ea67bd4464c1d0491dfd48491ffb334",
+      "decision": "include",
+      "quotes": [
+        "Children, ages 3-7 years, hospitalized for TBI (n = 80) or OI (n = 113), were seen acutely and again 6 months later.",
+        "Parental responsiveness and negativity had stronger associations with emerging externalizing behaviors and attention-deficit/hyperactivity disorder symptoms among children with severe TBI."
+      ],
+      "rationale": "Assessed ADHD symptoms in separate injury cohorts; acute and follow-up visits overlap.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/21244154",
+      "group_counts": [
+        80,
+        113
+      ]
+    },
+    {
+      "pmid": "23581554",
+      "source_sha256": "e6e169582d6ee7d89220776461959bf7f0cc0790bd6fdfd762c850fe976d6402",
+      "decision": "include",
+      "quotes": [
+        "Among two large, independent samples of girls with attention-deficit/hyperactivity disorder (ADHD), we examined associations between specific (maternal gestational smoking and drug use, early labor, low birth weight, and infant breathing problems at birth) and cumulative prenatal and perinatal risk factors and psychiatric comorbidity during childhood.",
+        "Data from the (a) Multimodal Treatment Study of Children with ADHD, a randomized clinical trial with 579 children aged 7 to 9.9 years with combined-type ADHD, and the (b) Berkeley Girls ADHD Longitudinal Sample, a naturalistic study of 140 girls with ADHD (93 combined-type and 47 inattentive-type) who were first seen when they were 6 to 12 years old, were analyzed separately."
+      ],
+      "rationale": "ADHD comorbidity analysis clearly includes a 140-girl sample. The 579 is the parent trial total, not necessarily the analyzed girls.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/23581554",
+      "minimum_sample": 140
+    },
+    {
+      "pmid": "25428590",
+      "source_sha256": "c7e6df36d67d3d89867645ece71f108b46f9c89f47aa739725b64fc7a651ee6d",
+      "decision": "include",
+      "quotes": [
+        "The study included 250 children diagnosed with ADHD and 250 healthy children and their parents."
+      ],
+      "rationale": "ADHD and healthy child groups; parents were raters.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/25428590",
+      "group_counts": [
+        250,
+        250
+      ]
+    },
+    {
+      "pmid": "24532801",
+      "source_sha256": "efa339ee6ea98e48ca5796aa3d3e1e1d4e52edb2c2d3f488fca73760fc73e756",
+      "decision": "include",
+      "quotes": [
+        "RESULTS: There were no significant differences in attachment competences at 6 months between the experimental (n = 25) and the control (n = 22) groups (odds ratio = 1.06, 95% confidence interval = [0.31, 3.58], p = .91)."
+      ],
+      "rationale": "Two reported randomized ADHD treatment groups in the follow-up analysis.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/24532801",
+      "group_counts": [
+        25,
+        22
+      ]
+    },
+    {
+      "pmid": "24620816",
+      "source_sha256": "45a706208c493a80aa685efbd21323f46a7c59c07646763899ad32dd7ab3e27e",
+      "decision": "include",
+      "quotes": [
+        "METHOD: ADHD and CD problems/diagnoses were retrospectively recorded in one forensic (n = 149) and two non-forensic samples (n = 98 and n = 231) of patients with a psychotic illness: schizophrenia, bipolar or other, excluding drug-induced psychoses."
+      ],
+      "rationale": "Three distinct samples in a study that specifically analyzes prior ADHD.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/24620816",
+      "group_counts": [
+        149,
+        98,
+        231
+      ]
+    },
+    {
+      "pmid": "23378043",
+      "source_sha256": "efe629fec99c35532e329b48121ea62a74ee80c08c62d51f7126652b64a148b5",
+      "decision": "include",
+      "quotes": [
+        "This study explored the association of SWM and its strategy and spatial span components in carefully defined children and adolescents (age 6-16 years) with ADHD-CT alone (N = 163; 14 % female), ADHD-CT and anxiety (N = 243; 23 % female), anxiety disorders alone (N = 69; 25 % female) compared to age- and gender-matched healthy control participants (N = 116; 19 % female)."
+      ],
+      "rationale": "Four distinct groups compare ADHD and anxiety effects on working memory.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/23378043",
+      "group_counts": [
+        163,
+        243,
+        69,
+        116
+      ]
+    },
+    {
+      "pmid": "25113303",
+      "source_sha256": "a539099d2f9f51e7b66abf01dd4c60aef6e111ac53a46309d2a1dcd5e42ce790",
+      "decision": "include",
+      "quotes": [
+        "METHODS: Northern New England, all-payer administrative data (2007-2010) permitted study of prescriptions for 949 821 children ages 0 to 17 years (1.75 million person-years [PYs]; 54% Medicaid, 46% commercial).",
+        "HSA-level rates of attention-deficit/hyperactivity disorder drug use (5th-95th percentile) varied twofold in Medicaid and more than twofold in commercially insured children; HSA-level antidepressant use varied more than twofold within each payer type."
+      ],
+      "rationale": "ADHD drug use is an explicitly analyzed outcome in the pediatric prescribing cohort.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/25113303",
+      "group_counts": [
+        949821
+      ]
+    },
+    {
+      "pmid": "23582873",
+      "source_sha256": "4f8607890a18807dca0171f613f42d6e08a3416d63a0fff38ffc75eda0033793",
+      "decision": "include",
+      "quotes": [
+        "METHOD: We used refined DTI tractography methods to examine MD, FA, axial diffusivity (AD), and radial diffusivity (RD) of the anterior thalamic radiation, cingulum, corticospinal tract, inferior fronto-occipital fasciculus, inferior longitudinal fasciculus, forceps major, forceps minor, superior longitudinal fasciculus, and uncinate fasciculus in children and adolescents with ADHD (n = 56), unaffected siblings of ADHD probands (n = 31), and healthy controls (n = 17)."
+      ],
+      "rationale": "ADHD participants, unaffected siblings and healthy controls are three distinct imaging cohorts.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/23582873",
+      "group_counts": [
+        56,
+        31,
+        17
+      ]
+    },
+    {
+      "pmid": "20219037",
+      "source_sha256": "ea83bf199d315442e748becdd7fb4c295a226fa03b044b5383103d25d3a8927b",
+      "decision": "include",
+      "quotes": [
+        "AIM: To determine the association between intrauterine exposure to timing and sources of caffeine and inattention/overactivity, suggesting ADHD in the child.",
+        "Participants were 25 343 mothers and their 18-month-old children."
+      ],
+      "rationale": "Child inattention and overactivity are explicit ADHD-like outcomes after the neonatal period.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/20219037",
+      "group_counts": [
+        25343
+      ]
+    },
+    {
+      "pmid": "31590105",
+      "source_sha256": "96b5adaf5bcafdf5aaf9058a57eb8617ea7ac0e3fda3433d37ce0af394093c83",
+      "decision": "include",
+      "quotes": [
+        "We identified participants with childhood ADHD (cADHD, n = 37), subthreshold symptoms defined as attention problems (cAP, n = 64), and no ADHD or cAP (Non-cAP, n = 217).",
+        "We compared the groups and a control group with no perinatal risks (n = 64) on self-reported ADHD symptoms, executive dysfunction, and life outcomes in adulthood."
+      ],
+      "rationale": "Four distinct cohorts and ADHD outcomes measured to age 40.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/31590105",
+      "group_counts": [
+        37,
+        64,
+        217,
+        64
+      ]
+    },
+    {
+      "pmid": "30260686",
+      "source_sha256": "b675a49963446d68b3cd59293d0e55266e452301f3bc899a21947330a901373c",
+      "decision": "include",
+      "quotes": [
+        "Participants: Participants were 373 preschoolers (1.5 to 5 years old) and 300 school age youth (6 to 10 years old) presenting to a pediatric behavioral sleep medicine clinic with a primary insomnia diagnosis.",
+        "These symptoms were significantly associated with sleep disruption, with ADHD and affective problems most consistently associated with sleep problems in preschoolers and symptoms of anxiety, affective, and behavioral problems most consistently associated with sleep problems in school age youth."
+      ],
+      "rationale": "Explicit ADHD association with sleep disruption within distinct preschool and school-age groups.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/30260686",
+      "group_counts": [
+        373,
+        300
+      ]
+    },
+    {
+      "pmid": "31407970",
+      "source_sha256": "ee7ef0627f5211539e8cca0bc515c178b29293c2332f355ffced8ce5c91aa0f9",
+      "decision": "include",
+      "quotes": [
+        "Data were analyzed by using intention-to-treat linear mixed models for ROI analysis and a permutation-based method for voxel-based analysis with family-wise error correction.ResultsFifty boys (n = 25 MPH group, n = 25 placebo group; age range, 10-12 years) and 48 men (n = 24 MPH group, n = 24 placebo group; age range, 23-40 years) were included.",
+        "Fifty boys (n = 25 MPH group, n = 25 placebo group"
+      ],
+      "rationale": "Separate all-male child and adult samples in the ADHD trial.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/31407970",
+      "group_counts": [
+        50,
+        48
+      ]
+    },
+    {
+      "pmid": "28166690",
+      "source_sha256": "e30096b991061b953aca5018ef8e93ab870023ea416d5f01d8bdf106f1da24b0",
+      "decision": "include",
+      "quotes": [
+        "METHOD: Narrative comments were coded for 67 persistent (50 ADHD, 17 local normative comparison group [LNCG]) and 25 desistent (20 ADHD, 5 LNCG) substance users from the Multimodal Treatment Study of Children with ADHD (MTA) adult follow-up (21.7-26.7 years-old)."
+      ],
+      "rationale": "Persistent and desistent user groups contain separate ADHD and comparison participants.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/28166690",
+      "group_counts": [
+        67,
+        25
+      ]
+    },
+    {
+      "pmid": "28614761",
+      "source_sha256": "a72c451b28588e2cf8b1afcd1487fa3eb3a13ad1abb86b79235ad9cb40dadf0d",
+      "decision": "include",
+      "quotes": [
+        "We enrolled 225 ADHD cases and 225 healthy controls aged 6-13 years old in Liuzhou, China."
+      ],
+      "rationale": "Separate ADHD cases and controls for exposure comparison.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/28614761",
+      "group_counts": [
+        225,
+        225
+      ]
+    },
+    {
+      "pmid": "27734305",
+      "source_sha256": "b1ec3abd57d77542d69b32fc2d1ccd79b550a7fc2c7e1a8570df43ca48aecfce",
+      "decision": "include",
+      "quotes": [
+        "16 young people with ADHD participated in two rsfMRI scans in a randomized, placebo-controlled study with an acute dose of MPH (20 mg).",
+        "15 typically developing controls also performed the task under placebo conditions."
+      ],
+      "rationale": "Separate ADHD and control groups; repeat scans do not add participants.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/27734305",
+      "group_counts": [
+        16,
+        15
+      ]
+    },
+    {
+      "pmid": "28832320",
+      "source_sha256": "307853ddbab2cda63d2f68da1c1326aca2c6f5991cd62bce96965fed8bc5428f",
+      "decision": "include",
+      "quotes": [
+        "RESULTS: We included 87 adults with ADHD and 93 controls in our analysis."
+      ],
+      "rationale": "Explicit adult ADHD and control samples.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/28832320",
+      "group_counts": [
+        87,
+        93
+      ]
+    },
+    {
+      "pmid": "26850439",
+      "source_sha256": "5ed9639aad7af60e986787a5bdecf4770c30fe918a3e188158637260868450b2",
+      "decision": "include",
+      "quotes": [
+        "This study examined identification of emotional information in facial expression, prosody, and their combination in 23 adult patients with combined attention deficit-hyperactivity disorder (ADHD) versus 31 healthy controls (HC) matched for gender, age, and education."
+      ],
+      "rationale": "ADHD and healthy cohorts compare emotion perception.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/26850439",
+      "group_counts": [
+        23,
+        31
+      ]
+    },
+    {
+      "pmid": "31813273",
+      "source_sha256": "00030c69f0792982d5f4079fde43c4dd186fea86f1305bfe6dabfe149f115962",
+      "decision": "exclude",
+      "quotes": [
+        "The intervention involved 8 hr of training in practice guidelines and brief therapeutic skills for depression, anxiety, attention deficit hyperactivity disorder, and behavioral disorders with case discussion and video examples, while the control practiced as usual.",
+        "A linear random-effects model controlling for clustering and baseline was carried out on the individual-level data to examine between-group differences in the primary (i.e., confidence) and secondary (i.e., attitude and knowledge) outcomes at 1-week follow-up."
+      ],
+      "rationale": "ADHD is one training topic and the measured clinician outcomes are general. No ADHD-specific effect is reported.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/31813273"
+    },
+    {
+      "pmid": "29795244",
+      "source_sha256": "191ada6ce8a69af810faa205dc97ae6348da2ff30986df6639f94a3ad3c30c21",
+      "decision": "exclude",
+      "quotes": [
+        "Using a tract-profile approach, we examined 18 major white matter tracts in 38 offspring of BD parents, 36 offspring of comparison parents with non-BD psychopathology (depression, attention-deficit/hyperactivity disorder), and 41 offspring of healthy parents.",
+        "Both at-risk groups showed significantly lower fractional anisotropy (FA) in left-sided tracts (cingulum, inferior longitudinal fasciculus, forceps minor), and significantly greater FA in right-sided tracts (uncinate fasciculus and inferior longitudinal fasciculus), relative to offspring of healthy parents (P < 0.05)."
+      ],
+      "rationale": "ADHD is one parental diagnosis within the pooled non-bipolar group; no ADHD-specific subgroup or outcome is reported.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/29795244"
+    },
+    {
+      "pmid": "28710948",
+      "source_sha256": "4d5a1b8df71d9d31de21b3ab55d62b96a5a3282bdeaa9cd316297643e7e08a21",
+      "decision": "include",
+      "quotes": [
+        "Thirty-one adult psychiatric patients, thoroughly diagnosed with autism spectrum disorder (ASD) (n=16), ADHD (n=8), or schizophrenia spectrum disorder (SSD) (n=7) and 15 healthy controls (HC), were blindly assessed with SensoDetect BERA."
+      ],
+      "rationale": "ADHD explicitly evaluated in psychiatric diagnostic comparisons.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/28710948",
+      "group_counts": [
+        31,
+        15
+      ]
+    },
+    {
+      "pmid": "29205977",
+      "source_sha256": "767c21ec3512111727b7d6956b83103912b26ae5570e7a1e4c42596543f2c666",
+      "decision": "include",
+      "quotes": [
+        "METHODS: The children with ADHD admitted to our department from January 2015 to January 2016 were selected as the study subjects.",
+        "All the cases met the standard of Chinese classification of mental disorders criterion and were divided into two groups, the control group and the observation group, with 15 cases in each group."
+      ],
+      "rationale": "Thirty children across two ADHD-treatment groups.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/29205977",
+      "group_counts": [
+        15,
+        15
+      ]
+    },
+    {
+      "pmid": "30877863",
+      "source_sha256": "b65d7e193df8443ebb8d43ece3cd0bb3e6be9d000e7a65384625c99cbe976bc1",
+      "decision": "include",
+      "quotes": [
+        "METHODS: Fifty-three drug-naive boys with ADHD and 53 HCs underwent high-resolution anatomical magnetic resonance (MR) imaging using a 3-T MR scanner."
+      ],
+      "rationale": "ADHD group and distinct healthy comparison group.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/30877863",
+      "group_counts": [
+        53,
+        53
+      ]
+    },
+    {
+      "pmid": "31321549",
+      "source_sha256": "94e93caffb57b81047907d05bf7a26bc0b5ca1aa25a33fdb2ab51ef56c2854ea",
+      "decision": "include",
+      "quotes": [
+        "A between-subjects design compared patients with ADHD without stimulant drug treatment (N = 55) and patients with ADHD treated with MPH (N = 31) with a healthy control group (N = 80)."
+      ],
+      "rationale": "Between-subject comparison explicitly analyzes ADHD by treatment status and healthy controls.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/31321549",
+      "group_counts": [
+        55,
+        31,
+        80
+      ]
+    },
+    {
+      "pmid": "27189687",
+      "source_sha256": "dad16d845c8c6ea16331f89551565b0abbe219a6fcf5ce3bf16dbf60dd7cae3b",
+      "decision": "include",
+      "quotes": [
+        "OBJECTIVE: Better Nights/Better Days, a distance intervention for insomnia in school-aged children (with and without attention-deficit/hyperactivity disorder [ADHD]), was evaluated to determine its effectiveness on children's sleep and psychosocial functioning.",
+        "Parents were randomized to intervention (n = 31) or waitlist control (n = 30), and completed questionnaires administered over the phone at baseline, postintervention (2 months), and follow-up (6 months)."
+      ],
+      "rationale": "ADHD status is an explicit comparison in a sleep intervention; one child per randomized parent.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/27189687",
+      "group_counts": [
+        31,
+        30
+      ]
+    },
+    {
+      "pmid": "26155764",
+      "source_sha256": "0f56a9cb0c805adfd57eb28520ba529bbba844e6bc63a1e5c78eaabbc62d8a62",
+      "decision": "include",
+      "quotes": [
+        "A parent interview for DSM-IV psychiatric disorders (K-SADS-PL) for 33 OO, 42 high-functioning autism (HFA) and 34 typically developing (TD) youth, ages 8-21, showed that OO and HFA groups had elevated current ADHD and specific phobias, with tics in HFA."
+      ],
+      "rationale": "ADHD diagnosis is a measured and compared outcome across three distinct groups.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/26155764",
+      "group_counts": [
+        33,
+        42,
+        34
+      ]
+    },
+    {
+      "pmid": "29094658",
+      "source_sha256": "61a194a4d2b4353eedb1bd3a9622236539809a20c3d08b1afd4339fd4f752c28",
+      "decision": "include",
+      "quotes": [
+        "METHODS: We directly compared preterm-born adolescents (n = 186) to term-born adolescents with ADHD (n = 69), and term-born controls (n = 135), aged 11-23, on cognitive-performance, event-related potential and skin conductance level (SCL) measures associated with attention and arousal."
+      ],
+      "rationale": "Direct comparison of preterm cohort, ADHD cohort and term-born controls.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/29094658",
+      "group_counts": [
+        186,
+        69,
+        135
+      ]
+    },
+    {
+      "pmid": "30485932",
+      "source_sha256": "955be44b4f01dab72f7578346525b3c228ed59a3615275acffd3664f88fa9d77",
+      "decision": "include",
+      "quotes": [
+        "METHODS AND STUDY DESIGN: We recruited 42 patients with ADHD (mean age: 8.1 years) and 36 healthy children as the control group (mean age: 9.8 years)."
+      ],
+      "rationale": "ADHD and control groups in dietary assessment.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/30485932",
+      "group_counts": [
+        42,
+        36
+      ]
+    },
+    {
+      "pmid": "27126849",
+      "source_sha256": "b4d1acd5cdcaf1a7529f43559b21a6c6e2f0a32b699f9f3bfdd2228026470add",
+      "decision": "include",
+      "quotes": [
+        "Pregnant women and their offspring were categorized into 4 groups: SSRI exposed (n = 15,729); exposed to psychiatric disorder, no antidepressants (n = 9,651); exposed to SSRIs only before pregnancy (n = 7,980); and unexposed to antidepressants and psychiatric disorders (n = 31,394).",
+        "We investigated the cumulative incidence of offspring diagnoses of depression, anxiety, autism spectrum disorder (ASD), and attention-deficit/hyperactivity disorder (ADHD) for the 4 groups from birth to 14 years, adjusting for confounders."
+      ],
+      "rationale": "Offspring ADHD is an explicit outcome through age 14 across four distinct exposure groups.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/27126849",
+      "group_counts": [
+        15729,
+        9651,
+        7980,
+        31394
+      ]
+    },
+    {
+      "pmid": "31439404",
+      "source_sha256": "5e4f1356119238f715a9e32d5640518275ef1f3384d27fb8f5a1a88c707303ab",
+      "decision": "include",
+      "quotes": [
+        "Finally, thirty individuals were diagnosed with ADHD.",
+        "Meanwhile, the 30 students with the lowest scores on the CAARS and General Health Questionnaire (GHQ) were included as the control group."
+      ],
+      "rationale": "Thirty diagnosed cases and 30 separate controls; 580 is the prescreening pool.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/31439404",
+      "group_counts": [
+        30,
+        30
+      ]
+    },
+    {
+      "pmid": "27973969",
+      "source_sha256": "27399e9ae5fbadeb08e1b9dfd81f3b8e1c4d4052da90ff94925db70e954009e3",
+      "decision": "include",
+      "quotes": [
+        "METHODS: We investigated glutamate levels in the ACC and the DLPFC in 30 adults with ADHD and 30 healthy controls using single-voxel proton magnetic resonance spectroscopy on a 3T scanner."
+      ],
+      "rationale": "Distinct adult ADHD and control groups.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/27973969",
+      "group_counts": [
+        30,
+        30
+      ]
+    },
+    {
+      "pmid": "25777072",
+      "source_sha256": "68a9c573be42726cf52953f3672c2340e6c502852895a9b841b9833559080576",
+      "decision": "include",
+      "quotes": [
+        "METHOD: A total of 29 participants with adult ADHD and 21 controls were recruited."
+      ],
+      "rationale": "ADHD and control groups in adult working-memory study.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/25777072",
+      "group_counts": [
+        29,
+        21
+      ]
+    },
+    {
+      "pmid": "32172295",
+      "source_sha256": "eb201ca19471ba8b34643d3205b13c362a9f5578754bf49726fb3603a9f20f4f",
+      "decision": "include",
+      "quotes": [
+        "METHODS: We measured the accommodative response and pupil diameter using a binocular, open-field autorefractor in non-medicated and medicated children with ADHD (n = 22, mean age = 10.1 ± 2.4 years; n = 19; mean age = 11.0 ± 3.8 years; respectively) and in an age-matched control group (n = 22; mean age = 10.6 ± 1.9 years) while participants were asked to maintain focus on (i) a high-contrast Maltese cross, (ii) a frame of a cartoon movie (picture) and (iii) a cartoon movie chosen by the participant."
+      ],
+      "rationale": "Distinct medicated ADHD, non-medicated ADHD and control groups.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/32172295",
+      "group_counts": [
+        22,
+        19,
+        22
+      ]
+    },
+    {
+      "pmid": "37459827",
+      "source_sha256": "54c395ba22000b5130bad79d4ed4c4a795ad7d23e28c8fc5dce4c03449bd5081",
+      "decision": "include",
+      "quotes": [
+        "BACKGROUND: We investigated the rates of positive screening for attention deficit-hyperactivity disorder (ADHD) in adults with seizures [i.e., focal epilepsy vs. idiopathic generalized epilepsy (IGE) vs. functional seizures (FS)].",
+        "RESULTS: Forty patients with focal epilepsy, 40 with IGE, and 40 with FS were included."
+      ],
+      "rationale": "ADHD screening is the explicit outcome across three seizure groups.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/37459827",
+      "group_counts": [
+        40,
+        40,
+        40
+      ]
+    },
+    {
+      "pmid": "34779080",
+      "source_sha256": "1398285fb970b2a5105649733d4915308eeda00b865671295fcb37653ca50722",
+      "decision": "exclude",
+      "quotes": [
+        "We compared the polygenic contribution to smoking in schizophrenic patients and controls to assess if genetic factors may explain the different prevalence.",
+        "Attention-deficit hyperactivity disorder (ADHD) PRS was associated with smoking only in schizophrenia."
+      ],
+      "rationale": "ADHD polygenic score is a predictor of smoking among schizophrenia cases; study does not specifically measure ADHD diagnosis or symptoms.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/34779080"
+    },
+    {
+      "pmid": "38813763",
+      "source_sha256": "2a07364b01b5ce70639a41c8052f31ec9088f164f2f0f12891ade1c6d52f63f1",
+      "decision": "include",
+      "quotes": [
+        "Using an ambulatory circadian monitoring (ACM) system, which resembles a common watch, we gathered sleep parameters and the different rhythms obtained from measuring motor activity, light exposure and distal temperature in 87 autistic children and adolescents, 27 of whom were diagnosed with co-occurring ADHD, and 30 neurotypical children and adolescents as a comparison group."
+      ],
+      "rationale": "ADHD comorbidity is explicitly compared; 27 is a subgroup of 87, not additional.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/38813763",
+      "group_counts": [
+        87,
+        30
+      ]
+    },
+    {
+      "pmid": "32886223",
+      "source_sha256": "eac7ac916efd4c3ad1c9ff5d116fab9c43c1b77a94187c355e99e333e9487ade",
+      "decision": "include",
+      "quotes": [
+        "All the singleton children born in Finland between January 1998 and December 1999 and diagnosed with ADHD were included in the study.",
+        "A total of 1026 cases were matched with an equal number of controls on sex, date of birth and place of birth."
+      ],
+      "rationale": "ADHD cases and an equal matched group in a child outcome study.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/32886223",
+      "group_counts": [
+        1026,
+        1026
+      ]
+    },
+    {
+      "pmid": "35534804",
+      "source_sha256": "3ac9fa5a31c346f1b0182ebd3a50c0069aed567f37a42d0ded6a2146dd97a753",
+      "decision": "include",
+      "quotes": [
+        "Our aim was to analyze mortality in a perinatal risk cohort of 46-year-old adults with childhood ADHD (cADHD) and milder childhood attention problems (including hyperactivity and inattention; cAP) compared with a group with similar birth risks but no or low levels of childhood ADHD symptoms (Non-cAP).",
+        "The total n in the study was 839 (cADHD n = 115; cAP n = 216; Non-cAP n = 508)."
+      ],
+      "rationale": "Explicit total in the ADHD mortality cohort analysis.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/35534804",
+      "group_counts": [
+        839
+      ]
+    },
+    {
+      "pmid": "33332378",
+      "source_sha256": "3be2ccbfa4b36ae548be55f8ed203fc6565d22f31ba6765f73a23bba8ecd5902",
+      "decision": "include",
+      "quotes": [
+        "METHODS: We here test these hypotheses by evaluating whether adults diagnosed with ADHD (n = 17) differed from a control group (n = 30) in implicitly learning and using low-level perceptual priors to guide sensory processing."
+      ],
+      "rationale": "Distinct adult ADHD and control groups.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/33332378",
+      "group_counts": [
+        17,
+        30
+      ]
+    },
+    {
+      "pmid": "32575031",
+      "source_sha256": "de81820ca942ea4f5fb514df1547548b567162648b23b410ed353851128c644a",
+      "decision": "include",
+      "quotes": [
+        "RESULTS: In the overall cohort, consisting of 187 605 children, prenatal antibiotic dispensation was associated with increased risk of ADHD (HR 1.22, 95% confidence interval [CI] 1.18-1.26)."
+      ],
+      "rationale": "Explicit ADHD outcome in the overall child cohort, not newborn-only outcomes.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/32575031",
+      "group_counts": [
+        187605
+      ]
+    },
+    {
+      "pmid": "38205522",
+      "source_sha256": "b4261d768f4f1f2d42e01a13e84aa60a71b59e22d1295402d38ac461d634e987",
+      "decision": "exclude",
+      "quotes": [
+        "NDD included autism/autism spectrum disorder, attention-deficit/hyperactivity disorder, intellectual disability, cerebral palsy, and epilepsy.",
+        "The NDD incidence rate among (1) children exposed during or outside of pregnancy and (2) siblings discordant for exposure in pregnancy was compared using Cox-regression models, unadjusted and adjusted for confounders."
+      ],
+      "rationale": "ADHD was combined with four other conditions in an aggregate neurodevelopmental endpoint; no separable ADHD analysis appears in the abstract.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/38205522"
+    },
+    {
+      "pmid": "33059383",
+      "source_sha256": "e1c78876748d5ee9d2080e904a2c911bc99576653541f4c03551ebae4b04b679",
+      "decision": "include",
+      "quotes": [
+        "METHODS: We report findings from a 6-year prospective, longitudinal study of the Dutch part of the International Multicenter ADHD Genetics (IMAGE) study, including individuals with childhood-onset (persistent) ADHD (n = 193), their siblings with late-onset ADHD (n = 34), their stable unaffected siblings (n = 111) and healthy controls (n = 186)."
+      ],
+      "rationale": "Four distinct groups with documented ADHD status.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/33059383",
+      "group_counts": [
+        193,
+        34,
+        111,
+        186
+      ]
+    },
+    {
+      "pmid": "32936392",
+      "source_sha256": "6dd83fa603202993e74da2d2348e5b82cbffa39abf89d32ce6a3097f5caf7039",
+      "decision": "include",
+      "quotes": [
+        "Data comes from a Canadian representative population-based cohort including 2028 FT, 100 MLP children, and their parents.",
+        "Hyperactivity-impulsivity and inattention symptoms were measured repeatedly from 4 to 8 years of age."
+      ],
+      "rationale": "ADHD symptom dimensions are measured outcomes beyond the neonatal period in two birth groups.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/32936392",
+      "group_counts": [
+        2028,
+        100
+      ]
+    },
+    {
+      "pmid": "33644868",
+      "source_sha256": "4e40906f52aab46cb0e4352b8c9ab26a5873894176414c5cb495b72a7dd86dc5",
+      "decision": "exclude",
+      "quotes": [
+        "METHOD: We calculated genome-wide polygenic scores for 269 trait and disease outcomes using PRSice v2.2 and their association with anorexia nervosa, bulimia nervosa, and binge-eating disorder in up to 640 cases and 17,050 controls from the UK Biobank.",
+        "RESULTS: Individuals with binge-type eating disorders had higher polygenic scores than controls for other psychiatric disorders, including depression, schizophrenia, and attention deficit hyperactivity disorder, and higher polygenic scores for body mass index."
+      ],
+      "rationale": "Eating-disorder case definitions and outcomes; ADHD is represented only by a genetic-risk predictor.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/33644868"
+    },
+    {
+      "pmid": "33378354",
+      "source_sha256": "0296b85f932132c2b41ef4c13b5c5b45c5fde4b622672cb6da3cbc6bc9b7a43c",
+      "decision": "include",
+      "quotes": [
+        "To clinically and non-invasively examine this hypothesis, we monitored the kinetics of pupil diameter in response to stimuli and compared them between adults with ADHD (n = 17) and typically developing (TD) adults (n = 23) during an auditory continuous performance task."
+      ],
+      "rationale": "ADHD and control groups in the pupil-response analysis.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/33378354",
+      "group_counts": [
+        17,
+        23
+      ]
+    },
+    {
+      "pmid": "33944622",
+      "source_sha256": "a8865afc87bbfc051d183d1281ae3debb38d27b0903fa5b507581fad4a513424",
+      "decision": "include",
+      "quotes": [
+        "In this study, we aimed to investigate the effect of NET gene polymorphisms on response to ATX treatment and to find the answers to the questions about whether there is a relationship between the severity of the disorder and the observed side effects in children with ADHD.",
+        "METHOD: About 100 children with ADHD and 80 healthy controls (HCs) were included in this study."
+      ],
+      "rationale": "ADHD treatment-response study; 80 controls establish the threshold, but ADHD enrollment is stated only approximately.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/33944622",
+      "minimum_sample": 80
+    },
+    {
+      "pmid": "38084062",
+      "source_sha256": "c318619cf6099c07e8716b84e8828b1e394517b22c236439442dea6de339b019",
+      "decision": "include",
+      "quotes": [
+        "METHOD: A cross-sectional study including 30 adolescents with complex ADHD and 33 adolescents without ADHD aged 15 to 18 years."
+      ],
+      "rationale": "Distinct groups defined by ADHD diagnosis.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/38084062",
+      "group_counts": [
+        30,
+        33
+      ]
+    },
+    {
+      "pmid": "33274371",
+      "source_sha256": "ade529896957e313b563f25e603293ab7d6ef9cda6716719bac78f084e82ddce",
+      "decision": "exclude",
+      "quotes": [
+        "BACKGROUND: Thyroid hormone is essential for optimal human neurodevelopment and may modify the risk of attention-deficit/hyperactivity disorder (ADHD).",
+        "METHODS: We used International Classification of Disease-10 codes, polygenic thyroid scores at different thresholds of association with thyroid traits (PT-values), and image-derived phenotypes in UK Biobank (n = 18 825) to investigate the effects of a recorded diagnosis of thyroid disease and genetic risk for thyroid status on cerebellar and subcortical gray matter volume."
+      ],
+      "rationale": "ADHD appears as background; the stated analysis is thyroid status and brain volume.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/33274371"
+    },
+    {
+      "pmid": "15555715",
+      "source_sha256": "d4b7d25043f82dff94eec8be512764815833cee468e35445609155fa78ed244c",
+      "decision": "include",
+      "quotes": [
+        "METHODS: Subjects were consecutively referred youth aged 18 years or less who met full criteria for DSM-III-R bipolar disorder (BPD) (females, n=74; BD males, n=224).",
+        "RESULTS: Most of the bipolar subjects (91% of males, 70% of females) also had ADHD."
+      ],
+      "rationale": "ADHD comorbidity is measured and compared by sex in the analyzed bipolar cohort.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/15555715",
+      "group_counts": [
+        74,
+        224
+      ]
+    },
+    {
+      "pmid": "18838635",
+      "source_sha256": "dbf59b493895c6980d0aa40311af3009ea124779ce49d457363f142019d9e6dd",
+      "decision": "exclude",
+      "quotes": [
+        "OBJECTIVES: To describe preschool trajectories of peer victimization, assess continuity of preschool victimization after school entry, and examine early child- and family-level predictors of preschool trajectories of victimization.",
+        "Child-level predictors at age 17 months were the mother's ratings of physical aggression, hyperactivity, and emotional problems."
+      ],
+      "rationale": "Hyperactivity is a broad behavioral predictor; an ADHD-specific scale or diagnosis is not indicated.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/18838635"
+    },
+    {
+      "pmid": "16078088",
+      "source_sha256": "cdf4177f4354efbfc78de1139fa23808acfe74cfc1744f44581afdec0fbbff9e",
+      "decision": "exclude",
+      "quotes": [
+        "RATIONALE: Guanfacine is an alpha2-adrenergic receptor agonist that has been shown to have beneficial effects on working memory and attentional functions in monkeys and in patients with attention deficit hyperactivity disorder.",
+        "METHODS: Sixty healthy male volunteers were randomised into three groups."
+      ],
+      "rationale": "ADHD drug is background; experiment enrolled healthy volunteers and did not evaluate an ADHD cohort or outcome.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/16078088"
+    },
+    {
+      "pmid": "17391466",
+      "source_sha256": "cab8611f4c4eb1ee93cdfcc46d5777f1ed482fffafd91df8c353787e264495bf",
+      "decision": "include",
+      "quotes": [
+        "METHODS: Eighty-five very low birthweight (VLBW; <or=1500 g) children and term controls born in 1987-1988 in south-east region of Sweden were checked in registers regarding readmissions and diagnoses, need for habilitation and child psychiatric care up to 15 years of age.",
+        "A minority of VLBW children had an impairment/handicap such as cerebral palsy (CP) in five (5.9%) children, attention deficit hyperactivity disorders (ADHD) in five children, and blindness due to retinopathy of prematurity in one child.",
+        "One child in the control group had ADHD."
+      ],
+      "rationale": "Reports ADHD as a separate diagnosed outcome in both birth groups; the original control enrollment is unspecified.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/17391466",
+      "minimum_sample": 85
+    },
+    {
+      "pmid": "16232017",
+      "source_sha256": "c6eec0111dec4c1ba29f3399a040d1855333c858c1a72c6b038066684e585377",
+      "decision": "include",
+      "quotes": [
+        "STUDY OBJECTIVE: To investigate predictors of beginning treatment with atomoxetine, a new attention-deficit-hyperactivity disorder (ADHD) drug, shortly after it was introduced into the marketplace compared with well-established stimulants for children in a managed care setting.",
+        "PATIENTS: A total of 45,144 patients aged 18 years or younger who filled a prescription for an ADHD-specific drug."
+      ],
+      "rationale": "ADHD treatment choice is the outcome; full eligible child sample size is explicit.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/16232017",
+      "group_counts": [
+        45144
+      ]
+    },
+    {
+      "pmid": "24274762",
+      "source_sha256": "70974048555a965109c820cf32d4c0b4d1fada51e7e2516ebb0bffffda1044f7",
+      "decision": "include",
+      "quotes": [
+        "METHOD: Secondary analysis of a UK birth cohort (the Millennium Cohort Study, N = 19,519) was used to model the association of ADHD with socioeconomic disadvantage and assess evidence for several potential explanatory pathways.",
+        "The case definition of ADHD was a parent-report of whether ADHD had been identified by a medical doctor or health professional when children were 7 years old."
+      ],
+      "rationale": "The analytic cohort was 13,305 children with usable ADHD status. The abstract's larger number is the parent registry.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/24274762",
+      "article_evidence": {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4263245/",
+        "quotes": [
+          "The included sample size in this study who had reported on their child's ADHD status was 13305."
+        ]
+      },
+      "group_counts": [
+        13305
+      ]
+    },
+    {
+      "pmid": "23564274",
+      "source_sha256": "6327fed2c1915ec498e85b755b19bbfed6a9b9f1731c8c8642744beb4f57f1ce",
+      "decision": "include",
+      "quotes": [
+        "Blood serum lipoproteins and fatty acids (FA) composition were measured and analyzed by colorimetry and gaschromatography in eight male and seven female adults diagnosed with ADHD as well as in 15 age- and gender-matched healthy control subjects."
+      ],
+      "rationale": "ADHD cases and matched controls total 30 exactly.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/23564274",
+      "group_counts": [
+        8,
+        7,
+        15
+      ]
+    },
+    {
+      "pmid": "20525316",
+      "source_sha256": "9a7f7fdd49ac60818c6d211104ddd0aa103af99870a3457d86672ea5bccf9070",
+      "decision": "include",
+      "quotes": [
+        "METHODS: Children with ADHD (N = 34), combined subtype, and control children (N = 34) performed a series of self-paced computerized visual search tasks."
+      ],
+      "rationale": "Two distinct cohorts in ADHD cognitive-control experiment.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/20525316",
+      "group_counts": [
+        34,
+        34
+      ]
+    },
+    {
+      "pmid": "24345721",
+      "source_sha256": "53f26cf981ad765783baccdcb668ae1f9e64fb435dc753ee063712306bd1d85a",
+      "decision": "include",
+      "quotes": [
+        "We performed a structural MRI study in 119 adult ADHD patients and 107 controls and investigated total gray and white matter and volumes of accumbens, caudate, globus pallidus, putamen, thalamus, amygdala and hippocampus."
+      ],
+      "rationale": "Explicit adult ADHD and control imaging cohorts.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/24345721",
+      "group_counts": [
+        119,
+        107
+      ]
+    },
+    {
+      "pmid": "25416463",
+      "source_sha256": "b658a07185f137bed0e8e9156657f1ddf05b5eb26a119c3b998675aa18021ccf",
+      "decision": "include",
+      "quotes": [
+        "OBJECTIVE: This study examined whether exposure to maternal smoking during pregnancy in children with and without ADHD is associated with smoking in offspring and whether this association is selective to ADHD children.",
+        "METHOD: Ninety-six exposed and 400 unexposed participants were derived from two longitudinal studies of boys and girls with and without ADHD."
+      ],
+      "rationale": "Exposure groups include assessed ADHD and non-ADHD offspring beyond the perinatal period.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/25416463",
+      "group_counts": [
+        96,
+        400
+      ]
+    },
+    {
+      "pmid": "22415149",
+      "source_sha256": "6b385f0e63a4d298f14a91c3ed09636a8a6a4ab3c612d0f081f31228b81e4483",
+      "decision": "include",
+      "quotes": [
+        "METHOD: From the Taiwan National Health Insurance Dataset (1997-2007), we collected 2,385 cases of new diagnoses of ADHD from 1999 to 2003 and 9,540 sex-, age- and index dates of the first diagnosis of ADHD-matched cohort controls without ADHD."
+      ],
+      "rationale": "National registry contains distinct ADHD and matched comparison cohorts.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/22415149",
+      "group_counts": [
+        2385,
+        9540
+      ]
+    },
+    {
+      "pmid": "24787306",
+      "source_sha256": "5bbfbb2bef6351510ad9c5c0c059491038b68188986ea8574324ee221f07422a",
+      "decision": "include",
+      "quotes": [
+        "A total of 116 patients answered questionnaires regarding health-related quality of life (EQ-5D-3L), physical activity [International Physical Activity Questionnaire (IPAQ)], and hyperactive/inattentive behavior pattern [ADHD self-reporting symptom checklist (ASRS v1.1)] by interview."
+      ],
+      "rationale": "Explicit ADHD symptom checklist is part of the 116-person analysis.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/24787306",
+      "group_counts": [
+        116
+      ]
+    },
+    {
+      "pmid": "21036536",
+      "source_sha256": "83b1fe2f3d833429c1ea2bcfb997cd13e899cc0a4a9b845b48fbb0e465921a19",
+      "decision": "include",
+      "quotes": [
+        "Fifty-four children with DD (37 boys, 17 girls; mean age: 66 months) and 54 age-matched typically developing children (34 boys, 20 girls; mean age: 65 months) were recruited from the mainstream preschools with integrated program units.",
+        "Multiple regression analysis revealed that deficits in social and motor skills, and in inattention/hyperactivity, were significantly associated with activity and participation in children with DD, accounting for approximately 35-37% of the variance in the VABS and SFA scores ( p<0.001).",
+        "In conclusion, deficits in social and motor functioning, and attention-deficit hyperactivity disorder-related symptoms, are important determinants of activity and participation in preschoolers with DD."
+      ],
+      "rationale": "Two separate preschool cohorts. The study analyzes ADHD-related inattention and hyperactivity as predictors.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/21036536",
+      "group_counts": [
+        54,
+        54
+      ]
+    },
+    {
+      "pmid": "25319752",
+      "source_sha256": "3f8667ea4260a32aa9eecc7bbaf1952e83142a00db88186a01a88bf1a46537bc",
+      "decision": "exclude",
+      "quotes": [
+        "The present study aims to identify such oppositional COMT Val158Met effects in adolescents and adults in prefrontal brain networks at rest.",
+        "Resting state functional connectivity data were collected from cross-sectional and multicenter study sites involving 106 healthy young adults (mean age 24 ± 2.6 years), gender matched to 106 randomly chosen 14-year-olds."
+      ],
+      "rationale": "Healthy cohorts with no ADHD endpoint, diagnosis, or ADHD-specific comparator.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/25319752"
+    },
+    {
+      "pmid": "21432618",
+      "source_sha256": "0a6184a2a0b19565f9ca92b4df796f0890915f2bae90dfab3e484113603dd645",
+      "decision": "include",
+      "quotes": [
+        "To examine olfactory and gustatory functions in adult ADHD patients, we assessed odor sensitivity by Sniffin' Sticks, taste sensitivity by taste strips, and bitter sensitivity by the one-solution test in women with ADHD (n = 12), Bulimia Nervosa (n = 12), and healthy control women (n = 12)."
+      ],
+      "rationale": "Three separate adult female cohorts include an ADHD cohort.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/21432618",
+      "group_counts": [
+        12,
+        12,
+        12
+      ]
+    },
+    {
+      "pmid": "26578326",
+      "source_sha256": "cdff55afed0ce1844b63358467faf1d185d7006b18d13b912c0cc99daab5ac48",
+      "decision": "include",
+      "quotes": [
+        "This article is a qualitative process evaluation of a pragmatic cluster randomised controlled trial (Trial registration: ISRCTN87634685; reported elsewhere) to assess the feasibility and acceptability of a school-based parenting intervention programme for parents and teachers of children with high levels of ADHD symptoms.",
+        "METHODS: Parents (n = 22) and teaching staff (n = 29) took part in semi-structured group or individual interviews, either by telephone or face-to-face, following the main trial."
+      ],
+      "rationale": "Interview participants are parents or teachers; original qualitative research about a specific ADHD intervention.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/26578326",
+      "group_counts": [
+        22,
+        29
+      ]
+    },
+    {
+      "pmid": "25751000",
+      "source_sha256": "c4b001c21953314c5a9cdc64a4cc77481643a4f6e26a521db5ef69e9908bb771",
+      "decision": "include",
+      "quotes": [
+        "One hundred thirty-four youth (ages 7-14, 61.9% male, 83.6% White) who fulfilled Diagnostic and Statistical Manual of Mental Disorders (4th ed.) criteria for ODD were randomized to CPS, PMT, or WLC groups.",
+        "Chronological age, gender, and socioeconomic status as well as the presence of comorbid attention deficit/hyperactivity and anxiety disorders were examined as predictors of treatment outcome."
+      ],
+      "rationale": "Comorbid ADHD is explicitly tested as a predictor of treatment outcome.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/25751000",
+      "group_counts": [
+        134
+      ]
+    },
+    {
+      "pmid": "27414399",
+      "source_sha256": "6bfc53b16f0863545cad05dba00571b534ea9555e19598eea44fd8afebf85bf6",
+      "decision": "include",
+      "quotes": [
+        "METHODS: Participants were 4,478 children (mean age 10.2 ± 0.3 years old) and their parents from the Tokyo Early Adolescence Survey (T-EAS), a population-representative cross-sectional study conducted in Tokyo, Japan conducted from 2012 to 2015."
+      ],
+      "rationale": "Children are index participants in a hyperactivity and inattention outcomes study.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/27414399",
+      "group_counts": [
+        4478
+      ]
+    },
+    {
+      "pmid": "29762636",
+      "source_sha256": "866c2ab790dc8e5587bbb02e49566fb59bdb5905f354a8ad08ee6bf11d835262",
+      "decision": "include",
+      "quotes": [
+        "We examined the association of maternal experience of childhood abuse with ADHD in offspring, assessed by maternal report of diagnosis and validated with the ADHD Rating Scale-IV in a subsample, in the Nurses' Health Study II (n = 49,497 mothers; n = 7,607 case offspring; n = 102,151 control offspring)."
+      ],
+      "rationale": "Study compares ADHD case offspring and control offspring; mothers are informants and exposure source.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/29762636",
+      "group_counts": [
+        7607,
+        102151
+      ]
+    },
+    {
+      "pmid": "31166249",
+      "source_sha256": "9bb3f36341807c5a32f4e9b5249a26b484dec9d773c5f4c9d6dd23a82b1a2fbe",
+      "decision": "include",
+      "quotes": [
+        "METHOD: Our study is based on the Child-Sleep birth cohort initially comprising 1673 families, of which 713 were retained at the age of 5 years.",
+        "Symptoms of inattention and hyperactivity at the age of 5 years were assessed using the Strengths and Difficulties Questionnaire and the Five-to-Fifteen questionnaire."
+      ],
+      "rationale": "ADHD symptom domains assessed at age five among retained child participants; 1,673 is original cohort.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/31166249",
+      "group_counts": [
+        713
+      ]
+    },
+    {
+      "pmid": "33159002",
+      "source_sha256": "93d4e0d0654c77be49302584d17f5f8504b87ae76bc5974c64e5e177e3e48f42",
+      "decision": "include",
+      "quotes": [
+        "In this study, we aimed to examine whether response to the Cogmed Working Memory Training program differed for children with low IQ and elevated attention-deficit/hyperactivity disorder, emotional and behavioral symptoms, special health care needs, or by sex.",
+        "METHODS: We used data from the Memory Maestros trial, a population-based randomized controlled trial of the Cogmed program delivered at school (n = 226) compared to usual teaching (n = 226) in grade 1 children (mean age 6.9 years; SD 0.4) with low working memory."
+      ],
+      "rationale": "ADHD symptoms are explicitly evaluated as a moderator in disjoint randomized study arms.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/33159002",
+      "group_counts": [
+        226,
+        226
+      ]
+    },
+    {
+      "pmid": "15769563",
+      "source_sha256": "195e182dfb85804f5ae8175b747188bd8946994ff1fab506cbe759e4c72ad5bf",
+      "decision": "include",
+      "quotes": [
+        "BACKGROUND: The objective of the study was to examine in both genders the link between childhood hyperactivity-inattention symptoms (HI-s) and smoking in adolescence, controlling for psychopathology, temperament and environmental risk factors.",
+        "METHODS: Subjects (421 males, 495 females), aged 7 to 18, were recruited in the GAZEL cohort representative of the general population and surveyed in 1991 and 1999."
+      ],
+      "rationale": "Explicit ADHD-related symptom predictor in a cohort with sex counts.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/15769563",
+      "group_counts": [
+        421,
+        495
+      ]
+    },
+    {
+      "pmid": "28095819",
+      "source_sha256": "486c00fd24781214dc7194b0fa9220e8cedc5a005fb1e40c980e9fe8f224b863",
+      "decision": "include",
+      "quotes": [
+        "METHODS: The study population was children born between January 1, 2000 and December 31, 2008 registered with hyperkinetic disorders (hereafter ADHD) in the Norwegian Patient Registry during the years 2008-2013, and two groups of children with ADHD were identified in: 1.",
+        "RESULTS: A total of 11 119 children were registered with ADHD, with significantly fewer in MoBa (1.45%) than the general child population (2.11%), p < 0.0001."
+      ],
+      "rationale": "Registry comparison of ADHD child cohorts with the combined ADHD sample stated.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/28095819",
+      "group_counts": [
+        11119
+      ]
+    },
+    {
+      "pmid": "31020392",
+      "source_sha256": "be14f247a1e87dd14852fa44278831c9381845cec57e2aff3fa91bb9c307a0cb",
+      "decision": "include",
+      "quotes": [
+        "144 participants were recruited to the cohort, 83 offered treatment, 72 accepted, and 50 attended 1+ appointments."
+      ],
+      "rationale": "Specific ADHD trial feasibility study with explicit recruited cohort size.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/31020392",
+      "group_counts": [
+        144
+      ]
+    },
+    {
+      "pmid": "39592970",
+      "source_sha256": "d2c78746d8e3a0eaba9a7c9e8af1c490c2ea23f791b0da4c0ad7808c98dd1dc0",
+      "decision": "include",
+      "quotes": [
+        "METHODS: The study included a cohort of 33 children diagnosed with ADHD and 29 control subjects, all aged between 5 and 12 years."
+      ],
+      "rationale": "Separate ADHD and control child cohorts.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/39592970",
+      "group_counts": [
+        33,
+        29
+      ]
+    },
+    {
+      "pmid": "35430145",
+      "source_sha256": "80bed442608beac3d1f450b9a3ec91e1e0e539a5423c2f2b46985a95b1ebcaf8",
+      "decision": "include",
+      "quotes": [
+        "We compared prevalences of crash responsibility, driver actions, and crash types among adolescent and young adult drivers with and without ADHD who crashed within 48 months of licensure.",
+        "RESULTS: We identified 934 drivers with ADHD in 1,308 crashes and 5,158 drivers without ADHD in 6,676 crashes."
+      ],
+      "rationale": "Analyzed ADHD and non-ADHD drivers; use unique drivers, not crashes.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/35430145",
+      "group_counts": [
+        934,
+        5158
+      ]
+    },
+    {
+      "pmid": "35862087",
+      "source_sha256": "93c6fd021d9ae6a7b07790ee35f242384d0d501ff933e748cb7c42e84697ea6a",
+      "decision": "include",
+      "quotes": [
+        "METHOD: Participants included 236 adolescents (130 males; Mage = 16.74 years in spring 2020; 49.6% diagnosed with attention-deficit hyperactivity disorder; 16.1% diagnosed with an anxiety or depressive disorder) in the United States who completed online questionnaires at four timepoints (spring 2020, summer 2020, fall 2020, spring 2021)."
+      ],
+      "rationale": "The full article separately tested ADHD diagnostic status across trauma trajectories in 236 adolescents.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/35862087",
+      "article_evidence": {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12376415/",
+        "quotes": [
+          "ADHD diagnostic status did not significantly differ across the four identified psychological trauma groups"
+        ]
+      },
+      "group_counts": [
+        236
+      ]
+    },
+    {
+      "pmid": "39407332",
+      "source_sha256": "6308bd5d28b171b936568927a85c0cbb198b3d790b34f52411deb72c778b55f3",
+      "decision": "include",
+      "quotes": [
+        "This prospective cohort study examines the cognitive, behavioural, ADHD trait and autism symptom development in infant and pre-school children with NF1 compared with typically developing (TD) children without a family history of neurodevelopmental conditions.",
+        "METHODS: Data from standardised tests was gathered at 5, 10, 14, 24 and 36 months of age (NF1 n = 35, TD n = 29)."
+      ],
+      "rationale": "ADHD traits measured in separate groups beyond the neonatal period.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/39407332",
+      "group_counts": [
+        35,
+        29
+      ]
+    },
+    {
+      "pmid": "38997333",
+      "source_sha256": "e82af060bfb7045dc7bc56a9e1a58438803f2b16dae7d81808005621faf951b7",
+      "decision": "include",
+      "quotes": [
+        "We conduct whole-exome DNA sequencing in 152 families, comprising a child with ADHD and both biological parents, and demonstrate a significant enrichment of rare and ultra-rare de novo gene-damaging mutations in ADHD cases compared to unaffected controls.",
+        "Combining these results with a large independent case-control DNA sequencing cohort (3206 ADHD cases and 5002 controls), we identify lysine demethylase 5B (KDM5B) as a high-confidence risk gene for ADHD and estimate that 1057 genes contribute to ADHD risk."
+      ],
+      "rationale": "An independent cohort contains at least 3,206 ADHD cases; the complete unique count across all analyses is less clear.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/38997333",
+      "minimum_sample": 3206
+    },
+    {
+      "pmid": "34352291",
+      "source_sha256": "ef92eccc62065f4417ac74d26c6d725d573c9808103984b7a6f435c3d615b0ca",
+      "decision": "include",
+      "quotes": [
+        "We conducted a case-control study with 150 ADHD children and 322 controls."
+      ],
+      "rationale": "Explicit distinct ADHD and control samples in case-control analysis.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/34352291",
+      "group_counts": [
+        150,
+        322
+      ]
+    },
+    {
+      "pmid": "39200638",
+      "source_sha256": "c8d255192b37acb592b1df25f6460c1790ccba44cdd155e36858339cd622d5e8",
+      "decision": "include",
+      "quotes": [
+        "We recruited 61 Lebanese ADHD patients and 58 matched controls aged 6-24 years from all districts of Lebanon."
+      ],
+      "rationale": "ADHD subject and matched control enrollment counts.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/39200638",
+      "group_counts": [
+        61,
+        58
+      ]
+    },
+    {
+      "pmid": "32996464",
+      "source_sha256": "b5f51f5230aa06daa6bd2386200d9d229c7c02bdeca57c3886066bdeb6fd8144",
+      "decision": "include",
+      "quotes": [
+        "We used a convenience sampling method to recruit an individual with adult attention-deficit hyperactivity disorder (n = 68) and a control group (n = 68)."
+      ],
+      "rationale": "ADHD and control groups in scale validation.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/32996464",
+      "group_counts": [
+        68,
+        68
+      ]
+    },
+    {
+      "pmid": "38033150",
+      "source_sha256": "835c4d2e34a72acd7697bb2bd7ee36fbf07b9306a5ac09fbe7370cf97768809b",
+      "decision": "include",
+      "quotes": [
+        "TRIAL DESIGN AND METHODS: We conducted a remote double blind randomised controlled trial (RCT) using TRP loading to examine the effects of a balanced amino acid load in comparison to low and high TRP loading in individuals with ADHD (medicated, N = 48, and unmedicated, N = 46) and controls (N = 50)."
+      ],
+      "rationale": "Distinct medicated ADHD, unmedicated ADHD and control groups.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/38033150",
+      "group_counts": [
+        48,
+        46,
+        50
+      ]
+    },
+    {
+      "pmid": "23681164",
+      "source_sha256": "b603380d48797c0d17093df226119b0d8d011b7bab20470e433aaa885ddf5e91",
+      "decision": "include",
+      "quotes": [
+        "Psychotropic drugs were prescribed to 29 % (1,619/5,651) of the ASD cohort; the most prescribed drugs were sleep medication (9.7 % of prescribed patients), psychostimulants (7.9 %) and antipsychotics (7.3 %).",
+        "Thirty-seven per cent of the cohort had ≥ 1 record of a neuropsychiatric co-morbidity, the most common being developmental difficulties and learning disabilities (12.6 %), behavioural, conduct and personality disorders (11.1 %) and attention deficit hyperactivity disorder (7.5 %)."
+      ],
+      "rationale": "ADHD is explicitly measured as a named diagnosed comorbidity in the analyzed ASD cohort.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/23681164",
+      "group_counts": [
+        5651
+      ]
+    },
+    {
+      "pmid": "21940437",
+      "source_sha256": "298b0180a050cda0de15ec223d2c70168f27da32777b36a3f4585462a5ea1ebe",
+      "decision": "exclude",
+      "quotes": [
+        "Traumatic brain injury (TBI) frequently produces impairments of attention in humans."
+      ],
+      "rationale": "Study uses traumatic brain injury and sustained attention; no explicit ADHD cohort or outcome.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/21940437"
+    },
+    {
+      "pmid": "24362766",
+      "source_sha256": "b6a165bb46c74ebcff592234f12a19dc59c4d41564b705b397f583e8a36e7a2c",
+      "decision": "include",
+      "quotes": [
+        "The current study evaluated functional sports outcomes for children with ADHD who attended an intensive behavioral treatment program that included a sports training component, and it compared outcomes to children with ADHD who did not attend the program."
+      ],
+      "rationale": "The published treatment analysis enrolled 98 children diagnosed with ADHD.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/24362766",
+      "article_evidence": {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4399495/",
+        "quotes": [
+          "Participants were 98 children diagnosed with ADHD"
+        ]
+      },
+      "group_counts": [
+        98
+      ]
+    },
+    {
+      "pmid": "26683601",
+      "source_sha256": "81b98e0a4cc128f837d0c30796574808c859e3905e5cf21be4cdab305bde3a65",
+      "decision": "exclude",
+      "quotes": [
+        "One should note that despite a high interest in the possibility of predicting the future development of the child in the early ontogenesis, few studies have so far been devoted to the search for indicators that could be meaningful for neuropsychology, neurology, and educational, special, and clinical psychology."
+      ],
+      "rationale": "The indexed publication discusses the need for predictive neurobehavioral indicators without reporting original participant data or a separate ADHD analysis.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/26683601"
+    },
+    {
+      "pmid": "28262151",
+      "source_sha256": "528c278921c00aa2a66f831ab91d48025ae216de3cd9c600399a4a5d1ca7db91",
+      "decision": "include",
+      "quotes": [
+        "Children's sustained attention correlates better with teachers than parents: Using Swanson, Nolan, and Pelham, version IV scale and continuous performance test."
+      ],
+      "rationale": "The full research letter reports original data from 43 enrolled children, of whom 29 were diagnosed with ADHD.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/28262151",
+      "article_evidence": {
+        "url": "https://www.academia.edu/104401617/Children_s_sustained_attention_correlates_better_with_teachers_than_parents_Using_Swanson_Nolan_and_Pelham_version_IV_scale_and_continuous_performance_test",
+        "quotes": [
+          "43 patients (36 boys and seven girls) enrolled"
+        ]
+      },
+      "group_counts": [
+        43
+      ]
+    },
+    {
+      "pmid": "34705697",
+      "source_sha256": "e17287820c8486f3ac9e9ad673a98980ea204efeed4933691cd0e227f2b55c80",
+      "decision": "include",
+      "quotes": [
+        "A Multi-Institutional Approach to Assess the Mental Health of Medical Students."
+      ],
+      "rationale": "The published Academic Medicine supplement reports an ADHD-risk result from its four-school survey of 1,819 medical students. The paper presents original survey data.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/34705697",
+      "article_evidence": {
+        "url": "https://academic.oup.com/academicmedicine/article/96/Supplement_2/S196/8383066",
+        "quotes": [
+          "a total of 1,819 medical students completed the KMHS",
+          "hyperactivity disorder (20.51% at-risk)"
+        ]
+      },
+      "group_counts": [
+        1819
+      ]
+    },
+    {
+      "pmid": "10840176",
+      "source_sha256": "637fb6e1b9c48017751d1c88c5e006b54626e5fc4898771929db25dd7bee346e",
+      "decision": "include",
+      "quotes": [
+        "The assessments of child behavior problems included the Child Behavior Checklist (CBCL), Teacher's Report Form (TRF), and the Swanson, Noland, and Pelham (SNAP) checklist.",
+        "Prenatal marijuana use was significantly related to increased hyperactivity, impulsivity, and inattention symptoms as measured by the SNAP, increased delinquency as measured by the CBCL, and increased delinquency and externalizing problems as measured by the TRF."
+      ],
+      "rationale": "This study separately uses the SNAP to analyze ADHD symptoms at age 10. The state evidence review records 635 parent reports in the study's 10-year cohort.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/10840176",
+      "article_evidence": {
+        "url": "https://oehha.ca.gov/sites/default/files/media/downloads/crnr/cannabisdarthid100419.pdf",
+        "quotes": [
+          "Final cohort for 10-yr follow up study",
+          "n = 635 mother’s reports"
+        ]
+      },
+      "minimum_sample": 635
+    },
+    {
+      "pmid": "14642015",
+      "source_sha256": "ef8e576343d397dcf7c9a482ef572204d783fd80f81734352a75a38ef0163d8e",
+      "decision": "exclude",
+      "quotes": [
+        "Children, ages 7-12 years, with developmental reading disorders but no other psychiatric diagnoses were randomly assigned to methylphenidate treatment (n = 43) or matching placebo (n = 66) for 12-18 weeks."
+      ],
+      "rationale": "Children had reading disorders without other psychiatric diagnoses; stimulant exposure is not an ADHD-specific analysis.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/14642015"
+    },
+    {
+      "pmid": "11386988",
+      "source_sha256": "8376bcfdfc7dff91f4b9a9a0df311fdea9f699722150bb84ea71e3b809a96402",
+      "decision": "include",
+      "quotes": [
+        "METHODS: Relatives of COS probands (n = 148) were compared with relatives of attention-deficit/hyperactivity disorder (ADHD) (n = 368) and community control (n = 206) probands.",
+        "RESULTS: There was an increased lifetime morbid risk for schizophrenia (4.95% +/- 2.16%) and schizotypal personality disorder (4.20% +/- 2.06%) in the parents of COS probands compared with parents of ADHD (0.45% +/- 0.45%, 0.91% +/- 0.63%) and community control (0%) probands."
+      ],
+      "rationale": "Relatives of ADHD probands are an explicit analyzed comparison group.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/11386988",
+      "group_counts": [
+        148,
+        368,
+        206
+      ]
+    },
+    {
+      "pmid": "14582636",
+      "source_sha256": "95e1a08b274fd3df6b6a92c7dab55c72f5ef9a48f1c984148c9e5d0ef2d7a574",
+      "decision": "exclude",
+      "quotes": [
+        "Owing to the comorbidity associated with disorders such as an attention-deficit hyperactivity disorder, pathological results in subjective tests often show extra-auditory factors such as reduced attention rather than impaired central auditory function.",
+        "BIC measurements were performed on 17 children at risk for CAPD and in a group of 25 children with normal results in the central audiometric tests used."
+      ],
+      "rationale": "ADHD is background about possible comorbidity; the tested groups are defined by auditory-processing risk and audiometry.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/14582636"
+    },
+    {
+      "pmid": "18178597",
+      "source_sha256": "c5d54482249cf72038ce82e0f10a959fd2672426a64235c715e875016c5fedcf",
+      "decision": "include",
+      "quotes": [
+        "Children with autism were compared to children with other ASDs - Asperger's disorder, Rett's disorder, and PDD-NOS.",
+        "Children with ASDs other than autism were also significantly more likely to be diagnosed with attention deficit hyperactivity disorder, oppositional defiant disorder, depressive disorders, and bipolar disorder."
+      ],
+      "rationale": "The paper compares ADHD comorbidity across its two autism-spectrum groups. Their shared cohort is documented in the article's first table.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/18178597",
+      "article_evidence": {
+        "url": "https://www.researchgate.net/publication/5670944_Characteristics_of_children_with_autism_spectrum_disorders_who_received_services_through_community_mental_health_centers",
+        "quotes": [
+          "Child and family characteristics (n = 586)"
+        ]
+      },
+      "group_counts": [
+        586
+      ]
+    },
+    {
+      "pmid": "15520832",
+      "source_sha256": "2aea8395ee9be9e34fa5a7df47ff94c4fc377a2578fa986535a9ae5535135e55",
+      "decision": "include",
+      "quotes": [
+        "Transmission disequilibrium tests (TDTs) in a sample of 177 nuclear families showed significant association and linkage of the DraI polymorphism with the ADHD combined subtype (P=0.03), and the quantitative TDT showed association of this polymorphism with the inattentive (P=0.003) and hyperactive-impulsive (P=0.015) symptom dimensions."
+      ],
+      "rationale": "The ADHD genetics analysis includes 177 separate nuclear families, establishing a minimum of 177 distinct people across the families.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/15520832",
+      "minimum_sample": 177
+    },
+    {
+      "pmid": "16510242",
+      "source_sha256": "39e12932e5807401da5a8886915b0a47320e5c3f3120ade55247323d9aeedd94",
+      "decision": "exclude",
+      "quotes": [
+        "This study used resting-state LFFs to investigate the resting-state functional connectivity pattern differences of dACC in adolescents with and without ADHD."
+      ],
+      "rationale": "The published imaging study included 24 participants in total, below the eligibility threshold.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/16510242",
+      "article_evidence": {
+        "url": "https://nlpr.ia.ac.cn/2006papers/gjkw/gk17.pdf",
+        "quotes": [
+          "All the 24 subjects"
+        ]
+      }
+    },
+    {
+      "pmid": "16815520",
+      "source_sha256": "e8a4fbc3f445a3dbe09e5365fadd32594db853b3f4f92f265cbd936771960e5d",
+      "decision": "include",
+      "quotes": [
+        "BACKGROUND: The rigorous test to which homeopathy was subject in our recent double-blind clinical trail of homeopathic treatment of attention deficit hyperactivity disorder (ADHD) necessitated optimized treatment meeting the highest standards.",
+        "METHODS: Optimization was performed in three steps: (1) In successfully treated children, prescriptions leading to an insufficient response were analysed by a general questionnaire to identify unreliable symptoms. (2) Polarity analysis, a further development of Bönninghausen's concept of contraindications, was introduced in response to the frequently one-sided symptoms."
+      ],
+      "rationale": "At least 100 ADHD patients were included in the first empirical treatment component. The source gives several overlapping component counts.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/16815520",
+      "article_evidence": {
+        "url": "https://static1.squarespace.com/static/520f6c38e4b01b013b22f419/t/52bf21c2e4b0f4346e926c51/1388257730172/TreatmentHyperactiveChildrenHOM.pdf",
+        "quotes": [
+          "100 patients had achieved a substantial improvement of their symptoms"
+        ]
+      },
+      "minimum_sample": 100
+    },
+    {
+      "pmid": "17679691",
+      "source_sha256": "180c086ab8ccd2857b03d16a948ec821250c55f11cfc2926c3c300b97a610320",
+      "decision": "exclude",
+      "quotes": [
+        "Delay/disruption in the developmental processes of segregation and integration may play a role in disorders of control, such as autism, attention deficit hyperactivity disorder, and Tourette's syndrome."
+      ],
+      "rationale": "ADHD is cited as a potential implication rather than an analyzed diagnosis or outcome.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/17679691"
+    },
+    {
+      "pmid": "19794135",
+      "source_sha256": "e0f204d0688bb31c88bee83642d2533f668c92ebedad36eed75c924e88ac0fc0",
+      "decision": "include",
+      "quotes": [
+        "OBJECTIVE: Validation of the Adult ADHD Investigator Symptom Rating Scale (AISRS) that measures aspects of ADHD in adults.",
+        "METHOD: Psychometric properties of the AISRS total and AISRS subscales are analyzed and compared to the Conners' Adult Attention-Deficit/Hyperactivity Disorder Rating Scale-Investigator Rated: Screening Version (CAARS-Inv:SV) and the Clinical Global Impression-ADHD-Severity Scale using data from a placebo-controlled 6-month clinical trial of once-daily atomoxetine."
+      ],
+      "rationale": "Original ADHD rating-scale validation with data from a named randomized trial. A methodology review identifies 250 patients in the active arm represented in the validation. Exact post hoc denominator remains unconfirmed.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/19794135",
+      "article_evidence": {
+        "url": "https://digitalcommons.pepperdine.edu/cgi/viewcontent.cgi?article=1250&context=etd",
+        "quotes": [
+          "n= 250 receiving atomoxetine"
+        ]
+      },
+      "minimum_sample": 250
+    },
+    {
+      "pmid": "18387612",
+      "source_sha256": "2e5a9051250c609f5279291e0e48cf85f3255fa6d1e48ef74b1ce97dbde80558",
+      "decision": "exclude",
+      "quotes": [
+        "OBJECTIVE: To determine the perinatal risk factors of long-term neurologic impairment for preterm infants.",
+        "Cerebral palsy was associated with early neurologic signs, perinatal asphyxia, neonatal septicemia, abnormal brain ultrasound findings, prolonged interval between rupture of membranes and delivery, and multiple placental lesions.",
+        "Children with minimal cerebral dysfunction were more frequently first born."
+      ],
+      "rationale": "The paper investigates cerebral palsy and broad neurologic impairment after preterm birth without a separate ADHD cohort or outcome.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/18387612"
+    },
+    {
+      "pmid": "18041610",
+      "source_sha256": "6b4ac4e48087c3836fcf5a503bf479a18285fab216cf9ab049785ad6f29ff73f",
+      "decision": "include",
+      "quotes": [
+        "Sixteen ADHD children and a control group were asked to reproduce the varying time duration of successively presented visual stimuli."
+      ],
+      "rationale": "The full paper confirms 16 boys with ADHD and 16 distinct healthy controls matched by age, handedness, sex and education.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/18041610",
+      "article_evidence": {
+        "url": "https://www.researchgate.net/publication/5805484_TIME_REPRODUCTION_DISTURBANCES_IN_ADHD_CHILDREN_AN_ERP_STUDY",
+        "quotes": [
+          "Sixteen male children aged from 7.5 to 10.5 years",
+          "The ADHD group was matched to 16 healthy subjects"
+        ]
+      },
+      "group_counts": [
+        16,
+        16
+      ]
+    },
+    {
+      "pmid": "21669891",
+      "source_sha256": "a5c010a4a69d9ca1169c86645be7e248712687dd8446697888ff4ea69eaa7eeb",
+      "decision": "include",
+      "quotes": [
+        "METHODS: A randomized medication trial was conducted that included 24 pediatric practices.",
+        "Children who met criteria for ADHD were randomly assigned by practice to treatment-as-usual or a specialized care group in which physicians received 2 hours of didactic training on medication management of ADHD plus training on a software program to assist in monitoring improvement."
+      ],
+      "rationale": "The treatment phase included 270 children from consenting families. The screening pool was larger.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/21669891",
+      "article_evidence": {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3124100/",
+        "quotes": [
+          "270 families who consented to participation in the treatment phase",
+          "208 boys (77.0%) and 62 girls (23.0%)"
+        ]
+      },
+      "group_counts": [
+        270
+      ]
+    },
+    {
+      "pmid": "24666128",
+      "source_sha256": "27b536bb3a9f8413d1ca068e7b036b7f59ff73256ff7aaf1794911fb26a4b2e6",
+      "decision": "exclude",
+      "quotes": [
+        "We tested the hypothesis that time-on-task and external distraction pose independent challenges to attention and that the brain's cholinergic system selectively modulates our ability to resist distraction.",
+        "Participants with a polymorphism limiting cholinergic capacity (Ile89Val variant [rs1013940] of the choline transporter gene SLC5A7) and matched controls completed self-report measures of attention and a laboratory task that measured decrements in sustained attention with and without distraction."
+      ],
+      "rationale": "The study tests distractibility by genotype, without an ADHD cohort or an ADHD-specific assessment.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/24666128"
+    },
+    {
+      "pmid": "21961776",
+      "source_sha256": "e5c3a0d4150935f0dff7c272368843c16e193305364eb021419b769938cee94a",
+      "decision": "include",
+      "quotes": [
+        "METHOD: A total of 30 adolescents hospitalized for their first manic/mixed episode associated with bipolar disorder, 29 adolescents with ADHD, and 24 demographically matched healthy teens underwent magnetic resonance imaging scanning at index assessment and approximately 12 months later.",
+        "Specifically, left amygdala volumes increased over time in healthy adolescents (p = .008) and adolescents with ADHD (p = .0009), but not in adolescents with bipolar disorder (p = .3)."
+      ],
+      "rationale": "ADHD comparison group is independently analyzed across repeat MRI timepoints.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/21961776",
+      "group_counts": [
+        30,
+        29,
+        24
+      ]
+    },
+    {
+      "pmid": "22596014",
+      "source_sha256": "8c7b6790f5eee20d89b59601322c39baf528a16d87a55ffe5929ed51b2e0da30",
+      "decision": "include",
+      "quotes": [
+        "Children (6-12 years) with attention-deficit hyperactivity disorder (ADHD) being treated with methylphenidate and standard behavior therapy for more than 6 months, whose parents reported no improvement in behavior and academic learning, were randomly assigned to receive supplementation with a combined ω3 and ω6 preparation or a placebo."
+      ],
+      "rationale": "The Cochrane review cross-references this exact trial and records 94 randomized children: 48 intervention and 46 placebo.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/22596014",
+      "article_evidence": {
+        "url": "https://doi.org/10.1002/14651858.CD007986.pub3",
+        "quotes": [
+          "Number of participants: 94",
+          "Intervention (48 participants)",
+          "Control (46 participants)"
+        ]
+      },
+      "group_counts": [
+        94
+      ]
+    },
+    {
+      "pmid": "20623519",
+      "source_sha256": "ad6d7c83d58190d53d16e4a63d5168fac4c17292a277aabe18ffedb5f4cb53bb",
+      "decision": "exclude",
+      "quotes": [
+        "PURPOSE: To describe the design and rationale of an investigator-initiated observational study to examine the cardiovascular safety of the following commonly-used medications to treat attention deficit hyperactivity disorder (ADHD): amphetamines, methylphenidate, and atomoxetine.",
+        "Based on our pilot data, we expect to have at least 90% power to detect a minimum detectable hazard ratio (HR) of 3.0 in children and adolescents who initiate an ADHD medication for each outcome of interest (except for MI, for which the expected minimum detectable HR is 7.9)."
+      ],
+      "rationale": "Design and power calculations establish this as a protocol, without main study results.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/20623519"
+    },
+    {
+      "pmid": "20484709",
+      "source_sha256": "1c4dd9935bc5ee69a120f600b4f934bc9a0355df90f9ab399a4dc511c601f9e5",
+      "decision": "include",
+      "quotes": [
+        "OBJECTIVE: To investigate the possible association between untreated ADHD symptoms (as measured by the Adult ADHD Self-Report Scale) and persistent nonmedical use of prescription stimulants.",
+        "METHOD: Multinomial regression modeling was used to compare ADHD symptoms among three groups of college students enrolled in a longitudinal study over 4 years: (1) persistent nonmedical users of prescription stimulants, (2) persistent users of marijuana who did not use prescription stimulants nonmedically, and (3) consistent nonusers of drugs."
+      ],
+      "rationale": "Three disjoint groups of college students in the selected analytic sample. The study directly compares validated ADHD symptom scores.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/20484709",
+      "article_evidence": {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2939927/",
+        "quotes": [
+          "470 individuals were finally selected"
+        ]
+      },
+      "group_counts": [
+        470
+      ]
+    },
+    {
+      "pmid": "24405904",
+      "source_sha256": "f4b1a4ef8ed5d31f0220197228f01a1795014ec3f53f6b28052086438cda2eea",
+      "decision": "exclude",
+      "quotes": [
+        "OBJECTIVE: Although HIV is associated with decreased emotional and cognitive functioning, the mechanisms through which affective changes can alter cognitive processes in HIV-infected individuals are unknown."
+      ],
+      "rationale": "HIV-related neurophysiology study has no ADHD-specific cohort or outcome.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/24405904"
+    },
+    {
+      "pmid": "30796648",
+      "source_sha256": "4344fd56c446023465957f2f2dcf730860d0f1a5c6cf987c3123429456d5ef48",
+      "decision": "include",
+      "quotes": [
+        "The purpose of the study was to estimate the burden to families of raising a child with attention-deficit/hyperactivity disorder (ADHD).",
+        "When participants were between 14 and 17 years old, parents completed a questionnaire assessing economic burden over the course of raising their children."
+      ],
+      "rationale": "Parent respondents reported on 56 ADHD and 30 comparison children in this secondary analysis.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/30796648",
+      "article_evidence": {
+        "url": "https://wepelham3.github.io/papers/pdfs/zhao_et_al-2019-jacp.pdf",
+        "quotes": [
+          "56 parents in the ADHD group and 30 parents in the control group"
+        ]
+      },
+      "group_counts": [
+        56,
+        30
+      ]
+    },
+    {
+      "pmid": "26088967",
+      "source_sha256": "2c85f0c450732d9d7c5575c68973ff76e7da52355e667a6f0ca242b029faee72",
+      "decision": "exclude",
+      "quotes": [
+        "We investigated the relation of extent of in utero alcohol exposure to cortical thickness in 78 preadolescent children with FASD and controls within a narrow age range."
+      ],
+      "rationale": "Cortical thickness study groups are defined by fetal alcohol exposure, not ADHD.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/26088967"
+    },
+    {
+      "pmid": "28012420",
+      "source_sha256": "f91dbd4aa5fc09f120a888e3c6486e1770f16f72071b00edc52d7185b5278fd9",
+      "decision": "include",
+      "quotes": [
+        "In this study, parent-reported social skills and problem behaviors among students with typical development (n=79) were compared with those of age- and gender-matched students with a known developmental disability (n=79) using the SSIS-RS-C.",
+        "Furthermore, the normative sample of typically developing children and adolescents (aged 5-12 and 13-18 years, n=567) from Hong Kong was established to improve the psychometric properties of the SSIS-RS-C."
+      ],
+      "rationale": "The paper separately compares ADHD with typical development. The 79 matched typical children come from the 567-child typical cohort. The 79 children with developmental disabilities are distinct.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/28012420",
+      "article_evidence": {
+        "url": "https://ira.lib.polyu.edu.hk/bitstream/10397/65838/1/Cheung_Measuring_social_skills.pdf",
+        "quotes": [
+          "ADHD sample obtained statistically significant lower scores than the TD participant group"
+        ]
+      },
+      "group_counts": [
+        567,
+        79
+      ]
+    },
+    {
+      "pmid": "30064718",
+      "source_sha256": "1eeff912321a0b2d684e1f37d8545cf3aafc9dfb46ad921de6ea5505406efd88",
+      "decision": "include",
+      "quotes": [
+        "The present study investigated whether symptom reduction in children and adolescents with attention-deficit/hyperactivity disorder (ADHD) treated with guanfacine extended release (GXR) can be explained by sedative effects of the medication.",
+        "Data from four double-blind, randomized, placebo-controlled, phase 3 trials of GXR monotherapy (1-7 mg/day; morning administration) in children (aged 6-12 years) and adolescents (aged 13-17 years) with ADHD were analyzed post hoc."
+      ],
+      "rationale": "The pooled ADHD trial reanalysis included at least 490 unique participants in one efficacy arm. The safety and efficacy analysis populations have different denominators.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/30064718",
+      "article_evidence": {
+        "url": "https://www.academia.edu/123216081/Distinguishing_the_efficacy_and_sedative_effects_of_guanfacine_extended_release_in_children_and_adolescents_with_attention_deficit_hyperactivity_disorder",
+        "quotes": [
+          "The FAS comprised 490 participants receiving GXR and 141 receiving placebo."
+        ]
+      },
+      "minimum_sample": 490
+    },
+    {
+      "pmid": "25526678",
+      "source_sha256": "3636f42eaae90332d2d315d2bb6ded24073b8bb0bd9fedd9f54e32dfa083b54d",
+      "decision": "include",
+      "quotes": [
+        "RESULTS: These adjustments were applied to data from a randomized double-blind concurrent trial (SPD489-325) that established the efficacy and safety of lisdexamfetamine dimesylate (LDX) in children and adolescents with attention-deficit/hyperactivity disorder (ADHD).",
+        "Retrospective analyses showed that the improvement in the symptoms of ADHD was greater in patients treated with LDX than OROS-MPH."
+      ],
+      "rationale": "The paper reports a secondary ADHD treatment comparison with 104 participants in the lisdexamfetamine arm alone. Analytic cohort size for the different retrospective tests is not assigned.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/25526678",
+      "article_evidence": {
+        "url": "https://www.academia.edu/112278886/Interpreting_the_Results_of_a_Retrospective_Comparison_of_Test_and_Reference_Treatments_in_a_Randomized_Clinical_Trial_Setting",
+        "quotes": [
+          "patients treated with LDX (N = 104)"
+        ]
+      },
+      "minimum_sample": 104
+    },
+    {
+      "pmid": "27522263",
+      "source_sha256": "f18c567afce942b36e770d00aafc63b82ce6e9204c91048636bfe0598c19b22b",
+      "decision": "include",
+      "quotes": [
+        "135 high-risk (HR) and 142 low-risk (LR) adolescents were identified from among secondary school students in Machakos, Kenya, using the structured interview of psychosis-risk syndromes (SIPS) and the Washington early recognition center affectivity and psychosis (WERCAP) screen.",
+        "ADHD, bipolar disorder, and major depression diagnoses, as well as poor occupational functioning and avolition were factors relating to lesser improvement in psychosis severity."
+      ],
+      "rationale": "Two distinct psychosis-risk groups. The paper analyzes ADHD diagnosis as a predictor of change in psychosis severity.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/27522263",
+      "group_counts": [
+        135,
+        142
+      ]
+    },
+    {
+      "pmid": "33963626",
+      "source_sha256": "b72bba4683fef13e75668b5e8c1d43d7ed79fce6210a1a232f86cd84afc7343d",
+      "decision": "include",
+      "quotes": [
+        "AIM: To characterise the key features and management of young people presenting to the emergency department (ED) with a mental health (MH) complaint and a known diagnosis of autism spectrum disorder (ASD) or attention deficit hyperactivity disorder (ADHD).",
+        "Univariate analyses were carried out to examine the relationship between an underlying diagnosis of ASD and/or ADHD and a number of key presentation variables."
+      ],
+      "rationale": "The full methods and results identify 1,071 unique patients across the ADHD, autism and comparison groups after accounting for repeat visits.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/33963626",
+      "article_evidence": {
+        "url": "https://minerva-access.unimelb.edu.au/server/api/core/bitstreams/2a8b13d0-ceee-53f1-9596-aa52962e30dd/content",
+        "quotes": [
+          "The 1690 MH presentations were made up of 1071 individual patients"
+        ]
+      },
+      "group_counts": [
+        1071
+      ]
+    },
+    {
+      "pmid": "32470230",
+      "source_sha256": "a7f7e3043e29e7b7d864e32941a551ff81d8a5aec56c09bd780c19fe1ae344e0",
+      "decision": "include",
+      "quotes": [
+        "METHODS: These post hoc analyses used data from a 10-week double-blind, placebo-controlled study of adults with ADHD and EF deficits treated with lisdexamfetamine dimesylate (30-70 mg) or placebo conducted from May 2010 to November 2010.",
+        "Relationships between ADHD symptom and EF changes were examined using recursive path analyses."
+      ],
+      "rationale": "The article uses the full analysis set of 154 for its ADHD symptom and executive-function reanalysis. The 161 randomized and 115 completers are different denominators.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/32470230",
+      "article_evidence": {
+        "url": "https://www.psychiatrist.com/pcc/relationships-between-executive-function-and-adhd-symptom-improvement-with-lisdexamfetamine/",
+        "quotes": [
+          "The full analysis set included 154 participants"
+        ]
+      },
+      "group_counts": [
+        154
+      ]
+    },
+    {
+      "pmid": "38170185",
+      "source_sha256": "4af703f4a4ab370d8b970aa5ae0c54979274197435a5e1ac176bf11e5bd2968c",
+      "decision": "exclude",
+      "quotes": [
+        "Methods: We conducted a secondary data analysis of adolescents who participated in a randomized, single-dose, midazolam-controlled crossover trial of ketamine for adolescents with treatment-resistant depression.",
+        "When receiving the midazolam control, less severe depressive symptoms, as measured by the Children's Depression Rating Scale (CDRS) (but not MADRS), and a comorbid attention-deficit/hyperactivity disorder diagnosis were associated with increased response."
+      ],
+      "rationale": "This secondary analysis used only 17 participants at most, below the threshold, even though it tested an association with ADHD.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/38170185",
+      "article_evidence": {
+        "url": "https://ketamineconference.org/wp-content/uploads/2024/01/53-KJC.pdf",
+        "quotes": [
+          "All 17 participants were utilized"
+        ]
+      }
+    },
+    {
+      "pmid": "11906516",
+      "source_sha256": "961aa31cf1876c7aec8d35e785a093ea28c9c48d2f2c6ac9a383fb3c9b8c2705",
+      "decision": "exclude",
+      "quotes": [
+        "PURPOSE: To compare problems of attention in schoolchildren with newly diagnosed idiopathic or cryptogenic epilepsy with those in healthy classmates.",
+        "SUBJECTS: Fifty-one children with epilepsy (age 7-16 years) and 48 gender- and age-matched classmates were assessed thrice: within 48 h after diagnosis [before start of antiepileptic drugs (AEDs)], and 3 and 12 months later."
+      ],
+      "rationale": "Epilepsy comparison uses attention measures rather than an ADHD-specific diagnosis, outcome or cohort.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/11906516"
+    },
+    {
+      "pmid": "15229062",
+      "source_sha256": "14feaf6baf9b164b19f2a6669e00dc69bc705e19335ce62bf86638fbb56ced88",
+      "decision": "exclude",
+      "quotes": [
+        "OBJECTIVE: A controversy regarding pediatric bipolar disorder is whether to use child in addition to parent informants.",
+        "These findings support the need for child informants in research on prepubertal and early adolescent bipolar disorder in children ages 7-14."
+      ],
+      "rationale": "Parent-child agreement on mania in pediatric bipolar disorder, not an ADHD analysis.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/15229062"
+    },
+    {
+      "pmid": "15257148",
+      "source_sha256": "7448c669003f8257948524bde546f94db049733efca4db8b1f722136e6685b5d",
+      "decision": "exclude",
+      "quotes": [
+        "Dyslexic and control children were tested in a visuomotor attentional task, which provides independent measures of the alerting, orienting and conflict components of the attentional system."
+      ],
+      "rationale": "Dyslexia and attention task; no ADHD-specific diagnosed group or outcome.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/15257148"
+    },
+    {
+      "pmid": "20565435",
+      "source_sha256": "c6bd46c7c296c18a399135bfc7d1e691346d7813754e0bf457d453e32186a3e4",
+      "decision": "exclude",
+      "quotes": [
+        "OBJECTIVE: To determine whether abnormalities of impulse control persist across the course of bipolar disorder, thereby representing potential state markers and endophenotypes.",
+        "METHODS: Impulse control of 108 bipolar I manic or mixed patients was measured on three tasks designed to study response inhibition, ability to delay gratification, and attention; namely, a stop signal task, a delayed reward task, and a continuous performance task, respectively."
+      ],
+      "rationale": "Impulse control tasks in bipolar disorder are not ADHD-specific outcomes.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/20565435"
+    },
+    {
+      "pmid": "24210363",
+      "source_sha256": "4e3be56a431dbbf34d4b0d57c73cace30d20aae9a2f40ea325e05c82c1b8628f",
+      "decision": "include",
+      "quotes": [
+        "METHODS: We performed a cross-sectional study in a cohort of children and adolescents (N = 92) with tic disorders referred to the outpatient clinic of a tertiary-level paediatric centre in Barcelona.",
+        "Poor school performance was associated with TS (p = .043) and higher scores on the YGTSS (P = .018), as well as attention deficit/hyperactivity disorder (P = .007)."
+      ],
+      "rationale": "ADHD was independently tested as a predictor of school performance in the 92-child tic-disorder cohort.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/24210363",
+      "group_counts": [
+        92
+      ]
+    },
+    {
+      "pmid": "27371487",
+      "source_sha256": "6328e138bf49c16cf4a7be3ee22c84403c16e78b93b827d619360871ccb3b37c",
+      "decision": "include",
+      "quotes": [
+        "METHODS: Forty-nine motor and phonic tics were examined in 3,494 individuals (1,191 TS probands and 2,303 first-degree relatives).",
+        "This phenotype was associated with increased odds of comorbid psychiatric disorders, in particular, obsessive-compulsive disorder and attention-deficit/hyperactivity disorder, earlier age at TS onset, and increased tic severity."
+      ],
+      "rationale": "The authors independently analyzed the ADHD diagnosis association with Tourette tic subphenotypes across participants and first-degree relatives.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/27371487",
+      "group_counts": [
+        3494
+      ]
+    },
+    {
+      "pmid": "26387393",
+      "source_sha256": "bd92528d3f87ccef29b23e2a0a75f0d175364ab78a0ddfc3531e09ba0dafcb4e",
+      "decision": "exclude",
+      "quotes": [
+        "OBJECTIVE: To investigate the relationship between Facebook addiction and mental health among high school students.",
+        "After adjustment for confounding factors (sufficiency of household income, school location, level of education, GPAX learning deficits and attention deficit hyperactivity disorder), the individuals identified as having Facebook addiction were discovered to be at a high risk of developing abnormal general mental health (ORadj = 1.7, 95% CI: 1.1, 2.4), somatic symptoms (OR = 1.2, 95% CI: 0.9, 1.7), anxiety and insomnia (ORadj = 1.3, 95% CI: 0.9, 1.8), social dysfunction (OR = 1.5, 95% CI: 1.1, 2.1) and severe depression (ORadj = 1.5, 95% CI: 1.0, 2.2)."
+      ],
+      "rationale": "ADHD appears as an adjustment variable for Facebook addiction and mental health.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/26387393"
+    },
+    {
+      "pmid": "31464107",
+      "source_sha256": "2bb2e1e55cbce2d4e1a669b6f8b724506a6faea4b80597533d52ec8179d9293a",
+      "decision": "exclude",
+      "quotes": [
+        "Evidence supports no link between maternal smoking in pregnancy and autism spectrum disorder (autism) overall."
+      ],
+      "rationale": "Study endpoint is autism following prenatal smoking; ADHD is not an analyzed endpoint.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/31464107"
+    },
+    {
+      "pmid": "30801959",
+      "source_sha256": "aac752d2130f9953a84d5ffea45d5d53c8e1a4e63a3f067a214181bd867215a5",
+      "decision": "exclude",
+      "quotes": [
+        "The present clinical trial investigated the impact of selected SNPs in CES1 on the metabolic activity of the enzyme.",
+        "For this purpose, we used methylphenidate (MPH) as a pharmacological probe and the d-RA/d-MPH (metabolite/parent drug) ratios as a measure of enzymatic activity.",
+        "CES1 SNPs from 120 volunteers were identified, and 12 SNPs fulfilling predefined inclusion criteria were analysed separately, comparing the effect of each genotype on the metabolic ratios."
+      ],
+      "rationale": "Methylphenidate is used as a probe for volunteer drug metabolism. The study does not report ADHD participants or outcomes.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/30801959"
+    },
+    {
+      "pmid": "28821006",
+      "source_sha256": "4aaaa8cab7c987fc88848162c59702ff54c337458b5e483a789cea62b75f9218",
+      "decision": "exclude",
+      "quotes": [
+        "OBJECTIVE: The goal of this study was to analyze adherence to antiepileptic drugs (AED) in children and adolescents treated in pediatric practices in Germany.",
+        "METHODS: The present study included patients aged between 2 and 17years who were diagnosed with epilepsy (ICD-10: G40) and had received at least two prescriptions of AED between January 2006 and December 2015 in 243 pediatric practices in Germany."
+      ],
+      "rationale": "Epilepsy medication adherence study without an ADHD-specific analysis.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/28821006"
+    },
+    {
+      "pmid": "29953662",
+      "source_sha256": "5082ec74008aed1e7664c891e0aea454ab193116fea7097037b09054ae7dce3a",
+      "decision": "exclude",
+      "quotes": [
+        "AIM: We examined the associations between late preterm (LPT) birth children aged ≥5 years and the frequency of bedwetting.",
+        "Multiple regression analyses were conducted to eliminate potential confounding factors, attention-deficit/hyperactivity disorder and intellectual disability, but results were not changed."
+      ],
+      "rationale": "Bedwetting and gestational age are the subjects of the study. ADHD is used only in sensitivity adjustment.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/29953662"
+    },
+    {
+      "pmid": "27655143",
+      "source_sha256": "3b32d164b9fcadbd3eea83ca0812107f30ed97cf56e5f3053006b22e49fdbd08",
+      "decision": "exclude",
+      "quotes": [
+        "OBJECTIVE: This study examined whether college students who reported higher levels of sluggish cognitive tempo (SCT) symptoms were actually more \"sluggish\" in their performance while completing speeded cognitive and academic measures.",
+        "METHOD: College students ( N = 253) completed self-reports of SCT and their reading and test-taking abilities as well as tests of processing speed, reading fluency, and reading comprehension.",
+        "However, students with high SCT scores were not significantly slower than controls on any of the timed tasks."
+      ],
+      "rationale": "The study compares speeded task performance by sluggish-cognitive-tempo scores without a separately reported ADHD analysis.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/27655143"
+    },
+    {
+      "pmid": "39520766",
+      "source_sha256": "8f5b1463fbf7ed971ae30ad111151ffe416349884ddf31a934878c9febef7c9d",
+      "decision": "exclude",
+      "quotes": [
+        "METHODS: This matched cohort study conducted a retrospective analysis using the electronic database of Clalit Health Services (CHS), Israel's largest HMO, comparing 2786 individuals diagnosed with SLE with 8358 non-SLE matched controls.",
+        "Investigation into the association between specific psychiatric indices and the later development of SLE found significant correlations between an SLE diagnosis and four psychiatric indices 10 years prior: dispensing of antipsychotics, anxiolytics, hypnotics, and sedatives; dispensing of antidepressants, psychostimulants, ADHD agents, and nootropics; diagnosis of mood disorders; and phobic and anxiety disorders."
+      ],
+      "rationale": "The lupus analysis uses a combined medication exposure category. It does not establish a standalone ADHD diagnosis, drug exposure result, or outcome.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/39520766"
+    },
+    {
+      "pmid": "32251404",
+      "source_sha256": "9c8e136a562ee9e40e6a3e58c391e800a7d3f551b2e639896477ddd2adcfa23d",
+      "decision": "exclude",
+      "quotes": [
+        "Mounting evidence suggests that function and connectivity of the striatum is disrupted in schizophrenia1-5.",
+        "Using inter-site cross-validation on functional magnetic resonance images acquired from seven independent scanners (n = 1,100), FSA distinguished individuals with schizophrenia from healthy controls with an accuracy exceeding 80% (sensitivity, 79.3%; specificity, 81.5%)."
+      ],
+      "rationale": "The analysis validates a schizophrenia classifier, not an ADHD cohort comparison.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/32251404"
+    },
+    {
+      "pmid": "32320061",
+      "source_sha256": "7c13b842b0cd7b9794ef2b47cb06d9f8e51ad3249d7a6d5551f732b7be86b621",
+      "decision": "exclude",
+      "quotes": [
+        "METHODS: Using data from a randomized clinical trial (160 survivors) that compared acupuncture versus CBT-I for insomnia occurring in cancer survivors, the authors analyzed cognitive outcomes and their relationship to insomnia symptoms."
+      ],
+      "rationale": "Cognitive outcomes after insomnia treatment in cancer survivors are not ADHD outcomes.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/32320061"
+    },
+    {
+      "pmid": "37924567",
+      "source_sha256": "e34d4862e92ce8fc2962aff397c86602d291f675598882b25f0788283437bb95",
+      "decision": "include",
+      "quotes": [
+        "A recent randomized controlled non-inferiority trial (N = 161) demonstrated equal effectiveness of the parent training program Comet when delivered in group (gComet) and through the internet (iComet).",
+        "Linear mixed effects models were used to determine predictors and moderators of change in disruptive behavior from baseline to the 3- and 12-month follow-up.",
+        "However, there were some variables that predicted or moderated outcomes that may have implications for practice (e.g., comorbid emotional problems, preferred treatment format, and ADHD)."
+      ],
+      "rationale": "The follow-up analysis examines ADHD as a named predictor or moderator of parent-training outcomes.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/37924567",
+      "group_counts": [
+        161
+      ]
+    },
+    {
+      "pmid": "15571787",
+      "source_sha256": "7ba8985b6b43e7e0e02772fdea5766a6b93923d3735c3386bc40260c5f165098",
+      "decision": "exclude",
+      "quotes": [
+        "METHODS: Thirty-one patients, ages 2-5 years, were identified by chart review of all children treated at our pediatric bipolar clinic.",
+        "Eighty percent of patients had concurrent Attention-Deficit Hyperactivity Disorder (ADHD)."
+      ],
+      "rationale": "ADHD is reported as a co-occurring diagnosis; the study evaluates preschool bipolar disorder and mania.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/15571787"
+    },
+    {
+      "pmid": "19103798",
+      "source_sha256": "fc56064aee1ab61399c75ee4defd8dda84f58cc3ce35c8dc6205819ce4076b0e",
+      "decision": "exclude",
+      "quotes": [
+        "This study examined rates of mental health problems among PWLD aged 15 to 44 years using a large, nationally representative data set.",
+        "PWLD were more than twice as likely to report high levels of distress, depression, anxiety disorders, suicidal thoughts, visits to mental health professionals, and poorer overall mental health than were persons without disabilities (PWOD).",
+        "Multivariate regression analyses determined that these significantly higher rates of mental health problems remained for all six measures after controlling for confounding factors including income, education, social support, and physical health."
+      ],
+      "rationale": "Learning disability and general mental health are the study focus. The paper does not report a separate ADHD cohort or result.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/19103798"
+    },
+    {
+      "pmid": "19242291",
+      "source_sha256": "70821346ccd2a024ffab94e9b84b2dc2f172f0c0fdea50120a8252512cb50097",
+      "decision": "exclude",
+      "quotes": [
+        "Mothers reported their smoking habits at the 17th week of gestation and their child's externalizing behavior at 18 months of age by means of standardized questionnaires.",
+        "Data were analyzed using logistic regression, with scores of externalizing behavior above the 88.6th percentile as the dependent variable and self-reported smoking as the independent variable.",
+        "RESULTS: We documented a threshold effect of smoking 10 cigarettes or more per day during pregnancy on subsequent externalizing behaviors among 18-month-old children, even after adjusting for relevant confounders (odds ratio 1.32, 95% confidence interval 1.03-1.70)."
+      ],
+      "rationale": "The adjusted analysis reports a composite of externalizing behaviors, with no separate ADHD-specific outcome.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/19242291"
+    },
+    {
+      "pmid": "17414236",
+      "source_sha256": "6bbbdf64c980f5dc6bdc8a0ed8e1d9f2ee96bac0bab38442437197689ef458d3",
+      "decision": "exclude",
+      "quotes": [
+        "We tested the efficacy of bupropion in the treatment of persons with pathological gambling (PG).",
+        "Outcome measures included the Yale-Brown Obsessive-Compulsive Scale modified for PG, the Gambling Severity Assessment Scale, the Clinical Global Impression Improvement and Severity Scales, the Global Assessment Scale, the Timeline Follow Back, the Attention-Deficit/Hyperactivity Disorder Rating Scale, and the Sheehan Disability Scale.",
+        "There were few differences between the treatment groups on any primary or secondary outcome measure, although subjects in each cell experienced significant improvement."
+      ],
+      "rationale": "Pathological gambling trial. ADHD was part of the assessment battery, with no separately reported ADHD result in the abstract. This matches the project owner's earlier eligibility review.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/17414236"
+    },
+    {
+      "pmid": "18609029",
+      "source_sha256": "9c9477f6aaafc0e86479ae1d9775f5ace5432be05cf6f17f9d65e8acda574aa5",
+      "decision": "exclude",
+      "quotes": [
+        "The aim of this study was to investigate the application of the Swedish self-report version to a representative sample of 1015 senior high school students aged 17-19 years.",
+        "A confirmatory five-factor analyses explained 44.5% of the variance with a good fit for all subjects and boys but somewhat weaker for girls.",
+        "The item-subscale correlation (ISC) ranged from moderate to high (r=0.47-0.76) and the Cronbach's alpha was 0.74 (ranging in the five subscales 0.50-0.70)."
+      ],
+      "rationale": "Validation of a broad difficulties questionnaire in a general school cohort. No ADHD diagnosis or standalone ADHD outcome is reported.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/18609029"
+    },
+    {
+      "pmid": "33334305",
+      "source_sha256": "5d69f82ad0306889e0e62dcd2bd877d603b4991e2eab8fdde927d60d5980d215",
+      "decision": "exclude",
+      "quotes": [
+        "AIMS: (1) Define the prevalence of selected neurological problems (migraine and epilepsy) and gastrointestinal problems (celiac disease, lactose intolerance, diarrhea, and constipation) in a population of twins aged 9 or 12; (2) Compare the prevalence of somatic problems in three subpopulations: (a) children without CD or NDP, (b) children with CD, and (c) children with both CD and NDP; (3) Select twin pairs where at least one child screened positive for CD but not NDP (proband) and map both children's neurological and gastrointestinal problems.",
+        "According to their scores on the Autism-Tics, AD/HD, and Comorbidities inventory, screen-positive children were selected and divided into two groups: (1) children with CD Only, (2) children with CD and at least one NDP.",
+        "RESULTS: Children with CD had an increased prevalence of each neurological and gastrointestinal problem (except celiac disease), and the prevalence of somatic problems was further increased among children with comorbid CD and NDP."
+      ],
+      "rationale": "ADHD was measured as one of several screening modules but pooled with other neurodevelopmental problems in the outcomes comparison.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/33334305"
+    },
+    {
+      "pmid": "33113597",
+      "source_sha256": "43ed47bcc9070c17cbdbfcbaa6c3d240675b41a62fb0f5e624f363177ac275cc",
+      "decision": "include",
+      "quotes": [
+        "METHODS: A subsample of the Course and Outcome of Bipolar Youth study (N = 370; female n = 199, male n = 171) enrolled October 2000-July 2006 (age at intake = 7-17.11 years) who met DSM-IV criteria for bipolar I disorder (BD-I; n = 221), bipolar II disorder (BD-II; n = 26), or operationalized BD not otherwise specified (BD-NOS; n = 123) with ≥ 4 years follow-up was included.",
+        "After adjustment for confounders, males spent more time with syndromal ADHD (Padjusted = .001) and females spent more time with syndromal anxiety (Padjusted = .02)."
+      ],
+      "rationale": "The study directly analyzes time with syndromal ADHD by sex in a longitudinal bipolar-disorder cohort.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "browser_source": "https://europepmc.org/article/MED/33113597",
+      "group_counts": [
+        370
+      ]
+    },
+    {
+      "pmid": "16876139",
+      "source_sha256": "48bafcbf4250b8220d43ae8cf618ac77e7ef24d3357e2621e14098f71c36bd7c",
+      "decision": "include",
+      "quotes": [
+        "Neuropsychological studies of late onset and subthreshold diagnoses of adult attention-deficit/hyperactivity disorder."
+      ],
+      "rationale": "Includes four independent adult groups totaling 277. The cited systematic review table reproduces the sizes of the neuropsychology groups in this publication.",
+      "review_batch": "2026-11-25-unknown-fields",
+      "group_counts": [
+        41,
+        79,
+        127,
+        30
+      ],
+      "article_evidence": {
+        "url": "https://mural.maynoothuniversity.ie/id/eprint/16792/1/UnaiDiaz-OruetaCog2021.pdf",
+        "quotes": [
+          "Subthreshold ADHD (n = 41)",
+          "Late-Onset ADHD (n = 79)",
+          "Full ADHD (n = 127)",
+          "HC (n = 30)"
+        ]
+      }
+    },
+    {
+      "pmid": "32208045",
+      "source_sha256": "b7f812c00dd414a4e328197d2ea278777b69423e82d5980811ceaa454b4d0a04",
+      "decision": "include",
+      "quotes": [
+        "The Improvement of Individually Defined Problem Behaviors During a Telephone-Assisted Self-Help Intervention for Parents of Pharmacologically Treated Children with ADHD."
+      ],
+      "rationale": "The publication reanalyzed 33 per-protocol families from the intervention arm. The ADHD outcomes describe one index child per family.",
+      "review_batch": "2026-11-25-unknown-fields",
+      "group_counts": [
+        33
+      ],
+      "article_evidence": {
+        "url": "https://econtent.hogrefe.com/doi/10.1024/1422-4917/a000726",
+        "quotes": [
+          "The analyses included data of the 33 families"
+        ]
+      }
+    },
+    {
+      "pmid": "24862742",
+      "source_sha256": "cfc07df37db24212e7dcca1562814d0e67e6da05fef2f5aef180b08b008b3b61",
+      "decision": "exclude",
+      "quotes": [
+        "54 healthy male subjects"
+      ],
+      "rationale": "The study tests resting-state brain connectivity in healthy volunteers. ADHD is background for the drug, with no ADHD cohort or ADHD-specific outcome.",
+      "review_batch": "2026-11-25-unknown-fields"
+    },
+    {
+      "pmid": "23615868",
+      "source_sha256": "67bcd5120e22630e089284222540aadd7d91932cf1c0653b25c24d27807adc0e",
+      "decision": "exclude",
+      "quotes": [
+        "Forty-two healthy adults were randomized in this study."
+      ],
+      "rationale": "The study measures drug interaction and pharmacokinetics in healthy adults. ADHD is clinical background, with no ADHD cohort or ADHD-specific outcome.",
+      "review_batch": "2026-11-25-unknown-fields"
+    },
+    {
+      "pmid": "22891185",
+      "source_sha256": "23d1071c86abe2dfdafab0ff8b9355f902a9ff7ef60d8210a1095cff1ce2219f",
+      "decision": "exclude",
+      "quotes": [
+        "such as depression, attention deficit hyperactivity disorder or dysthymia"
+      ],
+      "rationale": "The respiratory cohort study groups ADHD with other causes for visits and reports no distinct ADHD outcome.",
+      "review_batch": "2026-11-25-unknown-fields"
+    },
+    {
+      "pmid": "17714375",
+      "source_sha256": "cf6b1e0536eb28d54ceb60a82e5fa004dde85d0527b838af48b6f7aeef3438bc",
+      "decision": "include",
+      "quotes": [
+        "ADHD- and medication-related brain activation effects in concordantly affected parent-child dyads with ADHD."
+      ],
+      "rationale": "The paper reports a minimum of 36 distinct persons in the matched analysis. Parents and children were both scanned, so both count as participants.",
+      "review_batch": "2026-11-25-unknown-fields",
+      "article_evidence": {
+        "url": "https://dev-hinshaw-lab.pantheon.berkeley.edu/wp-content/uploads/2022/07/2007_Child-Psychology-Psychiatry-2007-Epstein-ADHD%E2%80%90-and-medication%E2%80%90related-brain-activation-effects-in-concordantly.pdf",
+        "quotes": [
+          "36 subjects",
+          "twenty ADHD youth–parent dyads",
+          "Nine healthy control dyads"
+        ]
+      },
+      "minimum_sample": 36
+    },
+    {
+      "pmid": "14700466",
+      "source_sha256": "50b69e8514beff777ec6a113adcb0a2469baaf663188f659a8e26859f5f43782",
+      "decision": "exclude",
+      "quotes": [
+        "Are there biological programming effects for psychological development? Findings from a study of Romanian adoptees."
+      ],
+      "rationale": "The original paper analyzes cognitive functioning and disinhibited attachment. It cites separate work from this cohort on inattention/overactivity but reports no ADHD outcome here.",
+      "review_batch": "2026-11-25-unknown-fields",
+      "article_evidence": {
+        "url": "https://local.psy.miami.edu/faculty/dmessinger/c_c/rsrcs/rdgs/emot/rutter20014.dp.adoption.pdf",
+        "quotes": [
+          "cognitive, and social measures used in the present set of analyses",
+          "comparable figures for disinhibited attachment behavior"
+        ]
+      }
+    },
+    {
+      "pmid": "36803587",
+      "source_sha256": "d01c57478ccec23486d2cee0d6490c35f3e00243e0bfae74e6d187700efb5303",
+      "decision": "include",
+      "quotes": [
+        "Safety outcomes of selective serotonin reuptake inhibitors in adolescent attention-deficit/hyperactivity disorder with comorbid depression: the ASSURE study."
+      ],
+      "rationale": "Supplementary Table S1 counts 6,746 patients in the prematching SSRI cohort alone. The study protocol limits each cohort to one entry per person. The protocol allows different exposure dates, so the unique total across cohorts is not established by adding the columns.",
+      "review_batch": "2026-11-25-unknown-fields",
+      "minimum_sample": 6746,
+      "article_evidence": {
+        "url": "https://static.cambridge.org/content/id/urn:cambridge.org:id:article:S0033291723000120/resource/name/S0033291723000120sup003.docx",
+        "quotes": [
+          "SSRI**<br>**(n = 6 746)",
+          "Race, Korean | 6,746 (100.0)"
+        ]
+      }
+    }
+  ],
+  "pending_eligibility": [
+    {
+      "pmid": "17714375",
+      "reason": "The abstract establishes that both parents and children underwent the ADHD imaging study. The number of pairs in either group is absent.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "source_url": "https://europepmc.org/article/MED/17714375",
+      "resolved_in_batch": "2026-11-25-unknown-fields"
+    },
+    {
+      "pmid": "19048655",
+      "reason": "The abstract identifies ADHD and comparison boys at summer camp. Neither group’s size is given.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "source_url": "https://europepmc.org/article/MED/19048655"
+    },
+    {
+      "pmid": "15164862",
+      "reason": "The study compares teacher ratings of ADHD vignettes. The relevant denominator is teachers who supplied the ratings, and the abstract and publisher preview omit it.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "source_url": "https://europepmc.org/article/MED/15164862"
+    },
+    {
+      "pmid": "10895570",
+      "reason": "Two experiments compare boys with and without ADHD. The number of boys in each experiment and any reuse between experiments are unconfirmed.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "source_url": "https://europepmc.org/article/MED/10895570"
+    },
+    {
+      "pmid": "16840239",
+      "reason": "The ERP experiment compares men with ADHD and control men. No counts are available in the abstract or institutional record.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "source_url": "https://europepmc.org/article/MED/16840239"
+    },
+    {
+      "pmid": "26660709",
+      "reason": "The parent-training trial reports ADHD-related treatment satisfaction. No count is available for participating families or parent respondents in the linked methods summary.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "source_url": "https://europepmc.org/article/MED/26660709"
+    },
+    {
+      "pmid": "21923448",
+      "reason": "ADHD prescribing is reported separately for young people. The quoted 1.6 million describes all ages below 65 in one country; the ADHD age-band denominator is unconfirmed.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "source_url": "https://europepmc.org/article/MED/21923448"
+    },
+    {
+      "pmid": "16876139",
+      "reason": "The abstract names four ADHD and control groups, with no group sizes. A related paper cannot establish this paper’s neuropsychology sample.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "source_url": "https://europepmc.org/article/MED/16876139",
+      "resolved_in_batch": "2026-11-25-unknown-fields"
+    },
+    {
+      "pmid": "15369417",
+      "reason": "The study examines clinician training and ADHD care. The abstract reports neither the clinician cohort nor the number of distinct patient charts.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "source_url": "https://europepmc.org/article/MED/15369417"
+    },
+    {
+      "pmid": "15493434",
+      "reason": "The abstract identifies children with attention difficulties. The case definition, ADHD specificity and cohort sizes are missing from the accessible text.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "source_url": "https://europepmc.org/article/MED/15493434"
+    },
+    {
+      "pmid": "14593669",
+      "reason": "This paper validates ADHD service reports against provider records. The sample size of children whose records were linked is missing from the abstract and publisher preview.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "source_url": "https://europepmc.org/article/MED/14593669"
+    },
+    {
+      "pmid": "14700466",
+      "reason": "Published abstract compares Romanian and UK adoptees and identifies 52 UK controls. It reports broad development, without enough detail to establish a specific ADHD outcome.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "source_url": "https://europepmc.org/article/MED/14700466",
+      "resolved_in_batch": "2026-11-25-unknown-fields"
+    },
+    {
+      "pmid": "11329997",
+      "reason": "The claims paper clearly studies ADHD service use. The number of unique children represented is absent from the accessible record.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "source_url": "https://europepmc.org/article/MED/11329997"
+    },
+    {
+      "pmid": "18200435",
+      "reason": "The abstract identifies separate clinical ADHD subtypes and healthy controls. No cohort counts could be verified for this exact publication.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "source_url": "https://europepmc.org/article/MED/18200435"
+    },
+    {
+      "pmid": "18720661",
+      "reason": "The stimulant-response imaging abstract describes treatment-response groups. Their sizes and whether the source selected or independently analyzed participants with ADHD are unconfirmed.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "source_url": "https://europepmc.org/article/MED/18720661"
+    },
+    {
+      "pmid": "16917924",
+      "reason": "The article examines ADHD-specific genetic and platelet findings. The number of distinct children and the overlap between the genetic and platelet samples are missing from the accessible methods.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "source_url": "https://europepmc.org/article/MED/16917924"
+    },
+    {
+      "pmid": "22473864",
+      "reason": "The school adjustment analyses compare ADHD and control children. Baseline and follow-up samples are described without an accessible count.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "source_url": "https://europepmc.org/article/MED/22473864"
+    },
+    {
+      "pmid": "22325095",
+      "reason": "The paper reports MRI comparisons of adolescents and adults with ADHD against neurotypical cohorts. The accessible text omits each group's size.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "source_url": "https://europepmc.org/article/MED/22325095"
+    },
+    {
+      "pmid": "30124577",
+      "reason": "The study analyzes ADHD and cannabis use in a national survey. The survey's overall size cannot establish how many eligible responses were used in this secondary analysis.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "source_url": "https://europepmc.org/article/MED/30124577"
+    },
+    {
+      "pmid": "29852825",
+      "reason": "ADHD diagnoses are reported separately. The study counts hospital admissions, and the source database’s record identifier cannot deduplicate repeat admissions. A unique patient total is unavailable.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "source_url": "https://hcup-us.ahrq.gov/db/vars/key/kidnote.jsp"
+    },
+    {
+      "pmid": "29451082",
+      "reason": "Placebo and methylphenidate periods are repeated observations of the same ADHD children. The abstract gives response percentages without the number of unique children.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "source_url": "https://europepmc.org/article/MED/29451082"
+    },
+    {
+      "pmid": "32208045",
+      "reason": "This secondary parent-training study analyzes change in ADHD-related behaviors. The number of children used in this particular reanalysis is absent from the available methods.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "source_url": "https://europepmc.org/article/MED/32208045",
+      "resolved_in_batch": "2026-11-25-unknown-fields"
+    },
+    {
+      "pmid": "36803587",
+      "reason": "The ASSURE study clearly qualifies on topic. The number of unique adolescents in the matched ADHD cohorts is unavailable in the publisher abstract and registry description.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "source_url": "https://europepmc.org/article/MED/36803587",
+      "resolved_in_batch": "2026-11-25-unknown-fields"
+    },
+    {
+      "pmid": "26656562",
+      "reason": "The abstract identifies 188 participants with pooled neurodevelopmental disorders. It supplies no separate ADHD cohort or ADHD analysis, and accessible publication text did not settle that distinction.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "source_url": "https://europepmc.org/article/MED/26656562"
+    },
+    {
+      "pmid": "33486336",
+      "reason": "The paper describes prescribing for ADHD by sex. It reports prescription percentages without confirming the number of unique patients in the relevant analysis.",
+      "review_batch": "2026-11-25-unresolved-eligibility",
+      "source_url": "https://europepmc.org/article/MED/33486336"
+    }
+  ],
+  "provenance_notes": [
+    {
+      "date": "2026-11-26",
+      "change": "Removed archive_sha256 checksums that required a local copyrighted full-text cache; the quoted excerpt and public URL remain the provenance."
+    }
+  ]
+}

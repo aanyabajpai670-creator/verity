@@ -1,0 +1,9 @@
+{
+  "pmid": "35430145",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "80bed442608beac3d1f450b9a3ec91e1e0e539a5423c2f2b46985a95b1ebcaf8",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"We identified 934 drivers with ADHD in 1,308 crashes and 5,158 drivers without ADHD in 6,676 crashes.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": \"Analyses also suggest females with ADHD may have a higher risk of colliding with a nonmotor vehicle and crashing due to unsafe speed than females without ADHD.\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": \"Analyses also suggest females with ADHD may have a higher risk of colliding with a nonmotor vehicle and crashing due to unsafe speed than females without ADHD.\",\n    \"answer\": 2\n  },\n  \"study_design\": {\n    \"quote\": \"In this exploratory retrospective cohort study, we identified patients of Children's Hospital of Philadelphia's (CHOP) New Jersey (NJ) primary care locations\",\n    \"answer\": \"Cohort-Retrospective\"\n  }\n}",
+  "finish_reason": "stop"
+}

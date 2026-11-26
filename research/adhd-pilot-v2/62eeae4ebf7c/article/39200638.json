@@ -1,0 +1,9 @@
+{
+  "pmid": "39200638",
+  "scope": "article",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "0b1cd4d866446840f35340a2df3534b95f164d1d693faa1ae78dc81a54df767a",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"We recruited 61 Lebanese ADHD patients and 58 matched controls aged 6-24 years from all districts of Lebanon.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"A case\u2013control study was conducted from February to November 2023 on 119 Lebanese individuals aged 6\u201324 years old encompassing all districts of Lebanon\",\n    \"answer\": 119\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": \"In the ADHD group, 31.1% were females and 68.9% were males. For the control group, 34.5% were females, and 65.5% were males.\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": \"No significant difference in gender distribution between the two groups was observed (p = 0.698).\",\n    \"answer\": 1\n  },\n  \"study_design\": {\n    \"quote\": \"A case\u2013control study was conducted from February to November 2023 on 119 Lebanese individuals aged 6\u201324 years old\",\n    \"answer\": \"Case-control\"\n  }\n}",
+  "finish_reason": "stop"
+}

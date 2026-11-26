@@ -1,0 +1,9 @@
+{
+  "pmid": "17762317",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "d83634ca25fadf483e66d1ee1080ab1ce4f42b79ad4f78dd896fb853db18ce92",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"Nineteen subjects (12 men and 7 women) had at least 1 postbaseline visit and were included in the analysis; 16 subjects (84%) completed the protocol.\",\n    \"answer\": \"exclude\"\n  },\n  \"n_total\": {\n    \"quote\": \"Nineteen subjects (12 men and 7 women) had at least 1 postbaseline visit and were included in the analysis; 16 subjects (84%) completed the protocol.\",\n    \"answer\": 19\n  },\n  \"n_female\": {\n    \"quote\": \"Nineteen subjects (12 men and 7 women) had at least 1 postbaseline visit and were included in the analysis; 16 subjects (84%) completed the protocol.\",\n    \"answer\": 7\n  },\n  \"includes_female\": {\n    \"quote\": \"Nineteen subjects (12 men and 7 women) had at least 1 postbaseline visit and were included in the analysis; 16 subjects (84%) completed the protocol.\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": \"Nineteen subjects (12 men and 7 women) had at least 1 postbaseline visit and were included in the analysis; 16 subjects (84%) completed the protocol.\",\n    \"answer\": true\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"Nondepressed outpatients with Diagnostic and Statistical Manual of Mental Disorders, Fourth Edition PG received flexibly dosed escitalopram in a prospective, 10-week, open-label trial after a 2-week observation period.\",\n    \"answer\": \"Other\"\n  }\n}",
+  "finish_reason": "stop"
+}

@@ -1,0 +1,9 @@
+{
+  "pmid": "39152569",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "679164daecf2c1198cd84c6a6e9e3d75d64e57476fbb4348a9f1eecf8aaccc38",
+  "raw_response": "{\"eligibility\":{\"quote\":\"In Odense Child Cohort, Denmark, 944 mother-child pairs had data on pregnancy or cord serum 25-hydroxyvitamin D\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"In Odense Child Cohort, Denmark, 944 mother-child pairs had data on pregnancy or cord serum 25-hydroxyvitamin D\",\"answer\":944},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"In Odense Child Cohort, Denmark, 944 mother-child pairs had data on pregnancy or cord serum 25-hydroxyvitamin D\",\"answer\":\"Cohort-Prospective\"}}",
+  "finish_reason": "stop"
+}

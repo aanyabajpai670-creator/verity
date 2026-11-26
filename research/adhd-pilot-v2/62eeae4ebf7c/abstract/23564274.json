@@ -1,0 +1,9 @@
+{
+  "pmid": "23564274",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "6327fed2c1915ec498e85b755b19bbfed6a9b9f1731c8c8642744beb4f57f1ce",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"eight male and seven female adults diagnosed with ADHD as well as in 15 age- and gender-matched healthy control subjects.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"eight male and seven female adults diagnosed with ADHD as well as in 15 age- and gender-matched healthy control subjects.\",\n    \"answer\": 30\n  },\n  \"n_female\": {\n    \"quote\": \"eight male and seven female adults diagnosed with ADHD as well as in 15 age- and gender-matched healthy control subjects.\",\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": \"seven female adults diagnosed with ADHD\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"Blood serum lipoproteins and fatty acids (FA) composition were measured and analyzed by colorimetry and gaschromatography in eight male and seven female adults diagnosed with ADHD as well as in 15 age- and gender-matched healthy control subjects.\",\n    \"answer\": \"Case-control\"\n  }\n}",
+  "finish_reason": "stop"
+}

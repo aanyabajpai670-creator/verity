@@ -1,0 +1,9 @@
+{
+  "pmid": "37353490",
+  "scope": "article",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "a2bfde18c9ba4e3596669566ad82dda441c3af8f79978fb0cc6e46a3dfbdae11",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"Our sample consisted of 28 001 children from the Norwegian Mother, Father and Child Cohort study, a prospective pregnancy cohort with available genotype and developmental data.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"Genotype data passing quality control filters was available for 28,001 unrelated children (47.9% female) of European genetic ancestry.\",\n    \"answer\": 28001\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": \"28,001 unrelated children (47.9% female) of European genetic ancestry.\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": \"28,001 unrelated children (47.9% female) of European genetic ancestry.\",\n    \"answer\": 47.9\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": \"Only two outcomes passed multiple testing correction, and we found no robust evidence of sex differences.\",\n    \"answer\": 2\n  },\n  \"study_design\": {\n    \"quote\": \"MoBa is a longitudinal prospective pregnancy cohort including approximately 114,500 children, their mothers, and fathers.\",\n    \"answer\": \"Cohort-Prospective\"\n  }\n}",
+  "finish_reason": "stop"
+}

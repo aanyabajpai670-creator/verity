@@ -1,0 +1,9 @@
+{
+  "pmid": "21432592",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "649ea16165cd87f4ddc0b73898ffbd33d08694667b58633867a435b40a19d7d3",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Four hundred and twenty-one patients were treated with atomoxetine, 338 boys and 83 girls.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"Four hundred and twenty-one patients were treated with atomoxetine, 338 boys and 83 girls.\",\"answer\":421},\"n_female\":{\"quote\":\"Four hundred and twenty-one patients were treated with atomoxetine, 338 boys and 83 girls.\",\"answer\":83},\"includes_female\":{\"quote\":\"338 boys and 83 girls\",\"answer\":true},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":\"Four hundred and twenty-one patients were treated with atomoxetine, 338 boys and 83 girls.\",\"answer\":true},\"sex_reporting\":{\"quote\":\"The sexes did not differ significantly in mean GIPD total scores.\",\"answer\":2},\"study_design\":{\"quote\":\"Patients aged 6-17 with ADHD were treated with atomoxetine (target dose 0.5-1.2 mg/kg/day) in two studies.\",\"answer\":\"Other\"}}",
+  "finish_reason": "stop"
+}

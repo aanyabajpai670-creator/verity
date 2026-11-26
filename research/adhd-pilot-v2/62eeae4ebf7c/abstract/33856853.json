@@ -1,0 +1,9 @@
+{
+  "pmid": "33856853",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "227460684739ca05c1816c6e13588727fb3f1091378ec46ef1ec4093da1adf3a",
+  "raw_response": "{\"eligibility\": {\"quote\": \"Of the total sample of eligible participants (N = 407), 225 were the primary caregiver of a child with autism spectrum disorder (ASD)/attention-deficit/hyperactivity disorder (ADHD) and 182 were the primary caregiver of a child without ASD/ADHD.\", \"answer\": \"include\"}, \"n_total\": {\"quote\": \"Of the total sample of eligible participants (N = 407), 225 were the primary caregiver of a child with autism spectrum disorder (ASD)/attention-deficit/hyperactivity disorder (ADHD)\", \"answer\": 407}, \"n_female\": {\"quote\": null, \"answer\": null}, \"includes_female\": {\"quote\": null, \"answer\": null}, \"female_percent\": {\"quote\": null, \"answer\": null}, \"paired_counts\": {\"quote\": null, \"answer\": false}, \"sex_reporting\": {\"quote\": null, \"answer\": null}, \"study_design\": {\"quote\": \"Between 2 weeks and 1 month following COVID-19-related school closures, a total of 460 caregivers from across the U.S. completed an online survey via Qualtrics\", \"answer\": \"Cross-sectional\"}}",
+  "finish_reason": "stop"
+}

@@ -1,0 +1,9 @@
+{
+  "pmid": "29953662",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "5082ec74008aed1e7664c891e0aea454ab193116fea7097037b09054ae7dce3a",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Multiple regression analyses were conducted to eliminate potential confounding factors, attention-deficit/hyperactivity disorder and intellectual disability, but results were not changed.\",\"answer\":\"uncertain\"},\"n_total\":{\"quote\":\"In total, we evaluated 614 patients who underwent assessments for frequent bedwetting at the three hospitals from January 2014 to December 2016.\",\"answer\":614},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"In total, we evaluated 614 patients who underwent assessments for frequent bedwetting at the three hospitals from January 2014 to December 2016. Data at the initial visit were collected from the electronic medical records.\",\"answer\":\"Cohort-Retrospective\"}}",
+  "finish_reason": "stop"
+}

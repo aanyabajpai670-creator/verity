@@ -1,0 +1,9 @@
+{
+  "pmid": "33113597",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "43ed47bcc9070c17cbdbfcbaa6c3d240675b41a62fb0f5e624f363177ac275cc",
+  "raw_response": "{\"eligibility\":{\"quote\":\"this study examines sex differences in mood symptomatology and psychiatric comorbidity in prospectively followed youth with BD.\",\"answer\":\"uncertain\"},\"n_total\":{\"quote\":\"A subsample of the Course and Outcome of Bipolar Youth study (N = 370; female n = 199, male n = 171)\",\"answer\":370},\"n_female\":{\"quote\":\"female n = 199\",\"answer\":199},\"includes_female\":{\"quote\":\"female n = 199, male n = 171\",\"answer\":true},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":\"A subsample of the Course and Outcome of Bipolar Youth study (N = 370; female n = 199, male n = 171)\",\"answer\":true},\"sex_reporting\":{\"quote\":\"After adjustment for confounders, males spent more time with syndromal ADHD (Padjusted = .001) and females spent more time with syndromal anxiety (Padjusted = .02).\",\"answer\":3},\"study_design\":{\"quote\":\"prospectively followed youth with BD\",\"answer\":\"Cohort-Prospective\"}}",
+  "finish_reason": "stop"
+}

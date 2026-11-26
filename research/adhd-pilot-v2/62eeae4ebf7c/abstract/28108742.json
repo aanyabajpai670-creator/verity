@@ -1,0 +1,9 @@
+{
+  "pmid": "28108742",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "18f74d75e09fa2569b1332aa7b1420dae4996aeb3fe7b4bf688739bfc61fdb81",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Data were collected from 40 attention deficit/hyperactivity disorder children and 40 normal control children.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"Data were collected from 40 attention deficit/hyperactivity disorder children and 40 normal control children.\",\"answer\":80},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"Data were collected from 40 attention deficit/hyperactivity disorder children and 40 normal control children.\",\"answer\":\"Case-control\"}}",
+  "finish_reason": "stop"
+}

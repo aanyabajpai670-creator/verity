@@ -1,0 +1,9 @@
+{
+  "pmid": "35652746",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "10b7ef8c867be3c7e0b4d628810ad30584ee26f6f35adb69eb2ee9c4764b07ef",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Two phase 3 randomized, double-blind, placebo-controlled, parallel-group studies of 200 mg/d or 400 mg/d centanafadine sustained-release tablets versus placebo included adults (18-55 years of age) with a diagnosis of ADHD.\",\"answer\":\"include\"},\"n_total\":{\"quote\":null,\"answer\":null},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"Two phase 3 randomized, double-blind, placebo-controlled, parallel-group studies of 200 mg/d or 400 mg/d centanafadine sustained-release tablets versus placebo included adults (18-55 years of age) with a diagnosis of ADHD.\",\"answer\":\"RCT\"}}",
+  "finish_reason": "stop"
+}

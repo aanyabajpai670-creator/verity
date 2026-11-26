@@ -1,0 +1,9 @@
+{
+  "pmid": "37248735",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "e3f62f37704e409db96a3a99e38a6815332da79436e630d61820d8f4d99d4e7f",
+  "raw_response": "```json\n{\n  \"eligibility\": {\n    \"quote\": \"A total of 33 children diagnosed with attention deficit hyperactivity disorder (mean age = 10.12 years) were randomized into intervention group and control group respectively.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"A total of 33 children diagnosed with attention deficit hyperactivity disorder (mean age = 10.12 years) were randomized into intervention group and control group respectively.\",\n    \"answer\": 33\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"A total of 33 children diagnosed with attention deficit hyperactivity disorder (mean age = 10.12 years) were randomized into intervention group and control group respectively.\",\n    \"answer\": \"RCT\"\n  }\n}\n```",
+  "finish_reason": "stop"
+}

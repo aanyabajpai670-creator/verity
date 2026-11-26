@@ -1,0 +1,9 @@
+{
+  "pmid": "22891185",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "23d1071c86abe2dfdafab0ff8b9355f902a9ff7ef60d8210a1095cff1ce2219f",
+  "raw_response": "{\"eligibility\":{\"quote\":\"3.7% and 3.4% of the outpatient visits were for mental or psychological ailments, such as depression, attention deficit hyperactivity disorder or dysthymia for the BPD and RDS groups, respectively.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"A total of 3442 subjects with respiratory complications following preterm birth were identified, of whom 773 had been diagnosed with BPD and 2669 had RDS without BPD.\",\"answer\":3442},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"Using provincial health administrative databases from Quebec, a cohort of individuals who were born prematurely with complications of RDS and\u2044or BPD between 1983 and 1992 were identified.\",\"answer\":\"Cohort-Retrospective\"}}",
+  "finish_reason": "stop"
+}

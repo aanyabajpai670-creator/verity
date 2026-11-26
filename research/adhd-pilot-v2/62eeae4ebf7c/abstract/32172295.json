@@ -1,0 +1,9 @@
+{
+  "pmid": "32172295",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "eb201ca19471ba8b34643d3205b13c362a9f5578754bf49726fb3603a9f20f4f",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"non-medicated and medicated children with ADHD (n = 22, mean age = 10.1 \u00b1 2.4 years; n = 19; mean age = 11.0 \u00b1 3.8 years; respectively) and in an age-matched control group (n = 22; mean age = 10.6 \u00b1 1.9 years)\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"We measured the accommodative response and pupil diameter using a binocular, open-field autorefractor in non-medicated and medicated children with ADHD (n = 22, mean age = 10.1 \u00b1 2.4 years; n = 19; mean age = 11.0 \u00b1 3.8 years; respectively) and in an age-matched control group\",\n    \"answer\": \"Cross-sectional\"\n  }\n}",
+  "finish_reason": "stop"
+}

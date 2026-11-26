@@ -1,0 +1,9 @@
+{
+  "pmid": "24787306",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "5bbfbb2bef6351510ad9c5c0c059491038b68188986ea8574324ee221f07422a",
+  "raw_response": "```json\n{\n  \"eligibility\": {\n    \"quote\": \"A total of 116 patients answered questionnaires regarding health-related quality of life (EQ-5D-3L), physical activity [International Physical Activity Questionnaire (IPAQ)], and hyperactive/inattentive behavior pattern [ADHD self-reporting symptom checklist (ASRS v1.1)].\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"A total of 116 patients answered questionnaires regarding health-related quality of life (EQ-5D-3L)\",\n    \"answer\": 116\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"LEVEL OF EVIDENCE: A retrospective study, level II.\",\n    \"answer\": \"Cohort-Retrospective\"\n  }\n}\n```",
+  "finish_reason": "stop"
+}

@@ -1,0 +1,9 @@
+{
+  "pmid": "21947617",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "845ca546fcfc80ca62ef746617a32fa1135769ede29d75fb2d116a55540d1b28",
+  "raw_response": "{\"eligibility\":{\"quote\":\"ADHD and Autism spectrum disorder (ASD), and callous-unemotional (CU) traits. General externalizing problem behaviors were also measured at age 5 to allow for a developmental analysis. Outcome variables were rated by parents and teachers. The sample consisted of 65 children\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"The sample consisted of 65 children with an oversampling of children with high levels of externalizing behaviors.\",\"answer\":65},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"The aim of the present study was to investigate whether attachment insecurity, focusing on disorganized attachment, and the executive function (EF) component of inhibition, assessed at age 5, were longitudinally related to general externalizing problem behaviors\",\"answer\":\"Cohort-Prospective\"}}",
+  "finish_reason": "stop"
+}

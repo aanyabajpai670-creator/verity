@@ -1,0 +1,9 @@
+{
+  "pmid": "27851842",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "76bcb6476e7db9dce0dc7466ce39a444a8459237e0309591f6332d0e656fa176",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Heritability and association with ADHD symptoms were estimated in 24 extended multigenerational families enriched for ADHD (305 members with clinical phenotyping, 213 with DTI, and 193 with rsfMRI).\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"Heritability and association with ADHD symptoms were estimated in 24 extended multigenerational families enriched for ADHD (305 members with clinical phenotyping, 213 with DTI, and 193 with rsfMRI).\",\"answer\":305},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":\"in the 24 multigenerational extended families, 145 individuals (47.5%) were male\",\"answer\":true},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"Members of extended multigenerational families enriched for ADHD were evaluated. Structural connectivity was defined by diffusion tensor imaging (DTI) of white matter tract microstructure and functional connectivity through resting-state functional magnetic resonance imaging (rsfMRI).\",\"answer\":\"Cross-sectional\"}}",
+  "finish_reason": "stop"
+}

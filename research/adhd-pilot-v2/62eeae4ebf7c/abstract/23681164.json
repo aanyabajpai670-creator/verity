@@ -1,0 +1,9 @@
+{
+  "pmid": "23681164",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "b603380d48797c0d17093df226119b0d8d011b7bab20470e433aaa885ddf5e91",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Psychotropic drugs were prescribed to 29 % (1,619/5,651) of the ASD cohort; the most prescribed drugs were sleep medication (9.7 % of prescribed patients), psychostimulants (7.9 %) and antipsychotics (7.3 %).\",\"answer\":\"uncertain\"},\"n_total\":{\"quote\":\"Psychotropic drugs were prescribed to 29 % (1,619/5,651) of the ASD cohort\",\"answer\":5651},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"We used The Health Improvement Network, a nationally representative primary care database, to assess the prevalence of ASD diagnoses, psychotropic drug prescribing and neuropsychiatric co-morbidities of 0-24 year olds between 1992 and 2008.\",\"answer\":\"Cohort-Retrospective\"}}",
+  "finish_reason": "stop"
+}

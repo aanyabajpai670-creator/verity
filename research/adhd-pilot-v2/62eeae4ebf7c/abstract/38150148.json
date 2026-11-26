@@ -1,0 +1,9 @@
+{
+  "pmid": "38150148",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "1efc8e25cccbb19010346859d5967c1bef5a283af0c6876b8f86785038e2a93f",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"mental health problems including PTSD, depression, anxiety, ADHD, insomnia, psychotic-like experiences, non-suicidal self-injury, suicide ideation, suicide plan, and suicide attempt were assessed at baseline (n = 1039) and at the 1-year follow-up (n = 946)\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"assessed at baseline (n = 1039) and at the 1-year follow-up (n = 946)\",\n    \"answer\": 1039\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": \"The study was conducted among Chinese adolescent girls.\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"This longitudinal study aimed to determine whether baseline menstrual characteristics were risk factors for incident and persistent mental health problems.\",\n    \"answer\": \"Cohort-Prospective\"\n  }\n}",
+  "finish_reason": "stop"
+}

@@ -1,0 +1,9 @@
+{
+  "pmid": "31110164",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "82ea12a690325f6f29138597b6b83cbe3fa04b0ac81e0a0f94e84ae9826db252",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"We identified patients of New Jersey primary care locations of the Children's Hospital of Philadelphia who were born in 1987-1997, were New Jersey residents, had their last primary care visit at age \u226512 years, and acquired a driver's license (N = 14 936).\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"had their last primary care visit at age \u226512 years, and acquired a driver's license (N = 14 936).\",\n    \"answer\": 14936\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"Electronic health records were linked to New Jersey's licensing, crash, and violation databases.\",\n    \"answer\": \"Cohort-Retrospective\"\n  }\n}",
+  "finish_reason": "stop"
+}

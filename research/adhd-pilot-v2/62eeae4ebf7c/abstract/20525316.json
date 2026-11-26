@@ -1,0 +1,9 @@
+{
+  "pmid": "20525316",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "9a7f7fdd49ac60818c6d211104ddd0aa103af99870a3457d86672ea5bccf9070",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Children with ADHD (N = 34), combined subtype, and control children (N = 34) performed a series of self-paced computerized visual search tasks.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"Children with ADHD (N = 34), combined subtype, and control children (N = 34)\",\"answer\":68},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"Children with ADHD (N = 34), combined subtype, and control children (N = 34) performed a series of self-paced computerized visual search tasks. The tasks varied by verbal instructions\",\"answer\":\"Other\"}}",
+  "finish_reason": "stop"
+}

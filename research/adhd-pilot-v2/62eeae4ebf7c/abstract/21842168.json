@@ -1,0 +1,9 @@
+{
+  "pmid": "21842168",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "b15a89b474707fcd7255989aa2b05e39943f498ae3b9f3cf40c65c63929c2dc3",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"Thirty-five children with ADHD (26 boys, 9 girls; 6-14 years old) were randomly assigned to either the therapy group (NF; n = 18) or the control group (BF; n = 17).\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"Thirty-five children with ADHD (26 boys, 9 girls; 6-14 years old)\",\n    \"answer\": 35\n  },\n  \"n_female\": {\n    \"quote\": \"26 boys, 9 girls\",\n    \"answer\": 9\n  },\n  \"includes_female\": {\n    \"quote\": \"26 boys, 9 girls\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": \"Thirty-five children with ADHD (26 boys, 9 girls; 6-14 years old)\",\n    \"answer\": true\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"single-blind randomized controlled trial\",\n    \"answer\": \"RCT\"\n  }\n}",
+  "finish_reason": "stop"
+}

@@ -34,7 +34,7 @@ export function renderAboutPage(container) {
     'A clinical decision tool — it is not designed for use in clinical settings as a diagnostic or treatment aid.',
     'A research journal — Verity does not publish original research. It indexes and evaluates existing evidence.',
     'A news site — it does not report on breaking medical developments or health trends.',
-    'A consumer health app — the reading level and depth of analysis reflect a research-grade audience.',
+    'A consumer health app — the reading level and depth of analysis reflect a research audience.',
   ];
 
   nots.forEach(text => {
@@ -48,40 +48,7 @@ export function renderAboutPage(container) {
   wrapper.appendChild(notSection);
 
   // ── 3. Methodology ──
-  const methSection = createAboutSection('Methodology', 'heading-lg');
-
-  const methSubs = [
-    {
-      title: 'Condition Selection',
-      text: 'Conditions are selected based on prevalence, known sex-based differences in presentation or outcomes, and documented gaps in the literature. The initial index includes 10 conditions spanning cardiovascular, neurological, hormonal, immunological, and mental health categories.',
-    },
-    {
-      title: 'Study Identification',
-      text: 'Studies are identified through systematic searches of PubMed, PubMed Central, Europe PMC, and Semantic Scholar. Search strategies use condition-specific MeSH terms combined with filters for study design, population characteristics, and sex-disaggregated reporting.',
-    },
-    {
-      title: 'Scoring Methodology',
-      text: 'The Representation Score is a composite metric (0–100) derived from four weighted components: proportion of studies including female participants (30%), proportion of female-only studies (20%), proportion of studies with sex-disaggregated analysis (30%), and expert-assessed evidence quality (20%). Higher scores indicate more robust female representation in the evidence base.',
-    },
-  ];
-
-  methSubs.forEach(sub => {
-    const h4 = document.createElement('h4');
-    h4.className = 'heading-sm';
-    h4.textContent = sub.title;
-    h4.style.marginTop = 'var(--space-3)';
-    h4.style.marginBottom = 'var(--space-1)';
-
-    const p = document.createElement('p');
-    p.className = 'body-md';
-    p.textContent = sub.text;
-    p.style.maxWidth = '65ch';
-
-    methSection.appendChild(h4);
-    methSection.appendChild(p);
-  });
-
-  wrapper.appendChild(methSection);
+  wrapper.appendChild(window.VerityResearch.methodology());
 
   // ── 4. Data Sources ──
   const dsSection = createAboutSection('Data Sources', 'heading-lg');
@@ -89,7 +56,7 @@ export function renderAboutPage(container) {
   const sources = [
     {
       name: 'PubMed',
-      desc: 'Comprehensive database of biomedical literature maintained by the National Library of Medicine. Primary source for identifying relevant clinical studies.',
+      desc: 'Comprehensive database of biomedical literature maintained by the National Library of Medicine. Primary source for identifying publications in the revised audit.',
     },
     {
       name: 'PubMed Central (PMC)',
@@ -97,11 +64,11 @@ export function renderAboutPage(container) {
     },
     {
       name: 'Semantic Scholar',
-      desc: 'AI-augmented academic search engine. Used for citation network analysis and identifying related studies not captured by MeSH-based searches.',
+      desc: 'AI-augmented academic search engine. Used for related literature discovery outside the revised PubMed sampling frame.',
     },
     {
       name: 'Europe PMC',
-      desc: 'European counterpart to PMC providing additional coverage of European clinical trials and research publications.',
+      desc: 'A source of accessible article text for checking fields that abstracts leave unresolved.',
     },
   ];
 
@@ -131,7 +98,7 @@ export function renderAboutPage(container) {
   const limitations = [
     'The current dataset covers 10 conditions. This is not comprehensive and will expand over time.',
     'Study identification relies on indexed databases and may miss grey literature, conference proceedings, or non-English publications.',
-    'The Representation Score is a composite metric designed for comparison across conditions. It should not be interpreted as an absolute measure of evidence quality.',
+    'Compare scores only across conditions assessed using the same version of the methodology.',
     'Gap Type classification is based on available data and may change as new studies are published.',
     'Manual curation introduces the possibility of subjective judgment in edge cases. The methodology aims to minimize this through standardized criteria.',
   ];
@@ -151,7 +118,7 @@ export function renderAboutPage(container) {
 
   const gcfIntro = document.createElement('p');
   gcfIntro.className = 'body-md';
-  gcfIntro.textContent = 'Every condition indexed in Verity is assigned one of four gap types based on the nature of its female representation gap. These classifications are not value judgments — they are structural descriptions of the evidence landscape.';
+  gcfIntro.textContent = 'The Gap Index displays four classifications from the March 2025 assessment. The labels describe enrollment, reporting, or limitations of the evidence base.';
   gcfIntro.style.marginBottom = 'var(--space-4)';
   gcfSection.appendChild(gcfIntro);
 

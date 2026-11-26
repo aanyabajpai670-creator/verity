@@ -1,0 +1,9 @@
+{
+  "pmid": "38205522",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "b4261d768f4f1f2d42e01a13e84aa60a71b59e22d1295402d38ac461d634e987",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Four primary care cohorts of UK children (pregnancy, 1 and 2 years prior to pregnancy, and siblings) born between 1 January 1990 and 31 December 2017 were constructed. NDD included autism/autism spectrum disorder, attention-deficit/hyperactivity disorder\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"The analysis included 410 461 children of 297 426 mothers and 2 793 018 person-years of follow-up with 8900 NDD cases (incidence rate = 3.2/1000 person years).\",\"answer\":410461},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"Four primary care cohorts of UK children (pregnancy, 1 and 2 years prior to pregnancy, and siblings) born between 1 January 1990 and 31 December 2017 were constructed.\",\"answer\":\"Cohort-Retrospective\"}}",
+  "finish_reason": "stop"
+}

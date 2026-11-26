@@ -1,0 +1,9 @@
+{
+  "pmid": "35712903",
+  "scope": "article",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "988a9568d575b791a4e66d1ea13393bfffaa398079e6e022ab5530b9b463bff6",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"Overall, 6494 cases met our inclusion criteria: patients aged 3\u201318 years diagnosed with ADHD.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"Overall, 6494 cases met our inclusion criteria: patients aged 3\u201318 years diagnosed with ADHD.\",\n    \"answer\": 6494\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": \"In this retrospective cohort study of 6494 ADHD patients aged 3\u201318 years old (female 24.7%)\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": \"In this retrospective cohort study of 6494 ADHD patients aged 3\u201318 years old (female 24.7%)\",\n    \"answer\": 24.7\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": \"Sex (female) | 23.9% | 26.2% | 0.043\",\n    \"answer\": 1\n  },\n  \"study_design\": {\n    \"quote\": \"We conducted a retrospective cohort study based on claims data from 1,555,707 patients with mental health disorders, of whom 193,296 were 18 years old or younger.\",\n    \"answer\": \"Cohort-Retrospective\"\n  }\n}",
+  "finish_reason": "stop"
+}

@@ -1,0 +1,9 @@
+{
+  "pmid": "24141677",
+  "scope": "article",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "5caa0442879d33a1c9d87c4b1b238cfbadb01edca0fed2b8ff046d26284bd773",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"This is a historical cohort cross-sectional case-control study, in which we enrolled 30 children with and without ADHD, aged 8-12 years.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"The study included 30 children of both genders aged 8-12 years, divided into:\",\n    \"answer\": 30\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": \"The study included 30 children of both genders aged 8-12 years, divided into:\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": \"The study included 30 children of both genders aged 8-12 years, divided into:\",\n    \"answer\": 1\n  },\n  \"study_design\": {\n    \"quote\": \"This historical cohort study was cross-sectional and of the case-control type.\",\n    \"answer\": \"Case-control\"\n  }\n}",
+  "finish_reason": "stop"
+}

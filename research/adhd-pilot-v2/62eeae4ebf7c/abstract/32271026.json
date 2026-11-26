@@ -1,0 +1,9 @@
+{
+  "pmid": "32271026",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "b613d915c66bb280dd3f6a795d2bd879e3da494176a241dd4e66126bce21b772",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"When children were 9 or 12 years old (n = 30,444), parents completed the Autism-Tics, AD/HD and other Comorbidities Inventory (Larson et al., 2010) regarding their children's psychiatric problems as part of an ongoing, longitudinal study.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"When children were 9 or 12 years old (n = 30,444), parents completed the Autism-Tics, AD/HD and other Comorbidities Inventory (Larson et al., 2010) regarding their children's psychiatric problems as part of an ongoing, longitudinal study.\",\n    \"answer\": 30444\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"When children were 9 or 12 years old (n = 30,444), parents completed the Autism-Tics, AD/HD and other Comorbidities Inventory (Larson et al., 2010) regarding their children's psychiatric problems as part of an ongoing, longitudinal study.\",\n    \"answer\": \"Cohort-Prospective\"\n  }\n}",
+  "finish_reason": "stop"
+}

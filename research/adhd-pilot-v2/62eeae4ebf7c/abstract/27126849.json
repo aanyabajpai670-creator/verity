@@ -1,0 +1,9 @@
+{
+  "pmid": "27126849",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "b4d1acd5cdcaf1a7529f43559b21a6c6e2f0a32b699f9f3bfdd2228026470add",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"We investigated the cumulative incidence of offspring diagnoses of depression, anxiety, autism spectrum disorder (ASD), and attention-deficit/hyperactivity disorder (ADHD) for the 4 groups from birth to 14 years, adjusting for confounders.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"This is a cohort study using national register data in Finland between the years 1996 and 2010.\",\n    \"answer\": \"Cohort-Retrospective\"\n  }\n}",
+  "finish_reason": "stop"
+}

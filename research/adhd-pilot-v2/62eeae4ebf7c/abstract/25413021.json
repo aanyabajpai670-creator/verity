@@ -1,0 +1,9 @@
+{
+  "pmid": "25413021",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "69fa5855e9b085b6533168b5ba79df73baba82875ae508b88f34e2365ad274c2",
+  "raw_response": "```json\n{\n  \"eligibility\": {\n    \"quote\": \"Within the 82 participating mother-child dyads, 21 mothers were currently depressed, 29 mothers had a lifetime history of depression but were in remission for at least 1 month, and 32 mothers had never been clinically depressed.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"Within the 82 participating mother-child dyads, 21 mothers were currently depressed, 29 mothers had a lifetime history of depression but were in remission for at least 1 month, and 32 mothers had never been clinically depressed.\",\n    \"answer\": 82\n  },\n  \"n_female\": {\n    \"quote\": \"24 girls (29.6 %) and 57 boys (70.4 %) between the ages of 6-12 years old (M = 8.7, SD = 2.0) and were diagnosed with ADHD.\",\n    \"answer\": 24\n  },\n  \"includes_female\": {\n    \"quote\": \"24 girls (29.6 %) and 57 boys (70.4 %)\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": \"24 girls (29.6 %) and 57 boys (70.4 %)\",\n    \"answer\": 29.6\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"This study utilized sequential analysis to examine how maternal reinforcement of compliant and noncompliant child behavior differs as a function of maternal depression history.\",\n    \"answer\": \"Cross-sectional\"\n  }\n}\n```",
+  "finish_reason": "stop"
+}

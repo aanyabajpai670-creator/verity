@@ -1,0 +1,9 @@
+{
+  "pmid": "33274371",
+  "scope": "article",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "45be7b562c512b8ee5737e3292b8603b904960aaa788333a9f5c43d46abd551c",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"We also aimed to investigate evidence for regional pleiotropy between ADHD and hypo- and hyperthyroidism using the GWAS-pairwise method (21) utilizing recent ADHD GWAS meta-analysis summary statistics of 20 183 ADHD cases and 35 191 controls (22).\",\n    \"answer\": \"uncertain\"\n  },\n  \"n_total\": {\n    \"quote\": \"After exclusion, 18 825 individuals (age [mean \u00b1 SD] = 62.7 \u00b1 7.45; male = 48%) remained (Table 1), of whom 538 (3.1%) had an ICD-10 thyroid-related disorder\",\n    \"answer\": 18825\n  },\n  \"n_female\": {\n    \"quote\": \"Total | Sex |  |  |  |  |  | F | 338 (80.7%) | 29 (87.9%) | 75 (87.2%) | 9440 (51.6%) | 9882 (52.5%)\",\n    \"answer\": 9882\n  },\n  \"includes_female\": {\n    \"quote\": \"Total | Sex |  |  |  |  |  | F | 338 (80.7%) | 29 (87.9%) | 75 (87.2%) | 9440 (51.6%) | 9882 (52.5%)\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": \"Total | Sex |  |  |  |  |  | F | 338 (80.7%) | 29 (87.9%) | 75 (87.2%) | 9440 (51.6%) | 9882 (52.5%)\",\n    \"answer\": 52.5\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": \"along with demographic covariates of age (21003-2.0, quadratic); sex (18); and their interaction.\",\n    \"answer\": 0\n  },\n  \"study_design\": {\n    \"quote\": \"This prospective epidemiological study of 500 000 middle-aged volunteers (9) includes structural brain magnetic resonance imaging (MRI) of regional gray matter volumes.\",\n    \"answer\": \"Cohort-Prospective\"\n  }\n}",
+  "finish_reason": "stop"
+}

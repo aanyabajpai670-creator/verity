@@ -1,0 +1,9 @@
+{
+  "pmid": "36931184",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "e27f2a697325641f6454416009a80ebac9b4eab301e6e2bb2af24acf39e8e7b5",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Therefore, we aimed to investigate the additive association of childhood trauma history, reading disabilities and symptoms of attention-deficit/hyperactivity disorder (ADHD) with psychosis proneness.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"A total of 3000 young adults (58.3% females, aged 18-35 years) with a negative history of psychiatric treatment were recruited to the cross-sectional study through computer-assisted web interview.\",\"answer\":3000},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":\"58.3% females\",\"answer\":true},\"female_percent\":{\"quote\":\"A total of 3000 young adults (58.3% females, aged 18-35 years) with a negative history of psychiatric treatment were recruited to the cross-sectional study through computer-assisted web interview.\",\"answer\":58.3},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"were recruited to the cross-sectional study through computer-assisted web interview\",\"answer\":\"Cross-sectional\"}}",
+  "finish_reason": "stop"
+}

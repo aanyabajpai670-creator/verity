@@ -1,0 +1,9 @@
+{
+  "pmid": "29299870",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "36586774497845bb4c43febee87c28a15eb38a269d5508eebf4e61ae81c9d274",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Thirty-three (N = 31) psychiatric inpatients were screened using the Adult ADHD Self-Report Scale. Those that screened positive for ADHD received a full diagnostic assessment for ADHD.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"Of the 31 patients analyzed, 12 had a diagnosis of ADHD (36.4%).\",\"answer\":31},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"Thirty-three (N = 31) psychiatric inpatients were screened using the Adult ADHD Self-Report Scale.\",\"answer\":\"Cross-sectional\"}}",
+  "finish_reason": "stop"
+}

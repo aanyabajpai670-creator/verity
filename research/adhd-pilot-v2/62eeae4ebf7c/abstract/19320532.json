@@ -1,0 +1,9 @@
+{
+  "pmid": "19320532",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "d33f939205b0433d1b74665e45fd9f3542fc53dbd3a64a8fb0720d3b788b5b16",
+  "raw_response": "```json\n{\n  \"eligibility\": {\n    \"quote\": \"From a consecutive series of 257 patients (174 males and 83 females; mean age 13.6+/-2.7 years) diagnosed with OCD following a clinical interview according to DSM-IV criteria, 37 children improved significantly after psychotherapy and were excluded.\",\n    \"answer\": \"exclude\"\n  },\n  \"n_total\": {\n    \"quote\": \"37 children improved significantly after psychotherapy and were excluded. The remaining 220 patients were included in the study.\",\n    \"answer\": 220\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": \"174 males and 83 females\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"To report the response to pharmacotherapy in children and adolescents with OCD naturalistically followed up and treated with SRIs.\",\n    \"answer\": \"Cohort-Retrospective\"\n  }\n}\n```",
+  "finish_reason": "stop"
+}

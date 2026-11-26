@@ -1,0 +1,9 @@
+{
+  "pmid": "19018449",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "5db0d371042cfe27ce2e19e854bd0dedfd044bbd587abb35c76de598547afa2c",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"A total of 16 ADHD-diagnosed boys were subjected to rapid tryptophan depletion (RTD) and a placebo in a double-blind within-subject crossover-design.\",\n    \"answer\": \"exclude\"\n  },\n  \"n_total\": {\n    \"quote\": \"A total of 16 ADHD-diagnosed boys were subjected to rapid tryptophan depletion (RTD) and a placebo in a double-blind within-subject crossover-design.\",\n    \"answer\": 16\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": \"A total of 16 ADHD-diagnosed boys were subjected to rapid tryptophan depletion (RTD) and a placebo in a double-blind within-subject crossover-design.\",\n    \"answer\": false\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"A total of 16 ADHD-diagnosed boys were subjected to rapid tryptophan depletion (RTD) and a placebo in a double-blind within-subject crossover-design.\",\n    \"answer\": \"RCT\"\n  }\n}",
+  "finish_reason": "stop"
+}

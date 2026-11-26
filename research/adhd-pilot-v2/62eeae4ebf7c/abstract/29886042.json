@@ -1,0 +1,9 @@
+{
+  "pmid": "29886042",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "667b676ac085501e90f14e8d0f960c56dcad24365c97ce55de97e3970238355a",
+  "raw_response": "```json\n{\n  \"eligibility\": {\n    \"quote\": \"analyse the iPSYCH case cohort of individuals with attention-deficit hyperactivity disorder (ADHD), major depressive disorder, schizophrenia, autism, or bipolar disorder and a random population-based sample.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"This case-cohort study was done on a population of 86 189 individuals selected from the iPSYCH case cohort of 1 472 762 singletons born in Denmark between May 1, 1981, and Dec 31, 2005\",\n    \"answer\": 86189\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"This case-cohort study was done on a population of 86 189 individuals selected from the iPSYCH case cohort\",\n    \"answer\": \"Other\"\n  }\n}\n```",
+  "finish_reason": "stop"
+}

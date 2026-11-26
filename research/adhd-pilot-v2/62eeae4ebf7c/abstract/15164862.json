@@ -1,0 +1,9 @@
+{
+  "pmid": "15164862",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "b45aeaa9c7e1955648034858a8e16f4b3e74f2a5b452390240ac79ad79cd13f3",
+  "raw_response": "{\"eligibility\":{\"quote\":\"This study replicated this procedure using identical scripts with both male and female child models.\",\"answer\":\"uncertain\"},\"n_total\":{\"quote\":null,\"answer\":null},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":\"This bidirectional effect differed in magnitude as a function of child gender.\",\"answer\":3},\"study_design\":{\"quote\":\"This study replicated this procedure using identical scripts with both male and female child models.\",\"answer\":\"Other\"}}",
+  "finish_reason": "stop"
+}

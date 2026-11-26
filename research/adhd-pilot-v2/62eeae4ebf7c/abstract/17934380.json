@@ -1,0 +1,9 @@
+{
+  "pmid": "17934380",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "0767fcf989717c7f6bbc17c31c1f713b79e3c06ec6611b40573489df420269dc",
+  "raw_response": "{\"eligibility\":{\"quote\":\"We conducted a 6-week open trial with aripiprazole in 10 children and adolescents with JBD comorbid with ADHD to assess impact on mania and ADHD symptoms\",\"answer\":\"exclude\"},\"n_total\":{\"quote\":\"We conducted a 6-week open trial with aripiprazole in 10 children and adolescents with JBD comorbid with ADHD to assess impact on mania and ADHD symptoms\",\"answer\":10},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"We conducted a 6-week open trial with aripiprazole in 10 children and adolescents with JBD comorbid with ADHD\",\"answer\":\"Other\"}}",
+  "finish_reason": "stop"
+}

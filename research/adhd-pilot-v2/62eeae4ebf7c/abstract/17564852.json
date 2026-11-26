@@ -1,0 +1,9 @@
+{
+  "pmid": "17564852",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "04d8c852ef9dfcb6e9a17bf6ae63c9c6ec5a9d54759627fa43e49472d22a6b7c",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Ten boys diagnosed with ADHD and ten normal control boys participated in the study.\",\"answer\":\"exclude\"},\"n_total\":{\"quote\":\"Ten boys diagnosed with ADHD and ten normal control boys participated in the study.\",\"answer\":20},\"n_female\":{\"quote\":\"Ten boys diagnosed with ADHD and ten normal control boys participated in the study.\",\"answer\":0},\"includes_female\":{\"quote\":\"Ten boys diagnosed with ADHD and ten normal control boys participated in the study.\",\"answer\":false},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"In this initial pilot study, a controlled clinical comparison was made of attention perforance in children with attention deficit-hyperactivity disorder (ADHD) in a virtual reality (VR) classroom.\",\"answer\":\"Other\"}}",
+  "finish_reason": "stop"
+}

@@ -1,0 +1,9 @@
+{
+  "pmid": "22889924",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "1f0c27a915d76da5f6d5a11e058737a3328c2c7a768d716074b8f03de63b748e",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"Tourette's syndrome (TS) is a developmental disorder that has one of the highest familial recurrence rates among neuropsychiatric diseases with complex inheritance.\",\n    \"answer\": \"exclude\"\n  },\n  \"n_total\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"Here, we report the first genome-wide association study (GWAS) of TS in 1285 cases and 4964 ancestry-matched controls of European ancestry\",\n    \"answer\": \"Case-control\"\n  }\n}",
+  "finish_reason": "stop"
+}

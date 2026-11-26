@@ -1,0 +1,9 @@
+{
+  "pmid": "12086544",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "80c80dad3240e94f9b301686df302cd856f1665a8324f59a311b870224cbb006",
+  "raw_response": "{\"eligibility\": {\"quote\": \"Subjects (n = 17; 8 methylphenidate, 9 Adderall) were well matched.\", \"answer\": \"exclude\"}, \"n_total\": {\"quote\": \"Subjects (n = 17; 8 methylphenidate, 9 Adderall) were well matched.\", \"answer\": 17}, \"n_female\": {\"quote\": \"Boys 7-11 years old who were receiving methylphenidate or Adderall for a minimum of 2 months were asked to participate.\", \"answer\": 0}, \"includes_female\": {\"quote\": \"Boys 7-11 years old who were receiving methylphenidate or Adderall for a minimum of 2 months were asked to participate.\", \"answer\": false}, \"female_percent\": {\"quote\": null, \"answer\": null}, \"paired_counts\": {\"quote\": null, \"answer\": false}, \"sex_reporting\": {\"quote\": null, \"answer\": null}, \"study_design\": {\"quote\": \"Subjects wore ambulatory blood pressure monitors for 24-hour periods both off and on stimulant therapy.\", \"answer\": \"Other\"}}",
+  "finish_reason": "stop"
+}

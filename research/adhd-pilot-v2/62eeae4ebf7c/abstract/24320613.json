@@ -1,0 +1,9 @@
+{
+  "pmid": "24320613",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "d01713af6abc2d72eec7f93bc758ee736a6068aa5095bc8c1bef2b6357adc388",
+  "raw_response": "{\"eligibility\":{\"quote\":\"We examined associations between measured childhood PFOA serum concentration and mother and teacher reports of executive function (Behaviour Rating Inventory of Executive Function), attention deficit hyperactivity disorder (ADHD)-like behaviour\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"We recruited and evaluated 321 children who participated in the C8 Health Project, a 2005-06 survey in a mid-Ohio Valley community highly exposed to perfluorooctanoate (PFOA) through contaminated drinking water.\",\"answer\":321},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":\"Mother reports, however, did suggest favourable associations between exposure and behaviour among boys and adverse associations among girls.\",\"answer\":true},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":\"PFOA exposure had a favourable association among boys (highest vs. lowest quartile \u03b2 = -6.39; 95% confidence interval [CI] -11.43, -1.35) and an adverse association among girls (highest vs. lowest quartile \u03b2 = 4.42; 95% CI -0.03, 8.87; interaction P = 0.01).\",\"answer\":2},\"study_design\":{\"quote\":\"behavioural problems (Behaviour Assessment System for Children) assessed 3 to 4 years later at ages 6-12 years.\",\"answer\":\"Cohort-Prospective\"}}",
+  "finish_reason": "stop"
+}

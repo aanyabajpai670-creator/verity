@@ -1,0 +1,9 @@
+{
+  "pmid": "35712903",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "5557e3a092af84cbd7ceaa27db7ae7e203282057359f2d91fbd37db02da0fa53",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"In 2018, we conducted a retrospective cohort study of 3- to 18-year-old patients with ADHD in Baden-Wuerttemberg, southern Germany.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"A total of 2317 patients were included in IG and 4177 patients in CG.\",\n    \"answer\": null\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"In 2018, we conducted a retrospective cohort study of 3- to 18-year-old patients with ADHD in Baden-Wuerttemberg, southern Germany.\",\n    \"answer\": \"Cohort-Retrospective\"\n  }\n}",
+  "finish_reason": "stop"
+}

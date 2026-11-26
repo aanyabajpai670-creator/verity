@@ -1,0 +1,9 @@
+{
+  "pmid": "39388790",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "e378b1c08c5d0ccb049312f5a44346a625a39b4452a85f412bd9ec1898d717e8",
+  "raw_response": "```json\n{\n  \"eligibility\": {\n    \"quote\": \"Participants included 471 children ages 8-12 years with ADHD (n = 244; 58 OV/OB) and neurotypical (NT) controls (n = 227; 81 OV/OB)\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"Participants included 471 children ages 8-12 years with ADHD (n = 244; 58 OV/OB) and neurotypical (NT) controls (n = 227; 81 OV/OB)\",\n    \"answer\": 471\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"in a single cross-sectional cohort of children with and without ADHD and overweight/obesity (OV/OB)\",\n    \"answer\": \"Cross-sectional\"\n  }\n}\n```",
+  "finish_reason": "stop"
+}

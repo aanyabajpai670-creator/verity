@@ -1,0 +1,9 @@
+{
+  "pmid": "12108804",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "035fa0446aebb2b18ac233190b5e8a678a8e4ea51ed008ca2ac75fb8538e16d6",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"Confidential self-report surveys were completed by 1,066 tenth-grade students enrolled in five public high schools who were taking part in a longitudinal study of biobehavioral predictors of adolescent smoking adoption. A well-standardized measure of ADHD inattention\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"Confidential self-report surveys were completed by 1,066 tenth-grade students enrolled in five public high schools\",\n    \"answer\": 1066\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"Confidential self-report surveys were completed by 1,066 tenth-grade students enrolled in five public high schools who were taking part in a longitudinal study of biobehavioral predictors of adolescent smoking adoption.\",\n    \"answer\": \"Cross-sectional\"\n  }\n}",
+  "finish_reason": "stop"
+}

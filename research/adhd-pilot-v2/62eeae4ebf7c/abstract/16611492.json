@@ -1,0 +1,9 @@
+{
+  "pmid": "16611492",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "d2d9fde4abb0fb6aa2fc7d0a3ef4d675bc405243a5c07dc9884af83cb1cd37a8",
+  "raw_response": "{\"eligibility\": {\"quote\": \"We evaluated the utility of adult reports of lifetime ADHD symptoms by examining the heritability of retrospectively reported childhood symptoms, using both symptom-based and discrete classification-based approaches\", \"answer\": \"uncertain\"}, \"n_total\": {\"quote\": null, \"answer\": null}, \"n_female\": {\"quote\": null, \"answer\": null}, \"includes_female\": {\"quote\": \"by using a sample of middle-aged male twin veterans\", \"answer\": false}, \"female_percent\": {\"quote\": null, \"answer\": null}, \"paired_counts\": {\"quote\": null, \"answer\": false}, \"sex_reporting\": {\"quote\": null, \"answer\": null}, \"study_design\": {\"quote\": \"by using a sample of middle-aged male twin veterans\", \"answer\": \"Other\"}}",
+  "finish_reason": "stop"
+}

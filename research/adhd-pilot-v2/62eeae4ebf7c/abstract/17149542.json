@@ -1,0 +1,9 @@
+{
+  "pmid": "17149542",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "4d0e600b53cc162fe321d9a1c3bfd5c11f462ceb7bd98957bc3b2d425cd03494",
+  "raw_response": "{\"eligibility\":{\"quote\":\"One hundred and sixty children participated in the study at the ages of 5 and 6. Teachers and parents completed the Strengths and Difficulties Questionnaire; children completed the Berkeley Puppet Interview at both assessment points.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"One hundred and sixty children participated in the study at the ages of 5 and 6.\",\"answer\":160},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":\"Compared to girls, boys showed higher levels and increases of conduct problems and hyperactivity and lower levels of pro-social behaviour.\",\"answer\":true},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":\"Compared to girls, boys showed higher levels and increases of conduct problems and hyperactivity and lower levels of pro-social behaviour.\",\"answer\":2},\"study_design\":{\"quote\":\"One hundred and sixty children participated in the study at the ages of 5 and 6.\",\"answer\":\"Cohort-Prospective\"}}",
+  "finish_reason": "stop"
+}

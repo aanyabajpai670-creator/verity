@@ -1,0 +1,9 @@
+{
+  "pmid": "31039324",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "a884dba125282a8d2d8dc3d36cb09d9689b192ae818872bf841c6b6c9dbcd11e",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Atypical auditory behavior was reported among 80% of children with FASDs, a prevalence that did not vary by FASD diagnostic severity or hearing status but was positively correlated with attention-deficit/hyperactivity disorder.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"we examined clinical data from 325 children diagnosed with FASDs at the University of Washington using the FASD 4-Digit Diagnostic Code.\",\"answer\":325},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"we examined clinical data from 325 children diagnosed with FASDs at the University of Washington using the FASD 4-Digit Diagnostic Code.\",\"answer\":\"Cross-sectional\"}}",
+  "finish_reason": "stop"
+}

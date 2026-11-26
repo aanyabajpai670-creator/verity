@@ -1,0 +1,9 @@
+{
+  "pmid": "32190980",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "4781912d56ebcb2ae1e945c9a6702d7e4141cb46a0743b69901ebcee6dfd9a7d",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"Two independent family-based Caucasian samples were analyzed, including 922 parent-child trios (a total of 2,757 subjects with 924 ADHD children) and 735 parent-child trios (a total of 1,383 subjects with 613 ADHD children).\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"922 parent-child trios (a total of 2,757 subjects with 924 ADHD children)\",\n    \"answer\": 2757\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"Two independent family-based Caucasian samples were analyzed\",\n    \"answer\": \"Other\"\n  }\n}",
+  "finish_reason": "stop"
+}

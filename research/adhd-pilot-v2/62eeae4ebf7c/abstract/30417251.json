@@ -1,0 +1,9 @@
+{
+  "pmid": "30417251",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "e6eaec395a4c00c8d3a5ce46ca5781f7d23b7104babb23f2e121b09971268ef6",
+  "raw_response": "```json\n{\n  \"eligibility\": {\n    \"quote\": \"In this longitudinal population-based cohort (N = 547) we examined the relation between maternal discipline and sensitivity in the preschool period and the occurrence of attention-deficit hyperactivity disorder (ADHD) symptoms in middle childhood\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"In this longitudinal population-based cohort (N = 547)\",\n    \"answer\": 547\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"In this longitudinal population-based cohort (N = 547) we examined the relation between maternal discipline and sensitivity in the preschool period and the occurrence of attention-deficit hyperactivity disorder (ADHD) symptoms in middle childhood\",\n    \"answer\": \"Cohort-Prospective\"\n  }\n}\n```",
+  "finish_reason": "stop"
+}

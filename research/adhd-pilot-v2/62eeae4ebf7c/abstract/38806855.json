@@ -1,0 +1,9 @@
+{
+  "pmid": "38806855",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "c707bc948a889defa3272cea21e9b4e25d48cee3930ec5e924f0aa08434ad4e6",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"Overall, 395 epilepsy patients aged 6-18 years were enrolled.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"Overall, 395 epilepsy patients aged 6-18 years were enrolled.\",\n    \"answer\": 395\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"We carried out a multicenter cross-sectional survey of children with epilepsy across China between March 2022 and August 2022.\",\n    \"answer\": \"Cross-sectional\"\n  }\n}",
+  "finish_reason": "stop"
+}

@@ -1,0 +1,9 @@
+{
+  "pmid": "27414399",
+  "scope": "article",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "84e77b55c7faaa95dafbbf300e9068bf9f40a035e3ae790838a72aaf0c0d002f",
+  "raw_response": "{\"eligibility\":{\"quote\":\"To the best of our knowledge, this is the first study that has showed the independent association between enuresis and hyperactivity-inattention among a large general population in early adolescence.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"Enuresis was reported for 407 (9.2%) children out of 4,434 participants (Table 1).\",\"answer\":4434},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":\"Demographic data of the participants (Total N = 4,434). | Variables | n / Mean | (%) / SD | Sex, male | 2347 | (52.9)\",\"answer\":true},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":\"There were no significant interaction effects between enuresis and sex on the SDQ subscales in these multivariate linear regression analyses (p > .20).\",\"answer\":2},\"study_design\":{\"quote\":\"This study used data from Tokyo Early Adolescence Survey (T-EAS), a population-based cross-sectional survey focusing on children\u2019s health from bio-psycho-social multidisciplinary viewpoints.\",\"answer\":\"Cross-sectional\"}}",
+  "finish_reason": "stop"
+}

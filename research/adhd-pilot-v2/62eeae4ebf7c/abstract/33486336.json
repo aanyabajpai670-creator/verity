@@ -1,0 +1,9 @@
+{
+  "pmid": "33486336",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "96456b72e17d8463e8c990d6286fccfe73d9574f3e12a32f73ec89eddc8eaad6",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"From January 2012 to December 2018, we evaluated the trends of prescribing methylphenidate-osmotic-controlled release oral delivery system (OROS), atomoxetine, and guanfacine as monotherapy.\",\n    \"answer\": \"uncertain\"\n  },\n  \"n_total\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": \"In girls, the methylphenidate-OROS prescriptions was not significantly different (37.0 % to 26.4 %); however, atomoxetine decreased from 23.1 % to 16.3 %, and guanfacine increased from 0.0 % to 12.8 %.\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": \"In boys, methylphenidate-OROS and atomoxetine prescriptions decreased from 46.5 % to 37.2 % and 18.6 % to 15.6 %, respectively. Prescriptions of guanfacine increased from 0.0 % to 12.3 %.\",\n    \"answer\": 2\n  },\n  \"study_design\": {\n    \"quote\": \"A retrospective survey of Japanese administrative data (2012-2018)\",\n    \"answer\": \"Cohort-Retrospective\"\n  }\n}",
+  "finish_reason": "stop"
+}

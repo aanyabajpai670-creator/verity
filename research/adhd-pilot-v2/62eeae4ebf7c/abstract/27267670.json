@@ -1,0 +1,9 @@
+{
+  "pmid": "27267670",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "5239fb2efb442eb28cf45553ab116e4ff66d14f9a7259d30eb52b3d65a879a1b",
+  "raw_response": "{\"eligibility\": {\"quote\": \"Polysomnographic sleep was monitored in 7 children with ADHD and 14 typically developing controls.\", \"answer\": \"exclude\"}, \"n_total\": {\"quote\": null, \"answer\": null}, \"n_female\": {\"quote\": null, \"answer\": null}, \"includes_female\": {\"quote\": null, \"answer\": null}, \"female_percent\": {\"quote\": null, \"answer\": null}, \"paired_counts\": {\"quote\": null, \"answer\": null}, \"sex_reporting\": {\"quote\": null, \"answer\": null}, \"study_design\": {\"quote\": \"Polysomnographic sleep was monitored in 7 children with ADHD and 14 typically developing controls. All children were trained on a validated motor sequence task (MST) in the evening with retesting the following morning.\", \"answer\": \"Case-control\"}}",
+  "finish_reason": "stop"
+}

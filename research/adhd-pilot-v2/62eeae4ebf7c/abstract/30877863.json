@@ -1,0 +1,9 @@
+{
+  "pmid": "30877863",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "b65d7e193df8443ebb8d43ece3cd0bb3e6be9d000e7a65384625c99cbe976bc1",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Fifty-three drug-naive boys with ADHD and 53 HCs underwent high-resolution anatomical magnetic resonance (MR) imaging using a 3-T MR scanner.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"Fifty-three drug-naive boys with ADHD and 53 HCs underwent high-resolution anatomical magnetic resonance (MR) imaging using a 3-T MR scanner.\",\"answer\":106},\"n_female\":{\"quote\":\"Fifty-three drug-naive boys with ADHD and 53 HCs\",\"answer\":0},\"includes_female\":{\"quote\":\"Fifty-three drug-naive boys with ADHD and 53 HCs\",\"answer\":false},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"The cross-sectional study design limited inferences about the effects of age on regions displaying morphometric differences.\",\"answer\":\"Cross-sectional\"}}",
+  "finish_reason": "stop"
+}

@@ -1,0 +1,9 @@
+{
+  "pmid": "26550924",
+  "scope": "article",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "4c54860b1ac5819c5d4b5a31145d25c16ed68b8d3ab56d15052c191e2ba1ef64",
+  "raw_response": "{\"eligibility\":{\"quote\":\"The sample for this study consisted of 60 adult women aged between 20 and 52 years, divided into three groups: 20 with ADHD, 20 with BD and 20 controls.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"The sample for this study consisted of 60 adult women aged between 20 and 52 years, divided into three groups: 20 with ADHD, 20 with BD and 20 controls.\",\"answer\":60},\"n_female\":{\"quote\":\"The sample for this study consisted of 60 adult women aged between 20 and 52 years, divided into three groups: 20 with ADHD, 20 with BD and 20 controls.\",\"answer\":60},\"includes_female\":{\"quote\":\"The sample for this study consisted of 60 adult women aged between 20 and 52 years, divided into three groups: 20 with ADHD, 20 with BD and 20 controls.\",\"answer\":true},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":\"The sample for this study consisted of 60 adult women aged between 20 and 52 years, divided into three groups: 20 with ADHD, 20 with BD and 20 controls.\",\"answer\":true},\"sex_reporting\":{\"quote\":\"The sample for this study consisted of 60 adult women aged between 20 and 52 years, divided into three groups: 20 with ADHD, 20 with BD and 20 controls.\",\"answer\":1},\"study_design\":{\"quote\":\"The sample for this study consisted of 60 adult women aged between 20 and 52 years, divided into three groups: 20 with ADHD, 20 with BD and 20 controls.\",\"answer\":\"Case-control\"}}",
+  "finish_reason": "stop"
+}

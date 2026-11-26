@@ -1,0 +1,9 @@
+{
+  "pmid": "37071423",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "2c97b84df1228779a3d7beb1c513d1beb4caca779947f795f80ca8561d3bbc85",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"To investigate the school-level prevalence of and association between stimulant therapy for ADHD and NUPS among US secondary school students. DESIGN, SETTING, AND PARTICIPANTS: This cross-sectional study used survey data\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"The 3284 schools contained 231 141 US 8th-, 10th-, and 12th-grade students\",\n    \"answer\": 231141\n  },\n  \"n_female\": {\n    \"quote\": \"111 864 [50.8%, weighted] female\",\n    \"answer\": 111864\n  },\n  \"includes_female\": {\n    \"quote\": \"111 864 [50.8%, weighted] female\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": \"111 864 [50.8%, weighted] female\",\n    \"answer\": 50.8\n  },\n  \"paired_counts\": {\n    \"quote\": \"The 3284 schools contained 231 141 US 8th-, 10th-, and 12th-grade students (111 864 [50.8%, weighted] female;\",\n    \"answer\": true\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"This cross-sectional study used survey data collected between 2005 and 2020 as part of the Monitoring the Future study\",\n    \"answer\": \"Cross-sectional\"\n  }\n}",
+  "finish_reason": "stop"
+}

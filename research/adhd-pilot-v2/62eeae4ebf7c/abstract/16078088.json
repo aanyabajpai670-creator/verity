@@ -1,0 +1,9 @@
+{
+  "pmid": "16078088",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "cdf4177f4354efbfc78de1139fa23808acfe74cfc1744f44581afdec0fbbff9e",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": null,\n    \"answer\": \"uncertain\"\n  },\n  \"n_total\": {\n    \"quote\": \"Sixty healthy male volunteers were randomised into three groups.\",\n    \"answer\": 60\n  },\n  \"n_female\": {\n    \"quote\": \"Sixty healthy male volunteers were randomised into three groups.\",\n    \"answer\": 0\n  },\n  \"includes_female\": {\n    \"quote\": \"Sixty healthy male volunteers were randomised into three groups.\",\n    \"answer\": false\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"Sixty healthy male volunteers were randomised into three groups. Cognitive testing was performed from +2 to +4 h after double-blind administration of a single oral dose of 1 or 2 mg of guanfacine or placebo.\",\n    \"answer\": \"RCT\"\n  }\n}",
+  "finish_reason": "stop"
+}

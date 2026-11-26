@@ -1,0 +1,9 @@
+{
+  "pmid": "34942585",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "a5ca7d7f38c26c0f708f1b677391687fed1f1345facd11e0ff4d2364bfe0414a",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Attention-deficit/hyperactivity disorder (ADHD) was present in 14 cases (45%), specific learning difficulties in nine (29%), and mood disorder (anxiety/depression) in 16 patients (52%).\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"Thirty-one patients (22 male; mean age 15.4 \u00b1 2.2 years, range 12 to 19 years)\",\"answer\":31},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"Thirty-one patients (22 male; mean age 15.4 \u00b1 2.2 years, range 12 to 19 years) with a diagnosis of DSWPD based on detailed history, sleep diary, and actigraphy underwent nocturnal polysomnography (PSG) and neurological, psychological, and psychiatric examination.\",\"answer\":\"Cross-sectional\"}}",
+  "finish_reason": "stop"
+}

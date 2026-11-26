@@ -1,0 +1,9 @@
+{
+  "pmid": "10999232",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "0496ddf705d8f98fccf62984334025efd169d99acdac389d11274dd95b30d4fc",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Seven ADHD subjects were found to have a significantly lower Consistency Index than 6 non-ADHD males\",\"answer\":\"exclude\"},\"n_total\":{\"quote\":null,\"answer\":null},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":\"The current study replicated this with older males (19-25) using different tasks\",\"answer\":false},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"a double blind, placebo versus Ritalin controlled crossover design\",\"answer\":\"RCT\"}}",
+  "finish_reason": "stop"
+}

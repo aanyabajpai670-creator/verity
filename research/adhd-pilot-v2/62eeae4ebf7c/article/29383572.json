@@ -1,0 +1,9 @@
+{
+  "pmid": "29383572",
+  "scope": "article",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "ae36fbdb816c5d0475de4dcae115b78269442b6a2d6aa1f103e9506df0ea53f2",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"All 314 enrolled participants received lisdexamfetamine dimesylate and were included in the safety population\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"All 314 enrolled participants received lisdexamfetamine dimesylate and were included in the safety population\",\n    \"answer\": 314\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": \"Most participants were boys (250/314 [79.6%])\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": \"Most participants were boys (250/314 [79.6%])\",\n    \"answer\": 1\n  },\n  \"study_design\": {\n    \"quote\": \"SPD489-404 was a 2-year, phase IV, open-label safety study of dose-optimised LDX in children and adolescents with ADHD\",\n    \"answer\": \"Other\"\n  }\n}",
+  "finish_reason": "stop"
+}

@@ -1,0 +1,9 @@
+{
+  "pmid": "21508864",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "959a709c40a8e1ee4220b7d0ae72203ff4daf38f51726b90d981bd1bff4b6868",
+  "raw_response": "{\"eligibility\":{\"quote\":\"One hundred twenty-five children with ADHD were treated with methylphenidate according to standard clinical procedures, and followed up for 6 months.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"One hundred twenty-five children with ADHD were treated with methylphenidate according to standard clinical procedures, and followed up for 6 months.\",\"answer\":125},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"This is a longitudinal study using a nonrandom assignment, quasi-experimental design.\",\"answer\":\"Other\"}}",
+  "finish_reason": "stop"
+}

@@ -1,0 +1,9 @@
+{
+  "pmid": "24867158",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "8a85b77913956c86e9514f9f4d26be962c9fb17ffd5fbfc97958b41d2755fd18",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"There were also significant concerns regarding aggressive behavior and attention deficit/hyperactivity on the CBCL for the exposed group, although this did not reach statistical significance.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"a pilot cohort of 15 toddlers aged 2-4 years with a known history of maternal MA use during pregnancy. These were compared to a matched cohort of 21 toddlers without a history of maternal MA use.\",\n    \"answer\": \"Cohort-Retrospective\"\n  }\n}",
+  "finish_reason": "stop"
+}

@@ -1,0 +1,9 @@
+{
+  "pmid": "31497848",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "dc1440cc0d4d620d2dd6c1df0e4f0404abc0ac7c317ee7ad8e2edc20d15aaeb3",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Risk of developing ADHD was estimated using Cox proportional hazards regression in a high-dimensional propensity score-matched cohort (n = 69,738) and a sibling cohort (n = 67,671).\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"high-dimensional propensity score-matched cohort (n = 69,738)\",\"answer\":69738},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"We conducted a population-based cohort study to examine the association between antibiotic use in the first year of life and ADHD risk.\",\"answer\":\"Cohort-Retrospective\"}}",
+  "finish_reason": "stop"
+}

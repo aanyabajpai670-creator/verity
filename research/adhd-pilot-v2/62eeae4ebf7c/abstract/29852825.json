@@ -1,0 +1,9 @@
+{
+  "pmid": "29852825",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "6cc56cfe2efed6435ad131b6e0b9b5caaed03e2c1c319168e31b028b5b79835c",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"This cross-sectional analysis of data from the 2012 Kids' Inpatient Database included 483,281 hospitalizations in general and children's hospitals of persons under age 21 with a primary or secondary behavioral diagnosis.\",\n    \"answer\": \"uncertain\"\n  },\n  \"n_total\": {\n    \"quote\": \"included 483,281 hospitalizations in general and children's hospitals of persons under age 21 with a primary or secondary behavioral diagnosis\",\n    \"answer\": null\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"This cross-sectional analysis of data from the 2012 Kids' Inpatient Database\",\n    \"answer\": \"Cross-sectional\"\n  }\n}",
+  "finish_reason": "stop"
+}

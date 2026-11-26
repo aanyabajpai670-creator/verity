@@ -1,0 +1,9 @@
+{
+  "pmid": "39390799",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "3c60c2bd6a8ea1f519a7baeb0d5015da7e5a4f2a7cc0a826afeb9181fcb07884",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"we compared a group of 1,582 patients with T2DM and ADHD to 1,582 patients with T2DM and without ADHD\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"a group of 1,582 patients with T2DM and ADHD\",\n    \"answer\": 1582\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"This retrospective cross-sectional study uses electronic medical records from the Maccabi Healthcare Services database during the years 2010 to 2020\",\n    \"answer\": \"Cross-sectional\"\n  }\n}",
+  "finish_reason": "stop"
+}

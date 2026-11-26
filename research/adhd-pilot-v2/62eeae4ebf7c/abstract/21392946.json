@@ -1,0 +1,9 @@
+{
+  "pmid": "21392946",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "f295ef130f00b27f8c6d1a17453bf6358089f99f87b7f3db89df563df61b7587",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"CAARS-S/O and questions on sociodemographic variables were filled out by 466 patients with ADHD, 847 healthy control subjects that already participated in two prior studies\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"CAARS-S/O and questions on sociodemographic variables were filled out by 466 patients with ADHD, 847 healthy control subjects\",\n    \"answer\": \"Cross-sectional\"\n  }\n}",
+  "finish_reason": "stop"
+}

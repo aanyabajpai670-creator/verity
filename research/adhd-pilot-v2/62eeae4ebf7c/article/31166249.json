@@ -1,0 +1,9 @@
+{
+  "pmid": "31166249",
+  "scope": "article",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "53b31f1eaf6e8e569469c47ffe695bc7ca99558059ba0539c0cb46d6b8094fb5",
+  "raw_response": "{\"eligibility\":{\"quote\":\"We studied whether parent-reported sleep duration, night awakenings, and parent-reported sleep problems in early childhood are associated with symptoms of inattention and hyperactivity at the age of 5 years.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"Thereby, the final sample consisted of 689 children with either sleep items and the Strengths and Difficulties Questionnaire (SDQ) or the Five-to-Fifteen (FTF) questionnaire at 5 years of age.\",\"answer\":689},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":\"The final partially adjusted model controlled for the child's age at 5 years, sex, the mother's educational level, and whether the mother smoked during pregnancy.\",\"answer\":0},\"study_design\":{\"quote\":\"The recruitment and baseline measurement occurred prenatally at the 32nd week, and the follow-up measurements took place at the birth of the child and at the age of 3, 8, 18, and 24 months and 5 years.\",\"answer\":\"Cohort-Prospective\"}}",
+  "finish_reason": "stop"
+}

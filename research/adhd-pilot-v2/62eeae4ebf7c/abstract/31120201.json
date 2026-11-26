@@ -1,0 +1,9 @@
+{
+  "pmid": "31120201",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "89e9fb32c1181f5dc333f3c3f7fea44941104e3fe0d6d2aaa48bb172a941297f",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"Participants were 472 youth from the Multimodal Treatment Study of Children With ADHD. The study sample included 308 youth with DSM-IV ADHD, recruited from 1993 through 1996, and 164 comparison youth who were recruited approximately 2 years later.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"Participants were 472 youth from the Multimodal Treatment Study of Children With ADHD.\",\n    \"answer\": 472\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": \"Higher levels of ADHD severity were associated with higher levels of depression in early maturing girls and later maturing boys.\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"sex_reporting\": {\n    \"quote\": \"In preadolescence, significant ADHD \u00d7 sex \u00d7 puberty interactions emerged for total depression symptoms and anhedonia (P < .05).\",\n    \"answer\": 2\n  },\n  \"study_design\": {\n    \"quote\": \"Longitudinal effects emerged showing that total depression symptoms and anhedonia in preadolescence predicted levels of each respective outcome into late adolescence.\",\n    \"answer\": \"Cohort-Prospective\"\n  }\n}",
+  "finish_reason": "stop"
+}

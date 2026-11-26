@@ -1,0 +1,9 @@
+{
+  "pmid": "18693137",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "25a61f325407b22350635f3172853f66570b2370b02f375e7a4a1c7e34286418",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"Included were 107 unmedicated children with ADHD and 46 healthy control subjects, all aged 6-14.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"Included were 107 unmedicated children with ADHD and 46 healthy control subjects, all aged 6-14.\",\n    \"answer\": 153\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"Included were 107 unmedicated children with ADHD and 46 healthy control subjects, all aged 6-14. Sleep-wake patterns were monitored with actigraphy for at least five consecutive days.\",\n    \"answer\": \"Cross-sectional\"\n  }\n}",
+  "finish_reason": "stop"
+}

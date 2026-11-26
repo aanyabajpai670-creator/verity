@@ -1,0 +1,9 @@
+{
+  "pmid": "19142107",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "5e10df148a073bb09abebecd5689853f122081958bffcce50f59aff986fe88c1",
+  "raw_response": "{\"eligibility\":{\"quote\":\"This randomized, double-blind, placebo-controlled, 6-month trial examined the efficacy and safety of once-daily morning-dosed atomoxetine in adult patients with attention-deficit/hyperactivity disorder (ADHD)\",\"answer\":\"include\"},\"n_total\":{\"quote\":null,\"answer\":null},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"This randomized, double-blind, placebo-controlled, 6-month trial examined the efficacy and safety of once-daily morning-dosed atomoxetine in adult patients with attention-deficit/hyperactivity disorder (ADHD)\",\"answer\":\"RCT\"}}",
+  "finish_reason": "stop"
+}

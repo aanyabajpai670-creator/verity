@@ -1,0 +1,9 @@
+{
+  "pmid": "17892623",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "e5cda44b626fc90e5fefa0b58044b0cc0e041537c7ac05f950e79975f05772e8",
+  "raw_response": "{\"eligibility\":{\"quote\":\"DSM-IV ADHD symptoms were collected retrospectively from 3896 young adults participating in the National Longitudinal Study of Adolescent Health.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"DSM-IV ADHD symptoms were collected retrospectively from 3896 young adults participating in the National Longitudinal Study of Adolescent Health.\",\"answer\":3896},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":\"same- and opposite-sex twins and siblings\",\"answer\":true},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":\"Possible gender differences in these effects were also examined.\",\"answer\":null},\"study_design\":{\"quote\":\"Responses from this genetically informative sample of same- and opposite-sex twins and siblings were used to determine the magnitude of genetic and environmental influences.\",\"answer\":\"Other\"}}",
+  "finish_reason": "stop"
+}

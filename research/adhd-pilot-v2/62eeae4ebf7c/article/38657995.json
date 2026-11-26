@@ -1,0 +1,9 @@
+{
+  "pmid": "38657995",
+  "scope": "article",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "746df3ca6d0df82e36cbb5c4b6fd5dd3cb5ec1d7d80687a51320a8e9df119e56",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"This is a cross-sectional study carried out from December 2021 to April 2022 through a self-administered online survey among medical students at King Faisal University (KFU), Al-Ahsa, and Imam Abdulrahman Bin Faisal University (IAU), Dammam, Saudi Arabia.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"A total of 397 medical students participated in the study; only 354 met the inclusion criteria of the study.\",\n    \"answer\": 354\n  },\n  \"n_female\": {\n    \"quote\": \"Out of the total, 249 (70.3%) were females, and 295 (83.3%) were single.\",\n    \"answer\": 249\n  },\n  \"includes_female\": {\n    \"quote\": \"Out of the total, 249 (70.3%) were females, and 295 (83.3%) were single.\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": \"Out of the total, 249 (70.3%) were females, and 295 (83.3%) were single.\",\n    \"answer\": 70.3\n  },\n  \"paired_counts\": {\n    \"quote\": \"Out of the total, 249 (70.3%) were females, and 295 (83.3%) were single.\",\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": \"We found that the prevalence in females was slightly higher than in males (26.1% versus 25.7%), but this difference was not statistically significant.\",\n    \"answer\": 2\n  },\n  \"study_design\": {\n    \"quote\": \"This is a cross-sectional study carried out from December 2021 to April 2022 through a self-administered online survey among medical students at King Faisal University (KFU), Al-Ahsa, and Imam Abdulrahman Bin Faisal University (IAU), Dammam, Saudi Arabia.\",\n    \"answer\": \"Cross-sectional\"\n  }\n}",
+  "finish_reason": "stop"
+}

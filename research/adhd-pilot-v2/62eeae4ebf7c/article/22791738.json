@@ -1,0 +1,9 @@
+{
+  "pmid": "22791738",
+  "scope": "article",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "0333221058743fc26792f7ddd7ef2544ddc5429d0321b0da256072cb561229d6",
+  "raw_response": "```json\n{\n  \"eligibility\": {\n    \"quote\": \"This hypothesis was tested in 8,324 children from a well-characterized United Kingdom prospective cohort study, the Avon Longitudinal Study of Parents and Children (data from 1991-2000).\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"Pregnancy data were available for 8,324 families and parent-reported ADHD data at 7.5 years for 5,719.\",\n    \"answer\": 8324\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": \"Associations were observed between offspring ADHD and maternal and paternal smoking for both males and females, with no robust differences between maternal and paternal associations\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": \"Because ADHD behaviors are more prevalent in males (32) and there may be differential influences of smoking during pregnancy by sex (33), analyses were stratified by sex. Associations were observed between offspring ADHD and maternal and paternal smoking for both males and females\",\n    \"answer\": 2\n  },\n  \"study_design\": {\n    \"quote\": \"Participants were part of the Avon Longitudinal Study of Parents and Children (ALSPAC), a prospective longitudinal study of children followed from gestation to (currently) late adolescence.\",\n    \"answer\": \"Cohort-Prospective\"\n  }\n}\n```",
+  "finish_reason": "stop"
+}

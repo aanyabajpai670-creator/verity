@@ -1,0 +1,9 @@
+{
+  "pmid": "32539526",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "d1bf417a8cdc151855121477d7a284a9983e889378c12c104ba6cb583da2f4c6",
+  "raw_response": "{\"eligibility\":{\"quote\":\"four human data sets (ASD: Autism Brain Imaging Data Exchange [ABIDE-I], N=1,112; ABIDE-II, N=1,114; ADHD-200 sample: N=776; OCD local institutional database: N=186)\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"ADHD-200 sample: N=776\",\"answer\":776},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"Resting-state functional connectivity data obtained from both wild-type and methyl-CpG binding protein 2 (MECP2) transgenic monkeys were used to construct monkey-derived classifiers for diagnostic classification in four human data sets\",\"answer\":\"Cross-sectional\"}}",
+  "finish_reason": "stop"
+}

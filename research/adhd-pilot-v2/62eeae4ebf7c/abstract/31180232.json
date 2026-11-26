@@ -1,0 +1,9 @@
+{
+  "pmid": "31180232",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "6a9bc616b65930eaa5ae62dc2d1f92e7d6fdb8fa870290740fccb7b0f89de952",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"We recruited 47 drug-naive children aged 8-13 divided into (1) Low Risk (LR)-ADHD only (n = 16); (2) High Risk (HR)-ADHD+familial SUD (n = 17); and (3) healthy controls (HC, n = 14)\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"We recruited 47 drug-naive children aged 8-13\",\n    \"answer\": 47\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"who underwent one functional magnetic resonance imaging scan while performing a hybrid task\",\n    \"answer\": \"Cross-sectional\"\n  }\n}",
+  "finish_reason": "stop"
+}

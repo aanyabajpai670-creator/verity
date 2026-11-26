@@ -1,0 +1,9 @@
+{
+  "pmid": "21039485",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "211b2d11867fadf33d2dcdebc8b90721655fb83c735140d3f75d7e19db5483c4",
+  "raw_response": "{\"eligibility\":{\"quote\":\"A total of 9024 patients aged 4-18 years were assessed using the CBCL, and the axes V and VI of ICD-10.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"A total of 9024 patients aged 4-18 years were assessed using the CBCL, and the axes V and VI of ICD-10.\",\"answer\":9024},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"A total of 9024 patients aged 4-18 years were assessed using the CBCL, and the axes V and VI of ICD-10.\",\"answer\":\"Cross-sectional\"}}",
+  "finish_reason": "stop"
+}

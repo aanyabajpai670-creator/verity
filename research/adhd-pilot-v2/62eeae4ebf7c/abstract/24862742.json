@@ -1,0 +1,9 @@
+{
+  "pmid": "24862742",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "cfc07df37db24212e7dcca1562814d0e67e6da05fef2f5aef180b08b008b3b61",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"we used resting state fMRI in 54 healthy male subjects in a double-blind, randomized, placebo-controlled study\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"we used resting state fMRI in 54 healthy male subjects in a double-blind, randomized, placebo-controlled study\",\n    \"answer\": 54\n  },\n  \"n_female\": {\n    \"quote\": \"54 healthy male subjects\",\n    \"answer\": 0\n  },\n  \"includes_female\": {\n    \"quote\": \"54 healthy male subjects\",\n    \"answer\": false\n  },\n  \"female_percent\": {\n    \"quote\": \"54 healthy male subjects\",\n    \"answer\": 0\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"double-blind, randomized, placebo-controlled study\",\n    \"answer\": \"RCT\"\n  }\n}",
+  "finish_reason": "stop"
+}

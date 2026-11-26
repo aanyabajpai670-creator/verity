@@ -1,0 +1,9 @@
+{
+  "pmid": "33048569",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "84283bce8672ea445d755b87e9599d15187fb94b5742bcb2fddc1798c710e311",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"Participants were 172 families of children with ADHD and social impairment (ages 6-11; 29.7% female) at two Canadian sites, randomized to PFC or to an active comparison intervention (Coping with ADHD through Relationships and Education; CARE)\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"Participants were 172 families of children with ADHD and social impairment (ages 6-11; 29.7% female) at two Canadian sites\",\n    \"answer\": 172\n  },\n  \"n_female\": {\n    \"quote\": \"29.7% female\",\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": \"29.7% female\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": \"29.7% female\",\n    \"answer\": 29.7\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"randomized to PFC or to an active comparison intervention (Coping with ADHD through Relationships and Education; CARE) to control for common therapy factors\",\n    \"answer\": \"RCT\"\n  }\n}",
+  "finish_reason": "stop"
+}

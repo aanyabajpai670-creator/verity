@@ -1,0 +1,9 @@
+{
+  "pmid": "28614761",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "a72c451b28588e2cf8b1afcd1487fa3eb3a13ad1abb86b79235ad9cb40dadf0d",
+  "raw_response": "```json\n{\n  \"eligibility\": {\n    \"quote\": \"We enrolled 225 ADHD cases and 225 healthy controls aged 6-13 years old in Liuzhou, China.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"We enrolled 225 ADHD cases and 225 healthy controls aged 6-13 years old in Liuzhou, China.\",\n    \"answer\": 450\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"We enrolled 225 ADHD cases and 225 healthy controls aged 6-13 years old in Liuzhou, China.\",\n    \"answer\": \"Case-control\"\n  }\n}\n```",
+  "finish_reason": "stop"
+}

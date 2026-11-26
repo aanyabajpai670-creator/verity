@@ -1,0 +1,9 @@
+{
+  "pmid": "15725968",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "c75f5ce3ec1ef037ef018ac1e93b0ea2a0f2692e4f8667afa70739eab8b030a2",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Children and adolescents (ages 8-18) with ADHD were treated for approximately 8 weeks with placebo or atomoxetine (fixed dosing: 0.5, 1.2, or 1.8 mg/kg/day, b.i.d.) under randomized, double-blind conditions.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"Among patients with lifetime diagnostic information (n = 293), 39% were diagnosed with comorbid ODD and 61% were not.\",\"answer\":293},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"treated for approximately 8 weeks with placebo or atomoxetine (fixed dosing: 0.5, 1.2, or 1.8 mg/kg/day, b.i.d.) under randomized, double-blind conditions\",\"answer\":\"RCT\"}}",
+  "finish_reason": "stop"
+}

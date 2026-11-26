@@ -1,0 +1,9 @@
+{
+  "pmid": "32034912",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "15e65bfb03ca28f17da326b5a3b3dd8fcea47ac1f8c67793d4049c158bb92ece",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"A total of 29 male children (14 with ADHD; aged 8-12 years) participated in a double-blind, placebo-controlled study trial.\",\n    \"answer\": \"exclude\"\n  },\n  \"n_total\": {\n    \"quote\": \"A total of 29 male children (14 with ADHD; aged 8-12 years) participated in a double-blind, placebo-controlled study trial.\",\n    \"answer\": 29\n  },\n  \"n_female\": {\n    \"quote\": \"A total of 29 male children (14 with ADHD; aged 8-12 years) participated in a double-blind, placebo-controlled study trial.\",\n    \"answer\": 0\n  },\n  \"includes_female\": {\n    \"quote\": \"A total of 29 male children (14 with ADHD; aged 8-12 years) participated in a double-blind, placebo-controlled study trial.\",\n    \"answer\": false\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"A total of 29 male children (14 with ADHD; aged 8-12 years) participated in a double-blind, placebo-controlled study trial.\",\n    \"answer\": \"RCT\"\n  }\n}",
+  "finish_reason": "stop"
+}

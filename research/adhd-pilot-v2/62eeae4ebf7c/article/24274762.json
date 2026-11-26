@@ -1,0 +1,9 @@
+{
+  "pmid": "24274762",
+  "scope": "article",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "662253fe26ff56d23f47ac1280c9746ff5e08d97e40a378b470e088b2eb435fe",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Secondary analysis of a UK birth cohort (the Millennium Cohort Study, N = 19,519) was used to model the association of ADHD with socioeconomic disadvantage and assess evidence for several potential explanatory pathways.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"The included sample size in this study who had reported on their child's ADHD status was 13305.\",\"answer\":13305},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":\"Nearest neighbour matching was used to define controls, with income at 9 months, child's sex, mother's highest qualification, and lone parenthood as conditioning variables.\",\"answer\":0},\"study_design\":{\"quote\":\"The MCS has followed 19,519 UK children, born between 2000 and 2002, via surveys and direct cognitive testing, carried out by trained interviewers face-to-face in family homes.\",\"answer\":\"Cohort-Prospective\"}}",
+  "finish_reason": "stop"
+}

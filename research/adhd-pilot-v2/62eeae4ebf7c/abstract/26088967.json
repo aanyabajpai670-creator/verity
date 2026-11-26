@@ -1,0 +1,9 @@
+{
+  "pmid": "26088967",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "2c85f0c450732d9d7c5575c68973ff76e7da52355e667a6f0ca242b029faee72",
+  "raw_response": "{\"eligibility\":{\"quote\":\"We investigated the relation of extent of in utero alcohol exposure to cortical thickness in 78 preadolescent children with FASD and controls within a narrow age range.\",\"answer\":\"uncertain\"},\"n_total\":{\"quote\":\"78 preadolescent children with FASD and controls\",\"answer\":78},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":null,\"answer\":null}}",
+  "finish_reason": "stop"
+}

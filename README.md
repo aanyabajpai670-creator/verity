@@ -88,9 +88,28 @@ Then open `http://localhost:8000`. The assistant's `/api` requests require the f
 - `#/` — Home and condition search
 - `#/conditions/<slug>` — Condition profile, for example `#/conditions/adhd`
 - `#/gap-index` — Filterable and sortable Research Gap Index
+- `#/conditions/adhd/pilot` — ADHD audit snapshot, scoring inputs, and source-linked evidence
 - `#/about` — Project and methodology information
 
 Use the profile citations and methodology notes to follow a finding back to its source. The assistant is for general questions about Verity's data and does not provide personal diagnosis or treatment advice.
+
+## ADHD pilot preview
+
+Run `python3 scripts/adhd_pilot.py` to regenerate the preview snapshot from the saved extraction records without any network calls. Run `node dev-preview.mjs` and open `http://127.0.0.1:8000/#/conditions/adhd/pilot`.
+
+The build reads the prompt-versioned checkpoints in `research/adhd-pilot-v2/<version>/`, which were produced from locally cached article text. Those full-text caches are copyrighted and are therefore excluded from the repository (`research/fulltext/`, `research/adhd-pilot-v2/sources/`). If a cache file is missing the build stops with an explicit error rather than publishing numbers that disagree with the reviewed ledger. To reproduce the published snapshot you need the same caches; without them the previously published `report.json` and `assets/adhd-pilot*.{js,csv}` remain the authoritative output.
+
+To collect the revised fields and follow up with available article text, run:
+
+```sh
+python3 scripts/adhd_pilot.py --run --fulltext --background
+```
+
+Enter the hosted-model API key at the hidden prompt. The run processes the human reference set first, then continues through the fixed sample. It checkpoints responses and refreshes the snapshot during the run. Start it again with the same command to resume after a provider interruption. Use `--limit 5` for a foreground test, or leave out `--fulltext` for an abstract-only run.
+
+The browser snapshot and downloadable ledger are generated in `assets/`. Blank ledger cells represent unavailable or unresolved values. The prompt-versioned raw responses, normalized evidence with exact quotes, review queue, and scoring inputs are under `research/adhd-pilot-v2/`. The original extraction files remain in their original run directory. A published snapshot uses the March 2025 score in the Gap Index and presents any revised result separately as provisional.
+
+The revised calculation uses the 25/25/35/15 weights from the methodology specification and counts reporting levels 2 and 3 per §6.1. A composite requires resolved eligibility and inclusion/reporting coverage, a computable median, and a supported evidence strength rating. `--screened-corpus-size` takes a documented eligible count, never the count of search hits. `--consistent-findings` takes a documented synthesis when the strongest evidence tier is otherwise met. Omit either input when it is unresolved.
 
 ## Project layout
 

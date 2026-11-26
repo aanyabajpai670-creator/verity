@@ -1,0 +1,9 @@
+{
+  "pmid": "22923780",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "399cc84e418513ca2b978d1b45a7c3c1d33d7b0e3f2cf5b5395f847acfbf4364",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"The purpose of this study was to investigate the effect of sensory modulation and sleeping among 30 adolescents diagnosed with ADHD, compared with 28 adolescents without ADHD.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"30 adolescents diagnosed with ADHD, compared with 28 adolescents without ADHD.\",\n    \"answer\": 58\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"Two questionnaires were completed by parents to assess the participants' level of ADHD symptoms. Two other questionnaires were completed by the participants assessing difficulties in sensory modulation and sleep.\",\n    \"answer\": \"Cross-sectional\"\n  }\n}",
+  "finish_reason": "stop"
+}

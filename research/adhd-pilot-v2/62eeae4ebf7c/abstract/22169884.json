@@ -1,0 +1,9 @@
+{
+  "pmid": "22169884",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "8e644c206016b38544eaec7a858ff1f7624229746deacf636961002d5aff3333",
+  "raw_response": "{\"eligibility\":{\"quote\":\"In a double blind placebo-controlled crossover study, 19 healthy young male volunteers were tested after a single dose of placebo or 10, 20 or 40 mg of methylphenidate.\",\"answer\":\"exclude\"},\"n_total\":{\"quote\":\"19 healthy young male volunteers were tested after a single dose of placebo or 10, 20 or 40 mg of methylphenidate.\",\"answer\":19},\"n_female\":{\"quote\":\"19 healthy young male volunteers\",\"answer\":null},\"includes_female\":{\"quote\":\"19 healthy young male volunteers\",\"answer\":false},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"In a double blind placebo-controlled crossover study\",\"answer\":\"RCT\"}}",
+  "finish_reason": "stop"
+}

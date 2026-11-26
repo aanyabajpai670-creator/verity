@@ -1,0 +1,9 @@
+{
+  "pmid": "28710948",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "4d5a1b8df71d9d31de21b3ab55d62b96a5a3282bdeaa9cd316297643e7e08a21",
+  "raw_response": "{\"eligibility\": {\"quote\": \"Thirty-one adult psychiatric patients, thoroughly diagnosed with autism spectrum disorder (ASD) (n=16), ADHD (n=8), or schizophrenia spectrum disorder (SSD) (n=7) and 15 healthy controls (HC), were blindly assessed with SensoDetect BERA.\", \"answer\": \"include\"}, \"n_total\": {\"quote\": null, \"answer\": null}, \"n_female\": {\"quote\": null, \"answer\": null}, \"includes_female\": {\"quote\": null, \"answer\": null}, \"female_percent\": {\"quote\": null, \"answer\": null}, \"paired_counts\": {\"quote\": null, \"answer\": null}, \"sex_reporting\": {\"quote\": null, \"answer\": null}, \"study_design\": {\"quote\": \"Thirty-one adult psychiatric patients, thoroughly diagnosed with autism spectrum disorder (ASD) (n=16), ADHD (n=8), or schizophrenia spectrum disorder (SSD) (n=7) and 15 healthy controls (HC), were blindly assessed with SensoDetect BERA.\", \"answer\": \"Cross-sectional\"}}",
+  "finish_reason": "stop"
+}

@@ -1,0 +1,9 @@
+{
+  "pmid": "30898336",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "d4dd97517ff285f86bc24200e8fe96abb3f16d7c17a9a9a4f1f824da1aa69ea1",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Both unique and overlapping striatal age-related connections were associated with the four symptom domains. Attention-deficit/hyperactivity disorder severity was related to age-advanced connectivity\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"Resting-state functional connectivity with striatal subdivisions was examined for 926 participants (8-22 years of age, 44% male) from the general population\",\"answer\":926},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":\"926 participants (8-22 years of age, 44% male)\",\"answer\":true},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"Resting-state functional connectivity with striatal subdivisions was examined for 926 participants (8-22 years of age, 44% male) from the general population who had participated in two large cross-sectional studies.\",\"answer\":\"Cross-sectional\"}}",
+  "finish_reason": "stop"
+}

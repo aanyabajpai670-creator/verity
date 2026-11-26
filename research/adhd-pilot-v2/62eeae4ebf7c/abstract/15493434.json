@@ -1,0 +1,9 @@
+{
+  "pmid": "15493434",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "f22b69a4bfbd39e282b0b378a7507b3acc5954148427412770b90fd171c0261e",
+  "raw_response": "{\"eligibility\":{\"quote\":\"children with attention difficulties compared to age-matched, typically achieving children\",\"answer\":\"uncertain\"},\"n_total\":{\"quote\":null,\"answer\":null},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"The present study assessed visual selective attention in children with attention difficulties compared to age-matched, typically achieving children.\",\"answer\":\"Cross-sectional\"}}",
+  "finish_reason": "stop"
+}

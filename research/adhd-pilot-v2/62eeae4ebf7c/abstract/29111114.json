@@ -1,0 +1,9 @@
+{
+  "pmid": "29111114",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "134dd8f6ff3947f227a651f9b64dfa0202bc53e501fe56dba75862fef90b4057",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Motor performance was measured using the Movement Assessment Battery for Children (M-ABC) in 71 children (26 with NF1 plus ADHD, 14 with NF1 without ADHD, and 31 with ADHD without NF1) aged 6-12 years.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"Motor performance was measured using the Movement Assessment Battery for Children (M-ABC) in 71 children (26 with NF1 plus ADHD, 14 with NF1 without ADHD, and 31 with ADHD without NF1) aged 6-12 years.\",\"answer\":71},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"Motor performance was measured using the Movement Assessment Battery for Children (M-ABC) in 71 children (26 with NF1 plus ADHD, 14 with NF1 without ADHD, and 31 with ADHD without NF1) aged 6-12 years.\",\"answer\":\"Cross-sectional\"}}",
+  "finish_reason": "stop"
+}

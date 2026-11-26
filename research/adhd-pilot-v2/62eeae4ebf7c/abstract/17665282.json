@@ -1,0 +1,9 @@
+{
+  "pmid": "17665282",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "98118b635bde6b76824eabfd7c9292e74d055fe3274eeaf5b05d7f913a2940e9",
+  "raw_response": "{\"eligibility\":{\"quote\":\"By means of polysomnography, sleep pattern was investigated in 19 children with TD + ADHD unmedicated before and during study and 19 healthy controls, matched for age, gender, and intelligence.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"19 children with TD + ADHD unmedicated before and during study and 19 healthy controls\",\"answer\":38},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"By means of polysomnography, sleep pattern was investigated in 19 children with TD + ADHD unmedicated before and during study and 19 healthy controls, matched for age, gender, and intelligence.\",\"answer\":\"Case-control\"}}",
+  "finish_reason": "stop"
+}

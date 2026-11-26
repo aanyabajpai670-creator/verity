@@ -1,0 +1,9 @@
+{
+  "pmid": "32996464",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "b5f51f5230aa06daa6bd2386200d9d229c7c02bdeca57c3886066bdeb6fd8144",
+  "raw_response": "{\"eligibility\":{\"quote\":\"We used a convenience sampling method to recruit an individual with adult attention-deficit hyperactivity disorder (n = 68) and a control group (n = 68).\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"We used a convenience sampling method to recruit an individual with adult attention-deficit hyperactivity disorder (n = 68) and a control group (n = 68).\",\"answer\":136},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"STUDY DESIGN: Methodological and cross-sectional study.\",\"answer\":\"Cross-sectional\"}}",
+  "finish_reason": "stop"
+}

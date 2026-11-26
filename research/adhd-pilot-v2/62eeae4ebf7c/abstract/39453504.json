@@ -1,0 +1,9 @@
+{
+  "pmid": "39453504",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "006789c7e516a1d46c745dad797a8de2e2241ebe3d9fb9e49b1c0374abe50150",
+  "raw_response": "{\"eligibility\":{\"quote\":\"This retrospective study investigates the cognitive profiles of individuals with ADHD, categorized by the age at which they were diagnosed-either during childhood or adolescence. The sample comprised 424 participants aged 6 to 20 years, with a predominance of males.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"The sample comprised 424 participants aged 6 to 20 years, with a predominance of males.\",\"answer\":424},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"This retrospective study investigates the cognitive profiles of individuals with ADHD, categorized by the age at which they were diagnosed-either during childhood or adolescence.\",\"answer\":\"Cohort-Retrospective\"}}",
+  "finish_reason": "stop"
+}

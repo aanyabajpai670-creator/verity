@@ -1,0 +1,9 @@
+{
+  "pmid": "17685750",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "e50b08092a940256d522204c74c3c35767a8c5d674298db2c7a94bddf976109b",
+  "raw_response": "{\"eligibility\":{\"quote\":\"We evaluated 180 children and adolescents (4-17 years old) and 111 adults from our ADHD unit. All ADHD diagnoses were assessed using DSM-IV criteria.\",\"answer\":\"include\"},\"n_total\":{\"quote\":null,\"answer\":null},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"Response to treatment was assessed in methylphenidatenaive subjects using the Swanson, Nolan, and Pelham Scale-version IV (SNAP-IV) at baseline and after 1 month of treatment.\",\"answer\":\"Cohort-Prospective\"}}",
+  "finish_reason": "stop"
+}

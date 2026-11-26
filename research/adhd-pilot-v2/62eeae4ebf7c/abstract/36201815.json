@@ -1,0 +1,9 @@
+{
+  "pmid": "36201815",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "8c74314bfb716b4d91fe8cbe7275d3f3c186d5e59c763163af0fa687aa7de8c3",
+  "raw_response": "{\"eligibility\":{\"quote\":\"This study included 850 Chinese kindergarteners with ADHD and their parents/older siblings.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"This study included 850 Chinese kindergarteners with ADHD and their parents/older siblings.\",\"answer\":850},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"and were randomly assigned to four groups, namely, dialogic reading with parents (PR-DR), dialogic reading with siblings (SR-DR), parent reading control (PR-C), and sibling reading control (SR-C).\",\"answer\":\"RCT\"}}",
+  "finish_reason": "stop"
+}

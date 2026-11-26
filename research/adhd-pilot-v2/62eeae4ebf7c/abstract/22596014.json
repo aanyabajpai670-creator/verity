@@ -1,0 +1,9 @@
+{
+  "pmid": "22596014",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "8c7b6790f5eee20d89b59601322c39baf528a16d87a55ffe5929ed51b2e0da30",
+  "raw_response": "```json\n{\n  \"eligibility\": {\n    \"quote\": \"Children (6-12 years) with attention-deficit hyperactivity disorder (ADHD) being treated with methylphenidate and standard behavior therapy for more than 6 months\",\n    \"answer\": \"uncertain\"\n  },\n  \"n_total\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"were randomly assigned to receive supplementation with a combined \u03c93 and \u03c96 preparation or a placebo\",\n    \"answer\": \"RCT\"\n  }\n}\n```",
+  "finish_reason": "stop"
+}

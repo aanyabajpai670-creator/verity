@@ -1,0 +1,9 @@
+{
+  "pmid": "17391466",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "cab8611f4c4eb1ee93cdfcc46d5777f1ed482fffafd91df8c353787e264495bf",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"Eighty-five very low birthweight (VLBW; <or=1500 g) children and term controls born in 1987-1988 in south-east region of Sweden were checked in registers regarding readmissions and diagnoses, need for habilitation and child psychiatric care up to 15 years of age.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": \"VLBW boys had three times more readmissions compared with normal weight control boys (p=0.003).\",\n    \"answer\": 2\n  },\n  \"study_design\": {\n    \"quote\": \"Eighty-five very low birthweight (VLBW; <or=1500 g) children and term controls born in 1987-1988 in south-east region of Sweden were checked in registers regarding readmissions and diagnoses, need for habilitation and child psychiatric care up to 15 years of age.\",\n    \"answer\": \"Cohort-Prospective\"\n  }\n}",
+  "finish_reason": "stop"
+}

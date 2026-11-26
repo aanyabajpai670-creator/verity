@@ -1,0 +1,9 @@
+{
+  "pmid": "10840176",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "637fb6e1b9c48017751d1c88c5e006b54626e5fc4898771929db25dd7bee346e",
+  "raw_response": "{\"eligibility\":{\"quote\":\"This is a prospective study of the effects of prenatal marijuana exposure on child behavior problems at age 10.\",\"answer\":\"uncertain\"},\"n_total\":{\"quote\":null,\"answer\":null},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"This is a prospective study of the effects of prenatal marijuana exposure on child behavior problems at age 10.\",\"answer\":\"Cohort-Prospective\"}}",
+  "finish_reason": "stop"
+}

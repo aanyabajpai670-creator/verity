@@ -1,0 +1,9 @@
+{
+  "pmid": "20736471",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "c81e802d384cf947cd70a52ec9d8ef5cf72229a87db1edf8efc329e54b6d52b6",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Randomized controlled trial assessing the efficacy of cognitive behavioral therapy for 86 symptomatic adults with ADHD who were already being treated with medication.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"Of the 86 patients randomized, 79 completed treatment and 70 completed the follow-up assessments.\",\"answer\":86},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"Randomized controlled trial assessing the efficacy of cognitive behavioral therapy for 86 symptomatic adults with ADHD who were already being treated with medication.\",\"answer\":\"RCT\"}}",
+  "finish_reason": "stop"
+}

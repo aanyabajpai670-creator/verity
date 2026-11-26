@@ -13,6 +13,11 @@ import { getConditionBySlug } from './data/conditions.js';
  */
 const routes = [
   {
+    pattern: /^#?\/conditions\/adhd\/pilot\/?$/,
+    title: 'ADHD Research Representation — Verity',
+    handler: main => window.renderVerityAdhdPilotPage(main),
+  },
+  {
     pattern: /^#?\/?$/,
     title: 'Verity — Clinical Research & Data Verification Platform',
     handler: (main) => renderHomePage(main),

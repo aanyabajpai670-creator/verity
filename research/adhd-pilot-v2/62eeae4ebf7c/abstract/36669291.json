@@ -1,0 +1,9 @@
+{
+  "pmid": "36669291",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "6330ad668262be2054b333244aa5c5212451ad2ed77cf92e4d06675ce2780d4c",
+  "raw_response": "{\"eligibility\":{\"quote\":\"This study aimed to evaluate the effect of working memory training on executive functions and behavioral symptoms in children with ADHD. Thirty children with ADHD were randomly assigned to active control or Active Memory Intervention (AMIN) group.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"Thirty children with ADHD were randomly assigned to active control or Active Memory Intervention (AMIN) group.\",\"answer\":30},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"Thirty children with ADHD were randomly assigned to active control or Active Memory Intervention (AMIN) group.\",\"answer\":\"RCT\"}}",
+  "finish_reason": "stop"
+}

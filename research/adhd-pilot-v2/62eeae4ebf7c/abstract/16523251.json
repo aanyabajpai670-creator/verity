@@ -1,0 +1,9 @@
+{
+  "pmid": "16523251",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "1c7db26c0d502bcf9516d738f74ab6e5bd0aea7b1014943f3c97df7a4029b6ba",
+  "raw_response": "{\"eligibility\": {\"quote\": \"Four hundred and sixteen children and adolescents with ADHD whose symptoms remitted during initial 10-week, open-label atomoxetine treatment were randomly assigned to continue with atomoxetine or placebo.\", \"answer\": \"include\"}, \"n_total\": {\"quote\": \"Four hundred and sixteen children and adolescents with ADHD whose symptoms remitted during initial 10-week, open-label atomoxetine treatment were randomly assigned to continue with atomoxetine or placebo.\", \"answer\": 416}, \"n_female\": {\"quote\": null, \"answer\": null}, \"includes_female\": {\"quote\": null, \"answer\": null}, \"female_percent\": {\"quote\": null, \"answer\": null}, \"paired_counts\": {\"quote\": null, \"answer\": false}, \"sex_reporting\": {\"quote\": null, \"answer\": null}, \"study_design\": {\"quote\": \"Four hundred and sixteen children and adolescents with ADHD whose symptoms remitted during initial 10-week, open-label atomoxetine treatment were randomly assigned to continue with atomoxetine or placebo.\", \"answer\": \"RCT\"}}",
+  "finish_reason": "stop"
+}

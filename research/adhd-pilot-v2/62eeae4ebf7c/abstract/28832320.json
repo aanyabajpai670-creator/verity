@@ -1,0 +1,9 @@
+{
+  "pmid": "28832320",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "307853ddbab2cda63d2f68da1c1326aca2c6f5991cd62bce96965fed8bc5428f",
+  "raw_response": "{\"eligibility\":{\"quote\":\"We included 87 adults with ADHD and 93 controls in our analysis.\",\"answer\":\"include\"},\"n_total\":{\"quote\":null,\"answer\":null},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"We analyzed a sample of adults with persistent ADHD and healthy controls using an advanced multimodal linked independent component analysis approach.\",\"answer\":\"Case-control\"}}",
+  "finish_reason": "stop"
+}

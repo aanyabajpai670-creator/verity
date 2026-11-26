@@ -83,6 +83,13 @@ export function renderConditionPage(container, condition) {
   const panelTitle = document.createElement('h2');
   panelTitle.className = 'heading-lg representation-panel__title';
   panelTitle.textContent = 'Representation Metrics';
+  if (condition.slug === 'adhd') {
+    const pilotLink = document.createElement('a');
+    pilotLink.href = '#/conditions/adhd/pilot';
+    pilotLink.className = 'research-link';
+    pilotLink.textContent = 'Explore ADHD research representation →';
+    headerText.appendChild(pilotLink);
+  }
 
   const panel = document.createElement('div');
   panel.className = 'representation-panel';
@@ -92,29 +99,29 @@ export function renderConditionPage(container, condition) {
   panel.appendChild(panelTitle);
 
   panel.appendChild(createMetricTile({
-    value: m.totalStudies.toLocaleString(),
+    value: `~${m.totalStudies.toLocaleString()}`,
     label: 'Total Studies',
     tooltip: 'Total number of studies identified in systematic search',
   }));
 
   panel.appendChild(createMetricTile({
-    value: `${m.studiesIncludingWomen.percent}%`,
+    value: `~${m.studiesIncludingWomen.percent}%`,
     label: 'Studies Including Women',
-    sublabel: `${m.studiesIncludingWomen.absolute} studies`,
+    sublabel: `~${m.studiesIncludingWomen.absolute} studies`,
     tooltip: 'Studies that included female participants',
   }));
 
   panel.appendChild(createMetricTile({
-    value: `${m.femaleOnlyStudies.percent}%`,
+    value: `~${m.femaleOnlyStudies.percent}%`,
     label: 'Female-Only Studies',
-    sublabel: `${m.femaleOnlyStudies.absolute} studies`,
+    sublabel: `~${m.femaleOnlyStudies.absolute} studies`,
     tooltip: 'Studies conducted exclusively with female cohorts',
   }));
 
   panel.appendChild(createMetricTile({
-    value: `${m.sexDisaggregated.percent}%`,
+    value: `~${m.sexDisaggregated.percent}%`,
     label: 'Sex-Disaggregated',
-    sublabel: `${m.sexDisaggregated.absolute} studies`,
+    sublabel: `~${m.sexDisaggregated.absolute} studies`,
     tooltip: 'Studies that analyzed results separately by sex',
   }));
 

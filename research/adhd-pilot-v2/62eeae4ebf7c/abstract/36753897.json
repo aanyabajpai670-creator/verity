@@ -1,0 +1,9 @@
+{
+  "pmid": "36753897",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "54896be87ec55ae555aa23f701d2c2d9bf93a26e33ed9437436ce24e9e839b5a",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"We investigated the impact of the pandemic on anxiety, depression and mental wellbeing in adults with NDDs using data from the Avon Longitudinal Study of Parents and Children (n = 3058).\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"using data from the Avon Longitudinal Study of Parents and Children (n = 3058)\",\n    \"answer\": 3058\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": \"particularly in females with ASD (\u03b2 = -3.1 [-4.6,-1.5], p = 0.0001)\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": \"depression symptoms decreased, particularly in females with ASD (\u03b2 = -3.1 [-4.6,-1.5], p = 0.0001)\",\n    \"answer\": 2\n  },\n  \"study_design\": {\n    \"quote\": \"Mental health data were collected pre-pandemic (age 21-25) and at three timepoints during the pandemic (ages 27-28) using the Short Mood and Feelings Questionnaire\",\n    \"answer\": \"Cohort-Prospective\"\n  }\n}",
+  "finish_reason": "stop"
+}

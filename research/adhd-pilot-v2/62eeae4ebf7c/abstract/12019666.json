@@ -1,0 +1,9 @@
+{
+  "pmid": "12019666",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "7975af440ca3393a96902f12be12114933aade809263759d031d1884d62fe656",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"To replicate previous findings of high rates of bipolar disorder (BPD) in patients with panic disorder (PD) and determine if youths with both PD and BPD have more severe illness.\",\n    \"answer\": \"exclude\"\n  },\n  \"n_total\": {\n    \"quote\": \"2025 youths aged 5 to 19 years seen at a mood and anxiety specialty clinic were assessed using the Schedule for Affective Disorders and Schizophrenia for School Aged Children-Present Episode, 4th Revision.\",\n    \"answer\": 2025\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"2025 youths aged 5 to 19 years seen at a mood and anxiety specialty clinic were assessed using the Schedule for Affective Disorders and Schizophrenia for School Aged Children-Present Episode, 4th Revision.\",\n    \"answer\": \"Cross-sectional\"\n  }\n}",
+  "finish_reason": "stop"
+}

@@ -1,0 +1,9 @@
+{
+  "pmid": "18838635",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "dbf59b493895c6980d0aa40311af3009ea124779ce49d457363f142019d9e6dd",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Child-level predictors at age 17 months were the mother's ratings of physical aggression, hyperactivity, and emotional problems.\",\"answer\":\"uncertain\"},\"n_total\":{\"quote\":\"One thousand nine hundred seventy children (51% boys).\",\"answer\":1970},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":\"One thousand nine hundred seventy children (51% boys).\",\"answer\":true},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"DESIGN: A longitudinal, large-scale, multiple-informant, population-based study.\",\"answer\":\"Cohort-Prospective\"}}",
+  "finish_reason": "stop"
+}

@@ -1,0 +1,9 @@
+{
+  "pmid": "15082347",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "506d4cd9ccacd1e1fa4761268056fc41c18ed85481e4002e55e702c210d005c9",
+  "raw_response": "{\"eligibility\":{\"quote\":\"A retrospective chart review of all youth that were admitted to a burn care unit over the past 20 years and diagnosed with ADHD on admission was conducted\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"In the 39 patients identified as having ADHD\",\"answer\":39},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"A retrospective chart review of all youth that were admitted to a burn care unit over the past 20 years and diagnosed with ADHD on admission was conducted to describe the occurrence and features of their injury.\",\"answer\":\"Cohort-Retrospective\"}}",
+  "finish_reason": "stop"
+}

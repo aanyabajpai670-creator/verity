@@ -1,0 +1,9 @@
+{
+  "pmid": "38813763",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "2a07364b01b5ce70639a41c8052f31ec9088f164f2f0f12891ade1c6d52f63f1",
+  "raw_response": "{\"eligibility\":{\"quote\":\"87 autistic children and adolescents, 27 of whom were diagnosed with co-occurring ADHD, and 30 neurotypical children and adolescents as a comparison group.\",\"answer\":\"include\"},\"n_total\":{\"quote\":null,\"answer\":null},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"Using an ambulatory circadian monitoring (ACM) system, which resembles a common watch, we gathered sleep parameters and the different rhythms obtained from measuring motor activity, light exposure and distal temperature\",\"answer\":\"Cross-sectional\"}}",
+  "finish_reason": "stop"
+}

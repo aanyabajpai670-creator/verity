@@ -1,0 +1,9 @@
+{
+  "pmid": "26578326",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "cdff55afed0ce1844b63358467faf1d185d7006b18d13b912c0cc99daab5ac48",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"Parents (n = 22) and teaching staff (n = 29) took part in semi-structured group or individual interviews, either by telephone or face-to-face, following the main trial.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"This article is a qualitative process evaluation of a pragmatic cluster randomised controlled trial\",\n    \"answer\": \"Other\"\n  }\n}",
+  "finish_reason": "stop"
+}

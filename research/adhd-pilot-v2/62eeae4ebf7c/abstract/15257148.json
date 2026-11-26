@@ -1,0 +1,9 @@
+{
+  "pmid": "15257148",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "7448c669003f8257948524bde546f94db049733efca4db8b1f722136e6685b5d",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Dyslexic and control children were tested in a visuomotor attentional task, which provides independent measures of the alerting, orienting and conflict components of the attentional system.\",\"answer\":\"uncertain\"},\"n_total\":{\"quote\":null,\"answer\":null},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":\"Generally, results of dyslexic boys are within the range of the control group, while reaction times of dyslexic girls are significantly slower than that of all other groups.\",\"answer\":true},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":\"Generally, results of dyslexic boys are within the range of the control group, while reaction times of dyslexic girls are significantly slower than that of all other groups.\",\"answer\":2},\"study_design\":{\"quote\":null,\"answer\":null}}",
+  "finish_reason": "stop"
+}

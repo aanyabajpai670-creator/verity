@@ -1,0 +1,9 @@
+{
+  "pmid": "24666128",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "27b536bb3a9f8413d1ca068e7b036b7f59ff73256ff7aaf1794911fb26a4b2e6",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Participants with a polymorphism limiting cholinergic capacity (Ile89Val variant [rs1013940] of the choline transporter gene SLC5A7) and matched controls completed self-report measures of attention and a laboratory task\",\"answer\":\"uncertain\"},\"n_total\":{\"quote\":null,\"answer\":null},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"Participants with a polymorphism limiting cholinergic capacity (Ile89Val variant [rs1013940] of the choline transporter gene SLC5A7) and matched controls completed self-report measures of attention and a laboratory task\",\"answer\":\"Case-control\"}}",
+  "finish_reason": "stop"
+}

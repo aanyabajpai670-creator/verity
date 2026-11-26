@@ -1,0 +1,9 @@
+{
+  "pmid": "37379859",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "929e00d85c3199bcd07b03d9a90629df0a67956df158802dbea247532ce405ae",
+  "raw_response": "{\"eligibility\":{\"quote\":\"involving 30 children with TSC who had epileptic spasms. They were assessed with Diagnostic and Statistical Manual of Mental Disorders-5 criteria for autism spectrum disorder (ASD), attention deficit hyperactivity disorder (ADHD), and intellectual disability (ID)\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"involving 30 children with TSC who had epileptic spasms.\",\"answer\":30},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"The study was a cross-sectional study over 18 months at a tertiary care pediatric hospital\",\"answer\":\"Cross-sectional\"}}",
+  "finish_reason": "stop"
+}

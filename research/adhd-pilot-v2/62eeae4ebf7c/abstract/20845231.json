@@ -1,0 +1,9 @@
+{
+  "pmid": "20845231",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "19c899f813f5182bfb496eb19b440d468e0d6e46c8a4adc8b05abb898be56779",
+  "raw_response": "{\"eligibility\":{\"quote\":\"This study examines the effectiveness of symptom validity measures to detect suspect effort in cognitive testing and invalid completion of ADHD behavior rating scales in 268 adults referred for ADHD assessment.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"268 adults referred for ADHD assessment\",\"answer\":268},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":null,\"answer\":null}}",
+  "finish_reason": "stop"
+}

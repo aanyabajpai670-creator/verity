@@ -1,0 +1,9 @@
+{
+  "pmid": "23410138",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "a321279f6372e7110878a442f06f0bb08e3debbe186fc4d905052a42f271f698",
+  "raw_response": "{\"eligibility\":{\"quote\":\"This open-label multicenter study enrolled eligible participants after their participation in a randomized, double-blind, placebo-controlled 4 week trial in adolescents with ADHD.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"Of 269 enrolled (from the antecedent study), 265 (98.5%) were in the safety population and effectiveness population.\",\"answer\":269},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"This open-label multicenter study enrolled eligible participants after their participation in a randomized, double-blind, placebo-controlled 4 week trial in adolescents with ADHD.\",\"answer\":\"Other\"}}",
+  "finish_reason": "stop"
+}

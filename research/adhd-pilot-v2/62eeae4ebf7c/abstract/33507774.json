@@ -1,0 +1,9 @@
+{
+  "pmid": "33507774",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "c07a28c635767f2cb48bc2cb2ce4b51ead392bb17f3a5f46c972ba6aba467f15",
+  "raw_response": "{\"eligibility\":{\"quote\":\"A total of 250 students (18-30 years of age, 66% female, 6.8% Latino, 66.3% Caucasian) with rigorously defined ADHD and comorbidity status were recruited from two public universities and randomly assigned to receive ACCESS immediately or on a 1-year delayed basis.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"A total of 250 students\",\"answer\":250},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":\"66% female\",\"answer\":true},\"female_percent\":{\"quote\":\"66% female\",\"answer\":66},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"randomly assigned to receive ACCESS immediately or on a 1-year delayed basis\",\"answer\":\"RCT\"}}",
+  "finish_reason": "stop"
+}

@@ -1,0 +1,9 @@
+{
+  "pmid": "36573771",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "2f568d2853a4a539cee6aa04db97fe965c2c31c2dfd04a7ec6a34f96003a86de",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"This study included 380 children evaluated in an outpatient child psychiatric clinic.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"This study included 380 children evaluated in an outpatient child psychiatric clinic.\",\n    \"answer\": 380\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"Effects of COVID-19 Lockdowns on the Development of Educational, Social and Emotional Gaps among Children: A Retrospective Chart Review.\",\n    \"answer\": \"Cohort-Retrospective\"\n  }\n}",
+  "finish_reason": "stop"
+}

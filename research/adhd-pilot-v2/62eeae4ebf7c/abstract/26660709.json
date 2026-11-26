@@ -1,0 +1,9 @@
+{
+  "pmid": "26660709",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "ca72803554a68a18bc1b22b1418cb2359f4b6ef45293e9938518e0678c50fd8a",
+  "raw_response": "{\"eligibility\":{\"quote\":\"The objective of this study was to investigate the social validity of cognitive-behavioural parent training (CBPT) delivered in two formats to parents who have children with hyperkinetic disorder (HKD) with and without medication.\",\"answer\":\"uncertain\"},\"n_total\":{\"quote\":null,\"answer\":null},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":\"Far more mothers than fathers attended the trainings.\",\"answer\":true},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"Compared individual with group treatment as part of a multicentre randomized controlled trial.\",\"answer\":\"RCT\"}}",
+  "finish_reason": "stop"
+}

@@ -1,0 +1,9 @@
+{
+  "pmid": "17768282",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "db7d2d68862d3ba3332104d52465b5e6d17876d4f111eb535d9e6f5c49fd24ab",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Fifty-two pediatricians and their 377 patients with attention-deficit/hyperactivity disorder (ADHD).\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"Fifty-two pediatricians and their 377 patients with attention-deficit/hyperactivity disorder (ADHD).\",\"answer\":377},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":null},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"Twelve pediatric practices were randomly assigned to receive access to collaborative consultative services or to a control group.\",\"answer\":\"RCT\"}}",
+  "finish_reason": "stop"
+}

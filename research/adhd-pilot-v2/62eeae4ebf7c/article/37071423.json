@@ -1,0 +1,9 @@
+{
+  "pmid": "37071423",
+  "scope": "article",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "40d34f561df1aa64e367289d7454d93142ad50344fdc6326e86ae8ed5e822aa8",
+  "raw_response": "{\"eligibility\":{\"quote\":\"This cross-sectional study used the 2005 to 2020 MTF samples; questions regarding stimulant therapy for ADHD were introduced in 2005. The 2005 to 2020 samples were composed of 231 141 students in 3284 unique public and private schools.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"The 3284 schools contained 231 141 US 8th-, 10th-, and 12th-grade students\",\"answer\":231141},\"n_female\":{\"quote\":\"The 3284 schools contained 231 141 US 8th-, 10th-, and 12th-grade students (111 864 [50.8%, weighted] female;\",\"answer\":111864},\"includes_female\":{\"quote\":\"The 3284 schools contained 231 141 US 8th-, 10th-, and 12th-grade students (111 864 [50.8%, weighted] female;\",\"answer\":true},\"female_percent\":{\"quote\":\"The 3284 schools contained 231 141 US 8th-, 10th-, and 12th-grade students (111 864 [50.8%, weighted] female;\",\"answer\":50.8},\"paired_counts\":{\"quote\":\"The 3284 schools contained 231 141 US 8th-, 10th-, and 12th-grade students (111 864 [50.8%, weighted] female;\",\"answer\":true},\"sex_reporting\":{\"quote\":\"Sex |  |  |  | Male | 1 [Reference] | NA | 1 [Reference] | Female | 1.29 (1.23-1.36) | NA | 1.31 (1.24-1.38)\",\"answer\":2},\"study_design\":{\"quote\":\"This cross-sectional study used the 2005 to 2020 MTF samples\",\"answer\":\"Cross-sectional\"}}",
+  "finish_reason": "stop"
+}

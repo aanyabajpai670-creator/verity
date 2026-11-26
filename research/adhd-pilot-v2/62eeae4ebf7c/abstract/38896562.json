@@ -1,0 +1,9 @@
+{
+  "pmid": "38896562",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "c3f6dccf1f1e3737f2b9566c040449e2701dd8b5b5558d03ac388c811c387884",
+  "raw_response": "",
+  "finish_reason": null
+}

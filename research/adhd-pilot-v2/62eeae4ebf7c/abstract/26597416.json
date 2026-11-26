@@ -1,0 +1,9 @@
+{
+  "pmid": "26597416",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "465f8e4e4edcfc6174c922aa5b7fd0c2a4e0931a37cb1fe8376dd05475e92155",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"The association between epilepsy and Tourette syndrome has rarely been investigated.\",\n    \"answer\": \"exclude\"\n  },\n  \"n_total\": {\n    \"quote\": \"The study cohort consisted of 1062 patients with Tourette syndrome aged \u2264 18 years\",\n    \"answer\": 1062\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"In this retrospective cohort study, we analyzed a dataset of 1,000,000 randomly sampled individuals from the Taiwan National Health Insurance Research Database to determine the risk of epilepsy in children with Tourette syndrome.\",\n    \"answer\": \"Cohort-Retrospective\"\n  }\n}",
+  "finish_reason": "stop"
+}

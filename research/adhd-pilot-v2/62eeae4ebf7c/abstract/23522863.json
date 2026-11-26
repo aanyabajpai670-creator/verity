@@ -1,0 +1,9 @@
+{
+  "pmid": "23522863",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "720c603809775009d6596caeda883e5d2643894350c4c370b5613a58057f43e0",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"OBJECTIVE: To prospectively assess the prevalence of autism spectrum disorder (ASD) symptoms in children presenting with functional defecation disorders.\",\n    \"answer\": \"exclude\"\n  },\n  \"n_total\": {\n    \"quote\": \"In total, 242 patients (130 males, median age 7.9 years) were included.\",\n    \"answer\": 242\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"STUDY DESIGN: Children (age 4-12 years) with functional constipation or functional non-retentive fecal incontinence according to the Rome III criteria referred to a specialized outpatient clinic were included.\",\n    \"answer\": \"Cross-sectional\"\n  }\n}",
+  "finish_reason": "stop"
+}

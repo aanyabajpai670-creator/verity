@@ -1,0 +1,9 @@
+{
+  "pmid": "24629733",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "afe20bf3fa3cd5b9568aa83803e4b65940a6129c32162aca2900e38ecf37ed01",
+  "raw_response": "{\"eligibility\":{\"quote\":\"In the present study, we examined the profile of psychiatric symptoms in boys with fragile X syndrome (FXS) using a parent report instrument.\",\"answer\":\"uncertain\"},\"n_total\":{\"quote\":null,\"answer\":null},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":\"by comparing boys with FXS to boys with nonsyndromic autism spectrum disorder (ASD)\",\"answer\":false},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":null,\"answer\":null}}",
+  "finish_reason": "stop"
+}

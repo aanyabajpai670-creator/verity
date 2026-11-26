@@ -1,0 +1,9 @@
+{
+  "pmid": "31410697",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "f554af16269a82783da8fd6509d1e25259b8af1d14439e38d00b853fa2a9964d",
+  "raw_response": "{\"eligibility\":{\"quote\":\"The authors performed a 2-year follow-up study including 89 out of 132 adolescents with ASD and/or ADHD in a psychiatric clinical setting who participated in the original cross-sectional study assessing IA prevalence.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"The authors performed a 2-year follow-up study including 89 out of 132 adolescents with ASD and/or ADHD in a psychiatric clinical setting who participated in the original cross-sectional study assessing IA prevalence.\",\"answer\":132},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"The authors performed a 2-year follow-up study including 89 out of 132 adolescents with ASD and/or ADHD in a psychiatric clinical setting who participated in the original cross-sectional study assessing IA prevalence.\",\"answer\":\"Cohort-Prospective\"}}",
+  "finish_reason": "stop"
+}

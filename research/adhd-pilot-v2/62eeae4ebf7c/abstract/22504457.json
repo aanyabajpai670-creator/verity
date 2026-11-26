@@ -1,0 +1,9 @@
+{
+  "pmid": "22504457",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "c614e4a502b439e95b5bb9a480e75817dfc922c57554f344679977ba7e83bea0",
+  "raw_response": "{\"eligibility\":{\"quote\":\"We carried out a case-control association study in 643 adult ADHD patients and 619 controls from Germany and in 361 adult ADHD patients and 442 controls from Spain with 12 tagging single nucleotide polymorphisms covering the FOXP2 gene.\",\"answer\":\"include\"},\"n_total\":{\"quote\":null,\"answer\":null},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"We carried out a case-control association study in 643 adult ADHD patients and 619 controls from Germany and in 361 adult ADHD patients and 442 controls from Spain with 12 tagging single nucleotide polymorphisms covering the FOXP2 gene.\",\"answer\":\"Case-control\"}}",
+  "finish_reason": "stop"
+}

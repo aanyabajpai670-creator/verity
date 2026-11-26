@@ -1,0 +1,9 @@
+{
+  "pmid": "39270477",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "121c68867b23983de4bc85a3d0afad06cf53139eea9b73299ccaaeb0c8009a9f",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Based on a prospective birth cohort, the present study included 2033 motherchild pairs.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"Based on a prospective birth cohort, the present study included 2033 motherchild pairs.\",\"answer\":2033},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":\"An increased risk of ADHD symptoms was observed in girls exposed to the highest tertile levels of sulfamethazine during the second trimester.\",\"answer\":true},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":\"An increased risk of ADHD symptoms was observed in girls exposed to the highest tertile levels of sulfamethazine during the second trimester.\",\"answer\":2},\"study_design\":{\"quote\":\"Based on a prospective birth cohort, the present study included 2033 motherchild pairs.\",\"answer\":\"Cohort-Prospective\"}}",
+  "finish_reason": "stop"
+}

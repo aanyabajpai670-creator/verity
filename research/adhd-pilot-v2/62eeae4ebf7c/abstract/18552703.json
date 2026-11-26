@@ -1,0 +1,9 @@
+{
+  "pmid": "18552703",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "68f761f6aefe58bcb99258b3a0e06c01c5a7312d62da3d76a06f4e62d46a7df4",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"The present study involved a double-blind, placebo-controlled, crossover trial of guanfacine in 11 children (ages 5-9 years) with developmental disabilities and symptoms of inattention/overactivity.\",\n    \"answer\": \"exclude\"\n  },\n  \"n_total\": {\n    \"quote\": \"crossover trial of guanfacine in 11 children (ages 5-9 years)\",\n    \"answer\": 11\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"double-blind, placebo-controlled, crossover trial of guanfacine in 11 children\",\n    \"answer\": \"RCT\"\n  }\n}",
+  "finish_reason": "stop"
+}

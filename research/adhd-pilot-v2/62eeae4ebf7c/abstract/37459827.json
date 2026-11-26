@@ -1,0 +1,9 @@
+{
+  "pmid": "37459827",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "54c395ba22000b5130bad79d4ed4c4a795ad7d23e28c8fc5dce4c03449bd5081",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Forty patients with focal epilepsy, 40 with IGE, and 40 with FS were included.\",\"answer\":\"include\"},\"n_total\":{\"quote\":null,\"answer\":null},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":null},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"This was a cross sectional study.\",\"answer\":\"Cross-sectional\"}}",
+  "finish_reason": "stop"
+}

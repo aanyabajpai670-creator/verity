@@ -1,0 +1,9 @@
+{
+  "pmid": "19103798",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "fc56064aee1ab61399c75ee4defd8dda84f58cc3ce35c8dc6205819ce4076b0e",
+  "raw_response": "{\"eligibility\":{\"quote\":\"This study examined rates of mental health problems among PWLD aged 15 to 44 years using a large, nationally representative data set.\",\"answer\":\"uncertain\"},\"n_total\":{\"quote\":null,\"answer\":null},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":\"females with learning disabilities were more likely to report high distress, suicidal thoughts, and poor general mental health relative to PWOD.\",\"answer\":true},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":\"Males with learning disabilities were more likely to report depressive episodes, anxiety disorders, and consultations with health professionals, whereas females with learning disabilities were more likely to report high distress, suicidal thoughts, and poor general mental health\",\"answer\":2},\"study_design\":{\"quote\":\"This study examined rates of mental health problems among PWLD aged 15 to 44 years using a large, nationally representative data set.\",\"answer\":\"Cross-sectional\"}}",
+  "finish_reason": "stop"
+}

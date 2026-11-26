@@ -1,0 +1,9 @@
+{
+  "pmid": "34623581",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "48d893aa64d3ffddda9a33f998c50890545706b555a51457aff06a9af2ac78ea",
+  "raw_response": "```json\n{\n  \"eligibility\": {\n    \"quote\": \"Data were derived from two claims-based US healthcare databases; Medicaid and Optum to construct a retrospective cohort of 36,000 patients.\",\n    \"answer\": \"uncertain\"\n  },\n  \"n_total\": {\n    \"quote\": \"to construct a retrospective cohort of 36,000 patients\",\n    \"answer\": 36000\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"We used real world data to summarize comorbidities and interventions among patients newly diagnosed with autism spectrum disorder (ASD).\",\n    \"answer\": \"Cohort-Retrospective\"\n  }\n}\n```",
+  "finish_reason": "stop"
+}

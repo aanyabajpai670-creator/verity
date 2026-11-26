@@ -1,0 +1,9 @@
+{
+  "pmid": "21036536",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "83b1fe2f3d833429c1ea2bcfb997cd13e899cc0a4a9b845b48fbb0e465921a19",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"Multiple regression analysis revealed that deficits in social and motor skills, and in inattention/hyperactivity, were significantly associated with activity and participation in children with DD,\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"Fifty-four children with DD (37 boys, 17 girls; mean age: 66 months) and 54 age-matched typically developing children (34 boys, 20 girls; mean age: 65 months) were recruited from the mainstream preschools with integrated program units.\",\n    \"answer\": 108\n  },\n  \"n_female\": {\n    \"quote\": \"Fifty-four children with DD (37 boys, 17 girls; mean age: 66 months) and 54 age-matched typically developing children (34 boys, 20 girls; mean age: 65 months) were recruited from the mainstream preschools with integrated program units.\",\n    \"answer\": 37\n  },\n  \"includes_female\": {\n    \"quote\": \"Fifty-four children with DD (37 boys, 17 girls; mean age: 66 months) and 54 age-matched typically developing children (34 boys, 20 girls; mean age: 65 months) were recruited from the mainstream preschools with integrated program units.\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"Activity and participation were evaluated using the Vineland Adaptive Behavior Scales (VABS) and School Function Assessment (SFA).\",\n    \"answer\": \"Cross-sectional\"\n  }\n}",
+  "finish_reason": "stop"
+}

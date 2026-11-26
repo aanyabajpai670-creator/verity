@@ -1,0 +1,9 @@
+{
+  "pmid": "37924567",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "e34d4862e92ce8fc2962aff397c86602d291f675598882b25f0788283437bb95",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"However, there were some variables that predicted or moderated outcomes that may have implications for practice (e.g., comorbid emotional problems, preferred treatment format, and ADHD).\",\n    \"answer\": \"uncertain\"\n  },\n  \"n_total\": {\n    \"quote\": \"A recent randomized controlled non-inferiority trial (N = 161)\",\n    \"answer\": 161\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"A recent randomized controlled non-inferiority trial (N = 161) demonstrated equal effectiveness of the parent training program Comet when delivered in group (gComet) and through the internet (iComet).\",\n    \"answer\": \"RCT\"\n  }\n}",
+  "finish_reason": "stop"
+}

@@ -1,0 +1,9 @@
+{
+  "pmid": "35914510",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "53bc4918ad6bea21b4f4eddae89f54b058ef107d67fe666b33c28cf1a108c724",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"Using the Broad Antisocial Behavior Consortium genome-wide association study (GWAS; mostly population based cohorts), we calculated ASB-PRS in the NeuroIMAGE I ADHD case-control sample with varying levels of DBD symptomatology (n=679 from 379 families, aged 7 - 29).\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"n=679 from 379 families\",\n    \"answer\": 679\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"the NeuroIMAGE I ADHD case-control sample with varying levels of DBD symptomatology (n=679 from 379 families, aged 7 - 29)\",\n    \"answer\": \"Case-control\"\n  }\n}",
+  "finish_reason": "stop"
+}

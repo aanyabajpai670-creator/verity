@@ -1,0 +1,9 @@
+{
+  "pmid": "31813273",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "00030c69f0792982d5f4079fde43c4dd186fea86f1305bfe6dabfe149f115962",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"The intervention involved 8 hr of training in practice guidelines and brief therapeutic skills for depression, anxiety, attention deficit hyperactivity disorder, and behavioral disorders with case discussion and video examples, while the control practiced as usual.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"The study design was a pilot, cluster-randomized, multicenter trial.\",\n    \"answer\": \"RCT\"\n  }\n}",
+  "finish_reason": "stop"
+}

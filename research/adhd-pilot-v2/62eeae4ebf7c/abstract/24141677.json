@@ -1,0 +1,9 @@
+{
+  "pmid": "24141677",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "737a15424b2856e9bb5532d5cca7c16db7e60178318adb382164ab942f484ca4",
+  "raw_response": "```json\n{\n  \"eligibility\": {\n    \"quote\": \"This is a historical cohort cross-sectional case-control study, in which we enrolled 30 children with and without ADHD, aged 8-12 years.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"we enrolled 30 children with and without ADHD, aged 8-12 years\",\n    \"answer\": 30\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"This is a historical cohort cross-sectional case-control study, in which we enrolled 30 children with and without ADHD, aged 8-12 years.\",\n    \"answer\": \"Case-control\"\n  }\n}\n```",
+  "finish_reason": "stop"
+}

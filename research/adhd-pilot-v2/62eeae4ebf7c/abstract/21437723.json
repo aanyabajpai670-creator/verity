@@ -1,0 +1,9 @@
+{
+  "pmid": "21437723",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "6d330bf358c53433e0a01c86553202187bf8aee9bd6d57113ce0833e3c926dac",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"75 patients between the ages of 6 and 12 were treated with atomoxetine or stimulants with a stable dose for 10 months.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"75 patients between the ages of 6 and 12 were treated with atomoxetine or stimulants with a stable dose for 10 months.\",\n    \"answer\": 75\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"A prospective follow-up of ADHD patients in one community clinic.\",\n    \"answer\": \"Cohort-Prospective\"\n  }\n}",
+  "finish_reason": "stop"
+}

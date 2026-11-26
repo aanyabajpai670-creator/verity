@@ -1,0 +1,9 @@
+{
+  "pmid": "27756854",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "85232d23bd546a74ea95126ecf42190894deb365b3d066b55aacc2088445158a",
+  "raw_response": "{\"eligibility\":{\"quote\":\"The aim of this study is to assess the onset and duration of efficacy of multilayer-release methylphenidate (PRC-063) over 16 hr compared with placebo in adults with ADHD using the simulated adult workplace environment.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"Of the 59 randomized participants, 45 participants completed the study.\",\"answer\":59},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"After dose-optimization with PRC-063, participants entered a double-blind, placebo-controlled, crossover phase.\",\"answer\":\"RCT\"}}",
+  "finish_reason": "stop"
+}

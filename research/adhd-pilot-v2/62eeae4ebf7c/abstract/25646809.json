@@ -1,0 +1,9 @@
+{
+  "pmid": "25646809",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "57b3b5e92c93ba1e2ab552869155e855ec8f0e2355c5f03494df1337b1676861",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"Randomised controlled trial.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"244 children aged 5-12 years with ADHD attending the practices between 2010 and 2012.\",\n    \"answer\": 244\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"DESIGN: Randomised controlled trial.\",\n    \"answer\": \"RCT\"\n  }\n}",
+  "finish_reason": "stop"
+}

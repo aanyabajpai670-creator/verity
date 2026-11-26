@@ -1,0 +1,9 @@
+{
+  "pmid": "38627266",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "043424011e9226b83b1cc10d1b083736434cef5f2540bfef8f0d9cd0e19dca6d",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"Bright light therapy versus physical exercise to prevent co-occurring depression in adolescents and young adults with attention-deficit/hyperactivity disorder: a multicentre, three-arm, randomised controlled, pilot phase-IIa trial.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"Two hundred seven participants aged 14-45 years were randomised to 10-week add-on intervention\",\n    \"answer\": 207\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"This randomised controlled, pilot phase-IIa trial aimed to study a physical exercise intervention (EI) and bright light therapy (BLT)\",\n    \"answer\": \"RCT\"\n  }\n}",
+  "finish_reason": "stop"
+}

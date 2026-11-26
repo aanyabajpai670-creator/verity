@@ -1,0 +1,9 @@
+{
+  "pmid": "30950637",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "88158f4eb0e4aa9aabdd99ef6ab7f50b583a5c3f6e2230aab596e2cc17baed11",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Thirty-five mothers with ADHD and their 5- to 8-year-old child with ADHD symptoms were enrolled.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"Thirty-five mothers with ADHD and their 5- to 8-year-old child with ADHD symptoms were enrolled.\",\"answer\":35},\"n_female\":{\"quote\":\"Thirty-five mothers with ADHD and their 5- to 8-year-old child with ADHD symptoms were enrolled.\",\"answer\":35},\"includes_female\":{\"quote\":\"Thirty-five mothers with ADHD and their 5- to 8-year-old child with ADHD symptoms were enrolled.\",\"answer\":true},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"Mothers were randomized to 8 weeks of individually titrated stimulant medication (MSM) or behavioral parent training (BPT), followed by rerandomization to 8 weeks of continued first-line treatment\",\"answer\":\"RCT\"}}",
+  "finish_reason": "stop"
+}

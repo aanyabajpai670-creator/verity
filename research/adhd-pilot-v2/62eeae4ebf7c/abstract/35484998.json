@@ -1,0 +1,9 @@
+{
+  "pmid": "35484998",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "12d4da6c3c9d19210297d1a49a13803ca6df4d2070688d18143cc3da5a820c91",
+  "raw_response": "{\"eligibility\":{\"quote\":\"We used data from the age 3, 5, and 7 waves of the large UK population-representative Millennium Cohort Study (n = 9,619, 4,885 males) and fit gender-stratified autoregressive latent trajectory models\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"n = 9,619, 4,885 males\",\"answer\":9619},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":\"n = 9,619, 4,885 males) and fit gender-stratified autoregressive latent trajectory models\",\"answer\":true},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"We used data from the age 3, 5, and 7 waves of the large UK population-representative Millennium Cohort Study\",\"answer\":\"Cohort-Prospective\"}}",
+  "finish_reason": "stop"
+}

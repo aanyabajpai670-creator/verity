@@ -1,0 +1,9 @@
+{
+  "pmid": "15889584",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "826d23a91fc0ee2808949e6c93755409f4b8a0a40a66af33c790d75bf2b806d3",
+  "raw_response": "{\"eligibility\":{\"quote\":\"In this methodological paper we outline a theoretical framework for performing meta-analysis of data obtained from disparate studies using disparate tests\",\"answer\":\"exclude\"},\"n_total\":{\"quote\":\"The studies enrolled a total of 111 subjects, 56 ADHD and 55 controls.\",\"answer\":111},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":\"females below the age of 16, (p = 0.0014), and females above the age of 16, (p = 0.0022)\",\"answer\":true},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":\"the data resulted in a clear separation between ADHD versus non-ADHD groups in males below the age of 16 (p < 0.001), males above the age of 16, (p = 0.015), females below the age of 16, (p = 0.0014), and females above the age of 16, (p = 0.0022).\",\"answer\":2},\"study_design\":{\"quote\":\"In this methodological paper we outline a theoretical framework for performing meta-analysis of data obtained from disparate studies using disparate tests\",\"answer\":\"Other\"}}",
+  "finish_reason": "stop"
+}

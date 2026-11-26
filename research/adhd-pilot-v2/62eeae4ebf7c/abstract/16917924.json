@@ -1,0 +1,9 @@
+{
+  "pmid": "16917924",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "5470f97ebbbc592ae4ffc115b21811569cb773e73df1a53ece702ab801f998ff",
+  "raw_response": "{\"eligibility\":{\"quote\":\"The pediatric subjects ranged from 6 to 18 years of age. A thorough clinical assessment of each child resulted in one of the following DSM-IV ADHD diagnoses: inattentive, hyperactive/impulsive, combined, or no ADHD.\",\"answer\":\"uncertain\"},\"n_total\":{\"quote\":null,\"answer\":null},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"The purpose of this study was to compare genetic association studies of three polymorphisms of the alpha-2A adrenergic receptor gene (ADRA2A) with radioligand binding studies of the alpha-2A adrenergic receptor protein in platelets from a sample of children without or with ADHD.\",\"answer\":\"Cross-sectional\"}}",
+  "finish_reason": "stop"
+}

@@ -1,0 +1,9 @@
+{
+  "pmid": "19874428",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "2d77f83d15cb64f8a0a2fa3c1c919580e1b70ef0520732c991b213d3c52f19c8",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Lower maternal RCF and TFI in early pregnancy were associated with higher childhood hyperactivity (RCF: beta = -.24; p = .013; TFI: beta = -.24; p = .022) and peer problems scores (RCF: beta = -.28; p = .004; TFI: beta = -.28; p = .009) in the offspring.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"and 100 mothers reported on children's behavioural difficulties at a mean age of 8.75 years using the Strengths and Difficulties Questionnaire.\",\"answer\":100},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"In a prospective cohort study, maternal red blood cell folate (RCF) was measured at 14 weeks of pregnancy and total folate intake (TFI) from food and supplements was assessed in early and late pregnancy.\",\"answer\":\"Cohort-Prospective\"}}",
+  "finish_reason": "stop"
+}

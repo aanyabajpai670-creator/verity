@@ -1,0 +1,9 @@
+{
+  "pmid": "15571787",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "7ba8985b6b43e7e0e02772fdea5766a6b93923d3735c3386bc40260c5f165098",
+  "raw_response": "{\"eligibility\": {\"quote\": \"Eighty percent of patients had concurrent Attention-Deficit Hyperactivity Disorder (ADHD).\", \"answer\": \"uncertain\"}, \"n_total\": {\"quote\": \"Thirty-one patients, ages 2-5 years, were identified by chart review of all children treated at our pediatric bipolar clinic.\", \"answer\": 31}, \"n_female\": {\"quote\": null, \"answer\": null}, \"includes_female\": {\"quote\": \"Patients were approximately 2:1 male: female, predominantly Caucasian, with an average age of symptom onset of 3 years.\", \"answer\": true}, \"female_percent\": {\"quote\": null, \"answer\": null}, \"paired_counts\": {\"quote\": null, \"answer\": false}, \"sex_reporting\": {\"quote\": null, \"answer\": null}, \"study_design\": {\"quote\": \"Thirty-one patients, ages 2-5 years, were identified by chart review of all children treated at our pediatric bipolar clinic.\", \"answer\": \"Cohort-Retrospective\"}}",
+  "finish_reason": "stop"
+}

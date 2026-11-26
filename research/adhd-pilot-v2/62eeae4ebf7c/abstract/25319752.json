@@ -1,0 +1,9 @@
+{
+  "pmid": "25319752",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "3f8667ea4260a32aa9eecc7bbaf1952e83142a00db88186a01a88bf1a46537bc",
+  "raw_response": "{\"eligibility\":{\"quote\":\"This study might provide cues for the understanding of disease onset or dopaminergic treatment mechanisms in major neuropsychiatric disorders such as schizophrenia and attention deficit hyperactivity disorder.\",\"answer\":\"uncertain\"},\"n_total\":{\"quote\":\"Resting state functional connectivity data were collected from cross-sectional and multicenter study sites involving 106 healthy young adults (mean age 24 \u00b1 2.6 years), gender matched to 106 randomly chosen 14-year-olds.\",\"answer\":212},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"Resting state functional connectivity data were collected from cross-sectional and multicenter study sites involving 106 healthy young adults (mean age 24 \u00b1 2.6 years), gender matched to 106 randomly chosen 14-year-olds.\",\"answer\":\"Cross-sectional\"}}",
+  "finish_reason": "stop"
+}

@@ -1,0 +1,9 @@
+{
+  "pmid": "17177117",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "f0bcaf1bba1880c246da5490145cccd1a1b062b6074d2a86162ea02f08bd85e2",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"823 children (400 males) from Detroit and surrounding suburbs were assessed with the Child Behavior Checklist and the Teacher Report Form\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"823 children (400 males) from Detroit and surrounding suburbs were assessed with the Child Behavior Checklist and the Teacher Report Form\",\n    \"answer\": 823\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": \"Arousal, motor speed, and motor coordination significantly partially mediated the relationship between birth weight and inattention/hyperactivity for boys and girls.\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": \"Moderated mediation was found for the pathway between motor coordination and inattention/hyperactivity such that this relationship was stronger for boys than for girls.\",\n    \"answer\": 2\n  },\n  \"study_design\": {\n    \"quote\": null,\n    \"answer\": null\n  }\n}",
+  "finish_reason": "stop"
+}

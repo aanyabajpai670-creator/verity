@@ -1,0 +1,9 @@
+{
+  "pmid": "27655143",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "3b32d164b9fcadbd3eea83ca0812107f30ed97cf56e5f3053006b22e49fdbd08",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"College students ( N = 253) completed self-reports of SCT and their reading and test-taking abilities as well as tests of processing speed, reading fluency, and reading comprehension.\",\n    \"answer\": \"uncertain\"\n  },\n  \"n_total\": {\n    \"quote\": \"College students ( N = 253)\",\n    \"answer\": 253\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"College students ( N = 253) completed self-reports of SCT and their reading and test-taking abilities as well as tests of processing speed, reading fluency, and reading comprehension.\",\n    \"answer\": \"Cross-sectional\"\n  }\n}",
+  "finish_reason": "stop"
+}

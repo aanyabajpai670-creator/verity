@@ -1,0 +1,9 @@
+{
+  "pmid": "17602754",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "6a8e163b5b3de0cdfd6d34ab2ad5ccdfdf08c8f92f495807e476dd46fabd6432",
+  "raw_response": "{\"eligibility\":{\"quote\":\"BD+PD presented higher rates of comorbid anxiety disorders (namely separation anxiety disorder) and lower rates of externalizing disorders, namely attention deficit disorder (ADHD) than BD-noPD.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"The sample comprised 224 referred children and adolescents with BD\",\"answer\":224},\"n_female\":{\"quote\":\"84 females (37.5%)\",\"answer\":84},\"includes_female\":{\"quote\":\"84 females (37.5%)\",\"answer\":true},\"female_percent\":{\"quote\":\"84 females (37.5%)\",\"answer\":37.5},\"paired_counts\":{\"quote\":\"The sample comprised 224 referred children and adolescents with BD, 140 males (62.5%) and 84 females (37.5%)\",\"answer\":true},\"sex_reporting\":{\"quote\":\"BD+PD was more frequent in females\",\"answer\":2},\"study_design\":{\"quote\":\"diagnosed with a clinical interview (K-SADS-PL), and followed up naturalistically for 6 months.\",\"answer\":\"Cohort-Prospective\"}}",
+  "finish_reason": "stop"
+}

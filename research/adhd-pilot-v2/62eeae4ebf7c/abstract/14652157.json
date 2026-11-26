@@ -1,0 +1,9 @@
+{
+  "pmid": "14652157",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "f65939a21a5950eda42e2d39cfd7e50f84a82eb4c2769007d8d627bf9b398c0d",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Least squares regression was used to examine associations between maternal smoking prior to delivery and subsequent academic performance and behaviour of 1186 children aged 5.5-11 years.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"subsequent academic performance and behaviour of 1186 children aged 5.5-11 years\",\"answer\":1186},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"prospective evidence from a Dutch birth cohort\",\"answer\":\"Cohort-Prospective\"}}",
+  "finish_reason": "stop"
+}

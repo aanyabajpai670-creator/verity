@@ -1,0 +1,9 @@
+{
+  "pmid": "33498539",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "8c0864760b629613b85e0c64c4583d15568d51baca216152229a5ea1744329f2",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Forty-five schoolchildren took part in an experimental study (M = 10.41; SD = 1.42). Each child had been diagnosed with attention deficit hyperactivity disorder (ADHD).\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"Forty-five schoolchildren took part in an experimental study (M = 10.41; SD = 1.42).\",\"answer\":45},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"The participants were randomly assigned into three groups: the first group was tested for the effect of Mind Maps; the second group, for the effect of Sketchnoting, while the third group was assigned the role of a Control group.\",\"answer\":\"RCT\"}}",
+  "finish_reason": "stop"
+}

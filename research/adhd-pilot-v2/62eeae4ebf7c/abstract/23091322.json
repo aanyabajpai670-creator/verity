@@ -1,0 +1,9 @@
+{
+  "pmid": "23091322",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "2bff6d6a1a60748ba39cccad44cc44770f9d605fb7c983d27c203621b1693493",
+  "raw_response": "```json\n{\n  \"eligibility\": {\n    \"quote\": \"We included epileptic children between the ages of 6 and 12 yr visiting our clinic for six consecutive months and controls without significant medical or psychiatric illnesses.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"After exclusion of 84 patients, we enrolled 102 (54.8%) children (mean age, 9.4 \u00b1 2.0 yr).\",\n    \"answer\": 102\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"We included epileptic children between the ages of 6 and 12 yr visiting our clinic for six consecutive months and controls without significant medical or psychiatric illnesses.\",\n    \"answer\": \"Case-control\"\n  }\n}\n```",
+  "finish_reason": "stop"
+}

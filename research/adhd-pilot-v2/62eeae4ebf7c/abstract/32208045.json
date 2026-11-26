@@ -1,0 +1,9 @@
+{
+  "pmid": "32208045",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "b7f812c00dd414a4e328197d2ea278777b69423e82d5980811ceaa454b4d0a04",
+  "raw_response": "{\"eligibility\": {\"quote\": \"Parents of children with ADHD and functional impairment despite methylphenidate treatment participated in a 12-month TASH intervention (8 self-help booklets plus up to 14 counseling telephone calls).\", \"answer\": \"uncertain\"}, \"n_total\": {\"quote\": null, \"answer\": null}, \"n_female\": {\"quote\": null, \"answer\": null}, \"includes_female\": {\"quote\": null, \"answer\": null}, \"female_percent\": {\"quote\": null, \"answer\": null}, \"paired_counts\": {\"quote\": null, \"answer\": null}, \"sex_reporting\": {\"quote\": null, \"answer\": null}, \"study_design\": {\"quote\": \"Parents of children with ADHD and functional impairment despite methylphenidate treatment participated in a 12-month TASH intervention (8 self-help booklets plus up to 14 counseling telephone calls).\", \"answer\": \"Other\"}}",
+  "finish_reason": "stop"
+}

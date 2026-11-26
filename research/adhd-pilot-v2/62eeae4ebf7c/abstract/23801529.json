@@ -1,0 +1,9 @@
+{
+  "pmid": "23801529",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "ddd19fd48133636d402653bbd067a1bac941b85edbae4e8dfb55889d8ec1f553",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Of the 336 patients randomized, 332 were included in the safety population, 317 were included in the full analysis set and 196 completed the study.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"Of the 336 patients randomized, 332 were included in the safety population, 317 were included in the full analysis set and 196 completed the study.\",\"answer\":336},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"This was a post hoc analysis of a randomized, double-blind, parallel-group, dose-optimized, placebo-controlled, phase III study.\",\"answer\":\"RCT\"}}",
+  "finish_reason": "stop"
+}

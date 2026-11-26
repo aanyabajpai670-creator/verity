@@ -1,0 +1,9 @@
+{
+  "pmid": "38997333",
+  "scope": "article",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "5cf03885581aaa80a36dd9298c8f33f3f790db9b1c9349a288c6186f7f73ec82",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"A total of 152 parent\u2013child trios (456 individuals in total), comprising a child meeting DSM-IV or DSM-5 criteria for the diagnosis of ADHD and both biological parents, were included in this study.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"After these quality control steps, we analyzed 147 parent\u2013child trios with ADHD and 780 unaffected parent\u2013child trios for de novo variants.\",\n    \"answer\": 147\n  },\n  \"n_female\": {\n    \"quote\": \"The probands with ADHD included 25 females and 122 males\",\n    \"answer\": 25\n  },\n  \"includes_female\": {\n    \"quote\": \"The probands with ADHD included 25 females and 122 males\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": \"After these quality control steps, we analyzed 147 parent\u2013child trios with ADHD and 780 unaffected parent\u2013child trios for de novo variants. The probands with ADHD included 25 females and 122 males, and the controls included 431 females and 349 males.\",\n    \"answer\": true\n  },\n  \"sex_reporting\": {\n    \"quote\": \"The probands with ADHD included 25 females and 122 males, and the controls included 431 females and 349 males.\",\n    \"answer\": 1\n  },\n  \"study_design\": {\n    \"quote\": \"We performed whole-exome DNA sequencing in 152 parent\u2013child trios with ADHD collected from four sites (Supplementary Data 1).\",\n    \"answer\": \"Other\"\n  }\n}",
+  "finish_reason": "stop"
+}

@@ -1,0 +1,9 @@
+{
+  "pmid": "28979965",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "a645181738964738398e8c570ffa93cd47d956713374e5609f74e0e412693fcc",
+  "raw_response": "{\"eligibility\":{\"quote\":\"The 11 108 twins included in the final sample (5894 girls and 5214 boys) were a mean age of 11.3 years at the first assessment and 16.3 years at the last assessment.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"The 11 108 twins included in the final sample (5894 girls and 5214 boys) were a mean age of 11.3 years at the first assessment and 16.3 years at the last assessment.\",\"answer\":11108},\"n_female\":{\"quote\":\"The 11 108 twins included in the final sample (5894 girls and 5214 boys) were a mean age of 11.3 years at the first assessment and 16.3 years at the last assessment.\",\"answer\":5894},\"includes_female\":{\"quote\":\"The 11 108 twins included in the final sample (5894 girls and 5214 boys) were a mean age of 11.3 years at the first assessment and 16.3 years at the last assessment.\",\"answer\":true},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":\"The 11 108 twins included in the final sample (5894 girls and 5214 boys)\",\"answer\":true},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"Participants were drawn from the Twins Early Development Study, a population-based cohort recruited from population records of births in England and Wales between January 1, 1994, and December 31, 1996.\",\"answer\":\"Cohort-Prospective\"}}",
+  "finish_reason": "stop"
+}

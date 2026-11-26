@@ -1,0 +1,9 @@
+{
+  "pmid": "31768057",
+  "scope": "article",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "64c333bb04d7e8c29760b8933963f193f9238f72f2fefff4a454fb768d2f52cd",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"After quality control, our dataset included 3,962 cases with ASD, 901 cases with both ASD and ADHD, 3,477 cases with ADHD, and 5,002 controls without any of the above diagnoses (Table 1).\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"Allele counts used in comparisons to gnomAD\u2014and the combination with it\u2014were calculated within these 13,342 samples.\",\n    \"answer\": 13342\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": \"ASD cases were 3,005 male and 957 female and had an average birth year of 1992; ASD+ADHD cases were 725 male and 176 female and had an average birth year of 1994\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": \"Rates of crPTVs were higher in females than in males across most phenotype groups (Table S1), consistent with a female protective effect16, although differences between the sexes were not significant.\",\n    \"answer\": 2\n  },\n  \"study_design\": {\n    \"quote\": \"In this study we exome sequenced a subset of the DNA samples genotyped in recent common variant analyses of both ASD7 and ADHD8. After quality control, our dataset included 3,962 cases with ASD, 901 cases with both ASD and ADHD, 3,477 cases with ADHD, and 5,002 controls\",\n    \"answer\": \"Case-control\"\n  }\n}",
+  "finish_reason": "stop"
+}

@@ -1,0 +1,9 @@
+{
+  "pmid": "33963626",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "b72bba4683fef13e75668b5e8c1d43d7ed79fce6210a1a232f86cd84afc7343d",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"There were 374 presentations in this cohort, representing 28% of the total MH presentations in 2018.\",\n    \"answer\": \"uncertain\"\n  },\n  \"n_total\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"Retrospective review of all ED MH presentations in children aged 7-17 years, presenting over a 12-month period from the 1st of January 2018 to the 31st of December 2018, to the Royal Children's Hospital in Melbourne, Australia.\",\n    \"answer\": \"Cohort-Retrospective\"\n  }\n}",
+  "finish_reason": "stop"
+}

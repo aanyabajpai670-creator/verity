@@ -1,0 +1,9 @@
+{
+  "pmid": "29790103",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "d1103bfd526ec587ada787efe43a0c81d7c85650e3b12b85c2f2dd67b74083f8",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Children and adolescents aged 6-17 years with attention-deficit/hyperactivity disorder took open-label lisdexamfetamine dimesylate (30, 50 or 70 mg/day) in this open-label 2-year safety and efficacy study.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"The safety analysis population comprised all enrolled participants (N = 314) and 191 (60.8%) completed the study.\",\"answer\":314},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"Children and adolescents aged 6-17 years with attention-deficit/hyperactivity disorder took open-label lisdexamfetamine dimesylate (30, 50 or 70 mg/day) in this open-label 2-year safety and efficacy study.\",\"answer\":\"Cohort-Prospective\"}}",
+  "finish_reason": "stop"
+}

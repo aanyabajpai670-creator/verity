@@ -1,0 +1,9 @@
+{
+  "pmid": "23378043",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "efe629fec99c35532e329b48121ea62a74ee80c08c62d51f7126652b64a148b5",
+  "raw_response": "{\"eligibility\":{\"quote\":\"This study explored the association of SWM and its strategy and spatial span components in carefully defined children and adolescents (age 6-16 years) with ADHD-CT alone (N = 163; 14 % female)\",\"answer\":\"include\"},\"n_total\":{\"quote\":null,\"answer\":null},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":\"ADHD-CT alone (N = 163; 14 % female), ADHD-CT and anxiety (N = 243; 23 % female), anxiety disorders alone (N = 69; 25 % female)\",\"answer\":true},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":null,\"answer\":null}}",
+  "finish_reason": "stop"
+}

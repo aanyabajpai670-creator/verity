@@ -1,0 +1,9 @@
+{
+  "pmid": "15832546",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "31dd32d800ea91ba2acd01654d3db6f048d9687d2401b3c8ae35d3985591bab9",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"Information was obtained for 64 children (39 male, mean age 10 y 7 mo, SD 4 y 1 mo, range 3 to 18 y; 57% response rate).\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"Information was obtained for 64 children (39 male, mean age 10 y 7 mo, SD 4 y 1 mo, range 3 to 18 y; 57% response rate).\",\n    \"answer\": 64\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": \"Information was obtained for 64 children (39 male, mean age 10 y 7 mo, SD 4 y 1 mo, range 3 to 18 y; 57% response rate).\",\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"For this purpose we designed a cross-sectional descriptive survey conducted by postal enquiry with telephone follow-up.\",\n    \"answer\": \"Cross-sectional\"\n  }\n}",
+  "finish_reason": "stop"
+}

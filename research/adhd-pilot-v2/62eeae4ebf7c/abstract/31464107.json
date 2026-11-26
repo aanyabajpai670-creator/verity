@@ -1,0 +1,9 @@
+{
+  "pmid": "31464107",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "2bb2e1e55cbce2d4e1a669b6f8b724506a6faea4b80597533d52ec8179d9293a",
+  "raw_response": "```json\n{\n  \"eligibility\": {\n    \"quote\": \"Autism, with and without attention deficit hyperactivity disorder (ADHD) and with and without intellectual disability (ID) were based on ICD-8 and ICD-10 codes from Danish national health registers, including 3,319 autism + ADHD\",\n    \"answer\": \"uncertain\"\n  },\n  \"n_total\": {\n    \"quote\": \"We followed births 1991-2011 (1,294,906 persons, including 993,301 siblings in 728,271 families)\",\n    \"answer\": 1294906\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"we conducted a whole-population cohort study in Denmark. We followed births 1991-2011\",\n    \"answer\": \"Cohort-Prospective\"\n  }\n}\n```",
+  "finish_reason": "stop"
+}

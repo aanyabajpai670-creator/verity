@@ -1,0 +1,9 @@
+{
+  "pmid": "24246603",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "0d5211ce2655a25e3656fdc36187fd821c18a83aa5e84fc8aa73f67a134fa197",
+  "raw_response": "{\"eligibility\": {\"quote\": \"DESIGN: Cross-sectional study of a clinical sample. SUBJECTS: 171 adult women were evaluated at a specialized clinic in obesity and ED.\", \"answer\": \"include\"}, \"n_total\": {\"quote\": \"SUBJECTS: 171 adult women were evaluated at a specialized clinic in obesity and ED.\", \"answer\": 171}, \"n_female\": {\"quote\": \"SUBJECTS: 171 adult women were evaluated at a specialized clinic in obesity and ED.\", \"answer\": 171}, \"includes_female\": {\"quote\": \"171 adult women were evaluated at a specialized clinic in obesity and ED.\", \"answer\": true}, \"female_percent\": {\"quote\": null, \"answer\": null}, \"paired_counts\": {\"quote\": \"SUBJECTS: 171 adult women were evaluated at a specialized clinic in obesity and ED.\", \"answer\": true}, \"sex_reporting\": {\"quote\": null, \"answer\": null}, \"study_design\": {\"quote\": \"DESIGN: Cross-sectional study of a clinical sample.\", \"answer\": \"Cross-sectional\"}}",
+  "finish_reason": "stop"
+}

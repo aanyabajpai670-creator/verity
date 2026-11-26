@@ -1,0 +1,9 @@
+{
+  "pmid": "29846123",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "dbffe3cb38c3da50c25ce242963bd33c41c5a55d0f66df9e3527dacc1d7d17cf",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"SDQ-S ratings were collected from n = 6,726 children and adolescents between 11 and 17 years (n = 3,440 boys und n = 3,286 girls)\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"SDQ-S ratings were collected from n = 6,726 children and adolescents between 11 and 17 years\",\n    \"answer\": 6726\n  },\n  \"n_female\": {\n    \"quote\": \"n = 3,440 boys und n = 3,286 girls\",\n    \"answer\": 3286\n  },\n  \"includes_female\": {\n    \"quote\": \"n = 3,440 boys und n = 3,286 girls\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": \"n = 6,726 children and adolescents between 11 and 17 years (n = 3,440 boys und n = 3,286 girls)\",\n    \"answer\": true\n  },\n  \"sex_reporting\": {\n    \"quote\": \"In line with previous research, girls showed more emotional problems but fewer Peer problems than boys.\",\n    \"answer\": 2\n  },\n  \"study_design\": {\n    \"quote\": \"At the baseline of the KiGGS study, SDQ-S ratings were collected from n = 6,726 children and adolescents between 11 and 17 years\",\n    \"answer\": \"Cross-sectional\"\n  }\n}",
+  "finish_reason": "stop"
+}

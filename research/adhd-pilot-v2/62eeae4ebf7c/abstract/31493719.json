@@ -1,0 +1,9 @@
+{
+  "pmid": "31493719",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "fb8a13d03d687496ca9cdf6827a2a8852932a8810d60b75318846bb5339544de",
+  "raw_response": "{\"eligibility\":{\"quote\":\"This cross-sectional case-control study included 101 patients (11-17 years old) with T1D.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"This cross-sectional case-control study included 101 patients (11-17 years old) with T1D.\",\"answer\":101},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"This cross-sectional case-control study included 101 patients (11-17 years old) with T1D.\",\"answer\":\"Cross-sectional\"}}",
+  "finish_reason": "stop"
+}

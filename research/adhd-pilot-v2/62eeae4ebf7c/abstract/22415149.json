@@ -1,0 +1,9 @@
+{
+  "pmid": "22415149",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "6b385f0e63a4d298f14a91c3ed09636a8a6a4ab3c612d0f081f31228b81e4483",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"From the Taiwan National Health Insurance Dataset (1997-2007), we collected 2,385 cases of new diagnoses of ADHD from 1999 to 2003 and 9,540 sex-, age- and index dates of the first diagnosis of ADHD-matched cohort controls without ADHD.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": \"The magnitude of such association was greater in males and decreased with older age of first ADHD diagnosis.\",\n    \"answer\": 2\n  },\n  \"study_design\": {\n    \"quote\": \"From the Taiwan National Health Insurance Dataset (1997-2007), we collected 2,385 cases of new diagnoses of ADHD from 1999 to 2003 and 9,540 sex-, age- and index dates of the first diagnosis of ADHD-matched cohort controls without ADHD.\",\n    \"answer\": \"Cohort-Retrospective\"\n  }\n}",
+  "finish_reason": "stop"
+}

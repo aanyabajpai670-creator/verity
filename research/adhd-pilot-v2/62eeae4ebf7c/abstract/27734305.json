@@ -1,0 +1,9 @@
+{
+  "pmid": "27734305",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "b1ec3abd57d77542d69b32fc2d1ccd79b550a7fc2c7e1a8570df43ca48aecfce",
+  "raw_response": "{\"eligibility\":{\"quote\":\"16 young people with ADHD participated in two rsfMRI scans in a randomized, placebo-controlled study with an acute dose of MPH (20 mg). 15 typically developing controls also performed the task under placebo conditions.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"16 young people with ADHD participated in two rsfMRI scans in a randomized, placebo-controlled study with an acute dose of MPH (20 mg). 15 typically developing controls also performed the task under placebo conditions.\",\"answer\":31},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"participated in two rsfMRI scans in a randomized, placebo-controlled study with an acute dose of MPH (20 mg).\",\"answer\":\"RCT\"}}",
+  "finish_reason": "stop"
+}

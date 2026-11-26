@@ -1,0 +1,9 @@
+{
+  "pmid": "39390799",
+  "scope": "article",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "aee803cd7e70c6bc95392131d01b647cba33e8bf83b5f5577ba1effe4d2a41ac",
+  "raw_response": "```json\n{\n  \"eligibility\": {\n    \"quote\": \"Using a propensity score with the variables of age, gender, and duration of diabetes, we compared a group of 1,582 patients with T2DM and ADHD to 1,582 patients with T2DM and without ADHD.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"we compared a group of 1,582 patients with T2DM and ADHD to 1,582 patients with T2DM and without ADHD.\",\n    \"answer\": 3164\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": \"The proportion of male patients was 67.7% in both groups.\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": \"For the analysis, we used a propensity score matching with the variables of age, gender, and duration of diabetes.\",\n    \"answer\": 0\n  },\n  \"study_design\": {\n    \"quote\": \"We conducted a retrospective cross-sectional study using electronic medical records from the Maccabi Health Services database.\",\n    \"answer\": \"Cross-sectional\"\n  }\n}\n```",
+  "finish_reason": "stop"
+}

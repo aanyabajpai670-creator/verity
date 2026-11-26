@@ -1,0 +1,9 @@
+{
+  "pmid": "21138759",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "78f19d11d632762438af33234efa5e7678a8af120c9708a8323f18b327b51d5a",
+  "raw_response": "{\"eligibility\":{\"quote\":\"we tested possible association of HNMT functional polymorphism with AD. We have tested 256 AD cases and 1190 healthy controls of Croatian origin.\",\"answer\":\"exclude\"},\"n_total\":{\"quote\":null,\"answer\":null},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"We have tested 256 AD cases and 1190 healthy controls of Croatian origin.\",\"answer\":\"Case-control\"}}",
+  "finish_reason": "stop"
+}

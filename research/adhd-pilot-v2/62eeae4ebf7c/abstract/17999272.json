@@ -1,0 +1,9 @@
+{
+  "pmid": "17999272",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "97e6918916d05eb880edafa0219a5f768951ba166940f1ffbf3169a0cf58fdc5",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Subjects were 6-15 years of age with ADHD who were currently receiving methylphenidate treatment (total n=119). Subjects were compared to 129 healthy children recruited from the community.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"Subjects were 6-15 years of age with ADHD who were currently receiving methylphenidate treatment (total n=119).\",\"answer\":119},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"Subjects were compared to 129 healthy children recruited from the community.\",\"answer\":\"Cross-sectional\"}}",
+  "finish_reason": "stop"
+}

@@ -1,0 +1,9 @@
+{
+  "pmid": "30679794",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "48466348b603372d2d1e082f6504ce450fe04ddf9caa6df3d7931c6cafd41428",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"A population-representative sample of 514 Chinese preschool children was recruited when in kindergarten (K3). Parents reported on their socioeconomic status and children's sleep duration.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"A population-representative sample of 514 Chinese preschool children was recruited when in kindergarten (K3).\",\n    \"answer\": 514\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"The cohort was reassessed 3 years later when the children were in Grade 3 (P3). Parents reported on children's sleep patterns and ADHD symptoms.\",\n    \"answer\": \"Cohort-Prospective\"\n  }\n}",
+  "finish_reason": "stop"
+}

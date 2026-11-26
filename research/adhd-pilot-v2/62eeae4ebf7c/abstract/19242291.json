@@ -1,0 +1,9 @@
+{
+  "pmid": "19242291",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "70821346ccd2a024ffab94e9b84b2dc2f172f0c0fdea50120a8252512cb50097",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Using the population-based prospective Norwegian Mother and Child Cohort Study, we examined the risk for externalizing behaviors among 18-month-old children after exposure to maternal smoking during pregnancy.\",\"answer\":\"uncertain\"},\"n_total\":{\"quote\":\"Participants were 22,545 mothers and their 18-month-old children.\",\"answer\":22545},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":\"The pattern of risk does not differ between boys and girls.\",\"answer\":true},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":\"The child's sex did not moderate these effects (odds ratio 0.98, 95% confidence interval 0.83-1.16).\",\"answer\":2},\"study_design\":{\"quote\":\"Using the population-based prospective Norwegian Mother and Child Cohort Study, we examined the risk for externalizing behaviors among 18-month-old children after exposure to maternal smoking during pregnancy.\",\"answer\":\"Cohort-Prospective\"}}",
+  "finish_reason": "stop"
+}

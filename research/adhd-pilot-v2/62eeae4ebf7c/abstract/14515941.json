@@ -1,0 +1,9 @@
+{
+  "pmid": "14515941",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "0def1a0a992436b93f932572fd6482ce7b2cfd7ac268a04790a970c8bacb0054",
+  "raw_response": "```json\n{\n  \"eligibility\": {\n    \"quote\": \"In order to study characteristics of ADHD with and without oppositional defiant disorder (ODD) in a representative group of young children with clinical impairment in Sweden, 131 children (101 males, 30 females) with ADHD\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"131 children (101 males, 30 females) with ADHD (mean age 5 years, SD 1 year 5 months; range 3 to 7 years) were clinically examined, and their parents interviewed\",\n    \"answer\": 131\n  },\n  \"n_female\": {\n    \"quote\": \"131 children (101 males, 30 females) with ADHD (mean age 5 years, SD 1 year 5 months; range 3 to 7 years) were clinically examined, and their parents interviewed\",\n    \"answer\": 30\n  },\n  \"includes_female\": {\n    \"quote\": \"131 children (101 males, 30 females) with ADHD\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": \"131 children (101 males, 30 females) with ADHD\",\n    \"answer\": true\n  },\n  \"sex_reporting\": {\n    \"quote\": \"Males were overrepresented in ODD, as were children of divorced parents and of mothers with low socioeconomic status.\",\n    \"answer\": 2\n  },\n  \"study_design\": {\n    \"quote\": \"were clinically examined, and their parents interviewed. Independent questionnaire data (Child Behavior Checklist, ADHD Rating Scale-IV, ODD Rating Scale-IV, Conners Hyperactivity Index) were collected.\",\n    \"answer\": \"Cross-sectional\"\n  }\n}\n```",
+  "finish_reason": "stop"
+}

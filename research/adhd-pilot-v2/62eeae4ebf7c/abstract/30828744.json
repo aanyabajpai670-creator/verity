@@ -1,0 +1,9 @@
+{
+  "pmid": "30828744",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "657affecee5f907a79ca70e76b30d29c730c0f2599201a0dce554947482d0d0f",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"This is a 12-year historical prospective nationwide cohort study of children enrolled in an integrated care system who were first prescribed MPH between the ages of 6 and 8 years (N = 6830).\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"children enrolled in an integrated care system who were first prescribed MPH between the ages of 6 and 8 years (N = 6830)\",\n    \"answer\": 6830\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"This is a 12-year historical prospective nationwide cohort study\",\n    \"answer\": \"Cohort-Prospective\"\n  }\n}",
+  "finish_reason": "stop"
+}

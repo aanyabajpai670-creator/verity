@@ -1,0 +1,9 @@
+{
+  "pmid": "28693369",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "27e537924afa2e39b3fcacbd50bededcf64f24606fbd7ab4b7a8c726a25737d5",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"Students with ADHD/ADD had the highest odds of daily psychological SHCs as well as exposure to traditional bullying across six disability types.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"A questionnaire was answered anonymously in school by 9791 students in the 9th grade (response rate 83%), and 7533 of these with valid answers on key questions were included in this study.\",\n    \"answer\": 7533\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": \"Any disability was reported by 24.1% of boys and 22.0% of girls.\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": \"Disabled students were more exposed to cyber harassment (boys: 20.0%; girls: 28.2%) than non-disabled peers (boys: 11.8%; girls: 18.1%).\",\n    \"answer\": 2\n  },\n  \"study_design\": {\n    \"quote\": \"Data from the public health survey of children and adolescents in Scania, Sweden, 2012 was used. A questionnaire was answered anonymously in school by 9791 students in the 9th grade...\",\n    \"answer\": \"Cross-sectional\"\n  }\n}",
+  "finish_reason": "stop"
+}

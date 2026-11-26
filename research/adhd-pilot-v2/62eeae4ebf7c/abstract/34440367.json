@@ -1,0 +1,9 @@
+{
+  "pmid": "34440367",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "36347151703bdec5b5e03225d0d029aa8af7adaeb0ceff3d3e79ec77730d5bc3",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Fifty-eight children and adolescents were evaluated for behavioral problems at three time points over approximately 7 years.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"Fifty-eight children and adolescents were evaluated for behavioral problems at three time points over approximately 7 years.\",\"answer\":58},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"Fifty-eight children and adolescents were evaluated for behavioral problems at three time points over approximately 7 years.\",\"answer\":\"Cohort-Prospective\"}}",
+  "finish_reason": "stop"
+}

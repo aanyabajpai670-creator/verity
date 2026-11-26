@@ -1,0 +1,9 @@
+{
+  "pmid": "34949605",
+  "scope": "article",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "e8e1cf627df62075d5f735f5060fef14d03fb3491df1ab06cb790dcb70bb88f3",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"A retrospective case\u2013control study was performed to evaluate the relationships between CPV and clinical characteristics. Participants were allocated to one of two groups: children with (CPV group) and without CPV (non-CPV group).\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"Of 822 patients with complete data, 109 (13.26%) were included in the CPV group (figures 1 and 2).\",\n    \"answer\": 822\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": \"Male sex (%) | 70.6 (n=77) | 51.8 (n=369) | 2.24 | \u2013 | 1.45 to 3.47 | p<0.001 | 12.84\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": \"Table 3 shows the results of multivariate logistic regression analyses adjusted for age, sex, antisocial behaviour, TABS, ADHD-RS Scores and history of abuse between cases and controls.\",\n    \"answer\": 0\n  },\n  \"study_design\": {\n    \"quote\": \"A retrospective case\u2013control study was performed to evaluate the relationships between CPV and clinical characteristics.\",\n    \"answer\": \"Case-control\"\n  }\n}",
+  "finish_reason": "stop"
+}

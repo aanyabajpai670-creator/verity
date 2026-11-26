@@ -1,0 +1,9 @@
+{
+  "pmid": "19372494",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "c1eab637132a7f3d6fee0d034735a532ed91e55cbb0878baeff0395cb9885bb7",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Two-hundred-two children referred for attention problems and 49 comparison children (all 7-12 years) were rated by parents and teachers on the identical DSM-IV items presented in two different formats, the SNAP-IV and Conners' Revised Questionnaires, at two closely spaced points in time.\",\"answer\":\"include\"},\"n_total\":{\"quote\":null,\"answer\":null},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"were rated by parents and teachers on the identical DSM-IV items presented in two different formats, the SNAP-IV and Conners' Revised Questionnaires, at two closely spaced points in time.\",\"answer\":\"Other\"}}",
+  "finish_reason": "stop"
+}

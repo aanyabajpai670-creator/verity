@@ -1,0 +1,9 @@
+{
+  "pmid": "22713359",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "16ffccc94efde57542ccd7b5e4e16bf5fc0abfb50a5aa99aad15b908bf6bc959",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Of 134 participants (11.0 \u00b1 2.6 years), 31.3% had comorbid anxiety disorder.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"Of 134 participants (11.0 \u00b1 2.6 years), 31.3% had comorbid anxiety disorder.\",\"answer\":134},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"Children with ADHD were assessed for comorbid anxiety disorder using the Anxiety Disorder Interview Schedule for Children.\",\"answer\":\"Cross-sectional\"}}",
+  "finish_reason": "stop"
+}

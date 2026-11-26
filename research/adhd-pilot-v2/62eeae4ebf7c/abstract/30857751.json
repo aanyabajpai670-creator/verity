@@ -1,0 +1,9 @@
+{
+  "pmid": "30857751",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "b9eefa1d890b48af0e5a4147d20cc2c3caa87338e625844e7545f94edd1cc8cd",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"A cohort of 190 children (96 with ADHD) had a range of neighborhood and familial factors ascertained and had repeated clinical assessments over an average of 2.5 years at a U.S. research center.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"A cohort of 190 children (96 with ADHD)\",\n    \"answer\": 190\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"A cohort of 190 children (96 with ADHD) had a range of neighborhood and familial factors ascertained and had repeated clinical assessments over an average of 2.5 years\",\n    \"answer\": \"Cohort-Prospective\"\n  }\n}",
+  "finish_reason": "stop"
+}

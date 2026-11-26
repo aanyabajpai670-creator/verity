@@ -1,0 +1,9 @@
+{
+  "pmid": "15229062",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "14feaf6baf9b164b19f2a6669e00dc69bc705e19335ce62bf86638fbb56ced88",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"Mania was defined by DSM-IV criteria, with at least one of the two cardinal symptoms of mania (elated mood and/or grandiosity), to avoid diagnosing mania by symptoms that overlapped with those for attention deficit hyperactivity disorder (ADHD).\",\n    \"answer\": \"uncertain\"\n  },\n  \"n_total\": {\n    \"quote\": \"from 93 child and 93 parent informants\",\n    \"answer\": 93\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"Responses on the Washington University in St. Louis Kiddie Schedule for Affective Disorders and Schizophrenia from 93 child and 93 parent informants were compared by using kappa statistics.\",\n    \"answer\": \"Cross-sectional\"\n  }\n}",
+  "finish_reason": "stop"
+}

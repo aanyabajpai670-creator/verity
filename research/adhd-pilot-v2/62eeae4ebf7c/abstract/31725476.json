@@ -1,0 +1,9 @@
+{
+  "pmid": "31725476",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "5de58d14ba90e6c3c63481f56549ff5e242d27d27907b805b46ba05d730fd30a",
+  "raw_response": "{\"eligibility\":{\"quote\":\"We examined the clinical records of 25 patients, 12 to 19 years of age, who were prescribed LDX and had a diagnosis of BED between 2014 and 2017.\",\"answer\":\"exclude\"},\"n_total\":{\"quote\":\"We examined the clinical records of 25 patients, 12 to 19 years of age, who were prescribed LDX and had a diagnosis of BED between 2014 and 2017.\",\"answer\":25},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"The purpose of this retrospective chart review was to evaluate lisdexamfetamine dimesylate (LDX) in the treatment of pediatric binge eating disorder (BED).\",\"answer\":\"Cohort-Retrospective\"}}",
+  "finish_reason": "stop"
+}

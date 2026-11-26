@@ -10,9 +10,9 @@
 // =============================================================================
 
 export const GAP_TYPE_LABELS = {
-  1: 'No Female Representation',
-  2: 'Women Included, Not Studied',
-  3: 'No Significant Differences Found',
+  1: 'Female Underrepresentation',
+  2: 'Limited Sex-Disaggregated Reporting',
+  3: 'Sex-Disaggregated Analysis Reported',
   4: 'Insufficient Evidence',
 };
 
@@ -21,7 +21,7 @@ export const GAP_TYPE_LABELS = {
 export const GAP_TYPE_EXPLANATIONS = {
   1: 'Gap Type 1 means the existing research on this condition includes very few or no female participants at all, so findings may not generalize to women.',
   2: 'Gap Type 2 means women are included in studies, but results are rarely broken out by sex, so it is unclear whether findings apply equally.',
-  3: 'Gap Type 3 means researchers have specifically checked for sex-based differences and, so far, have not found significant ones.',
+  3: 'Gap Type 3 describes the presence of sex-disaggregated analysis. The label does not indicate the direction or significance of the results.',
   4: 'Gap Type 4 means the overall body of research is too small to draw strong conclusions either way, regardless of sex representation.',
 };
 

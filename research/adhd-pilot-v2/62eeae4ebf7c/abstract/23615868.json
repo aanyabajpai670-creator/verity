@@ -1,0 +1,9 @@
+{
+  "pmid": "23615868",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "67bcd5120e22630e089284222540aadd7d91932cf1c0653b25c24d27807adc0e",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Forty-two healthy adults were randomized in this study.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"Forty-two healthy adults were randomized in this study.\",\"answer\":42},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"This was an open-label, randomized, three-period crossover, DDI study.\",\"answer\":\"RCT\"}}",
+  "finish_reason": "stop"
+}

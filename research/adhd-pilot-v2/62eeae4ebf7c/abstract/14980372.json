@@ -1,0 +1,9 @@
+{
+  "pmid": "14980372",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "217c864c089a0a8ce6315ecdadcf953fc42d0924c31cd467706100dda47af1cf",
+  "raw_response": "{\"eligibility\": {\"quote\": \"a prospective study was accomplished on our 34 infants with sonographic lenticulostriate vasculopathy which included 13 cryptogenic cases and 21 with distinct etiologies\", \"answer\": \"include\"}, \"n_total\": {\"quote\": \"a prospective study was accomplished on our 34 infants with sonographic lenticulostriate vasculopathy\", \"answer\": 34}, \"n_female\": {\"quote\": null, \"answer\": null}, \"includes_female\": {\"quote\": null, \"answer\": null}, \"female_percent\": {\"quote\": null, \"answer\": null}, \"paired_counts\": {\"quote\": null, \"answer\": null}, \"sex_reporting\": {\"quote\": null, \"answer\": null}, \"study_design\": {\"quote\": \"To identify its long-term outcome, a prospective study was accomplished on our 34 infants with sonographic lenticulostriate vasculopathy\", \"answer\": \"Cohort-Prospective\"}}",
+  "finish_reason": "stop"
+}

@@ -1,0 +1,9 @@
+{
+  "pmid": "16344839",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "19566e868b219d35c6e7deab1d5cd6e4ca3ae38abfec0e9b690dd75a65fd2573",
+  "raw_response": "{\"eligibility\":{\"quote\":\"223 otherwise healthy adults (>or=18 years of age) with ADHD combined subtype were exposed to <or=24 months of MAS XR (20-60 mg/day).\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"223 otherwise healthy adults (>or=18 years of age) with ADHD combined subtype were exposed to <or=24 months of MAS XR (20-60 mg/day).\",\"answer\":223},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"223 otherwise healthy adults (>or=18 years of age) with ADHD combined subtype were exposed to <or=24 months of MAS XR (20-60 mg/day).\",\"answer\":\"Other\"}}",
+  "finish_reason": "stop"
+}

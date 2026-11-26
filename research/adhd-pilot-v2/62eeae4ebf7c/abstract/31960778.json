@@ -1,0 +1,9 @@
+{
+  "pmid": "31960778",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "4448720521e11b87fd8c8d8ac3e8262f5558968d6ec7d02957758e7521663261",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Medicaid claims data (2008-2010) from nine states were used to identify youths initiating medication for attention-deficit hyperactivity disorder (ADHD) (N=6,433) and youths with an incident depression diagnosis (N=13,209).\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"Medicaid claims data (2008-2010) from nine states were used to identify youths initiating medication for attention-deficit hyperactivity disorder (ADHD) (N=6,433) and youths with an incident depression diagnosis (N=13,209).\",\"answer\":6433},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"Medicaid claims data (2008-2010) from nine states were used to identify youths initiating medication for attention-deficit hyperactivity disorder (ADHD) (N=6,433) and youths with an incident depression diagnosis (N=13,209).\",\"answer\":\"Cohort-Retrospective\"}}",
+  "finish_reason": "stop"
+}

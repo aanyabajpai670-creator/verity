@@ -1,0 +1,9 @@
+{
+  "pmid": "20486311",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "81c10c33a3f7f9f4562dee79cc551ac63625542f3fe9ce667aaee5216c10b20b",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Of 22 patients with confirmed AHT\",\"answer\":\"exclude\"},\"n_total\":{\"quote\":\"Of 22 patients with confirmed AHT\",\"answer\":22},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"We retrospectively analyzed, over a 10 year period, admissions and transfers to our hospital with suspected AHT\",\"answer\":\"Cohort-Retrospective\"}}",
+  "finish_reason": "stop"
+}

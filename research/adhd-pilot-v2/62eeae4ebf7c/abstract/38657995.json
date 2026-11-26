@@ -1,0 +1,9 @@
+{
+  "pmid": "38657995",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "1ef0d559452ea5c7b6ced72844cb784f835199c77169a1b101206d9dc35d0c28",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"This cross-sectional study measured the prevalence of adult ADHD symptoms among medical students in the Eastern Province of Saudi Arabia. A total of 354 Saudi medical students\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"A total of 354 Saudi medical students from King Faisal University, Al-Ahsa, and Imam Abdulrahman Bin Faisal University, Dammam, Saudi Arabia, participated in a self-reported questionnaire.\",\n    \"answer\": 354\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": \"To determine and compare the prevalence of attention deficit hyperactivity disorder (ADHD) symptoms among male and female medical students in the Eastern Province of Saudi Arabia\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"This cross-sectional study measured the prevalence of adult ADHD symptoms among medical students in the Eastern Province of Saudi Arabia.\",\n    \"answer\": \"Cross-sectional\"\n  }\n}",
+  "finish_reason": "stop"
+}

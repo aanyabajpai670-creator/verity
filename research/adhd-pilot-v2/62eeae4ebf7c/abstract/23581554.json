@@ -1,0 +1,9 @@
+{
+  "pmid": "23581554",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "e6e169582d6ee7d89220776461959bf7f0cc0790bd6fdfd762c850fe976d6402",
+  "raw_response": "{\"eligibility\": {\"quote\": \"Data from the (a) Multimodal Treatment Study of Children with ADHD, a randomized clinical trial with 579 children aged 7 to 9.9 years with combined-type ADHD\", \"answer\": \"include\"}, \"n_total\": {\"quote\": null, \"answer\": null}, \"n_female\": {\"quote\": null, \"answer\": null}, \"includes_female\": {\"quote\": \"two large, independent samples of girls with attention-deficit/hyperactivity disorder (ADHD)\", \"answer\": true}, \"female_percent\": {\"quote\": null, \"answer\": null}, \"paired_counts\": {\"quote\": null, \"answer\": false}, \"sex_reporting\": {\"quote\": null, \"answer\": null}, \"study_design\": {\"quote\": \"the (a) Multimodal Treatment Study of Children with ADHD, a randomized clinical trial with 579 children aged 7 to 9.9 years with combined-type ADHD, and the (b) Berkeley Girls ADHD Longitudinal Sample, a naturalistic study of 140 girls with ADHD\", \"answer\": \"Other\"}}",
+  "finish_reason": "stop"
+}

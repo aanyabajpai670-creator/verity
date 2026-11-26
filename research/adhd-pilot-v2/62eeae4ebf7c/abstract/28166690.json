@@ -1,0 +1,9 @@
+{
+  "pmid": "28166690",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "e30096b991061b953aca5018ef8e93ab870023ea416d5f01d8bdf106f1da24b0",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Narrative comments were coded for 67 persistent (50 ADHD, 17 local normative comparison group [LNCG]) and 25 desistent (20 ADHD, 5 LNCG) substance users from the Multimodal Treatment Study of Children with ADHD (MTA) adult follow-up (21.7-26.7 years-old).\",\"answer\":\"include\"},\"n_total\":{\"quote\":null,\"answer\":null},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":null},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"We used a mixed qualitative-quantitative approach to explore this relationship.\",\"answer\":\"Other\"}}",
+  "finish_reason": "stop"
+}

@@ -1,0 +1,9 @@
+{
+  "pmid": "33826632",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "2dd2640bd2d1bfeb62c2652fd6886a3171346f676717e42c9ed3316daad85734",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"Fifty-eight adults (34 females and 24 males) with a mean age of 26 years old and a mean of 17 years of educational level were administered the Adult Self-Rating Scale for ADHD symptomatology.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"Fifty-eight adults (34 females and 24 males) with a mean age of 26 years old and a mean of 17 years of educational level were administered the Adult Self-Rating Scale for ADHD symptomatology.\",\n    \"answer\": 58\n  },\n  \"n_female\": {\n    \"quote\": \"Fifty-eight adults (34 females and 24 males)\",\n    \"answer\": 34\n  },\n  \"includes_female\": {\n    \"quote\": \"Fifty-eight adults (34 females and 24 males)\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": \"Fifty-eight adults (34 females and 24 males)\",\n    \"answer\": true\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"Fifty-eight adults (34 females and 24 males) with a mean age of 26 years old and a mean of 17 years of educational level were administered the Adult Self-Rating Scale for ADHD symptomatology.\",\n    \"answer\": \"Cross-sectional\"\n  }\n}",
+  "finish_reason": "stop"
+}

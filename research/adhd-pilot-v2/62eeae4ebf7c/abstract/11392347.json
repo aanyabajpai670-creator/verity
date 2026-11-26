@@ -1,0 +1,9 @@
+{
+  "pmid": "11392347",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "8657d36955ef7cbe25778a6972b17a11c7dc1d4fb465663d888a3cc5aa926f11",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"Prospective, longitudinal study of tic, obsessive-compulsive, and attention-deficit/hyperactivity disorders in an epidemiological sample.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"Structured diagnostic interview information was acquired on 976 children, aged 1 to 10 years, who were randomly selected from families living in upstate New York in 1975.\",\n    \"answer\": 976\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"Structured diagnostic interview information was acquired on 976 children, aged 1 to 10 years, who were randomly selected from families living in upstate New York in 1975. Reassessments were acquired in 776 of these subjects 8, 10, and 15 years later.\",\n    \"answer\": \"Cohort-Prospective\"\n  }\n}",
+  "finish_reason": "stop"
+}

@@ -1,0 +1,9 @@
+{
+  "pmid": "17484685",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "68d80e242553fa090e18ad73a971e7ae44cb0ab8c2594596b8c11047182d55f3",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"We assessed the predictive validity of attention-deficit/hyperactivity disorder (ADHD) in 20 girls and 98 boys who met the Diagnostic and Statistical Manual for Mental Disorders (4th ed., American Psychiatric Association, 1994) criteria for ADHD at 4 to 6 years of age\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"in 20 girls and 98 boys who met the Diagnostic and Statistical Manual for Mental Disorders (4th ed., American Psychiatric Association, 1994) criteria for ADHD at 4 to 6 years of age compared to 24 female and 102 male comparison children.\",\n    \"answer\": null\n  },\n  \"n_female\": {\n    \"quote\": \"in 20 girls and 98 boys who met the Diagnostic and Statistical Manual for Mental Disorders (4th ed., American Psychiatric Association, 1994) criteria for ADHD at 4 to 6 years of age compared to 24 female and 102 male comparison children.\",\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": \"20 girls and 98 boys\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": \"significant interactions with time indicated that childhood ADHD predicts more steeply rising symptoms of anxiety and depression during early adolescence in girls than in boys.\",\n    \"answer\": 3\n  },\n  \"study_design\": {\n    \"quote\": \"Over the next 8 years, both girls and boys who met criteria for ADHD in Year 1 exhibited more ADHD symptoms and impairment than same-sex comparison children.\",\n    \"answer\": \"Cohort-Prospective\"\n  }\n}",
+  "finish_reason": "stop"
+}

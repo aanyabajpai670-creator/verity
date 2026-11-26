@@ -1,0 +1,9 @@
+{
+  "pmid": "29602777",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "bedee7b65f12eb529fb7a5aaebb75f57f2200fda48e1fc5d4817306508cf20f9",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"Cohort study using data from the Clinical Practice Research Datalink comprising 5196 children and young people aged 3-17 years with ADHD\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"5196 children and young people aged 3-17 years with ADHD\",\n    \"answer\": 5196\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"Cohort study using data from the Clinical Practice Research Datalink\",\n    \"answer\": \"Cohort-Retrospective\"\n  }\n}",
+  "finish_reason": "stop"
+}

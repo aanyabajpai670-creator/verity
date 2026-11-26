@@ -1,0 +1,9 @@
+{
+  "pmid": "28095819",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "486c00fd24781214dc7194b0fa9220e8cedc5a005fb1e40c980e9fe8f224b863",
+  "raw_response": "```json\n{\n  \"eligibility\": {\n    \"quote\": \"A total of 11 119 children were registered with ADHD, with significantly fewer in MoBa (1.45%) than the general child population (2.11%), p < 0.0001.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"A total of 11 119 children were registered with ADHD, with significantly fewer in MoBa (1.45%) than the general child population (2.11%), p < 0.0001.\",\n    \"answer\": 11119\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": \"We also compared the relative differences in the multiaxial classifications for boys and girls and for children with/without axis I comorbidity, respectively in these two groups of children with ADHD.\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": \"When analysing relative differences in the two groups, essentially the same patterns were found for boys and girls and for children with/without axis I comorbidity.\",\n    \"answer\": 2\n  },\n  \"study_design\": {\n    \"quote\": \"The study population was children born between January 1, 2000 and December 31, 2008 registered with hyperkinetic disorders (hereafter ADHD) in the Norwegian Patient Registry during the years 2008-2013\",\n    \"answer\": \"Cohort-Retrospective\"\n  }\n}\n```",
+  "finish_reason": "stop"
+}

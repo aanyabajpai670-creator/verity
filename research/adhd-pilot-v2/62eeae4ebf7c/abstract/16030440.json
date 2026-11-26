@@ -1,0 +1,9 @@
+{
+  "pmid": "16030440",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "df6d5f713b92d38b2c364118143c61440d9d18f12e060f6b9fce9aba75292afd",
+  "raw_response": "{\"eligibility\":{\"quote\":\"To investigate the relationship between executive function and awareness of real-world behavioral and attentional dysfunction in persons with moderate and severe traumatic brain injury (TBI) and uninjured controls.\",\"answer\":\"uncertain\"},\"n_total\":{\"quote\":\"Thirty-six persons with moderate to severe TBI and residual cognitive deficits, recruited from therapy programs and the community, and 30 uninjured control participants of similar age, education, gender, and race.\",\"answer\":66},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"DESIGN: Observational 2-group study.\",\"answer\":\"Other\"}}",
+  "finish_reason": "stop"
+}

@@ -1,0 +1,9 @@
+{
+  "pmid": "25964505",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "8c143bcd0fd1896ee8ae41248ac239221db9df78d2a80d18e63a721e1e1e80cb",
+  "raw_response": "```json\n{\n  \"eligibility\": {\n    \"quote\": \"The present study included 83 attention deficit hyperactivity disorder youth.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"The present study included 83 attention deficit hyperactivity disorder youth.\",\n    \"answer\": 83\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"The participants were enrolled in an 8-week, open-label trial of methylphenidate.\",\n    \"answer\": \"Other\"\n  }\n}\n```",
+  "finish_reason": "stop"
+}

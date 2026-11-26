@@ -1,0 +1,9 @@
+{
+  "pmid": "35440767",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "cda9cdfbe0b8879f50cc014791ea24921cbea8697a6f96c1a9680a2d57dbc277",
+  "raw_response": "{\"eligibility\":{\"quote\":\"A total of 314 children had gut microbiota and ADHD data; 59 (18.8%) had ADHD.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"A total of 314 children had gut microbiota and ADHD data; 59 (18.8%) had ADHD.\",\"answer\":314},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"We hypothesized that infant gut microbiota composition is associated with later ADHD development in our on-going birth cohort study, WHEALS.\",\"answer\":\"Cohort-Prospective\"}}",
+  "finish_reason": "stop"
+}

@@ -1,0 +1,9 @@
+{
+  "pmid": "33944622",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "a8865afc87bbfc051d183d1281ae3debb38d27b0903fa5b507581fad4a513424",
+  "raw_response": "{\"eligibility\":{\"quote\":\"About 100 children with ADHD and 80 healthy controls (HCs) were included in this study.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"About 100 children with ADHD and 80 healthy controls (HCs) were included in this study.\",\"answer\":null},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"Response to treatment of 78 patients was evaluated 2 months after the beginning of the treatment.\",\"answer\":\"Cohort-Prospective\"}}",
+  "finish_reason": "stop"
+}

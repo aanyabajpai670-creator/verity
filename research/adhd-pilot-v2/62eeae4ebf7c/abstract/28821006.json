@@ -1,0 +1,9 @@
+{
+  "pmid": "28821006",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "4aaaa8cab7c987fc88848162c59702ff54c337458b5e483a789cea62b75f9218",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"Asthma as a comorbidity (OR=1.59, 95% CI: 1.29-1.96) was positively and attention-deficit hyperactivity disorder (OR=0.81, 95% CI: 0.71-0.93) negatively associated with treatment adherence.\",\n    \"answer\": \"uncertain\"\n  },\n  \"n_total\": {\n    \"quote\": \"A total of 5214 patients were included.\",\n    \"answer\": 5214\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"The present study included patients aged between 2 and 17years who were diagnosed with epilepsy (ICD-10: G40) and had received at least two prescriptions of AED between January 2006 and December 2015 in 243 pediatric practices in Germany.\",\n    \"answer\": \"Cohort-Retrospective\"\n  }\n}",
+  "finish_reason": "stop"
+}

@@ -1,0 +1,9 @@
+{
+  "pmid": "24405904",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "f4b1a4ef8ed5d31f0220197228f01a1795014ec3f53f6b28052086438cda2eea",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"Although HIV is associated with decreased emotional and cognitive functioning, the mechanisms through which affective changes can alter cognitive processes in HIV-infected individuals are unknown.\",\n    \"answer\": \"uncertain\"\n  },\n  \"n_total\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": \"HIV-positive females show blunted neurophysiological responses in an emotion-attention dual task paradigm.\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"Attention to emotional compared to non-emotional pictures was measured via the LPP ERP. Subsequent attention was indexed through the N1 and late processing negativity ERP.\",\n    \"answer\": null\n  }\n}",
+  "finish_reason": "stop"
+}

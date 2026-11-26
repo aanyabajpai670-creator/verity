@@ -1,0 +1,9 @@
+{
+  "pmid": "35440767",
+  "scope": "article",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "d9f714bb5225a614fe25b58b114f6586c4e820133a6222a10ac52751fa69e83f",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"A total of 314 children had gut microbiota and ADHD data; 59 (18.8%) had ADHD.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"A total of 314 children had gut microbiota and ADHD data; 59 (18.8%) had ADHD.\",\n    \"answer\": 314\n  },\n  \"n_female\": {\n    \"quote\": \"Male | 126 (49.4%) | 44 (74.6%) |  | Female | 129 (50.6%) | 15 (25.4%)\",\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": \"Male | 126 (49.4%) | 44 (74.6%) |  | Female | 129 (50.6%) | 15 (25.4%)\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": \"The association between gut microbiota composition and ADHD did not differ by child sex (all interaction p \u2265 0.12).\",\n    \"answer\": 2\n  },\n  \"study_design\": {\n    \"quote\": \"The Wayne County Health, Environment, Allergy and Asthma Longitudinal Study (WHEALS) recruited pregnant women aged 21\u201349 years, second trimester or later, with due dates from September 2003 through December 2007\",\n    \"answer\": \"Cohort-Prospective\"\n  }\n}",
+  "finish_reason": "stop"
+}

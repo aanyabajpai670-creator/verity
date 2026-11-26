@@ -1,0 +1,9 @@
+{
+  "pmid": "38281274",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "7981aacb4d40174ed690ab532c01b5ad36ba89cb719a00598b024a0812b219fd",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"A total of 18,294 singleton babies were included at baseline, and 1,104 (6.0%) women experienced a threatened miscarriage during their pregnancy.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"A total of 18,294 singleton babies were included at baseline\",\n    \"answer\": 18294\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"Data on threatened miscarriage and potential confounders were maternal-reported and collected at 9 months postpartum. Data on ASD and ADHD were based on maternal-reported doctor diagnoses and collected when children were aged 5, 7, 11 and 14 years.\",\n    \"answer\": \"Cohort-Prospective\"\n  }\n}",
+  "finish_reason": "stop"
+}

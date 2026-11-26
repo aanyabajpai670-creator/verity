@@ -1,0 +1,1083 @@
+{
+  "status": "human_first_pass_unadjudicated",
+  "purpose": "abstract-only development set; not a gold standard",
+  "seed": 20261116,
+  "items": [
+    {
+      "pmid": "11828226",
+      "title": "The effects of exercise on children with attention-deficit hyperactivity disorder.",
+      "abstract": "PURPOSE: The effects of exercise on children with attention-deficit hyperactivity disorder (ADHD) were evaluated by studying the rate of spontaneous eye blinks, the acoustic startle eye blink response (ASER), and motor impersistence among 8- to 12-yr-old children (10 boys and 8 girls) meeting DSM-III-R criteria for ADHD.\nMETHODS: Children ceased methylphenidate medication 24 h before and during each of three daily conditions separated by 24-48 h. After a maximal treadmill walking test to determine cardiorespiratory fitness (VO(2peak)), each child was randomly assigned to counterbalanced conditions of treadmill walking at an intensity of 65-75% VO(2peak) or quiet rest. Responses were compared with a group of control participants (11 boys and 14 girls) equated with the ADHD group on several key variables.\nRESULTS: Boys with ADHD had increased spontaneous blink rate, decreased ASER latency, and decreased motor impersistence after maximal exercise. Girls with ADHD had increased ASER amplitude and decreased ASER latency after submaximal exercise.\nCONCLUSIONS: The findings suggest an interaction between sex and exercise intensity that is not explained by physical fitness, activity history, or selected personality attributes. The clinical meaning of the eye blink results is not clear, as improvements in motor impersistence occurred only for boys after maximal exercise. Nonetheless, these preliminary findings are sufficiently positive to encourage additional study to determine whether a session of vigorous exercise has efficacy as a dopaminergic adjuvant in the management of behavioral features of ADHD.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/11828226/",
+      "stratum_start": 2000,
+      "labels": {
+        "eligibility": {
+          "value": "include",
+          "completed": true,
+          "basis": "explicit",
+          "ambiguous": false,
+          "null_reason": null
+        },
+        "n_total": {
+          "value": 43,
+          "completed": true,
+          "basis": "derived",
+          "ambiguous": false,
+          "null_reason": null,
+          "human_text": "derived: 18+25‎ = 43"
+        },
+        "n_female": {
+          "value": 22,
+          "completed": true,
+          "basis": "derived",
+          "ambiguous": false,
+          "null_reason": null,
+          "human_text": "8+14‎ = 22"
+        },
+        "sex_reporting": {
+          "value": 3,
+          "completed": true,
+          "basis": "explicit",
+          "ambiguous": false,
+          "null_reason": null,
+          "human_text": "3"
+        }
+      },
+      "reviewer": "Aanya",
+      "notes": "Directly relevant, gave results separately by sex and mentioned how the girls were different from the boys. Had over 30 total participants, and girls were included.",
+      "assistance_note": null
+    },
+    {
+      "pmid": "15229062",
+      "title": "Relationship of parent and child informants to prevalence of mania symptoms in children with a prepubertal and early adolescent bipolar disorder phenotype.",
+      "abstract": "OBJECTIVE: A controversy regarding pediatric bipolar disorder is whether to use child in addition to parent informants. To investigate this issue, the authors conducted a study comparing separate child and parent interview data for child bipolar disorder.\nMETHOD: Responses on the Washington University in St. Louis Kiddie Schedule for Affective Disorders and Schizophrenia from 93 child and 93 parent informants were compared by using kappa statistics. Research nurses, blind to subject information, separately interviewed parents about their children and children about themselves. Different nurses were used for the parent and child in each family to avoid bias from the same research nurse interviewing a child after interviewing that child's parent. Mania was defined by DSM-IV criteria, with at least one of the two cardinal symptoms of mania (elated mood and/or grandiosity), to avoid diagnosing mania by symptoms that overlapped with those for attention deficit hyperactivity disorder (ADHD).\nRESULTS: Parent-child concordance was poor to fair for all cardinal and noncardinal mania symptoms. Kappas were not significantly different by age within the 7-14-year-old age range.\nCONCLUSIONS: Symptoms endorsed by just the child included substantial proportions of bipolar symptoms that have been shown to best differentiate mania from ADHD (i.e., elation, grandiosity, flight of ideas, racing thoughts, decreased need for sleep). These findings support the need for child informants in research on prepubertal and early adolescent bipolar disorder in children ages 7-14. Differences in mania symptom profiles between investigative groups may be, in part, due to whether child informants were assessed.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/15229062/",
+      "stratum_start": 2000,
+      "labels": {
+        "eligibility": {
+          "value": "exclude",
+          "completed": true,
+          "basis": "explicit",
+          "ambiguous": false,
+          "null_reason": null
+        },
+        "n_total": {
+          "value": null,
+          "completed": false,
+          "basis": null,
+          "ambiguous": false,
+          "null_reason": null,
+          "human_text": "null"
+        },
+        "n_female": {
+          "value": null,
+          "completed": false,
+          "basis": null,
+          "ambiguous": false,
+          "null_reason": null,
+          "human_text": "null"
+        },
+        "sex_reporting": {
+          "value": null,
+          "completed": false,
+          "basis": null,
+          "ambiguous": false,
+          "null_reason": null,
+          "human_text": "null"
+        }
+      },
+      "reviewer": "Aanya",
+      "notes": "Related to adolescent bipolar disorder, nothing related to ADHD. Irrelevant to an ADHD sample, should be excluded.",
+      "assistance_note": null
+    },
+    {
+      "pmid": "10980665",
+      "title": "Reliability and validity of a DSM-IV based ADHD screener.",
+      "abstract": "The Diagnostic Rating Scale (DRS) was completed by the parents and teachers of 82 children referred for clinical evaluations, 73 referred children seen twice, and 218 non-referred children from the community. The DRS, which uses a categorical rather than a dimensional rating approach, was 70% to 90% sensitive to diagnoses of Attention Deficit/Hyperactivity Disorder (ADHD) made by blind clinical teams. In research and clinical applications, the DRS could improve screening efficiency, especially in situations where it would be desirable to exclude all children who might have ADHD or identify all children with Hyperactive-Impulsive symptoms. Because of its objectivity and consistency with the Diagnostic and Statistical Manual (DSM)-IV criteria, the DRS could facilitate comparison of participant samples across studies.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/10980665/",
+      "stratum_start": 2000,
+      "labels": {
+        "eligibility": {
+          "value": "include",
+          "completed": true,
+          "basis": "explicit",
+          "ambiguous": false,
+          "null_reason": null
+        },
+        "n_total": {
+          "value": 300,
+          "completed": true,
+          "basis": "derived",
+          "ambiguous": false,
+          "null_reason": null,
+          "human_text": "derived: 218+82‎ = 300"
+        },
+        "n_female": {
+          "value": null,
+          "completed": true,
+          "basis": null,
+          "ambiguous": false,
+          "null_reason": "not_reported",
+          "human_text": "Not reported"
+        },
+        "sex_reporting": {
+          "value": null,
+          "completed": true,
+          "basis": null,
+          "ambiguous": false,
+          "null_reason": "not_reported",
+          "human_text": "null"
+        }
+      },
+      "reviewer": "Aanya",
+      "notes": "eligible. 73 children twice are a retest subset of the 82 already counted students. Parents and teachers are the reporters thus they arent counted. ADHD symptoms and diagosis in a mixed clinical community sample.",
+      "assistance_note": null
+    },
+    {
+      "pmid": "14700466",
+      "title": "Are there biological programming effects for psychological development? Findings from a study of Romanian adoptees.",
+      "abstract": "Associations between experiences and outcomes could be due to (a) continuation of adversity or (b) organismic changes, including experience-expectant and experience-adaptive developmental programming. The adoption into British families of children who had been reared in profoundly depriving institutions in Romania presented an opportunity to test mechanisms. Romanian children reared from infancy in very depriving institutions for periods up to 42 months were compared with 52 nondeprived UK-born children placed into adoptive families before the age of 6 months. The results at 6 years of age showed substantial normal cognitive and social functioning after the provision of family rearing but also major persistent deficits in a substantial minority. The pattern of findings suggests some form of early biological programming or neural damage stemming from institutional deprivation, but the heterogeneity in outcome indicates that the effects are not deterministic.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/14700466/",
+      "stratum_start": 2000,
+      "labels": {
+        "eligibility": {
+          "value": "exclude",
+          "completed": true,
+          "basis": "explicit",
+          "ambiguous": false,
+          "null_reason": null
+        },
+        "n_total": {
+          "value": null,
+          "completed": false,
+          "basis": null,
+          "ambiguous": false,
+          "null_reason": null,
+          "human_text": "not stated"
+        },
+        "n_female": {
+          "value": null,
+          "completed": false,
+          "basis": null,
+          "ambiguous": false,
+          "null_reason": null,
+          "human_text": "not stated"
+        },
+        "sex_reporting": {
+          "value": null,
+          "completed": false,
+          "basis": null,
+          "ambiguous": false,
+          "null_reason": null,
+          "human_text": "null"
+        }
+      },
+      "reviewer": "Aanya",
+      "notes": "Abstract doesn’t mention ADHD, attention hyperactivity or any behavioural symptom domain. It covers institutional deprivation and outcomes described only as “cognitive and social functioning” and “persistent deficits”. It isn’t about an unrelated condition, though. It’s a broad developmental outcomes study, and the full paper may well examine ADHD-type symptoms.",
+      "assistance_note": null
+    },
+    {
+      "pmid": "14980372",
+      "title": "Sonographic lenticulostriate vasculopathy in infancy with tic and other neuropsychiatric disorders developed after 7 to 9 years of follow-up.",
+      "abstract": "On gray-scale transfontanel sonography, the small arteries supplying the basal ganglia are indistinct from the brain parenchyma in normal infants. Bright linear 'branched candlestick' stripes in these regions, suggesting sonographic lenticulostriate vasculopathy, were reported in more than 200 infants in the English literature; including 34 our own patients. To identify its long-term outcome, a prospective study was accomplished on our 34 infants with sonographic lenticulostriate vasculopathy which included 13 cryptogenic cases and 21 with distinct etiologies. At the age of 7 to 9 years in the cryptogenic group, 7 in 13 patients developed tics, attention deficits, hyperactivity, and/or obsession/compulsion; while in the symptomatic group only 2 of 21 patients had tics. The rate of mortality (33% vs. 0%), developmental delay (24% vs. 8%), mental retardation (24% vs. 0%), and neurologic deficits (29% vs. 0%) were significantly higher in the symptomatic group than the cryptogenic group. Comparatively, the occurrence rate of attention deficit-hyperactivity disorder (10% vs. 54%), tics (10% vs. 38%), and obsessive-compulsive disorder (5% vs. 13%) were significantly lower in the symptomatic group than the cryptogenic group. The rates of these neuropsychiatric disorders were 10% in the symptomatic group and 54% in the cryptogenic group. We concluded that idiopathic sonographic lenticulostriate vasculopathy in infancy may predict development of neuropsychiatric disorders later in childhood.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/14980372/",
+      "stratum_start": 2000,
+      "labels": {
+        "eligibility": {
+          "value": "include",
+          "completed": true,
+          "basis": "explicit",
+          "ambiguous": false,
+          "null_reason": null
+        },
+        "n_total": {
+          "value": 34,
+          "completed": true,
+          "basis": "derived",
+          "ambiguous": false,
+          "null_reason": null,
+          "human_text": "derived: 13 cryptogenic+21 symptomatic= 34"
+        },
+        "n_female": {
+          "value": null,
+          "completed": true,
+          "basis": null,
+          "ambiguous": false,
+          "null_reason": "not_reported",
+          "human_text": "not stated"
+        },
+        "sex_reporting": {
+          "value": null,
+          "completed": true,
+          "basis": null,
+          "ambiguous": false,
+          "null_reason": "not_reported",
+          "human_text": "null"
+        }
+      },
+      "reviewer": "Aanya",
+      "notes": "the study isn’t an ADHD-only sample, but it meaningfully examines ADHD outcomes. It reports attention deficits and hyperactivity at 7-9 years, and it compares ADHD occurrence between groups (10% vs. 54%)",
+      "assistance_note": null
+    },
+    {
+      "pmid": "17934380",
+      "title": "Aripiprazole in juvenile bipolar disorder comorbid with attention-deficit/hyperactivity disorder: an open clinical trial.",
+      "abstract": "INTRODUCTION: Juvenile bipolar disorder (JBD) is a highly impairing chronic mental health condition that affects children and adolescents' overall functioning. Comorbidity with attention-deficit/hyperactivity disorder (ADHD) is extremely prevalent and may determine worse response to treatment. Few investigations have addressed the use of recent atypical antipsychotics in JBD, although several guidelines suggest their use.\nMETHODS: We conducted a 6-week open trial with aripiprazole in 10 children and adolescents with JBD comorbid with ADHD to assess impact on mania and ADHD symptoms, respectively, by means of the Young Mania Rating Scale and the Swanson, Nolan and Pelham Scale, as well as on global functioning (Clinical Global Impressions-Severity), and adverse events.\nRESULTS: Significant improvement in global functioning scores (F=3.17, P=.01, effect size=0.55), manic symptoms (F=5.63, P<.01; ES=0.93), and ADHD symptoms (t=3.42, P<.01;ES=1.05) were detected. Although an overall positive tolerability was reported, significant weight gain (F=3.07, P=.05) was observed.\nCONCLUSION: Aripiprazole was effective in improving mania and ADHD symptoms, but neither JBD nor ADHD symptom remission was observed in most of the cases. Randomized placebo-controlled trials for JBD and ADHD are needed.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/17934380/",
+      "stratum_start": 2005,
+      "labels": {
+        "eligibility": {
+          "value": "exclude",
+          "completed": true,
+          "basis": "explicit",
+          "ambiguous": false,
+          "null_reason": null
+        },
+        "n_total": {
+          "value": 10,
+          "completed": true,
+          "basis": "explicit",
+          "ambiguous": false,
+          "null_reason": null,
+          "human_text": "10"
+        },
+        "n_female": {
+          "value": null,
+          "completed": false,
+          "basis": null,
+          "ambiguous": false,
+          "null_reason": null,
+          "human_text": "not stated"
+        },
+        "sex_reporting": {
+          "value": null,
+          "completed": false,
+          "basis": null,
+          "ambiguous": false,
+          "null_reason": null,
+          "human_text": "null"
+        }
+      },
+      "reviewer": "Aanya",
+      "notes": "eligibility is under criterion. Study is relevant.",
+      "assistance_note": null
+    },
+    {
+      "pmid": "19018449",
+      "title": "Reduced serotonergic functioning changes heart rate in ADHD.",
+      "abstract": "Reduced mean heart rate (HR) was shown to be a biophysiological marker for aggression, which in turn was proven to be related to changed serotonergic neurotransmission. A total of 16 ADHD-diagnosed boys were subjected to rapid tryptophan depletion (RTD) and a placebo in a double-blind within-subject crossover-design. Mean HR was assessed under RTD/placebo. Low impulsive patients behaving aggressively under RTD showed a lowered HR under RTD versus placebo. Diminished 5-HT functioning was associated with lowered HR and aggressive behaviour.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/19018449/",
+      "stratum_start": 2005,
+      "labels": {
+        "eligibility": {
+          "value": "exclude",
+          "completed": true,
+          "basis": "explicit",
+          "ambiguous": false,
+          "null_reason": null
+        },
+        "n_total": {
+          "value": 16,
+          "completed": true,
+          "basis": "explicit",
+          "ambiguous": false,
+          "null_reason": null,
+          "human_text": "16"
+        },
+        "n_female": {
+          "value": 0,
+          "completed": true,
+          "basis": "derived",
+          "ambiguous": false,
+          "null_reason": null,
+          "human_text": "0"
+        },
+        "sex_reporting": {
+          "value": 1,
+          "completed": true,
+          "basis": "explicit",
+          "ambiguous": false,
+          "null_reason": null,
+          "human_text": "1"
+        }
+      },
+      "reviewer": "Aanya",
+      "notes": "adhd relevant. not eligible due to sample size",
+      "assistance_note": null
+    },
+    {
+      "pmid": "16405913",
+      "title": "The association between parenting stress, depressed mood and informant agreement in ADHD and ODD.",
+      "abstract": "OBJECTIVE: In Attention Deficit Hyperactivity Disorder (ADHD) agreement between parents and teachers is often low. Parental depressed mood and parenting stress are considered to decrease informant agreement. This study examined informant agreement in children with ADHD and the association between parental depressed mood, parenting stress and agreement in the ratings of ADHD, ODD and CD symptoms.\nMETHOD: 65 parents completed questionnaires on ADHD behavior of their child, parenting stress and depressed mood, teachers reported on ADHD behavior.\nRESULTS: Low agreement was found for hyperactive and moderate agreement for inattentive, ODD and CD symptoms. Stepwise regression analyses showed that parenting stress, and not parental depressed mood accounted for 12% of the variance in inattention symptoms disagreement, 14% of the variance in hyperactive symptoms disagreement and 9% in oppositional behavior disagreement. No significant predictors were found for CD disagreement. The found effect was independent of stimulant medication use.\nCONCLUSION: Parenting stress, but not parental depressed mood, was associated with the disagreement between parents and teachers on both ADHD and ODD symptoms. These results emphasize the importance of considering parenting stress in diagnosing ADHD and comorbid ODD.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/16405913/",
+      "stratum_start": 2005,
+      "labels": {
+        "eligibility": {
+          "value": "include",
+          "completed": true,
+          "basis": "explicit",
+          "ambiguous": false,
+          "null_reason": null
+        },
+        "n_total": {
+          "value": null,
+          "completed": true,
+          "basis": null,
+          "ambiguous": false,
+          "null_reason": "not_reported",
+          "human_text": "not stated"
+        },
+        "n_female": {
+          "value": null,
+          "completed": true,
+          "basis": null,
+          "ambiguous": false,
+          "null_reason": "not_reported",
+          "human_text": "not stated"
+        },
+        "sex_reporting": {
+          "value": null,
+          "completed": true,
+          "basis": null,
+          "ambiguous": false,
+          "null_reason": "not_reported",
+          "human_text": "null"
+        }
+      },
+      "reviewer": "Aanya",
+      "notes": "parents participated not children.",
+      "assistance_note": null
+    },
+    {
+      "pmid": "16530991",
+      "title": "Neurodevelopmental follow-up after preterm birth: follow up after two years.",
+      "abstract": "Marked differences are seen in neurological and health status, intellectual functioning, school performance and behaviour between children born prematurely and those born at term. Assessment in later childhood has identified more subtle problems than the severe disability or sensory deficits readily identifiable at two years. These problems include learning disabilities, specific neuropsychological deficits in executive function, difficulties in visual-motor integration and perception, selective language impairment, motor coordination disorders, behaviour problems, attention deficit hyperactivity disorder (ADHD), and reduced educational achievement. Follow-up to school entry and beyond is thus required to determine the true prevalence and nature of the neurodevelopmental problems arising from preterm birth. Consensus about the assessment used, definitions of disability and health status, age of assessment and who undertakes it are necessary and should allow comparison across populations; this may help to maximise outcomes for children clearly at biological risk. Assessment of outcome for children born preterm beyond two years is required for counselling parents, planning health and education provision, for evaluation of services and to facilitate understanding of the longer term effects of preterm birth on brain development.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/16530991/",
+      "stratum_start": 2005,
+      "labels": {
+        "eligibility": {
+          "value": "exclude",
+          "completed": true,
+          "basis": "explicit",
+          "ambiguous": false,
+          "null_reason": null
+        },
+        "n_total": {
+          "value": null,
+          "completed": false,
+          "basis": null,
+          "ambiguous": false,
+          "null_reason": null,
+          "human_text": "not stated"
+        },
+        "n_female": {
+          "value": null,
+          "completed": false,
+          "basis": null,
+          "ambiguous": false,
+          "null_reason": null,
+          "human_text": "not stated"
+        },
+        "sex_reporting": {
+          "value": null,
+          "completed": false,
+          "basis": null,
+          "ambiguous": false,
+          "null_reason": null,
+          "human_text": "null"
+        }
+      },
+      "reviewer": "Aanya",
+      "notes": "this reads as a narrative review or commentary on follow-up after preterm birth, not a study of a participant sample. ADHD appears only once, in a list of possible later outcomes (alongside learning disabilities, motor coordination problems, and so on). The abstract doesn’t examine ADHD symptoms, diagnosis, treatment, or outcomes in any meaningful way",
+      "assistance_note": null
+    },
+    {
+      "pmid": "18609029",
+      "title": "The Strengths and Difficulties Questionnaire as a screening instrument in a community sample of high school seniors in Sweden.",
+      "abstract": "The Strengths and Difficulties Questionnaire (SDQ) has been used among Swedish children since 1996, usually the parent or the teacher version. The self-report version was originally developed for children aged 11-16 years. The aim of this study was to investigate the application of the Swedish self-report version to a representative sample of 1015 senior high school students aged 17-19 years. Girls reported more emotional symptoms and scored higher on prosocial items than boys. Boys on the other hand scored higher on both conduct and peer problems. The means were similar to means in two Nordic studies that have included subjects of this age group. A confirmatory five-factor analyses explained 44.5% of the variance with a good fit for all subjects and boys but somewhat weaker for girls. The item-subscale correlation (ISC) ranged from moderate to high (r=0.47-0.76) and the Cronbach's alpha was 0.74 (ranging in the five subscales 0.50-0.70). The SDQ seems to be useful even in this older age group. The psychometric qualities were acceptable but can probably be improved by changing the oppositely worded questions and by considering development of different questionnaires for boys and girls at least in late adolescence.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/18609029/",
+      "stratum_start": 2005,
+      "labels": {
+        "eligibility": {
+          "value": "uncertain",
+          "completed": true,
+          "basis": "explicit",
+          "ambiguous": true,
+          "null_reason": null
+        },
+        "n_total": {
+          "value": 1015,
+          "completed": true,
+          "basis": "explicit",
+          "ambiguous": false,
+          "null_reason": null,
+          "human_text": "1015 (stated)"
+        },
+        "n_female": {
+          "value": null,
+          "completed": true,
+          "basis": null,
+          "ambiguous": false,
+          "null_reason": "not_reported",
+          "human_text": "not stated"
+        },
+        "sex_reporting": {
+          "value": 2,
+          "completed": true,
+          "basis": "explicit",
+          "ambiguous": false,
+          "null_reason": null,
+          "human_text": "2"
+        }
+      },
+      "reviewer": "Aanya",
+      "notes": "Relevance is the problem here. The abstract never mentions ADHD, hyperactivity, inattention, or attention. The five SDQ subscales include hyperactivity/inattention, but the abstract names only emotional, conduct, peer, and prosocial scales. It’s not about an unrelated condition, but it also doesn’t meaningfully examine ADHD symptoms.",
+      "assistance_note": null
+    },
+    {
+      "pmid": "20525316",
+      "title": "The impact of instruction and response cost on the modulation of response-style in children with ADHD.",
+      "abstract": "BACKGROUND: The present study investigated the impact of divergent instructions and response cost on strategic cognitive control in children with ADHD.\nMETHODS: Children with ADHD (N = 34), combined subtype, and control children (N = 34) performed a series of self-paced computerized visual search tasks. The tasks varied by verbal instructions: after a baseline task, children were either instructed to work as fast as possible (speed instruction) or as accurately as possible (accuracy instruction). In addition, tasks were performed with and without response cost.\nRESULTS: Both groups modulated latencies and errors according to instructions in a comparable way, except for latency in the accuracy - instruction without response cost, where control children showed a larger increase of response time. Response cost did not affect the modulation of response style in children with ADHD to a larger extent than in controls. However, with instructions group differences related to target criteria became clearly more accentuated compared to baseline but disappeared when response cost was added.\nCONCLUSIONS: Delay aversion theory and motivational or state regulation models may account for different aspects of the results. Modifications related to task presentation, such as the emphasis put on different details in the verbal instruction, may lead to divergent results when comparing performances of children with ADHD and control children on a self-paced task.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/20525316/",
+      "stratum_start": 2010,
+      "labels": {
+        "eligibility": {
+          "value": "include",
+          "completed": true,
+          "basis": "explicit",
+          "ambiguous": false,
+          "null_reason": null
+        },
+        "n_total": {
+          "value": 68,
+          "completed": true,
+          "basis": "derived",
+          "ambiguous": false,
+          "null_reason": null,
+          "human_text": "derived: 34+34‎ = 68"
+        },
+        "n_female": {
+          "value": null,
+          "completed": true,
+          "basis": null,
+          "ambiguous": false,
+          "null_reason": "not_reported",
+          "human_text": "not stated"
+        },
+        "sex_reporting": {
+          "value": null,
+          "completed": true,
+          "basis": null,
+          "ambiguous": false,
+          "null_reason": "not_reported",
+          "human_text": "null"
+        }
+      },
+      "reviewer": "Aanya",
+      "notes": "Human children, and the study is squarely about ADHD: a combined-subtype ADHD group is compared with controls on cognitive control under different instructions and response cost. Both the relevance rule and the 30-participant minimum are met (68 total, and each group alone is 34).",
+      "assistance_note": null
+    },
+    {
+      "pmid": "23889608",
+      "title": "Myoclonic epilepsy in infancy: an electroclinical study and long-term follow-up of 38 patients.",
+      "abstract": "PURPOSE: Myoclonic epilepsy in infancy (MEI) is characterized by brief generalized myoclonic seizures associated with generalized spike-wave paroxysms without other seizure types occurring in the first 3 years of life in developmentally normal children. In this study we analyze the electroclinical features, treatment, and outcome of 38 patients with MEI.\nMETHODS: A retrospective chart review was conducted in 38 patients followed at the Neurology Department of the Pediatric Hospital Juan P. Garrahan in Buenos Aires, Argentina, between 1990 and 2012.\nKEY FINDINGS: A total of 24 boys and 14 girls were identified. The mean and median ages at seizure onset were 16 and 18 months, respectively (range 3-40 months). Ten patients (28.9%) had a family history of epilepsy, and six (15.8%) had a family history of febrile seizures. All patients had several daily brief and isolated myoclonic seizures during wakefulness and predominantly in the first two stages of sleep. Twelve children (31.5%) had reflex myoclonus, triggered by a tactile stimulus in 10 and additionally by noise and light in 2. The remaining two had photosensitive myoclonic jerks. The interictal electroencephalography (EEG) recordings evidenced generalized spike waves, polyspikes, and polyspike-wave paroxysms. The interictal EEG was normal in 12 patients. The abnormalities on the ictal EEG were similar to those on the interictal EEG. Most of the patients responded well to valproic acid. After a mean follow-up of 13.5 years, 24 patients (63%) were without treatment. At the last examination, 32 patients had normal neurologic and neuropsychological evaluations. Two patients (5.2%) had significant cognitive impairment (an IQ of 60 and 63, respectively) despite good seizure control. Four patients (10.4%) had significant learning impairment, two of whom also had attention deficit hyperactivity disorder.\nSIGNIFICANCE: MEI is a well-defined epileptic syndrome of unknown etiology, but likely of a genetic cause. It is self-limited and pharmacosensitive mainly to valproic acid.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/23889608/",
+      "stratum_start": 2010,
+      "labels": {
+        "eligibility": {
+          "value": "exclude",
+          "completed": true,
+          "basis": "explicit",
+          "ambiguous": false,
+          "null_reason": null
+        },
+        "n_total": {
+          "value": 38,
+          "completed": true,
+          "basis": "explicit",
+          "ambiguous": false,
+          "null_reason": null,
+          "human_text": "38"
+        },
+        "n_female": {
+          "value": 14,
+          "completed": true,
+          "basis": "explicit",
+          "ambiguous": false,
+          "null_reason": null,
+          "human_text": "14"
+        },
+        "sex_reporting": {
+          "value": null,
+          "completed": false,
+          "basis": null,
+          "ambiguous": false,
+          "null_reason": null,
+          "human_text": "null"
+        }
+      },
+      "reviewer": "Aanya",
+      "notes": "fully irrelevant. This is a study of myoclonic epilepsy in infancy. ADHD appears only once, as a side finding that two of the four patients with learning impairment also had ADHD. It isn’t a measured outcome or an aim, so the abstract doesn’t meaningfully examine ADHD.",
+      "assistance_note": null
+    },
+    {
+      "pmid": "21669891",
+      "title": "Computer-assisted management of attention-deficit/hyperactivity disorder.",
+      "abstract": "OBJECTIVES: Medication management of attention-deficit/hyperactivity disorder (ADHD) is often suboptimal. We examined whether (1) brief physician training plus computer-assisted medication management led to greater reduction in ADHD symptoms and (2) adherence to the recommended titration protocol produced greater symptomatic improvement.\nMETHODS: A randomized medication trial was conducted that included 24 pediatric practices. Children who met criteria for ADHD were randomly assigned by practice to treatment-as-usual or a specialized care group in which physicians received 2 hours of didactic training on medication management of ADHD plus training on a software program to assist in monitoring improvement. Parent and teacher reports were obtained before treatment and 4, 9, and 12 months after starting medication.\nRESULTS: Children in both specialized care and treatment-as-usual groups improved on the ADHD Rating Scales and SNAP-IV, but there were no group differences in improvement rates. Brief physician training alone did not produce improvements. When recommended titration procedures were followed, however, outcomes were better for total and inattentive ADHD symptoms on both the ADHD Rating Scales and SNAP-IV parent and teacher scales. Results were not attributable to discontinuation because of adverse effects or failure to find an effective medication dose.\nCONCLUSIONS: Brief physician training alone did not lead to reductions in ADHD symptoms, but adherence to a protocol that involved titration until the child's symptoms were in the average range and had shown a reliable change led to better symptom reduction. Computer-assisted medication management can contribute to better treatment outcomes in primary care medication treatment of ADHD.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/21669891/",
+      "stratum_start": 2010,
+      "labels": {
+        "eligibility": {
+          "value": "uncertain",
+          "completed": true,
+          "basis": "explicit",
+          "ambiguous": true,
+          "null_reason": null
+        },
+        "n_total": {
+          "value": null,
+          "completed": true,
+          "basis": null,
+          "ambiguous": false,
+          "null_reason": "not_reported",
+          "human_text": "not stated"
+        },
+        "n_female": {
+          "value": null,
+          "completed": true,
+          "basis": null,
+          "ambiguous": false,
+          "null_reason": "not_reported",
+          "human_text": "not stated"
+        },
+        "sex_reporting": {
+          "value": null,
+          "completed": true,
+          "basis": null,
+          "ambiguous": false,
+          "null_reason": "not_reported",
+          "human_text": "null"
+        }
+      },
+      "reviewer": "Aanya",
+      "notes": "clearly adhd relevant. The abstract never mentions the sample size, and says only 24 pediatric practices which are the randomisation units, not the participants.",
+      "assistance_note": null
+    },
+    {
+      "pmid": "24405904",
+      "title": "HIV-positive females show blunted neurophysiological responses in an emotion-attention dual task paradigm.",
+      "abstract": "OBJECTIVE: Although HIV is associated with decreased emotional and cognitive functioning, the mechanisms through which affective changes can alter cognitive processes in HIV-infected individuals are unknown. We aimed to clarify this question through testing the extent to which emotionally negative stimuli prime attention to a subsequent infrequently occurring auditory tone in HIV+ compared to HIV- females.\nMETHODS: Attention to emotional compared to non-emotional pictures was measured via the LPP ERP. Subsequent attention was indexed through the N1 and late processing negativity ERP. We also assessed mood and cognitive functioning in both groups.\nRESULTS: In HIV- females, emotionally negative pictures, compared to neutral pictures, resulted in an enhanced LPP to the pictures and an enhanced N1 to subsequent tones. The HIV+ group did not show a difference in the LPP measure between picture categories, and accordingly, did not show a priming effect to the subsequent infrequent tones.\nCONCLUSIONS: The ERP findings, combined with neuropsychological deficits, suggest that HIV+ females show impairments in attention to emotionally-laden stimuli and that this impairment might be related to a loss of affective priming.\nSIGNIFICANCE: This study is the first to provide physiological evidence that the LPP, a measure of attention to emotionally-charged visual stimuli, is reduced in HIV-infected individuals. These results set the stage for future work aimed at localizing brain activation to emotional stimuli in HIV+ individuals.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/24405904/",
+      "stratum_start": 2010,
+      "labels": {
+        "eligibility": {
+          "value": "exclude",
+          "completed": true,
+          "basis": "explicit",
+          "ambiguous": false,
+          "null_reason": null
+        },
+        "n_total": {
+          "value": null,
+          "completed": false,
+          "basis": null,
+          "ambiguous": false,
+          "null_reason": null,
+          "human_text": "not stated"
+        },
+        "n_female": {
+          "value": null,
+          "completed": false,
+          "basis": null,
+          "ambiguous": false,
+          "null_reason": null,
+          "human_text": "not stated"
+        },
+        "sex_reporting": {
+          "value": 1,
+          "completed": true,
+          "basis": "explicit",
+          "ambiguous": false,
+          "null_reason": null,
+          "human_text": "1"
+        }
+      },
+      "reviewer": "Aanya",
+      "notes": "The study compares HIV+ and HIV- females on ERP responses to emotional pictures and subsequent tones. ADHD, ADHD symptoms, diagnosis, treatment, and outcomes never appear. The condition studied is HIV, so under your rule this is an exclude, not an uncertain.",
+      "assistance_note": null
+    },
+    {
+      "pmid": "21854282",
+      "title": "An exploration of site effects in a multisite trial of OROS-methylphenidate for smokers with attention deficit/hyperactivity disorder.",
+      "abstract": "BACKGROUND: Multisite trials, the gold standard for conducting studies in community-based settings, can mask variability across sites resulting in misrepresentation of effects in specific sites. In a placebo-controlled trial of osmotic-release oral system methylphenidate (OROS-MPH) as augmentation treatment for smokers with attention deficit hyperactivity/impulsivity disorder (ADHD), three types of sites were selected according to their clinical research specialty (ADHD, smoking cessation, and general mental health).\nOBJECTIVE: Analysis was conducted to determine if clinical outcomes, that is, reduction in ADHD symptoms and smoking cessation rates, and the effect of treatment on these outcomes would differ by type of site.\nMETHOD: A total of 255 adult smokers diagnosed with ADHD were enrolled in three clinic types: 72 in ADHD, 79 in tobacco dependence, and 104 in the mental health clinics.\nRESULTS: The three site-types were similar in demographic characteristics, smoking history, baseline level of ADHD symptoms, and history of psychiatric illness. Site-type but not a site-type by treatment interaction predicted prolonged smoking abstinence. A significant three-way interaction of site-type, treatment, and time-predicted improvement in ADHD symptoms. Moderate to strong effects of OROS-MPH relative to placebo were observed in the mental health and the ADHD clinics; a weak effect was observed in the tobacco dependence clinics.\nCONCLUSION: OROS-MPH benefit varied by site for reducing ADHD symptoms but not for improving smoking abstinence.\nSCIENTIFIC SIGNIFICANCE: Assessment of site-type effects can indicate the generalizability of findings from multisite trials and should be routinely incorporated in the design of multisite trials.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/21854282/",
+      "stratum_start": 2010,
+      "labels": {
+        "eligibility": {
+          "value": "include",
+          "completed": true,
+          "basis": "explicit",
+          "ambiguous": false,
+          "null_reason": null
+        },
+        "n_total": {
+          "value": 255,
+          "completed": true,
+          "basis": "explicit",
+          "ambiguous": false,
+          "null_reason": null,
+          "human_text": "255(stated)"
+        },
+        "n_female": {
+          "value": null,
+          "completed": true,
+          "basis": null,
+          "ambiguous": false,
+          "null_reason": "not_reported",
+          "human_text": "not stated"
+        },
+        "sex_reporting": {
+          "value": null,
+          "completed": true,
+          "basis": null,
+          "ambiguous": true,
+          "null_reason": "unclear",
+          "human_text": "Null/unclear"
+        }
+      },
+      "reviewer": "Aanya",
+      "notes": "The participants are human adults diagnosed with ADHD, ADHD symptom reduction is a primary outcome, and the sample is far above 30. Nothing in the abstract limits the sample to children, so I’m treating age as no issue.",
+      "assistance_note": null
+    },
+    {
+      "pmid": "31166249",
+      "title": "Sleep Difficulties in Infancy Are Associated with Symptoms of Inattention and Hyperactivity at the Age of 5 Years: A Longitudinal Study.",
+      "abstract": "OBJECTIVE: Sleep difficulties are associated with cognitive and behavioral problems in childhood. However, it is still unclear whether early sleep difficulties are related to later development. We studied whether parent-reported sleep duration, night awakenings, and parent-reported sleep problems in early childhood are associated with symptoms of inattention and hyperactivity at the age of 5 years.\nMETHOD: Our study is based on the Child-Sleep birth cohort initially comprising 1673 families, of which 713 were retained at the age of 5 years. We used the Brief Infant Sleep Questionnaire and the Infant Sleep Questionnaire, which were filled out by the parents when their child was 3, 8, and 24 months and 5 years old. Symptoms of inattention and hyperactivity at the age of 5 years were assessed using the Strengths and Difficulties Questionnaire and the Five-to-Fifteen questionnaire.\nRESULTS: Sleep duration at the age of 3, 8, and 24 months was associated with inattentiveness at 5 years of age. Moreover, parent-reported sleep problems at the age of 24 months were related to both inattentive and hyperactive symptoms at the age of 5 years. Finally, at the age of 5 years, parent-reported sleep problems and night awakenings were associated with concurrent symptoms of inattention and hyperactivity.\nCONCLUSION: Our findings suggest that certain sleep characteristics related to sleep quality and quantity in early childhood are associated with inattentiveness and hyperactivity at the age of 5 years. Interestingly, sleep duration in early childhood is consistently related to inattention at the age of 5 years.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/31166249/",
+      "stratum_start": 2015,
+      "labels": {
+        "eligibility": {
+          "value": "include",
+          "completed": true,
+          "basis": "explicit",
+          "ambiguous": false,
+          "null_reason": null
+        },
+        "n_total": {
+          "value": null,
+          "completed": true,
+          "basis": null,
+          "ambiguous": false,
+          "null_reason": "not_reported",
+          "human_text": "not stated"
+        },
+        "n_female": {
+          "value": null,
+          "completed": true,
+          "basis": null,
+          "ambiguous": false,
+          "null_reason": "not_reported",
+          "human_text": "not stated"
+        },
+        "sex_reporting": {
+          "value": null,
+          "completed": true,
+          "basis": null,
+          "ambiguous": false,
+          "null_reason": "not_reported",
+          "human_text": "null"
+        }
+      },
+      "reviewer": "Aanya",
+      "notes": "The study is human and ADHD relevant. iNATTENTION AND HYPERACTIVITY SYMPTOMS AT THE AGE 5 ARE OUTCOMES, measured witht he sample.The size is also fine: 713 families were retained at age 5, which clears 30 by a wide margin.",
+      "assistance_note": null
+    },
+    {
+      "pmid": "26155764",
+      "title": "Psychiatric Symptoms in Youth with a History of Autism and Optimal Outcome.",
+      "abstract": "Since autism spectrum disorder (ASD) is often comorbid with psychiatric disorders, children who no longer meet criteria for ASD (optimal outcome; OO) may still be at risk for psychiatric disorders. A parent interview for DSM-IV psychiatric disorders (K-SADS-PL) for 33 OO, 42 high-functioning autism (HFA) and 34 typically developing (TD) youth, ages 8-21, showed that OO and HFA groups had elevated current ADHD and specific phobias, with tics in HFA. In the past, the HFA group also had elevated depression and ODD, and the OO group had tics. The HFA group also showed subthreshold symptoms of specific and social phobias, and generalized anxiety. Psychopathology in the OO group abated over time as did their autism, and decreased more than in HFA.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/26155764/",
+      "stratum_start": 2015,
+      "labels": {
+        "eligibility": {
+          "value": "include",
+          "completed": true,
+          "basis": "explicit",
+          "ambiguous": false,
+          "null_reason": null
+        },
+        "n_total": {
+          "value": 109,
+          "completed": true,
+          "basis": "derived",
+          "ambiguous": false,
+          "null_reason": null,
+          "human_text": "derived: 33 OO+ 42HFA+ 34 TD)"
+        },
+        "n_female": {
+          "value": null,
+          "completed": true,
+          "basis": null,
+          "ambiguous": false,
+          "null_reason": "not_reported",
+          "human_text": "not stated"
+        },
+        "sex_reporting": {
+          "value": null,
+          "completed": true,
+          "basis": null,
+          "ambiguous": false,
+          "null_reason": "not_reported",
+          "human_text": "null"
+        }
+      },
+      "reviewer": "Aanya",
+      "notes": "The study is human, and the sample is well above 30. ADHD is one of the psychiatric disorders assessed with the K-SADS-PL, and the abstract reports elevated current ADHD in both the OO and HFA groups. That is a measured diagnostic outcome compared across groups",
+      "assistance_note": null
+    },
+    {
+      "pmid": "30985385",
+      "title": "Attention-Deficit Hyperactivity Disorder in Pediatric Patients With Type 1 Diabetes Mellitus: Clinical Outcomes and Diabetes Control.",
+      "abstract": "OBJECTIVE: To assess the interactions between attention-deficit hyperactivity disorder (ADHD) and type 1 diabetes mellitus (T1DM), including diabetes outcomes and patients' general health status.\nMETHODS: Primary care and hospital records of patients aged 5 to 18 years with T1DM were analyzed using the Leumit Health Services database. The diabetic control and general health of patients with T1DM and ADHD diagnoses were compared with those of patients with T1DM alone in a cross-sectional study. The ADHD group included patients with ADHD diagnosis who purchased at least 3 prescriptions of psychostimulant agents and nootropics. Parameters including demographic, clinical, and laboratory data were collected and assessed.\nRESULTS: The study included 230 patients with T1DM; of them, 24 had ADHD (10.4%). Twenty of 24 patients with ADHD (83.3%) had hemoglobin A1C of 9% and higher versus 87 of 206 patients with diabetes alone (43.3%) (p < 0.05). The ADHD group had significantly higher annual emergency department admissions [15/24 (62.5%) vs 77/201 (37.4%); p < 0.05], higher annual hospitalization rates [18/24 (75%) vs 78/206 (37.9%); p < 0.05], and longer hospitalization stays (mean, 2.21 vs 0.65 days; p < 0.05). The total medical annual costs per patient were twice as high in the ADHD group (p < 0.05). In multivariate analysis, these unfavorable outcomes of the ADHD group were preserved.\nCONCLUSION: In this study, having ADHD and T1DM comorbidity was associated with a higher complications rate and poorer diabetes control in comparison to having T1DM alone. Although further research is needed, our data suggest that this group requires special care and attention of the medical staff.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/30985385/",
+      "stratum_start": 2015,
+      "labels": {
+        "eligibility": {
+          "value": "include",
+          "completed": true,
+          "basis": "explicit",
+          "ambiguous": false,
+          "null_reason": null
+        },
+        "n_total": {
+          "value": 230,
+          "completed": true,
+          "basis": "explicit",
+          "ambiguous": false,
+          "null_reason": null,
+          "human_text": "230 (stated)"
+        },
+        "n_female": {
+          "value": null,
+          "completed": true,
+          "basis": null,
+          "ambiguous": false,
+          "null_reason": "not_reported",
+          "human_text": "not stated"
+        },
+        "sex_reporting": {
+          "value": null,
+          "completed": true,
+          "basis": null,
+          "ambiguous": false,
+          "null_reason": "not_reported",
+          "human_text": "null"
+        }
+      },
+      "reviewer": "Aanya",
+      "notes": "•\tEligibility: The participants are human, and ADHD is a primary focus: the study compares patients with T1DM and ADHD against patients with T1DM alone on diabetes control and health outcomes. The size rule is the one thing to check. Only 24 patients have ADHD, which is under 30. But your rules say to include controls in the overall count, and the T1DM-only patients are the comparison group, so the study total is 230. I read the 30 threshold as applying to the whole study, as I did for the DRS and Drechsler abstracts. If your answer key applies the threshold to the ADHD group alone, this would be an exclude.\n* Total: The abstract states “230 patients with T1DM” directly, with 24 of them having ADHD. The 24 with ADHD and the 206 with diabetes alone add up to 230, which matches, so I used the stated figure and nothing was derived. The abstract also gives 201 as the denominator for one comparison, but that doesn’t affect the total.\n* Female: The abstract gives no sex or gender breakdown. “Female” and “Male” appear in the MeSH terms on the pasted page, but those are indexing tags, not counts, and aren’t part of the abstract, so I didn’t use them.\n* Sex reporting: The abstract never mentions sex or gender. No outcome is reported by sex, the sample isn’t single-sex, and sex comparison isn’t an aim, so no level is established.",
+      "assistance_note": "Discussed in conversation after independent initial review; final notes may reflect assistance."
+    },
+    {
+      "pmid": "29886042",
+      "title": "Prevalence of rearrangements in the 22q11.2 region and population-based risk of neuropsychiatric and developmental disorders in a Danish population: a case-cohort study.",
+      "abstract": "BACKGROUND: Although the pathogenic nature of copy number variants (CNVs) on chromosome 22q11.2 has been recognised for decades, unbiased estimates of their population prevalence, mortality, disease risks, and diagnostic trajectories are absent. We aimed to provide the true population prevalence of 22q11.2 CNVs and associated trajectory of disease risk and mortality by use of the unbiased, representative Danish iPSYCH population case cohort.\nMETHODS: This case-cohort study was done on a population of 86 189 individuals selected from the iPSYCH case cohort of 1 472 762 singletons born in Denmark between May 1, 1981, and Dec 31, 2005, who have a known mother from the Danish Civil Registration System, were residents in Denmark at 1 year of age, and enrolled in the iPSYCH Initiative. We used epidemiological methods in conjunction with nationwide hospital registers to analyse the iPSYCH case cohort of individuals with attention-deficit hyperactivity disorder (ADHD), major depressive disorder, schizophrenia, autism, or bipolar disorder and a random population-based sample. The main outcomes assessed were the population prevalence of 22q11.2 rearrangements, and associated unbiased, population-adjusted estimates and 31-year disease risk trajectories for major neuropsychiatric disorders.\nFINDINGS: Population prevalence in the Danish population was one in 3672 (seven of 25 704 [0·027%; 95% CI 0·012-0·057]) for deletions and one in 1606 (17 of 25 704 [0·066%; 0·040-0·107]) for duplications. Mortality after the age of 1 year among carriers was zero, and hazard ratios for neuropsychiatric disorders ranged from 2·60 to 82·44 for both rearrangements. By the age of 32 years, about 10% of individuals with deletions or duplications had developed ADHD, autism, or intellectual disability, and deletion carriers had higher probability than duplication carriers of co-occurring intellectual disability or epilepsy.\nINTERPRETATION: The significantly different prevalence of 22q11.2 duplications and deletions indicates distinct selective pressures on these rearrangements. Although risk of congenital abnormalities, developmental delay, and intellectual disability is elevated in deletion carriers, the overall prevalence of neuropsychiatric disorders is higher in duplication carriers, which implies that identification and clinical monitoring should extend beyond congenital traits and into child and adolescent psychiatry.\nFUNDING: Capital Region's Research Foundation for Mental Health Research, The Lundbeck Foundation, and US National Institutes of Health.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/29886042/",
+      "stratum_start": 2015,
+      "labels": {
+        "eligibility": {
+          "value": "include",
+          "completed": true,
+          "basis": "explicit",
+          "ambiguous": false,
+          "null_reason": null
+        },
+        "n_total": {
+          "value": 86189,
+          "completed": true,
+          "basis": "explicit",
+          "ambiguous": false,
+          "null_reason": null,
+          "human_text": "86,189 (stated)"
+        },
+        "n_female": {
+          "value": null,
+          "completed": true,
+          "basis": null,
+          "ambiguous": false,
+          "null_reason": "not_reported",
+          "human_text": "not stated"
+        },
+        "sex_reporting": {
+          "value": null,
+          "completed": true,
+          "basis": null,
+          "ambiguous": false,
+          "null_reason": "not_reported",
+          "human_text": "null"
+        }
+      },
+      "reviewer": "Aanya",
+      "notes": "ADHD is one of the five disorders that define the iPSYCH case cohort, and it is a named outcome in the results, where about 10% of carriers developed ADHD, autism, or intellectual disability by age 32. This is a borderline include, because the main focus is 22q11.2 CNV prevalence and neuropsychiatric risk in general, and the 10% figure pools ADHD with two other outcomes. I included it because ADHD is a measured diagnostic outcome in a broader population, the same standard I used for the autism optimal-outcome study. It is stronger than the epilepsy abstract, where ADHD was an incidental note about two patients.",
+      "assistance_note": null
+    },
+    {
+      "pmid": "28834373",
+      "title": "ADHD Medication, Dietary Patterns, Physical Activity, and BMI in Children: A Longitudinal Analysis of the ECLS-K Study.",
+      "abstract": "OBJECTIVE: This study examined relationships between attention-deficit/hyperactivity disorder (ADHD), stimulant use, and BMI change in a nationally representative cohort of children as well as differences in diet and physical activity that may mediate associations between stimulant use and BMI change.\nMETHODS: By using the Early Childhood Longitudinal Study-Kindergarten Cohort 1998-1999 (N = 8,250), we modeled BMI and z score change by ADHD and stimulant start time, examined the odds of unhealthy diet and physical activity predicted by ADHD and stimulant use, and performed mediation analysis assessing indirect effects of health behaviors.\nRESULTS: Early stimulant use predicted short-term BMI reductions, but any stimulant use predicted increased BMI growth between fifth grade (mean age = 11.2 years) and eighth grade (mean age = 14.3 years). Children with ADHD had higher odds of poor diet regardless of medication. Health behaviors were not associated with BMI change after controlling for medication use.\nCONCLUSIONS: Stimulant use predicted higher BMI trajectory between fifth and eighth grade but did not affect dietary or physical activity patterns. Future research should explore potential mechanisms by which early and long-term stimulant use may affect metabolism, while clinicians should initiate nutrition counseling with families of children with ADHD, regardless of medication prescription, at or shortly after diagnosis.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/28834373/",
+      "stratum_start": 2015,
+      "labels": {
+        "eligibility": {
+          "value": "include",
+          "completed": true,
+          "basis": "explicit",
+          "ambiguous": false,
+          "null_reason": null
+        },
+        "n_total": {
+          "value": 8250,
+          "completed": true,
+          "basis": "explicit",
+          "ambiguous": false,
+          "null_reason": null,
+          "human_text": "8,250 (stated)"
+        },
+        "n_female": {
+          "value": null,
+          "completed": true,
+          "basis": null,
+          "ambiguous": false,
+          "null_reason": "not_reported",
+          "human_text": "not stated"
+        },
+        "sex_reporting": {
+          "value": null,
+          "completed": true,
+          "basis": null,
+          "ambiguous": false,
+          "null_reason": "not_reported",
+          "human_text": "null"
+        }
+      },
+      "reviewer": "Aanya",
+      "notes": "the participants are human children, and ADHD is a central focus. The study examines ADHD, stimulant treatment, and BMI change, and it reports that children with ADHD had higher odds of poor diet. The sample is far above 30. It isn’t an ADHD-only sample,",
+      "assistance_note": null
+    },
+    {
+      "pmid": "33856853",
+      "title": "Comparing the initial impact of COVID-19 on burden and psychological distress among family caregivers of children with and without developmental disabilities.",
+      "abstract": "The current COVID-19 pandemic is presenting challenges for families (Cluver et al., The Lancet, 2020), which may be exacerbated for caregivers of children with developmental disabilities (DDs; Center on the Developing Child, Stress, hope, and the role of science: Responding to the coronavirus pandemic, 2020). The purpose of this study was to explore caregiver burden and psychological distress among caregivers of children with DD as compared to caregivers of typically developing children across the United States as a result of COVID-19. Between 2 weeks and 1 month following COVID-19-related school closures, a total of 460 caregivers from across the U.S. completed an online survey via Qualtrics; recruitment and initial survey completion occurred simultaneously. Of the total sample of eligible participants (N = 407), 225 were the primary caregiver of a child with autism spectrum disorder (ASD)/attention-deficit/hyperactivity disorder (ADHD) and 182 were the primary caregiver of a child without ASD/ADHD. Participants across groups indicated varying levels of exposure to COVID-19 and an impact of COVID-19 at the community and individual or family levels. However, caregivers of children with ASD/ADHD reported significantly higher levels of burden, depression, anxiety, and stress. Overall, findings are consistent with anecdotal and preliminary reports that all caregivers are experiencing COVID-19-related challenges, with caregivers of children with ASD/ADHD experiencing even greater challenges, particularly with regard to burden and psychological distress. (PsycInfo Database Record (c) 2021 APA, all rights reserved).",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/33856853/",
+      "stratum_start": 2020,
+      "labels": {
+        "eligibility": {
+          "value": "include",
+          "completed": true,
+          "basis": "explicit",
+          "ambiguous": false,
+          "null_reason": null
+        },
+        "n_total": {
+          "value": 407,
+          "completed": true,
+          "basis": "explicit",
+          "ambiguous": false,
+          "null_reason": null,
+          "human_text": "407 (stated)"
+        },
+        "n_female": {
+          "value": null,
+          "completed": true,
+          "basis": null,
+          "ambiguous": false,
+          "null_reason": "not_reported",
+          "human_text": "not stated"
+        },
+        "sex_reporting": {
+          "value": null,
+          "completed": true,
+          "basis": null,
+          "ambiguous": false,
+          "null_reason": "not_reported",
+          "human_text": "null"
+        }
+      },
+      "reviewer": "Aanya",
+      "notes": "This is a borderline include. The participants are human, and the sample is well above 30. The comparison group is defined by a child’s ASD/ADHD status (225 caregivers of children with ASD/ADHD vs. 182 without), so ADHD is part of the sample definition and not an unrelated condition. The weakness is that ADHD is pooled with ASD and never analyzed on its own, and the outcomes are caregiver burden and distress, not ADHD symptoms.",
+      "assistance_note": null
+    },
+    {
+      "pmid": "32320061",
+      "title": "Effects of acupuncture versus cognitive behavioral therapy on cognitive function in cancer survivors with insomnia: A secondary analysis of a randomized clinical trial.",
+      "abstract": "BACKGROUND: Cancer-related cognitive impairment is a prevalent, disruptive condition potentially exacerbated by sleep disturbances. The current study was performed to evaluate the effects of acupuncture versus cognitive behavioral therapy for insomnia (CBT-I) on objective and subjective cognitive function in cancer survivors with insomnia.\nMETHODS: Using data from a randomized clinical trial (160 survivors) that compared acupuncture versus CBT-I for insomnia occurring in cancer survivors, the authors analyzed cognitive outcomes and their relationship to insomnia symptoms. Analysis was limited to 99 patients who reported baseline cognitive difficulties. Interventions were delivered over 8 weeks. Objective attention, learning, and memory were evaluated using the Buschke Selective Reminding Test. Subjective cognitive function was assessed using the Brown Attention-Deficit Disorder Scales. Insomnia symptoms were assessed using the Insomnia Severity Index. All outcomes were collected at baseline, week 8, and week 20.\nRESULTS: From baseline to week 8, acupuncture produced statistically significant within-group improvements in objective attention (Cohen D, 0.29), learning (Cohen D, 0.31), and memory (Cohen D, 0.33) that persisted to week 20 (all P < .05), whereas CBT-I produced a statistically significant within-group improvement in objective attention from baseline to week 20 (Cohen D, 0.50; P < .05); between-group differences were not statistically significant. Both interventions produced statistically significant within-group improvements in subjective cognitive function at weeks 8 and 20 compared with baseline (all P < .001); between-group differences were not statistically significant. In the acupuncture group, patients with clinically meaningful responses with regard to insomnia symptoms demonstrated a significantly greater improvement in subjective cognitive function compared with those without clinically meaningful insomnia responses (P = .006).\nCONCLUSIONS: Among cancer survivors with insomnia, both acupuncture and CBT-I produced significant improvements in objective and subjective cognitive function. However, the effect sizes varied and only survivors in the acupuncture group demonstrated a significant relationship between cognitive and sleep outcomes. These preliminary findings warrant further investigation to guide the personalized management of patients with cancer-related cognitive impairment.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/32320061/",
+      "stratum_start": 2020,
+      "labels": {
+        "eligibility": {
+          "value": "exclude",
+          "completed": true,
+          "basis": "explicit",
+          "ambiguous": false,
+          "null_reason": null
+        },
+        "n_total": {
+          "value": 99,
+          "completed": true,
+          "basis": "explicit",
+          "ambiguous": false,
+          "null_reason": null,
+          "human_text": "99(stated)"
+        },
+        "n_female": {
+          "value": null,
+          "completed": false,
+          "basis": null,
+          "ambiguous": false,
+          "null_reason": null,
+          "human_text": "not stated"
+        },
+        "sex_reporting": {
+          "value": null,
+          "completed": false,
+          "basis": null,
+          "ambiguous": false,
+          "null_reason": null,
+          "human_text": "null"
+        }
+      },
+      "reviewer": "Aanya",
+      "notes": "This is probably another keyword match, like the HIV abstract. The study is about cognitive function and insomnia in cancer survivors. The only ADHD-related element is the Brown Attention-Deficit Disorder Scales, used as a measure of subjective cognitive function. The abstract doesn’t examine ADHD, ADHD symptoms, diagnosis, treatment, or outcomes in any meaningful sense, and the condition studied is cancer-related cognitive impairment.",
+      "assistance_note": null
+    },
+    {
+      "pmid": "38150148",
+      "title": "Longitudinal associations of menstrual characteristics with mental health problems among Chinese girls.",
+      "abstract": "Cross-sectional studies indicate that menstrual problems are related to poorer mental health; however, longitudinal studies are limited. This longitudinal study aimed to determine whether baseline menstrual characteristics were risk factors for incident and persistent mental health problems. The study was conducted among Chinese adolescent girls. Menstrual characteristics including menarche, menstrual cycle and menstrual pain were assessed at baseline, whereas mental health problems including PTSD, depression, anxiety, ADHD, insomnia, psychotic-like experiences, non-suicidal self-injury, suicide ideation, suicide plan, and suicide attempt were assessed at baseline (n = 1039) and at the 1-year follow-up (n = 946) by self-administered, structured questionnaires. Multiple logistic regressions were performed to examine whether menstrual characteristics were associated with incident (e.g., PTSD at follow-up but not baseline) and persistent (e.g., PTSD at both time points) mental health problems. The results demonstrated that early menarche was related to persistence of psychotic-like experiences; irregular menstruation was associated with higher rates of incident anxiety and insomnia, and persistent depression, anxiety, ADHD, insomnia, non-suicidal self-injury, suicide ideation, and suicide plan; menstrual pain was associated with elevated rates of incident PTSD and depression, and persistent depression, insomnia, psychotic-like experiences, non-suicidal self-injury, suicidal ideation, suicide plan, and suicide attempt. In conclusion, irregular menstruation and menstrual pain specifically contributed to the development of emotional problems and insomnia, and were associated with maintenance of the most mental health problems in early adolescence. The long-term effects of menstrual problems on mental health need further study.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/38150148/",
+      "stratum_start": 2020,
+      "labels": {
+        "eligibility": {
+          "value": "include",
+          "completed": true,
+          "basis": "explicit",
+          "ambiguous": false,
+          "null_reason": null
+        },
+        "n_total": {
+          "value": 1039,
+          "completed": true,
+          "basis": "explicit",
+          "ambiguous": false,
+          "null_reason": null,
+          "human_text": "1039(stated)"
+        },
+        "n_female": {
+          "value": 1039,
+          "completed": true,
+          "basis": "derived",
+          "ambiguous": false,
+          "null_reason": null,
+          "human_text": "1039 (all girls)"
+        },
+        "sex_reporting": {
+          "value": 1,
+          "completed": true,
+          "basis": "explicit",
+          "ambiguous": false,
+          "null_reason": null,
+          "human_text": "1"
+        }
+      },
+      "reviewer": "Aanya",
+      "notes": "This is a borderline include. The participants are human, and the sample is far above 30. ADHD is one of ten mental health outcomes, and the abstract reports a finding on it: irregular menstruation was associated with persistent ADHD.",
+      "assistance_note": null
+    },
+    {
+      "pmid": "37015108",
+      "title": "The Association Between Autism Spectrum Disorder and Attention Deficit Hyperactivity Disorder Symptoms in Medical Students.",
+      "abstract": "Autism spectrum disorder (ASD) and attention deficit hyperactivity disorder (ADHD) are the two most prevalent neurodevelopmental disorders affecting communication and behavior. The co-occurrence of these conditions is probable and can contribute to several challenges in adaptive functioning and academic achievement.In this cross-sectional study, 168 Iranian medical students (107 female, 61 male) studying at Tehran University of Medical Sciences in 2021 were enrolled. We administered the Ritvo Autism Asperger Diagnostic Scale-Revised (RAADS-R) and Adult ADHD Self-Report Scale (ASRS) questionnaires online to assess different symptoms of ASD and ADHD in our sample. In this study, the RAADS-R was translated into Persian and validated for the first time in Iran.The correlation tests demonstrated a significant association between the total score and different subscales' scores of the RAADS-R and the total score and the two subscales' scores of the ASRS questionnaire ( p < 0.001, 0.27 < Spearman correlation coefficient < 0.51). This study also illustrated a high prevalence of ASD and ADHD symptoms among the participants. Moreover, male respondents had a significantly higher prevalence of ASD symptoms (57.3% in males vs . 28.03% in females, p < 0.001).This study indicated that the distinct impairments in behavior and cognition attributed to ASD and ADHD could be common manifestations in medical students. Given that the co-occurrence of these disorders may lead to significant challenges in their professional life, the early diagnosis and subsequent support for medical students with co-occurring expressions of ASD and ADHD could be extremely helpful, as it could indirectly improve the medical services provided to patients by future physicians, leading to an improvement in public health.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/37015108/",
+      "stratum_start": 2020,
+      "labels": {
+        "eligibility": {
+          "value": "include",
+          "completed": true,
+          "basis": "explicit",
+          "ambiguous": false,
+          "null_reason": null
+        },
+        "n_total": {
+          "value": 168,
+          "completed": true,
+          "basis": "explicit",
+          "ambiguous": false,
+          "null_reason": null,
+          "human_text": "168 (stated)"
+        },
+        "n_female": {
+          "value": 107,
+          "completed": true,
+          "basis": "explicit",
+          "ambiguous": false,
+          "null_reason": null,
+          "human_text": "107 (stated)"
+        },
+        "sex_reporting": {
+          "value": 2,
+          "completed": true,
+          "basis": "explicit",
+          "ambiguous": false,
+          "null_reason": null,
+          "human_text": "2"
+        }
+      },
+      "reviewer": "Aanya",
+      "notes": "The participants are human, and the sample clears 30. ADHD symptoms are a central focus. The study measures them with the Adult ADHD Self-Report Scale (ASRS) and examines their association with ASD symptoms. It’s also in the title. Not a borderline call.",
+      "assistance_note": null
+    },
+    {
+      "pmid": "35977994",
+      "title": "Eye-tracking training improves the learning and memory of children with learning difficulty.",
+      "abstract": "Children who experience difficulty in learning at mainstream schools usually are provided with remediation classes after school to facilitate their learning. The present study aims to evaluate an innovative eye-tracking training as possible alternative remediation. Our previous findings showed that children who received eye-tracking training demonstrated improved attention and inhibitory control, and the present randomized controlled study aims to evaluate if eye-tracking training can also enhance the learning and memory of children. Fifty-three primary school students with learning difficulty (including autism spectrum disorder, attention-deficit/hyperactivity disorder, specific learning disorder, specific language impairment and borderline intellectual functioning) were recruited and randomly assigned to either the Eye-tracking Training group or the after-school remediation class. They were assessed on their learning and memory using the Hong Kong List Learning Test before and after 8-month training. Twenty weekly parallel sessions of training, 50 min per session, were provided to each group. Children who received the eye-tracking training, not those in the control group, showed a significant improvement in memory as measured by the delayed recall. In addition, the Eye-Tracking Training group showed significantly faster learning than the control group. Also, the two groups showed a significant improvement in their reading abilities. In sum, eye-tracking training may be effective training for enhancing the learning and memory of children with learning difficulties.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/35977994/",
+      "stratum_start": 2020,
+      "labels": {
+        "eligibility": {
+          "value": "uncertain",
+          "completed": true,
+          "basis": "explicit",
+          "ambiguous": true,
+          "null_reason": null
+        },
+        "n_total": {
+          "value": 53,
+          "completed": true,
+          "basis": "explicit",
+          "ambiguous": false,
+          "null_reason": null,
+          "human_text": "53 (stated)"
+        },
+        "n_female": {
+          "value": null,
+          "completed": true,
+          "basis": null,
+          "ambiguous": false,
+          "null_reason": "not_reported",
+          "human_text": "not staed"
+        },
+        "sex_reporting": {
+          "value": null,
+          "completed": true,
+          "basis": null,
+          "ambiguous": false,
+          "null_reason": "not_reported",
+          "human_text": "null"
+        }
+      },
+      "reviewer": "Aanya",
+      "notes": "ADHD is one of five diagnoses that define the “learning difficulty” sample (alongside ASD, specific learning disorder, specific language impairment, and borderline intellectual functioning). The abstract never says how many children had ADHD, never analyzes them separately, and the outcomes are learning and memory, not ADHD symptoms. The condition isn’t unrelated, since ADHD children are in the sample and are the target of the intervention. But ADHD is only one of five conditions in a mixed group, so the abstract doesn’t let me say it’s meaningfully examined.",
+      "assistance_note": null
+    }
+  ],
+  "source": "research/evaluation/aanya-original-labels.txt"
+}

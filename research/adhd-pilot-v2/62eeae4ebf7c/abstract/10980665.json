@@ -1,0 +1,9 @@
+{
+  "pmid": "10980665",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "967ca7de739356d02983d69e1268cc3f4ae90f11ade57c01803d839522525f4b",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"The Diagnostic Rating Scale (DRS) was completed by the parents and teachers of 82 children referred for clinical evaluations, 73 referred children seen twice, and 218 non-referred children from the community.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"The Diagnostic Rating Scale (DRS) was completed by the parents and teachers of 82 children referred for clinical evaluations, 73 referred children seen twice, and 218 non-referred children from the community.\",\n    \"answer\": \"Cross-sectional\"\n  }\n}",
+  "finish_reason": "stop"
+}

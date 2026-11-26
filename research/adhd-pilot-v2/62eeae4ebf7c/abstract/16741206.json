@@ -1,0 +1,9 @@
+{
+  "pmid": "16741206",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "d6f42d8942b42c74d4c9113e667b01ad76567d2f192875c06655f079804ee97c",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Fifteen healthy comparison subjects and 17 children with ADHD, combined type, completed fMRI studies while performing the Stop Signal Task.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"Fifteen healthy comparison subjects and 17 children with ADHD, combined type, completed fMRI studies while performing the Stop Signal Task.\",\"answer\":32},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"Fifteen healthy comparison subjects and 17 children with ADHD, combined type, completed fMRI studies while performing the Stop Signal Task.\",\"answer\":\"Cross-sectional\"}}",
+  "finish_reason": "stop"
+}

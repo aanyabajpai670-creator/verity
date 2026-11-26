@@ -1,0 +1,9 @@
+{
+  "pmid": "20495989",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "b511450a8496ff13f058d3f54f4cb978065110ce8c5559b4b30c4279dd4862f3",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"We conducted a nationwide population-based cohort study including all 1,015,912 singletons born in Denmark from 1987 to 2001.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"We conducted a nationwide population-based cohort study including all 1,015,912 singletons born in Denmark from 1987 to 2001.\",\n    \"answer\": 1015912\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": \"Boys born to mothers who were bereaved by unexpected death of a child or a spouse, had a 72% increased risk of ADHD [hazard ratio (HR) 1.72, 95% confidence interval (CI) 1.09-2.73].\",\n    \"answer\": 2\n  },\n  \"study_design\": {\n    \"quote\": \"We conducted a nationwide population-based cohort study including all 1,015,912 singletons born in Denmark from 1987 to 2001.\",\n    \"answer\": \"Cohort-Prospective\"\n  }\n}",
+  "finish_reason": "stop"
+}

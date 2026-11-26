@@ -1,0 +1,9 @@
+{
+  "pmid": "11928878",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "b9d504ffbdd17d11f2c792cc5a094c6b44a18fbd1960bfb4bf21fc76cff6775c",
+  "raw_response": "```json\n{\n  \"eligibility\": {\n    \"quote\": \"administered to 98 incarcerated Korean adolescents (the delinquent group) and 84 adolescent nondelinquents (the control group)\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"administered to 98 incarcerated Korean adolescents (the delinquent group) and 84 adolescent nondelinquents (the control group)\",\n    \"answer\": \"Cross-sectional\"\n  }\n}\n```",
+  "finish_reason": "stop"
+}

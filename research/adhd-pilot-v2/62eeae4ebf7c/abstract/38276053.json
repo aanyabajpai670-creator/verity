@@ -1,0 +1,9 @@
+{
+  "pmid": "38276053",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "974032803838d7398b07688a52cd099b6947bc0eba25341e312bfab4bad2adbf",
+  "raw_response": "{\"eligibility\":{\"quote\":\"In our cross-sectional study performed in 60 Moroccan children and adolescents with T1DM, detailed psychological evaluations were performed to assess symptoms of anxiety, attention-deficit hyperactivity disorder (ADHD)\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"A total of 60 children and adolescents with T1DM were recruited.\",\"answer\":60},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":\"Linear regression analysis showed that salivary cortisol was significantly higher in girls compared to boys (p = 0.004)\",\"answer\":true},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":\"Linear regression analysis showed that salivary cortisol was significantly higher in girls compared to boys (p = 0.004)\",\"answer\":2},\"study_design\":{\"quote\":\"In our cross-sectional study performed in 60 Moroccan children and adolescents with T1DM, detailed psychological evaluations were performed\",\"answer\":\"Cross-sectional\"}}",
+  "finish_reason": "stop"
+}

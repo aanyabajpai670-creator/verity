@@ -1,0 +1,9 @@
+{
+  "pmid": "39407332",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "6308bd5d28b171b936568927a85c0cbb198b3d790b34f52411deb72c778b55f3",
+  "raw_response": "{\"eligibility\":{\"quote\":\"This prospective cohort study examines the cognitive, behavioural, ADHD trait and autism symptom development in infant and pre-school children with NF1 compared with typically developing (TD) children without a family history of neurodevelopmental conditions.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"Data from standardised tests was gathered at 5, 10, 14, 24 and 36 months of age (NF1 n = 35, TD n = 29).\",\"answer\":64},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":null},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"This prospective cohort study examines the cognitive, behavioural, ADHD trait and autism symptom development in infant and pre-school children with NF1 compared with typically developing (TD) children without a family history of neurodevelopmental conditions.\",\"answer\":\"Cohort-Prospective\"}}",
+  "finish_reason": "stop"
+}

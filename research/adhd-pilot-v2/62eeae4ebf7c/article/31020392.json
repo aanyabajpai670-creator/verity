@@ -1,0 +1,9 @@
+{
+  "pmid": "31020392",
+  "scope": "article",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "b07bfcc76691f075e9097c56742815436dac3a2590f10d82853c796ccd77a59d",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Children with ADHD were recruited to an observational cohort from a broad variety of sources. Cohort inclusion criteria were children aged 5\u201318 (inclusive) with a carer-reported diagnosis of ADHD\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"All | Sample size (i.e. questionnaire return) | Baseline | N = 41 | N = 23 | N = 42 | N = 27 | N = 41 | N = 124\",\"answer\":124},\"n_female\":{\"quote\":\"Female | 8 (19.5%) | 5 (21.7%) | 7 (16.6%) | 4 (14.8%) | 5 (12.2%) | 20 (16.1%)\",\"answer\":20},\"includes_female\":{\"quote\":\"Female | 8 (19.5%) | 5 (21.7%) | 7 (16.6%) | 4 (14.8%) | 5 (12.2%) | 20 (16.1%)\",\"answer\":true},\"female_percent\":{\"quote\":\"Female | 8 (19.5%) | 5 (21.7%) | 7 (16.6%) | 4 (14.8%) | 5 (12.2%) | 20 (16.1%)\",\"answer\":16.1},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":\"Regression analysis explored the predictive power of the offer of treatment, with analyses controlling for the effects of gender, ADHD severity, and age.\",\"answer\":0},\"study_design\":{\"quote\":\"Randomisation was performed by an independent statistician at the University of Sheffield in blocks of 6 with stratifying factors age, medication status, and ADHD severity.\",\"answer\":\"RCT\"}}",
+  "finish_reason": "stop"
+}

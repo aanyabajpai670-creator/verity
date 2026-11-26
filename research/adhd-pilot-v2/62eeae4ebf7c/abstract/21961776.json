@@ -1,0 +1,9 @@
+{
+  "pmid": "21961776",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "e5c3a0d4150935f0dff7c272368843c16e193305364eb021419b769938cee94a",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"The aim of this study was to conduct a prospective longitudinal investigation comparing amygdala neurodevelopment among adolescents after their first manic episode, adolescents with attention-deficit/hyperactivity disorder (ADHD), and healthy adolescents.\",\n    \"answer\": \"uncertain\"\n  },\n  \"n_total\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"The aim of this study was to conduct a prospective longitudinal investigation comparing amygdala neurodevelopment among adolescents after their first manic episode, adolescents with attention-deficit/hyperactivity disorder (ADHD), and healthy adolescents.\",\n    \"answer\": \"Cohort-Prospective\"\n  }\n}",
+  "finish_reason": "stop"
+}

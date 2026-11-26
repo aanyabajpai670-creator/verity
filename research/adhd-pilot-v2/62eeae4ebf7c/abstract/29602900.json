@@ -1,0 +1,9 @@
+{
+  "pmid": "29602900",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "0cdf0424f9bbc1d32c61ddfa70f1196435a179b3c9da9a59753dcb13210666f5",
+  "raw_response": "{\"eligibility\":{\"quote\":\"We performed a cross-sectional study of children with ASD who were enrolled in the Interactive Autism Network, an Internet-mediated, parent-report, autism research registry.\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"There were 3319 children who met inclusion criteria.\",\"answer\":3319},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"We performed a cross-sectional study of children with ASD who were enrolled in the Interactive Autism Network, an Internet-mediated, parent-report, autism research registry.\",\"answer\":\"Cross-sectional\"}}",
+  "finish_reason": "stop"
+}

@@ -1,0 +1,9 @@
+{
+  "pmid": "35977994",
+  "scope": "article",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "761c63143918d6d08324eb0a76394d37315ee1d395f5671928647e0b84d58745",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"Fifty-three primary school students with learning difficulty (including autism spectrum disorder, attention-deficit/hyperactivity disorder, specific learning disorder, specific language impairment and borderline intellectual functioning) were recruited and randomly assigned\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"A total of 53 students with learning difficulties in grades 2 to 5 at two local mainstream primary schools were recruited through the referral of their school teachers.\",\n    \"answer\": 53\n  },\n  \"n_female\": {\n    \"quote\": \"The age of students ranges from 7 to 10 years (M = 8.99; SD = 0.96). Forty of them are boys and 13 are girls.\",\n    \"answer\": 13\n  },\n  \"includes_female\": {\n    \"quote\": \"Forty of them are boys and 13 are girls.\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": \"The two groups were matched in term of age (t = 0.41, p = 0.68), gender (\u03c72 = 0.25, p = 0.61), level of education (t = 0.41, p = 0.69)\",\n    \"answer\": 1\n  },\n  \"study_design\": {\n    \"quote\": \"After the baseline assessment, the participants were randomly assigned into either the Eye-tracking Training group (n = 27) or the Conventional Training group (n = 26) using the random number generators in SPSS.\",\n    \"answer\": \"RCT\"\n  }\n}",
+  "finish_reason": "stop"
+}

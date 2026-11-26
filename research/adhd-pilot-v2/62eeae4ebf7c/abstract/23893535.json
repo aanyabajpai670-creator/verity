@@ -1,0 +1,9 @@
+{
+  "pmid": "23893535",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "6353aabe1d8785ac419ac718b5f81fca17688cc4fbffbd02d25d6aba50fda932",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"In all, 196 male prisoners from Aberdeen prison completed the Symptom Checklist-90, which examines various clinical symptoms and emotional distress.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"In all, 196 male prisoners from Aberdeen prison completed the Symptom Checklist-90, which examines various clinical symptoms and emotional distress.\",\n    \"answer\": 196\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": \"196 male prisoners from Aberdeen prison\",\n    \"answer\": false\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": null,\n    \"answer\": null\n  }\n}",
+  "finish_reason": "stop"
+}

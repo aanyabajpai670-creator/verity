@@ -1,0 +1,9 @@
+{
+  "pmid": "34159382",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "8654f84e464c442971b638b298232ff1bd7f4541030b093c5738bd84e00d5112",
+  "raw_response": "```json\n{\n  \"eligibility\": {\n    \"quote\": \"Among 2055 participants, non-adherence was associated with male gender, young age, bachelorhood, being employed, lower decrease in income, low physical activity, psychological distress, ADHD symptoms\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"Among 2055 participants\",\n    \"answer\": 2055\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": \"non-adherence was associated with male gender\",\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"A cross-sectional, general population survey was conducted in Israel.\",\n    \"answer\": \"Cross-sectional\"\n  }\n}\n```",
+  "finish_reason": "stop"
+}

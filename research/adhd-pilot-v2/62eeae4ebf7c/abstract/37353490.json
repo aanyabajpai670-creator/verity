@@ -1,0 +1,9 @@
+{
+  "pmid": "37353490",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "d2221f0c9f24b595aeb5e3433645ca16aa1ed3857984b9c246a5872df0ef3fb8",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"28 001 children from the Norwegian Mother, Father and Child Cohort study, a prospective pregnancy cohort with available genotype and developmental data. Mothers reported on a range of developmental outcomes in their children at 6 and 18 months, 3, 5 and 8 years.\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"Our sample consisted of 28 001 children from the Norwegian Mother, Father and Child Cohort study, a prospective pregnancy cohort with available genotype and developmental data.\",\n    \"answer\": 28001\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": \"if associations differ between boys and girls\",\n    \"answer\": true\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"a prospective pregnancy cohort with available genotype and developmental data\",\n    \"answer\": \"Cohort-Prospective\"\n  }\n}",
+  "finish_reason": "stop"
+}

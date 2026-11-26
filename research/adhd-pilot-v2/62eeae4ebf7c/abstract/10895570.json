@@ -1,0 +1,9 @@
+{
+  "pmid": "10895570",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "2b9ea0d4f40edbf6e4b15cfcc74211f640f6b6e2bf90c4069f8fef0e88960e39",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Two studies compared comprehension of televised stories by 7- to 12-year-old boys with attention deficit/hyperactivity disorder (ADHD) and nonreferred comparison boys.\",\"answer\":\"uncertain\"},\"n_total\":{\"quote\":null,\"answer\":null},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":\"Two studies compared comprehension of televised stories by 7- to 12-year-old boys with attention deficit/hyperactivity disorder (ADHD) and nonreferred comparison boys.\",\"answer\":false},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"Boys watched one show with toys present and one with toys absent. Visual attention was continuously recorded, and recall was tested after each show.\",\"answer\":\"Other\"}}",
+  "finish_reason": "stop"
+}

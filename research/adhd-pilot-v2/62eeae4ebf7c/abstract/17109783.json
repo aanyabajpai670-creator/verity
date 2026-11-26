@@ -1,0 +1,9 @@
+{
+  "pmid": "17109783",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "c7f98d4bcc310b51b15af5f62f592fca1d322effea03e4d4c0532d9f9f2f949e",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"Psychiatric disorders were divided into autism/Asperger syndrome (n=24), pervasive developmental disorder-not otherwise specified (PDD-NOS; n=26), attention-deficit-hyperactivity disorder (ADHD)/oppositional defiant disorder (ODD; n=68), and anxiety disorders (n=26).\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"144 males aged 6 to 14 years (mean age 9y 1 mo [SD 1y 11 mo]) with psychiatric disorders\",\n    \"answer\": 144\n  },\n  \"n_female\": {\n    \"quote\": \"144 males aged 6 to 14 years (mean age 9y 1 mo [SD 1y 11 mo]) with psychiatric disorders\",\n    \"answer\": 0\n  },\n  \"includes_female\": {\n    \"quote\": \"In this study, 2D:4D ratios of 144 males aged 6 to 14 years (mean age 9y 1 mo [SD 1y 11 mo]) with psychiatric disorders were compared with those of 96 males aged 6 to 13 years from the general population\",\n    \"answer\": false\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"In this study, 2D:4D ratios of 144 males aged 6 to 14 years (mean age 9y 1 mo [SD 1y 11 mo]) with psychiatric disorders were compared with those of 96 males aged 6 to 13 years from the general population\",\n    \"answer\": \"Cross-sectional\"\n  }\n}",
+  "finish_reason": "stop"
+}

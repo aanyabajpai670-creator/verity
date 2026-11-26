@@ -1,0 +1,9 @@
+{
+  "pmid": "15555715",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "d4b7d25043f82dff94eec8be512764815833cee468e35445609155fa78ed244c",
+  "raw_response": "{\"eligibility\":{\"quote\":\"Most of the bipolar subjects (91% of males, 70% of females) also had ADHD.\",\"answer\":\"uncertain\"},\"n_total\":{\"quote\":null,\"answer\":null},\"n_female\":{\"quote\":\"females, n=74\",\"answer\":74},\"includes_female\":{\"quote\":\"(females, n=74; BD males, n=224)\",\"answer\":true},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":\"(females, n=74; BD males, n=224)\",\"answer\":false},\"sex_reporting\":{\"quote\":\"We found no meaningful differences between genders in the number of BPD symptoms, type of treatment for BPD (counseling, medication, hospitalization)\",\"answer\":3},\"study_design\":{\"quote\":\"Subjects were consecutively referred youth aged 18 years or less who met full criteria for DSM-III-R bipolar disorder (BPD)\",\"answer\":\"Cross-sectional\"}}",
+  "finish_reason": "stop"
+}

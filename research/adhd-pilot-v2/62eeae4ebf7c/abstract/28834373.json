@@ -1,0 +1,9 @@
+{
+  "pmid": "28834373",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "68ffc10af72a769dbb27ecfa34eb94b93df7bfec1fa9ef7764003a52e4349f66",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"By using the Early Childhood Longitudinal Study-Kindergarten Cohort 1998-1999 (N = 8,250), we modeled BMI and z score change by ADHD and stimulant start time\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"Early Childhood Longitudinal Study-Kindergarten Cohort 1998-1999 (N = 8,250)\",\n    \"answer\": 8250\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"By using the Early Childhood Longitudinal Study-Kindergarten Cohort 1998-1999 (N = 8,250), we modeled BMI and z score change by ADHD and stimulant start time\",\n    \"answer\": \"Cohort-Prospective\"\n  }\n}",
+  "finish_reason": "stop"
+}

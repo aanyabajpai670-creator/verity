@@ -1,0 +1,9 @@
+{
+  "pmid": "28574288",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "e70df526510b6c70a82fedab826a24c1a2c30ac904ad1a18689083784599301b",
+  "raw_response": "```json\n{\n  \"eligibility\": {\n    \"quote\": \"the eveningness scores of the ADHD group (n = 52) were significantly higher than the control group (n = 52) (p < 0.01)\",\n    \"answer\": \"include\"\n  },\n  \"n_total\": {\n    \"quote\": \"the eveningness scores of the ADHD group (n = 52) were significantly higher than the control group (n = 52) (p < 0.01)\",\n    \"answer\": 104\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": false\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": null,\n    \"answer\": null\n  }\n}\n```",
+  "finish_reason": "stop"
+}

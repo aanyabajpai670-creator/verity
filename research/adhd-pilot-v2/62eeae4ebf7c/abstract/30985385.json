@@ -1,0 +1,9 @@
+{
+  "pmid": "30985385",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "0467af6eb2b749552fd7172764df59bd0549ef0c685494511e83c4e08350e80a",
+  "raw_response": "{\"eligibility\":{\"quote\":\"The study included 230 patients with T1DM; of them, 24 had ADHD (10.4%).\",\"answer\":\"include\"},\"n_total\":{\"quote\":\"The study included 230 patients with T1DM; of them, 24 had ADHD (10.4%).\",\"answer\":230},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":null,\"answer\":null},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":null,\"answer\":null},\"study_design\":{\"quote\":\"The diabetic control and general health of patients with T1DM and ADHD diagnoses were compared with those of patients with T1DM alone in a cross-sectional study.\",\"answer\":\"Cross-sectional\"}}",
+  "finish_reason": "stop"
+}

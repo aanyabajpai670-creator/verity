@@ -1,0 +1,9 @@
+{
+  "pmid": "27371487",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "6328e138bf49c16cf4a7be3ee22c84403c16e78b93b827d619360871ccb3b37c",
+  "raw_response": "{\n  \"eligibility\": {\n    \"quote\": \"This phenotype was associated with increased odds of comorbid psychiatric disorders, in particular, obsessive-compulsive disorder and attention-deficit/hyperactivity disorder, earlier age at TS onset, and increased tic severity.\",\n    \"answer\": \"uncertain\"\n  },\n  \"n_total\": {\n    \"quote\": \"Forty-nine motor and phonic tics were examined in 3,494 individuals (1,191 TS probands and 2,303 first-degree relatives).\",\n    \"answer\": 3494\n  },\n  \"n_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"includes_female\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"female_percent\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"paired_counts\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"sex_reporting\": {\n    \"quote\": null,\n    \"answer\": null\n  },\n  \"study_design\": {\n    \"quote\": \"Item-level exploratory factor and latent class analyses (LCA) were used to identify tic-based subtypes.\",\n    \"answer\": \"Other\"\n  }\n}",
+  "finish_reason": "stop"
+}

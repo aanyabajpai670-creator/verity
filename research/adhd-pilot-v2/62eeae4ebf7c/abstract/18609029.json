@@ -1,0 +1,9 @@
+{
+  "pmid": "18609029",
+  "scope": "abstract",
+  "model": "deepseek-v4.1-flash-free",
+  "prompt_version": "62eeae4ebf7c",
+  "source_sha256": "9c9477f6aaafc0e86479ae1d9775f5ace5432be05cf6f17f9d65e8acda574aa5",
+  "raw_response": "{\"eligibility\":{\"quote\":\"The aim of this study was to investigate the application of the Swedish self-report version to a representative sample of 1015 senior high school students aged 17-19 years.\",\"answer\":\"uncertain\"},\"n_total\":{\"quote\":\"a representative sample of 1015 senior high school students aged 17-19 years\",\"answer\":1015},\"n_female\":{\"quote\":null,\"answer\":null},\"includes_female\":{\"quote\":\"Girls reported more emotional symptoms and scored higher on prosocial items than boys.\",\"answer\":true},\"female_percent\":{\"quote\":null,\"answer\":null},\"paired_counts\":{\"quote\":null,\"answer\":false},\"sex_reporting\":{\"quote\":\"Girls reported more emotional symptoms and scored higher on prosocial items than boys. Boys on the other hand scored higher on both conduct and peer problems.\",\"answer\":2},\"study_design\":{\"quote\":\"The aim of this study was to investigate the application of the Swedish self-report version to a representative sample of 1015 senior high school students aged 17-19 years.\",\"answer\":\"Cross-sectional\"}}",
+  "finish_reason": "stop"
+}
