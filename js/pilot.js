@@ -64,6 +64,8 @@
     ], 'Revised Representation Score components'));
     topic(section, 'Complete-coverage score',
       'A complete score requires a resolved eligibility decision for every sampled record, a supported decision for female inclusion and sex reporting on every included record, a computable median, and a documented eligible corpus size and consistency synthesis. When any of these is missing, the complete score is withheld rather than estimated.');
+    topic(section, 'Sex-reporting levels',
+      'Sex reporting is coded 0 to 3 from the full article where available. Level 0 means pooled or non-sex-specific reporting only, or adjustment for sex without any stratified result. Level 1 means participant sex is reported demographically, as sample composition or counts. Level 2 means an explicit sex-stratified outcome, or sex as a predictor with an effect estimate. Level 3 means a formal statistical test of a sex difference, interaction or moderation, including a null test, or a sex comparison that is the primary aim with a reported result. Levels 2 and 3 both count as reporting results by sex; the distinction records how strong the analysis is, not whether it happened. A record is left unresolved rather than coded 0 or 1 from an abstract alone, because absence of a sex result in an abstract does not establish absence in the article.');
     topic(section, 'Provisional evidence score',
       'While coverage is incomplete, the pilot also reports a provisional evidence score. It keeps the same four components and the same weights. Each component is calculated only from records with a supported decision, and its numerator and denominator are shown. Unknown values are excluded from the denominators and are never converted to zero or to “not reported”. An unavailable component keeps its weight and is reported as a gap instead of being dropped or reweighted, so the provisional value states how many of the 100 weight points it actually covers.');
     paragraph(section, 'The provisional score is not comparable to a complete score, and it does not replace the March 2025 Gap Index figures. Incomplete reporting, unresolved eligibility and limited full-text access can bias it in either direction. Every record behind it, including its coded values, unknown fields and review status, is published in the downloadable study ledger.');
@@ -132,23 +134,23 @@
     const median = data.proportionMedian === null ? 'Unavailable' : `${format(data.proportionMedian)}%`;
     stats.append(
       stat('PubMed records found', format(databaseRecords), `${format(sampleRecords)} records were sampled for screening`),
-      stat('Studies including women', estimate(projectedCounts.womenIncluded), `Projected from ${format(sampleCounts.womenIncluded)} of ${format(sampleCounts.include)} included records with a documented decision`),
+      stat('Studies including women', estimate(projectedCounts.womenIncluded), `Projected from ${format(sampleCounts.womenIncluded)} of ${format(data.inclusionKnown)} included records with a documented decision`),
       stat('Median female participation', median, data.proportionN ? `Based on ${format(data.proportionN)} included records with usable enrollment figures` : 'Usable enrollment figures unavailable'),
-      stat('Studies reporting results by sex', estimate(projectedCounts.sexDisaggregated), `Projected from ${format(sampleCounts.sexDisaggregated)} of ${format(sampleCounts.include)} included records coded level 2 or 3`),
+      stat('Studies reporting results by sex', estimate(projectedCounts.sexDisaggregated), `Projected from ${format(sampleCounts.sexDisaggregated)} of ${format(data.disaggregationKnown)} included records with a coded sex-reporting level`),
     );
     section.append(stats);
     paragraph(section, 'The sample and the corpus are different sizes. The search returned the corpus total; the figures above come from the sampled records only. Each sampled record represents roughly 25 PubMed records, weighted by five-year period. Projections reflect the evidence found so far and can change as unknown records are resolved.');
     const score = scoreSection(data);
     if (score) section.append(score);
     topic(section, `Breakdown of the ${format(sampleRecords)} sampled records`,
-      'The first three rows account for the whole sample. The remaining rows describe results within the provisionally included studies.');
+      'The first three rows account for the whole sample. The remaining rows describe results within the provisionally included studies. Counts of included studies with women, female-only studies and sex-disaggregated results are minimums: a study with an unknown field is not counted, so the projected figures can only rise as unknowns are resolved.');
     section.append(makeTable(['Measure', 'In the sample', 'Projected to the database search'], [
       ['Provisionally included', format(sampleCounts.include), estimate(projectedCounts.include)],
       ['Excluded', format(sampleCounts.exclude), estimate(projectedCounts.exclude)],
       ['Eligibility unresolved', format(sampleCounts.unresolved), estimate(projectedCounts.unresolved)],
-      ['Studies including women', format(sampleCounts.womenIncluded), estimate(projectedCounts.womenIncluded)],
-      ['Female-only studies', format(sampleCounts.femaleOnly), estimate(projectedCounts.femaleOnly)],
-      ['Studies reporting results by sex', format(sampleCounts.sexDisaggregated), estimate(projectedCounts.sexDisaggregated)],
+      ['Studies including women', `${format(sampleCounts.womenIncluded)} of ${format(data.inclusionKnown)}`, `at least ${estimate(projectedCounts.womenIncluded)}`],
+      ['Female-only studies', `${format(sampleCounts.femaleOnly)} of ${format(data.proportionN)}`, `at least ${estimate(projectedCounts.femaleOnly)}`],
+      ['Studies reporting results by sex', `${format(sampleCounts.sexDisaggregated)} of ${format(data.disaggregationKnown)}`, `at least ${estimate(projectedCounts.sexDisaggregated)}`],
       ['Median female participation', median, 'Available for the sample'],
     ], 'ADHD sample and database projections'));
     const sampling = element('details', null, 'pilot-audit__evidence');
@@ -160,8 +162,10 @@
       ]), 'Publication year sampling'));
     section.append(sampling);
     const unresolved = sampleCounts.unresolved;
+    const unresolvedSex = data.included - data.disaggregationKnown;
     topic(section, 'What remains unresolved',
       `${format(unresolved)} sampled records still lack an eligibility decision, and many included records have unknown enrollment or reporting fields. Those records are excluded from each component denominator rather than being counted as zero, so the provisional score covers only the evidence that has been reviewed. The downloadable ledger lists every record with its coded values, its unknown fields and its review status.`);
+    paragraph(section, `Some reporting fields stay unknown because the evidence could not be retrieved, not because the study was shown to omit the analysis. Every target was queried in Europe PMC and checked for an open-access copy, and publisher and repository pages that returned no readable article were recorded. For sex reporting specifically, ${format(unresolvedSex)} included records remain unresolved after those attempts. They are excluded from the denominator, which means the sex-disaggregated rate can move in either direction as they are resolved. A record is re-opened when institutional access, interlibrary loan or a publisher-permitted copy becomes available.`);
     const links = element('div', null, 'pilot-audit__links');
     const download = link('Download study ledger (CSV) ↓', 'assets/adhd-pilot-records.csv');
     download.download = 'verity-adhd-pilot-records.csv';

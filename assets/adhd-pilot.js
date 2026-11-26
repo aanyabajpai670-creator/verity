@@ -18,8 +18,8 @@ window.verityAdhdPilot = {
   "inclusionYes": 134,
   "proportionN": 86,
   "proportionMedian": 32.30278225806451,
-  "disaggregationKnown": 250,
-  "disaggregationYes": 101,
+  "disaggregationKnown": 255,
+  "disaggregationYes": 102,
   "evidenceRating": null,
   "screenedCorpus": null,
   "components": [
@@ -51,7 +51,7 @@ window.verityAdhdPilot = {
   "score": null,
   "provisional": {
     "label": "Provisional evidence score",
-    "score": 53.23659660848431,
+    "score": 53.09659660848431,
     "availableWeight": 85,
     "totalWeight": 100,
     "coveragePercent": 85,
@@ -84,12 +84,12 @@ window.verityAdhdPilot = {
       {
         "name": "Sex-disaggregated analysis",
         "weight": 35,
-        "numerator": 101,
-        "denominator": 250,
-        "rate": 40.4,
+        "numerator": 102,
+        "denominator": 255,
+        "rate": 40.0,
         "median": null,
-        "subscore": 40.4,
-        "contribution": 14.139999999999999,
+        "subscore": 40.0,
+        "contribution": 14.0,
         "available": true,
         "reason": null
       },
@@ -119,7 +119,7 @@ window.verityAdhdPilot = {
       "exclude": 96,
       "unresolved": 20,
       "womenIncluded": 134,
-      "sexDisaggregated": 101,
+      "sexDisaggregated": 102,
       "femaleOnly": 5
     },
     "projectedCounts": {
@@ -127,7 +127,7 @@ window.verityAdhdPilot = {
       "exclude": 2372,
       "unresolved": 494,
       "womenIncluded": 3311,
-      "sexDisaggregated": 2496,
+      "sexDisaggregated": 2521,
       "femaleOnly": 124
     },
     "weightedObservedMedian": 32.3475,
@@ -196,7 +196,7 @@ window.verityAdhdPilot = {
         "sampleCounts": {
           "include": 102,
           "womenIncluded": 46,
-          "sexDisaggregated": 33,
+          "sexDisaggregated": 34,
           "exclude": 14,
           "unresolved": 1,
           "femaleOnly": 1
@@ -205,7 +205,7 @@ window.verityAdhdPilot = {
     ]
   },
   "assistantSourceReviews": 199,
-  "assistantFieldReviews": 355,
+  "assistantFieldReviews": 360,
   "referenceComparison": {
     "eligibility": {
       "compared": 22,
@@ -226,9 +226,9 @@ window.verityAdhdPilot = {
     }
   },
   "review": {
-    "queued": 363,
+    "queued": 362,
     "eligibilityUnresolved": 20,
-    "includedQueued": 316,
+    "includedQueued": 315,
     "excludedQueued": 27,
     "sampleSizeUnresolvedNonExcluded": 24,
     "withQuoteIssues": 5,

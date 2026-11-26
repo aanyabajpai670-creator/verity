@@ -11812,7 +11812,20 @@
       "paired_counts": true,
       "study_design": "Cross-sectional",
       "female_percent": 32.075471698113205,
-      "proportion_basis": "calculated from paired counts"
+      "proportion_basis": "calculated from paired counts",
+      "sex_reporting": 1
+    },
+    "assistant_field_review": {
+      "sex_reporting": {
+        "scope": "linked article",
+        "url": "https://hrcak.srce.hr/file/237607",
+        "quotes": [
+          "Sex female: 17 patients",
+          "Eight of the 53 ADHD patients (two female, six male patients) were diagnosed with a comorbid Asperger-Syndrome"
+        ],
+        "rationale": "Full text (9 pp) reports sex only as sample composition (Table 1: 17 female, 36 male of 53) and as a descriptive split of the 8 comorbid cases (2 female, 6 male). The AQ/EQ comparisons contrast sole-ADHD with comorbid patients, not sex. The Table 1 note that CAARS scoring is \"conducted separately with respect to sex and age\" describes sex-specific normative T-scores, not a study-level sex-stratified outcome. No sex interaction or sex-as-predictor model is reported. Level 1: demographics only, from full-article review.",
+        "answer": 1
+      }
     },
     "stratum_start": 2010,
     "sampling_weight": 24.59504132231405,
@@ -11823,9 +11836,7 @@
       "eligibility_review_reason": null,
       "quote_issues": [],
       "whitespace_recovered_fields": [],
-      "missing": [
-        "sex_reporting"
-      ]
+      "missing": []
     }
   },
   {
@@ -30439,7 +30450,20 @@
       "eligibility": "include",
       "n_total": 3284,
       "study_design": "Cross-sectional",
-      "includes_female": null
+      "includes_female": null,
+      "sex_reporting": 3
+    },
+    "assistant_field_review": {
+      "sex_reporting": {
+        "scope": "linked article",
+        "url": "https://doi.org/10.1080/21622965.2022.2100618",
+        "quotes": [
+          "an interaction effect was found between gender and age",
+          "nor gender alone (F(1, 3,280) \u00bc .52, p \u00bc .470)"
+        ],
+        "rationale": "Full text (18 pp) fits linear models testing gender, age and their interaction on executive-function scores. EFICA-P showed no gender x age interaction (F(1,3,280)=1.06, p=.302) and no gender main effect; EFICA-T showed a significant gender x age interaction (F(1,3,280)=17.35, p<.01). A formal interaction test, including a null result, is level 3 under the interpretation recorded in this audit (consistent with 12501563, kept at 3).",
+        "answer": 3
+      }
     },
     "stratum_start": 2020,
     "sampling_weight": 24.76068376068376,
@@ -30452,8 +30476,7 @@
       "whitespace_recovered_fields": [],
       "missing": [
         "includes_female",
-        "female_percent",
-        "sex_reporting"
+        "female_percent"
       ]
     }
   },
@@ -32701,7 +32724,19 @@
       "eligibility": "include",
       "n_total": 850,
       "study_design": "RCT",
-      "includes_female": null
+      "includes_female": null,
+      "sex_reporting": 1
+    },
+    "assistant_field_review": {
+      "sex_reporting": {
+        "scope": "linked article",
+        "url": "https://discovery.ucl.ac.uk/10159323/2/",
+        "quotes": [
+          "Control variables included age, gender, and intimacy of ADHD children with their parents"
+        ],
+        "rationale": "Full text (13 pp) reports gender as sample composition and matching (about 48.8% male / 51.2% female, with no significant between-group differences in age and gender composition) and as a control variable in the mixed ANOVAs. The analysed effects are Time x Group (reading condition) on language outcomes; gender is never a factor or moderator and no sex-stratified outcome is reported. Level 1.",
+        "answer": 1
+      }
     },
     "stratum_start": 2020,
     "sampling_weight": 24.76068376068376,
@@ -32714,8 +32749,7 @@
       "whitespace_recovered_fields": [],
       "missing": [
         "includes_female",
-        "female_percent",
-        "sex_reporting"
+        "female_percent"
       ]
     }
   },
@@ -35064,7 +35098,19 @@
       "eligibility": "include",
       "n_total": 380,
       "study_design": "Cohort-Retrospective",
-      "includes_female": null
+      "includes_female": null,
+      "sex_reporting": 1
+    },
+    "assistant_field_review": {
+      "sex_reporting": {
+        "scope": "linked article",
+        "url": "https://www.researchsquare.com/article/rs-1532981/latest.pdf",
+        "quotes": [
+          "demographic characteristics such as sex, age, marital"
+        ],
+        "rationale": "Full text (13 pp) mentions sex only in demographics and in a null between-period comparison of demographic characteristics. Outcomes are compared across lockdown periods, not by sex. This is demographic reporting, not an outcome analysed by sex. Level 1.",
+        "answer": 1
+      }
     },
     "stratum_start": 2020,
     "sampling_weight": 24.76068376068376,
@@ -35077,8 +35123,7 @@
       "whitespace_recovered_fields": [],
       "missing": [
         "includes_female",
-        "female_percent",
-        "sex_reporting"
+        "female_percent"
       ]
     }
   },
@@ -37112,7 +37157,20 @@
       "eligibility": "include",
       "n_total": 776,
       "study_design": "Cross-sectional",
-      "includes_female": null
+      "includes_female": null,
+      "sex_reporting": 1
+    },
+    "assistant_field_review": {
+      "sex_reporting": {
+        "scope": "linked article",
+        "url": "https://www.biorxiv.org/content/biorxiv/early/2019/10/21/812693/DC1/embed/media-1.pdf?download=true",
+        "quotes": [
+          "This yielded data for 275 individuals (ADHD = 102, male/female = 85/17",
+          "Both age (linear and quadratic), and gender were used as 10 covariates for monkey and human data"
+        ],
+        "rationale": "Corrected from the proposed level 0, which rested on an incomplete retrieval: the 31-page main PDF has zero sex/gender/male/female occurrences, but the 40-page supplementary material reports sex composition and uses it as a covariate. Methods give the analysed ADHD cohort as male/female = 85/17 (102) and controls as 99/74 (173); Table S9 \"Characteristics of human ADHD cohorts\" has a Gender (M/F) column (totals 99/74 and 85/17). Gender is a covariate in the imaging models and no sex-stratified outcome or sex interaction is reported. Participant sex is reported demographically, so level 1 rather than 0. The 85/17 split belongs to the 102-subset, not the coded n_total of 776, so no female proportion is coded.",
+        "answer": 1
+      }
     },
     "stratum_start": 2020,
     "sampling_weight": 24.76068376068376,
@@ -37125,8 +37183,7 @@
       "whitespace_recovered_fields": [],
       "missing": [
         "includes_female",
-        "female_percent",
-        "sex_reporting"
+        "female_percent"
       ]
     }
   },
