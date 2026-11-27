@@ -36,6 +36,33 @@
 .pilot-metric__detail{font-size:var(--body-sm-font-size);line-height:var(--body-sm-line-height);color:var(--color-graphite);margin:var(--space-1) 0 0}
 .pilot-metric__projected{font-size:var(--body-sm-font-size);line-height:var(--body-sm-line-height);color:var(--color-ash);margin:4px 0 0}
 
+/* -----------------------------------------------------------------------
+   REPORTING COVERAGE AND UNCERTAINTY — stacked bar plus legend
+   ----------------------------------------------------------------------- */
+.pilot-coverage{margin:var(--space-6) 0 0;padding-top:var(--space-4);border-top:2px solid var(--color-ink)}
+.pilot-audit .pilot-coverage__heading{font-family:'Space Grotesk',sans-serif;font-size:clamp(1.4rem,2.2vw,1.85rem);letter-spacing:-.03em;line-height:1.15;margin:0 0 var(--space-1)}
+.pilot-coverage__summary{font-size:var(--body-sm-font-size);line-height:var(--body-sm-line-height);color:var(--color-graphite);margin:0 0 var(--space-3);max-width:76ch}
+
+.pilot-coverage__bar{display:flex;width:100%;height:30px;overflow:hidden;background:var(--color-warm-white);border:1px solid var(--color-stone)}
+.pilot-coverage__fill{height:100%}
+.pilot-coverage__fill--yes{background:var(--color-verity-blue)}
+.pilot-coverage__fill--no{background:var(--color-graphite)}
+.pilot-coverage__fill--unknown{background:repeating-linear-gradient(45deg,var(--color-stone) 0 6px,var(--color-warm-white) 6px 12px)}
+
+.pilot-coverage__legend{list-style:none;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;margin:var(--space-3) 0 0;padding:0}
+.pilot-coverage__item{display:flex;align-items:flex-start;gap:var(--space-1);padding-right:var(--space-3);min-width:0}
+.pilot-coverage__swatch{flex:none;width:12px;height:12px;margin-top:4px;border:1px solid var(--color-stone)}
+.pilot-coverage__item--yes .pilot-coverage__swatch{background:var(--color-verity-blue);border-color:var(--color-verity-blue)}
+.pilot-coverage__item--no .pilot-coverage__swatch{background:var(--color-graphite);border-color:var(--color-graphite)}
+.pilot-coverage__item--unknown .pilot-coverage__swatch{background:repeating-linear-gradient(45deg,var(--color-stone) 0 3px,var(--color-warm-white) 3px 6px)}
+.pilot-coverage__text{display:flex;flex-direction:column;min-width:0}
+.pilot-coverage__label{font-family:var(--label-font-family);font-size:var(--label-font-size);font-weight:var(--label-font-weight);letter-spacing:var(--label-letter-spacing);text-transform:uppercase;color:var(--color-ash);line-height:1.35}
+.pilot-coverage__count{font-family:'Space Grotesk',sans-serif;font-size:1.05rem;letter-spacing:-.01em;color:var(--color-ink);font-variant-numeric:tabular-nums;margin-top:2px}
+
+.pilot-coverage__note{margin-top:var(--space-3);max-width:76ch}
+.pilot-coverage__note p{margin:0 0 var(--space-2);font-size:var(--body-sm-font-size);line-height:var(--body-sm-line-height);color:var(--color-graphite)}
+.pilot-coverage__note p:last-child{margin-bottom:0}
+
 /* Compact links */
 .pilot-links{display:flex;flex-wrap:wrap;gap:var(--space-2) var(--space-5);margin:var(--space-4) 0 0;padding-top:var(--space-3);border-top:1px solid var(--color-stone)}
 .pilot-links .research-link{font-size:var(--body-md-font-size);line-height:var(--body-md-line-height)}
@@ -74,6 +101,10 @@
 @media(max-width:900px){
   .pilot-metrics__row{grid-template-columns:repeat(3,minmax(0,1fr))}
   .pilot-metric{padding-right:var(--space-2)}
+}
+@media(max-width:700px){
+  .pilot-coverage__legend{grid-template-columns:1fr;gap:var(--space-2)}
+  .pilot-coverage__item{padding-right:0}
 }
 @media(max-width:600px){
   .pilot-metrics__row{grid-template-columns:repeat(2,minmax(0,1fr))}

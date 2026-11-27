@@ -180,6 +180,65 @@
     return details;
   }
 
+  function coverageSection(data) {
+    const included = data.included;
+    const known = data.inclusionKnown;
+    const yes = data.inclusionYes;
+    if (!included || known === null || known === undefined) return null;
+    const no = known - yes;
+    const unknown = included - known;
+
+    const section = element('section', null, 'pilot-coverage');
+    section.append(element('h3', 'Reporting coverage and uncertainty', 'heading-md pilot-coverage__heading'));
+    section.append(element('p',
+      `All ${format(included)} included studies are shown. ${format(known)} have a documented inclusion decision; ${format(unknown)} remain unresolved.`,
+      'pilot-coverage__summary'));
+
+    const segments = [
+      { key: 'yes', label: 'Confirmed female inclusion', value: yes },
+      { key: 'no', label: 'Confirmed absence of female participation', value: no },
+      { key: 'unknown', label: 'Inclusion status unresolved', value: unknown },
+    ];
+
+    const bar = element('div', null, 'pilot-coverage__bar');
+    bar.setAttribute('role', 'img');
+    bar.setAttribute('aria-label',
+      `Included studies by female inclusion status: ${format(yes)} with confirmed female inclusion, ` +
+      `${format(no)} with confirmed absence of female participation, and ${format(unknown)} unresolved, ` +
+      `out of ${format(included)} included studies.`);
+    for (const segment of segments) {
+      if (!segment.value) continue;
+      const fill = element('div', null, `pilot-coverage__fill pilot-coverage__fill--${segment.key}`);
+      fill.style.width = `${(100 * segment.value) / included}%`;
+      bar.append(fill);
+    }
+    section.append(bar);
+
+    const legend = element('ul', null, 'pilot-coverage__legend');
+    for (const segment of segments) {
+      const item = element('li', null, `pilot-coverage__item pilot-coverage__item--${segment.key}`);
+      const swatch = element('span', null, 'pilot-coverage__swatch');
+      swatch.setAttribute('aria-hidden', 'true');
+      const text = element('span', null, 'pilot-coverage__text');
+      text.append(
+        element('span', segment.label, 'pilot-coverage__label'),
+        element('span',
+          `${format(segment.value)} of ${format(included)} · ${pctLabel(segment.value, included)}`,
+          'pilot-coverage__count'));
+      item.append(swatch, text);
+      legend.append(item);
+    }
+    section.append(legend);
+
+    const note = element('div', null, 'pilot-coverage__note');
+    paragraph(note,
+      `The ${pctLabel(yes, known)} “studies including women” metric uses only the ${format(known)} studies with a documented decision. It does not describe all ${format(included)} included studies.`);
+    paragraph(note,
+      'Unresolved studies are not negative results. Available-case percentages may be affected by systematic differences in reporting and source availability. Missingness may be non-random, but this has not been established.');
+    section.append(note);
+    return section;
+  }
+
   function metricsBlock(data) {
     const p = data.provisional;
     const { databaseRecords, sampleRecords, sampleCounts, projectedCounts } = data.projection;
@@ -222,6 +281,9 @@
         `at least ~${format(projectedCounts.sexDisaggregated)} projected`),
     );
     block.append(row);
+
+    block.append(coverageSection(data));
+
     block.append(element('p',
       'Sampled records are the publications screened for this pilot. Included studies are the sampled records that met eligibility. Projections scale the sampled evidence to the wider search corpus and are labelled “at least”, because a record with an unknown field is not counted.',
       'pilot-audit__note'));
