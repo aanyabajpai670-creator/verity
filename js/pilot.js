@@ -75,43 +75,163 @@
     return section;
   }
 
-  const format = value => value === null ? 'Pending' : value.toLocaleString('en', { maximumFractionDigits: 1 });
-  function stat(label, value, note) {
-    const item = element('div');
-    item.append(element('dt', label), element('dd', value), element('p', note, 'body-sm'));
-    return item;
+  const format = value => value === null || value === undefined ? 'Pending'
+    : typeof value === 'number' ? value.toLocaleString('en', { maximumFractionDigits: 1 }) : String(value);
+  const pct = (part, whole) => (whole ? Math.round(1000 * part / whole) / 10 : null);
+  const pctLabel = (part, whole) => {
+    const value = pct(part, whole);
+    return value === null ? '—' : `${format(value)}%`;
+  };
+
+  function metric(label, value, detail, projected) {
+    const tile = element('div', null, 'pilot-metric');
+    tile.append(element('p', label, 'pilot-metric__label'));
+    tile.append(element('p', value, 'pilot-metric__value'));
+    if (detail) tile.append(element('p', detail, 'pilot-metric__detail'));
+    if (projected) tile.append(element('p', projected, 'pilot-metric__projected'));
+    return tile;
   }
 
-  function scoreSection(data) {
-    const p = data.provisional;
-    if (!p) return null;
-    const section = element('section', null, 'pilot-score');
-    section.append(element('h2', 'Provisional evidence score', 'heading-lg'));
-    if (p.score === null) {
-      paragraph(section, 'The provisional score cannot be calculated because no component is computable from the supported decisions recorded so far.');
-      return section;
-    }
-    const headline = element('p', null, 'pilot-score__value');
-    headline.append(element('strong', format(Math.round(p.score * 10) / 10)),
-      element('span', ` / 100 · ${format(p.coveragePercent)} of 100 weight points`));
-    section.append(headline);
-    paragraph(section, 'This provisional value uses the four documented components at their original weights, and calculates each rate only from records with a supported decision. Unknown values are excluded from the denominators; they are never counted as zero or as “not reported”.');
-    section.append(makeTable(['Component', 'Weight', 'Supported decisions', 'Component score', 'Contribution'], [
+  function findingsSection() {
+    const adhd = typeof window.getConditionBySlug === 'function'
+      ? window.getConditionBySlug('adhd') : null;
+    if (!adhd || !adhd.findings) return null;
+    const section = element('section', null, 'findings-section pilot-findings');
+    section.append(element('h2', 'Female-Specific Findings', 'heading-lg findings-section__title'));
+    const categories = ['symptoms', 'diagnosis', 'prevalence', 'treatment'];
+    const labels = { symptoms: 'Symptoms', diagnosis: 'Diagnosis', prevalence: 'Prevalence', treatment: 'Treatment' };
+    const tabs = element('div', null, 'category-tabs');
+    tabs.setAttribute('role', 'tablist');
+    const panels = {};
+    categories.forEach((cat, index) => {
+      const tab = element('button', labels[cat], 'category-tab');
+      tab.type = 'button';
+      tab.setAttribute('role', 'tab');
+      tab.setAttribute('aria-selected', index === 0 ? 'true' : 'false');
+      tab.id = `tab-${cat}`;
+      tab.setAttribute('aria-controls', `panel-${cat}`);
+      if (index === 0) tab.classList.add('category-tab--active');
+      tab.addEventListener('click', () => {
+        tabs.querySelectorAll('.category-tab').forEach(other => {
+          other.classList.remove('category-tab--active');
+          other.setAttribute('aria-selected', 'false');
+        });
+        Object.values(panels).forEach(panel => { panel.hidden = true; });
+        tab.classList.add('category-tab--active');
+        tab.setAttribute('aria-selected', 'true');
+        panels[cat].hidden = false;
+      });
+      tabs.append(tab);
+      const panel = element('div', null, 'findings-section__content');
+      panel.id = `panel-${cat}`;
+      panel.setAttribute('role', 'tabpanel');
+      panel.setAttribute('aria-labelledby', `tab-${cat}`);
+      panel.hidden = index !== 0;
+      const findings = adhd.findings[cat] || [];
+      if (!findings.length) {
+        panel.append(element('p', 'No findings currently indexed for this category.', 'findings-section__empty'));
+      } else {
+        findings.forEach(finding => {
+          const card = element('div', null, 'finding-card');
+          card.append(element('p', finding.text, 'finding-card__text body-lg'));
+          const citation = element('div', null, 'finding-card__citation');
+          const arrow = element('span', '↳');
+          arrow.setAttribute('aria-hidden', 'true');
+          const anchor = element('a', `${finding.citation} · PMID ${finding.pmid}`);
+          anchor.href = `https://pubmed.ncbi.nlm.nih.gov/${finding.pmid}`;
+          anchor.target = '_blank';
+          anchor.rel = 'noopener noreferrer';
+          citation.append(arrow, anchor);
+          card.append(citation);
+          panel.append(card);
+        });
+      }
+      panels[cat] = panel;
+    });
+    section.append(tabs);
+    categories.forEach(cat => section.append(panels[cat]));
+    return section;
+  }
+
+  function breakdownTable(p) {
+    return makeTable(['Component', 'Weight', 'Supported decisions', 'Component score', 'Contribution'], [
       ...p.components.map(c => [
         c.name,
         `${c.weight}%`,
         c.denominator === null ? 'Unavailable'
           : c.numerator === null ? `${format(c.denominator)} records`
             : `${format(c.numerator)} of ${format(c.denominator)}`,
-        c.available ? format(Math.round(c.subscore * 10) / 10) : 'Not computable',
+        c.available ? format(Math.round(c.subscore * 10) / 10) : 'Pending',
         c.available ? format(Math.round(c.contribution * 10) / 10) : '—',
       ]),
-    ], 'Provisional evidence score components'));
-    if (p.gaps.length) {
-      paragraph(section, `Coverage is incomplete: ${p.gaps.join(' ')}`);
+    ], 'Provisional evidence score components');
+  }
+
+  function detailsSection(title, build) {
+    const details = element('details', null, 'accordion pilot-audit__details');
+    const summary = element('summary', title, 'accordion__trigger');
+    const chevron = element('span', '▾', 'accordion__chevron');
+    chevron.setAttribute('aria-hidden', 'true');
+    summary.append(chevron);
+    details.append(summary);
+    const content = element('div', null, 'accordion__content');
+    build(content);
+    details.append(content);
+    return details;
+  }
+
+  function metricsBlock(data) {
+    const p = data.provisional;
+    const { databaseRecords, sampleRecords, sampleCounts, projectedCounts } = data.projection;
+    const block = element('section', null, 'pilot-metrics');
+    block.append(element('h2', 'Representation Metrics', 'heading-lg pilot-metrics__heading'));
+
+    const score = element('div', null, 'pilot-metrics__score');
+    score.append(element('p', 'Provisional evidence score', 'pilot-metrics__label'));
+    if (p && p.score !== null) {
+      const row = element('p', null, 'pilot-metrics__value-row');
+      row.append(element('strong', format(Math.round(p.score * 10) / 10)),
+        element('span', '/ 100', 'pilot-metrics__unit'));
+      score.append(row);
+      score.append(element('p', `${format(p.coveragePercent)} of 100 weight points available`, 'pilot-metrics__note'));
+      const pending = p.components.filter(component => !component.available).map(component => component.name);
+      if (pending.length) {
+        score.append(element('p',
+          `${pending.join(' and ')} is pending: the component has no supported decision yet, so its weight is held rather than scored.`,
+          'pilot-metrics__pending'));
+      }
+    } else {
+      score.append(element('p', 'Not yet computable', 'pilot-metrics__value-row'));
     }
-    paragraph(section, p.caveat);
-    return section;
+    block.append(score);
+
+    const row = element('div', null, 'pilot-metrics__row');
+    row.append(
+      metric('PubMed records found', format(databaseRecords),
+        `${format(sampleRecords)} sampled for screening`),
+      metric('Included studies', format(sampleCounts.include),
+        `of ${format(sampleRecords)} sampled records`, `~${format(projectedCounts.include)} projected`),
+      metric('Studies including women', pctLabel(sampleCounts.womenIncluded, data.inclusionKnown),
+        `${format(sampleCounts.womenIncluded)} of ${format(data.inclusionKnown)} with a documented decision`,
+        `at least ~${format(projectedCounts.womenIncluded)} projected`),
+      metric('Female-only studies', pctLabel(sampleCounts.femaleOnly, data.proportionN),
+        `${format(sampleCounts.femaleOnly)} of ${format(data.proportionN)} with a usable proportion`,
+        `at least ~${format(projectedCounts.femaleOnly)} projected`),
+      metric('Sex-disaggregated analysis', pctLabel(sampleCounts.sexDisaggregated, data.disaggregationKnown),
+        `${format(sampleCounts.sexDisaggregated)} of ${format(data.disaggregationKnown)} with a coded level`,
+        `at least ~${format(projectedCounts.sexDisaggregated)} projected`),
+    );
+    block.append(row);
+    block.append(element('p',
+      'Sampled records are the publications screened for this pilot. Included studies are the sampled records that met eligibility. Projections scale the sampled evidence to the wider search corpus and are labelled “at least”, because a record with an unknown field is not counted.',
+      'pilot-audit__note'));
+
+    const links = element('div', null, 'pilot-links');
+    const download = link('Download the public study ledger (CSV) ↓', 'assets/adhd-pilot-records.csv');
+    download.download = 'verity-adhd-pilot-records.csv';
+    links.append(download, link('Read the methodology →', '#/about'));
+    block.append(links);
+    return block;
   }
 
   function pilotSection() {
@@ -122,55 +242,62 @@
     const title = element('h2', 'ADHD Research Representation', 'display-lg');
     title.id = 'adhd-pilot-title';
     section.append(title);
-    paragraph(section, 'An AI-assisted audit of participant enrollment and reporting in ADHD research. The extraction pipeline uses the revised methodology in this pilot. See the ADHD overview for the separate March 2025 figures.');
+    paragraph(section, 'An AI-assisted audit of participant enrollment and reporting in ADHD research. These figures come from the revised study-level audit; the ADHD overview keeps the separate March 2025 estimates.');
     const data = window.verityAdhdPilot;
     if (!data?.projection) {
       paragraph(section, 'The pilot snapshot is currently unavailable.');
       return section;
     }
-    const { databaseRecords, sampleRecords, sampleCounts, projectedCounts, strata } = data.projection;
+    section.append(metricsBlock(data));
+
+    const findings = findingsSection();
+    if (findings) section.append(findings);
+
+    const p = data.provisional;
+    if (p) {
+      section.append(detailsSection('Score breakdown and coverage', content => {
+        paragraph(content, 'The provisional value uses the four documented components at their original weights, and calculates each rate only from records with a supported decision. Unknown values are excluded from the denominators; they are never counted as zero or as “not reported”. An unavailable component keeps its weight and is reported as a gap rather than being dropped or reweighted.');
+        content.append(breakdownTable(p));
+        if (p.gaps.length) paragraph(content, `Coverage is incomplete: ${p.gaps.join(' ')}`);
+        paragraph(content, p.caveat);
+      }));
+    }
+
+    const { sampleRecords, sampleCounts, projectedCounts, strata } = data.projection;
     const estimate = number => `~${format(number)}`;
-    const stats = element('dl', null, 'pilot-audit__stats');
     const median = data.proportionMedian === null ? 'Unavailable' : `${format(data.proportionMedian)}%`;
-    stats.append(
-      stat('PubMed records found', format(databaseRecords), `${format(sampleRecords)} records were sampled for screening`),
-      stat('Studies including women', estimate(projectedCounts.womenIncluded), `Projected from ${format(sampleCounts.womenIncluded)} of ${format(data.inclusionKnown)} included records with a documented decision`),
-      stat('Median female participation', median, data.proportionN ? `Based on ${format(data.proportionN)} included records with usable enrollment figures` : 'Usable enrollment figures unavailable'),
-      stat('Studies reporting results by sex', estimate(projectedCounts.sexDisaggregated), `Projected from ${format(sampleCounts.sexDisaggregated)} of ${format(data.disaggregationKnown)} included records with a coded sex-reporting level`),
-    );
-    section.append(stats);
-    paragraph(section, 'The sample and the corpus are different sizes. The search returned the corpus total; the figures above come from the sampled records only. Each sampled record represents roughly 25 PubMed records, weighted by five-year period. Projections reflect the evidence found so far and can change as unknown records are resolved.');
-    const score = scoreSection(data);
-    if (score) section.append(score);
-    topic(section, `Breakdown of the ${format(sampleRecords)} sampled records`,
-      'The first three rows account for the whole sample. The remaining rows describe results within the provisionally included studies. Counts of included studies with women, female-only studies and sex-disaggregated results are minimums: a study with an unknown field is not counted, so the projected figures can only rise as unknowns are resolved.');
-    section.append(makeTable(['Measure', 'In the sample', 'Projected to the database search'], [
-      ['Provisionally included', format(sampleCounts.include), estimate(projectedCounts.include)],
-      ['Excluded', format(sampleCounts.exclude), estimate(projectedCounts.exclude)],
-      ['Eligibility unresolved', format(sampleCounts.unresolved), estimate(projectedCounts.unresolved)],
-      ['Studies including women', `${format(sampleCounts.womenIncluded)} of ${format(data.inclusionKnown)}`, `at least ${estimate(projectedCounts.womenIncluded)}`],
-      ['Female-only studies', `${format(sampleCounts.femaleOnly)} of ${format(data.proportionN)}`, `at least ${estimate(projectedCounts.femaleOnly)}`],
-      ['Studies reporting results by sex', `${format(sampleCounts.sexDisaggregated)} of ${format(data.disaggregationKnown)}`, `at least ${estimate(projectedCounts.sexDisaggregated)}`],
-      ['Median female participation', median, 'Available for the sample'],
-    ], 'ADHD sample and database projections'));
-    const sampling = element('details', null, 'pilot-audit__evidence');
-    sampling.append(element('summary', 'See how the 500 records were sampled'));
-    sampling.append(makeTable(['Publication years', 'PubMed records', 'Sampled records', 'Records represented per sample'],
-      strata.map(period => [
-        `${period.start}–${period.start + 4}`, format(period.databaseRecords), format(period.sampleRecords),
-        period.weight.toFixed(2),
-      ]), 'Publication year sampling'));
-    section.append(sampling);
-    const unresolved = sampleCounts.unresolved;
-    const unresolvedSex = data.included - data.disaggregationKnown;
-    topic(section, 'What remains unresolved',
-      `${format(unresolved)} sampled records still lack an eligibility decision, and many included records have unknown enrollment or reporting fields. Those records are excluded from each component denominator rather than being counted as zero, so the provisional score covers only the evidence that has been reviewed. The downloadable ledger lists every record with its coded values, its unknown fields and its review status.`);
-    paragraph(section, `Some reporting fields stay unknown because the evidence could not be retrieved, not because the study was shown to omit the analysis. Every target was queried in Europe PMC and checked for an open-access copy, and publisher and repository pages that returned no readable article were recorded. For sex reporting specifically, ${format(unresolvedSex)} included records remain unresolved after those attempts. They are excluded from the denominator, which means the sex-disaggregated rate can move in either direction as they are resolved. A record is re-opened when institutional access, interlibrary loan or a publisher-permitted copy becomes available.`);
-    const links = element('div', null, 'pilot-audit__links');
-    const download = link('Download study ledger (CSV) ↓', 'assets/adhd-pilot-records.csv');
-    download.download = 'verity-adhd-pilot-records.csv';
-    links.append(download, link('Read the methodology →', '#/about'));
-    section.append(links);
+    section.append(detailsSection('Coverage of the 500 sampled records', content => {
+      paragraph(content, 'The first three rows account for the whole sample. The remaining rows describe results within the provisionally included studies. Counts of included studies with women, female-only studies and sex-disaggregated results are minimums: a study with an unknown field is not counted, so the projected figures can only rise as unknowns are resolved.');
+      content.append(makeTable(['Measure', 'In the sample', 'Projected to the database search'], [
+        ['Provisionally included', format(sampleCounts.include), estimate(projectedCounts.include)],
+        ['Excluded', format(sampleCounts.exclude), estimate(projectedCounts.exclude)],
+        ['Eligibility unresolved', format(sampleCounts.unresolved), estimate(projectedCounts.unresolved)],
+        ['Studies including women', `${format(sampleCounts.womenIncluded)} of ${format(data.inclusionKnown)}`, `at least ${estimate(projectedCounts.womenIncluded)}`],
+        ['Female-only studies', `${format(sampleCounts.femaleOnly)} of ${format(data.proportionN)}`, `at least ${estimate(projectedCounts.femaleOnly)}`],
+        ['Studies reporting results by sex', `${format(sampleCounts.sexDisaggregated)} of ${format(data.disaggregationKnown)}`, `at least ${estimate(projectedCounts.sexDisaggregated)}`],
+        ['Median female participation', median, 'Available for the sample'],
+      ], 'ADHD sample and database projections'));
+      content.append(makeTable(['Publication years', 'PubMed records', 'Sampled records', 'Records represented per sample'],
+        strata.map(period => [
+          `${period.start}–${period.start + 4}`, format(period.databaseRecords), format(period.sampleRecords),
+          period.weight.toFixed(2),
+        ]), 'Publication year sampling'));
+      const unresolved = sampleCounts.unresolved;
+      const unresolvedSex = data.included - data.disaggregationKnown;
+      paragraph(content, `${format(unresolved)} sampled records still lack an eligibility decision, and many included records have unknown enrollment or reporting fields. Those records are excluded from each component denominator rather than being counted as zero, so the provisional score covers only the evidence that has been reviewed. The downloadable ledger lists every record with its coded values, its unknown fields and its review status.`);
+      paragraph(content, `Some reporting fields stay unknown because the evidence could not be retrieved, not because the study was shown to omit the analysis. Every target was queried in Europe PMC and checked for an open-access copy, and publisher and repository pages that returned no readable article were recorded. For sex reporting specifically, ${format(unresolvedSex)} included records remain unresolved after those attempts. They are excluded from the denominator, which means the sex-disaggregated rate can move in either direction as they are resolved. A record is re-opened when institutional access, interlibrary loan or a publisher-permitted copy becomes available.`);
+    }));
+
+    section.append(detailsSection('Limitations and how to read this', content => {
+      topic(content, 'Sex-reporting levels',
+        'Sex reporting is coded 0 to 3 from the full article where available. Level 0 means pooled or non-sex-specific reporting only, or adjustment for sex without any stratified result. Level 1 means participant sex is reported demographically, as sample composition or counts. Level 2 means an explicit sex-stratified outcome, or sex as a predictor with an effect estimate. Level 3 means a formal statistical test of a sex difference, interaction or moderation, including a null test, or a sex comparison that is the primary aim with a reported result. Levels 2 and 3 both count as reporting results by sex; the distinction records how strong the analysis is, not whether it happened. A record is left unresolved rather than coded 0 or 1 from an abstract alone, because absence of a sex result in an abstract does not establish absence in the article.');
+      topic(content, 'What this score is not',
+        scoreMeaning);
+      paragraph(content, 'The provisional score is not comparable to a complete score, and it does not replace the March 2025 Gap Index figures. Incomplete reporting, unresolved eligibility and limited full-text access can bias it in either direction. Every record behind it, including its coded values, unknown fields and review status, is published in the downloadable study ledger.');
+      paragraph(content, 'Coding is AI-assisted and reviewed against saved sources, but not independently validated: there is no completed double-coding, adjudication or inter-rater agreement study behind these figures. Coverage of full text is partial, because many articles are closed access.');
+      paragraph(content, 'Audit date: 26 November 2026.');
+    }));
+
     if (data.examples?.length) {
       const details = element('details', null, 'pilot-audit__evidence');
       details.append(element('summary', 'Open study-level examples'));
