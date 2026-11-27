@@ -1,27 +1,86 @@
+/* ADHD research audit — presentation matches the Verity condition page:
+   warm off-white ground, oversized blue score, rule-separated metrics,
+   generous spacing. Values and scoring logic live in js/pilot.js. */
+
 .research-method h3,.pilot-audit h3{margin:var(--space-5) 0 var(--space-2)}
 .research-method p,.pilot-audit>p{max-width:72ch}
 .research-link{text-decoration:underline;text-underline-offset:.2em;color:var(--color-ink)}
-.pilot-audit{margin:var(--space-6) 0 var(--space-8);padding:var(--space-5) 0;border-block:1px solid var(--color-stone);scroll-margin-top:100px}
+.research-link:hover{color:var(--color-verity-blue)}
+.pilot-audit{margin:var(--space-6) 0 var(--space-8);scroll-margin-top:100px}
 .pilot-audit:focus-visible{outline:2px solid var(--color-ink);outline-offset:.25rem}
-.pilot-audit__stats dt{font-family:var(--font-mono,monospace);font-size:.78rem;letter-spacing:.08em;text-transform:uppercase}
-.pilot-audit h1{margin-bottom:var(--space-2)}
-.pilot-audit__stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:var(--space-4);padding-block:var(--space-4);margin:var(--space-4) 0;border-block:1px solid var(--color-stone)}
-.pilot-audit__stats dd{font-family:var(--font-display,Georgia,serif);font-size:clamp(1.9rem,4vw,3.25rem);line-height:1.2;margin:var(--space-1) 0}
-.pilot-audit__stats p{color:var(--color-graphite);margin:0}
+.pilot-audit h1,.pilot-audit>h2{margin-bottom:var(--space-2)}
+.pilot-audit>p{color:var(--color-graphite)}
+.pilot-audit__note{color:var(--color-ash);font-size:var(--body-sm-font-size);line-height:var(--body-sm-line-height);max-width:72ch;margin-top:var(--space-3)}
+
+/* -----------------------------------------------------------------------
+   METRICS BLOCK — heading, oversized score, horizontal metrics row
+   ----------------------------------------------------------------------- */
+.pilot-metrics{margin:var(--space-6) 0 0}
+.pilot-metrics__heading{font-family:'Space Grotesk',sans-serif;font-size:clamp(2rem,3.5vw,3.3rem);line-height:1.05;letter-spacing:-.045em;margin-bottom:var(--space-4)}
+
+.pilot-metrics__score{border-top:2px solid var(--color-ink);padding:var(--space-4) 0 var(--space-5)}
+.pilot-metrics__label{font-family:var(--label-font-family);font-size:var(--label-font-size);font-weight:var(--label-font-weight);letter-spacing:var(--label-letter-spacing);text-transform:uppercase;color:var(--color-ash);margin:0 0 var(--space-2)}
+.pilot-metrics__value-row{display:flex;align-items:baseline;gap:var(--space-2);flex-wrap:wrap;margin:0}
+.pilot-metrics__value-row strong{font-family:'Space Grotesk',sans-serif;font-size:clamp(5rem,10vw,9rem);line-height:.9;letter-spacing:-.07em;color:var(--color-verity-blue);font-weight:650;font-variant-numeric:tabular-nums}
+.pilot-metrics__unit{font-family:'Space Grotesk',sans-serif;font-size:clamp(1.1rem,1.8vw,1.6rem);color:var(--color-graphite);letter-spacing:-.02em}
+.pilot-metrics__note{color:var(--color-graphite);font-size:var(--body-md-font-size);line-height:var(--body-md-line-height);margin:var(--space-2) 0 0;max-width:60ch}
+.pilot-metrics__pending{color:var(--color-ash);font-size:var(--body-sm-font-size);line-height:var(--body-sm-line-height);margin:var(--space-1) 0 0;max-width:66ch}
+
+/* Horizontal metrics row — thin rules, no cards.
+   Adjacent grid cells each carry a top border, which reads as one
+   continuous rule on desktop and as per-row rules when stacked. */
+.pilot-metrics__row{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:0}
+.pilot-metric{border-top:1px solid var(--color-stone);padding:var(--space-3) var(--space-3) var(--space-4) 0;min-width:0}
+.pilot-metric__label{font-family:var(--label-font-family);font-size:var(--label-font-size);font-weight:var(--label-font-weight);letter-spacing:var(--label-letter-spacing);text-transform:uppercase;color:var(--color-ash);margin:0 0 var(--space-2);line-height:1.35}
+.pilot-metric__value{font-family:'Space Grotesk',sans-serif;font-size:clamp(1.6rem,2.4vw,2.2rem);line-height:1.05;letter-spacing:-.03em;color:var(--color-ink);margin:0;font-variant-numeric:tabular-nums}
+.pilot-metric__detail{font-size:var(--body-sm-font-size);line-height:var(--body-sm-line-height);color:var(--color-graphite);margin:var(--space-1) 0 0}
+.pilot-metric__projected{font-size:var(--body-sm-font-size);line-height:var(--body-sm-line-height);color:var(--color-ash);margin:4px 0 0}
+
+/* Compact links */
+.pilot-links{display:flex;flex-wrap:wrap;gap:var(--space-2) var(--space-5);margin:var(--space-4) 0 0;padding-top:var(--space-3);border-top:1px solid var(--color-stone)}
+.pilot-links .research-link{font-size:var(--body-md-font-size);line-height:var(--body-md-line-height)}
+
+/* -----------------------------------------------------------------------
+   FINDINGS — reuse the condition-page tabs and cards
+   ----------------------------------------------------------------------- */
+.pilot-findings{margin:var(--space-8) 0 0;padding-top:var(--space-6);border-top:1px solid var(--color-stone)}
+
+/* -----------------------------------------------------------------------
+   EXPANDABLE SECTIONS — plain rules rather than boxes
+   ----------------------------------------------------------------------- */
+.pilot-audit details.pilot-audit__details{border:0;border-top:1px solid var(--color-stone);border-radius:0;background:transparent;margin-top:var(--space-4);overflow:visible}
+.pilot-audit details.pilot-audit__details:hover{border-color:var(--color-stone)}
+.pilot-audit details.pilot-audit__details>summary.accordion__trigger{padding:var(--space-3) 0;font-family:'Space Grotesk',sans-serif;font-size:var(--heading-md-font-size);letter-spacing:-.02em}
+.pilot-audit details.pilot-audit__details>summary.accordion__trigger:hover{color:var(--color-verity-blue)}
+.pilot-audit details.pilot-audit__details>.accordion__content{padding:0 0 var(--space-4)}
+
+/* Tables inside disclosures */
 .research-table-wrap{overflow-x:auto;margin:var(--space-3) 0}
 .research-table{width:100%;min-width:30rem;border-collapse:collapse;text-align:left;font-size:.92rem}
 .research-table th,.research-table td{padding:.65rem .75rem .65rem 0;border-bottom:1px solid var(--color-stone);vertical-align:top}
-.research-table thead th{border-bottom-color:var(--color-ink)}
+.research-table thead th{border-bottom-color:var(--color-ink);font-family:var(--label-font-family);font-size:var(--label-font-size);font-weight:600;letter-spacing:var(--label-letter-spacing);text-transform:uppercase;color:var(--color-ash)}
 .research-table th:first-child{min-width:10rem}
-.pilot-audit__links{display:flex;flex-wrap:wrap;gap:.75rem 1.5rem;margin:var(--space-3) 0}
-.pilot-audit__evidence summary{cursor:pointer;font-weight:600;padding:.5rem 0}
+.research-table td{font-variant-numeric:tabular-nums}
+
+/* Study-level examples */
+.pilot-audit__evidence{margin-top:var(--space-4);border-top:1px solid var(--color-stone)}
+.pilot-audit__evidence summary{cursor:pointer;font-weight:600;padding:var(--space-3) 0;min-height:44px}
 .pilot-audit__evidence article{border-top:1px solid var(--color-stone);padding:var(--space-3) 0;max-width:74ch}
 .pilot-audit__evidence blockquote{border-left:2px solid var(--color-stone);margin:var(--space-2) 0;padding-left:var(--space-2);color:var(--color-graphite)}
-@media(max-width:900px){.pilot-audit__stats{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media(max-width:480px){.pilot-audit__stats{grid-template-columns:1fr;gap:var(--space-3)}}
-.pilot-score{margin:var(--space-5) 0;padding:var(--space-4) 0;border-top:1px solid var(--color-stone)}
-.pilot-score__value{display:flex;align-items:baseline;gap:.5rem;flex-wrap:wrap;margin:var(--space-2) 0}
-.pilot-score__value strong{font-family:var(--font-display,Georgia,serif);font-size:clamp(2.4rem,6vw,4rem);line-height:1}
-.pilot-score__value span{color:var(--color-graphite);font-size:.95rem}
-.pilot-score p{max-width:72ch}
-@media(max-width:480px){.pilot-score__value strong{font-size:2.4rem}}
+
+/* -----------------------------------------------------------------------
+   RESPONSIVE
+   ----------------------------------------------------------------------- */
+@media(max-width:900px){
+  .pilot-metrics__row{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .pilot-metric{padding-right:var(--space-2)}
+}
+@media(max-width:600px){
+  .pilot-metrics__row{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .pilot-metrics__value-row strong{font-size:clamp(4rem,18vw,6rem)}
+  .pilot-links{flex-direction:column;gap:var(--space-1)}
+}
+@media(max-width:380px){
+  .pilot-metrics__row{grid-template-columns:1fr}
+  .pilot-metric{padding:var(--space-2) 0}
+}
