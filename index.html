@@ -5320,6 +5320,11 @@ function renderConditionPage(container, condition) {
 
   wrapper.appendChild(panel);
 
+  if (condition.slug === 'adhd' && window.verityAdhdPilot) {
+    const coverage = window.VerityResearch?.coverageSection?.(window.verityAdhdPilot, true);
+    if (coverage) wrapper.appendChild(coverage);
+  }
+
   // ── 4. Female-Specific Findings ──
   const findingsSection = document.createElement('section');
   findingsSection.className = 'findings-section';

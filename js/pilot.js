@@ -180,7 +180,7 @@
     return details;
   }
 
-  function coverageSection(data) {
+  function coverageSection(data, onOverview = false) {
     const included = data.included;
     const known = data.inclusionKnown;
     const yes = data.inclusionYes;
@@ -189,7 +189,11 @@
     const unknown = included - known;
 
     const section = element('section', null, 'pilot-coverage');
-    section.append(element('h3', 'Reporting coverage and uncertainty', 'heading-md pilot-coverage__heading'));
+    if (onOverview) section.classList.add('condition-coverage');
+    section.append(element(onOverview ? 'h2' : 'h3', 'Reporting coverage and uncertainty', 'heading-md pilot-coverage__heading'));
+    if (onOverview) section.append(element('p',
+      'Revised ADHD study-level audit. The representation metrics above are separate March 2025 estimates.',
+      'pilot-coverage__summary'));
     section.append(element('p',
       `All ${format(included)} included studies are shown. ${format(known)} have a documented inclusion decision; ${format(unknown)} remain unresolved.`,
       'pilot-coverage__summary'));
@@ -232,7 +236,7 @@
 
     const note = element('div', null, 'pilot-coverage__note');
     paragraph(note,
-      `The ${pctLabel(yes, known)} “studies including women” metric uses only the ${format(known)} studies with a documented decision. It does not describe all ${format(included)} included studies.`);
+      `In the revised audit, the ${pctLabel(yes, known)} available-case inclusion rate uses only the ${format(known)} studies with a documented decision. It does not describe all ${format(included)} included studies.`);
     paragraph(note,
       'Unresolved studies are not negative results. Available-case percentages may be affected by systematic differences in reporting and source availability. Missingness may be non-random, but this has not been established.');
     section.append(note);
@@ -377,5 +381,5 @@
     return section;
   }
 
-  window.VerityResearch = { scoreMeaning, methodology, pilotSection };
+  window.VerityResearch = { scoreMeaning, methodology, pilotSection, coverageSection };
 })();
